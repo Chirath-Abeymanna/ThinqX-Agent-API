@@ -1,0 +1,22 @@
+# Virtual Environment
+venv/
+env/
+.env
+.venv
+ENV/
+
+# Environment files
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# IDE
+.idea/
+.vscode/

@@ -1,0 +1,25 @@
+# FastAPI core - using latest stable versions that work together
+fastapi==0.110.0
+pydantic==2.6.3
+uvicorn[standard]==0.27.0
+starlette==0.36.3
+typing-extensions==4.9.0
+
+# For ML models 
+httpx[http2]==0.25.2
+colorama==0.4.6
+aiofiles==23.2.1
+lxml==4.9.3
+beautifulsoup4==4.12.2
+
+# Additional dependencies for web crawler
+python-multipart==0.0.6
+
+# FastAPI additional dependencies
+email-validator==2.1.0
+pydantic-settings==2.1.0
+
+# Optional: 
+# scikit-learn
+# tensorflow
+# torch
