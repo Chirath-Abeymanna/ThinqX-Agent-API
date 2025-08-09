@@ -51,7 +51,7 @@ jobs:
               run: |
                 python start_server.py &
                 sleep 5
-                curl -f http://localhost:8000/health || exit 1
+                curl -f http://localhost:8000/api/v1/crawler/scan || exit 1
               env:
                 PYTHONUNBUFFERED: 1
 
