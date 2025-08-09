@@ -62,3 +62,4 @@ jobs:
                 github-token: ${{ secrets.GITHUB_TOKEN }}
                 title-template: "Python Code Quality Check Failed for branch {{ branch }}"
                 body-template: "The Python code quality check failed on branch {{ branch }}. Please check the workflow logs for details."
+                labels: "build-error"
