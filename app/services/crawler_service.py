@@ -1,15 +1,12 @@
 """
 FastAPI-compatible web crawler service wrapper
 """
-import asyncio
 import threading
 import time
 import uuid
 from typing import Dict, Any, Optional
 from datetime import datetime, timedelta
 from concurrent.futures import ThreadPoolExecutor
-import json
-import os
 
 from app.Agents.web_crawler_agent import IntelligentWebCrawler
 from app.models.crawl_model import CrawlResponse, CrawlSummary, DiscoveryStatistics, SecurityAnalysis, CategoryFindings, CrawlResultItem, DetailedResult

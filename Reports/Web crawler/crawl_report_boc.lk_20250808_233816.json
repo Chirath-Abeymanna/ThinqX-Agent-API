@@ -1,0 +1,3824 @@
+{
+  "crawl_summary": {
+    "target_domain": "boc.lk",
+    "crawl_duration": 38.981682,
+    "urls_discovered": 52,
+    "urls_successfully_crawled": 52,
+    "errors_encountered": 0,
+    "start_time": "2025-08-08T23:37:36.217155",
+    "end_time": "2025-08-08T23:38:15.198837"
+  },
+  "discovery_statistics": {
+    "total_files_found": 50,
+    "total_forms_found": 23,
+    "sensitive_files_found": 38,
+    "hidden_files_discovered": 52
+  },
+  "categorized_findings": {
+    "Other": {
+      "count": 5,
+      "sensitivity_breakdown": {
+        "low": 5
+      },
+      "urls": [
+        {
+          "url": "https://boc.lk/favicon.ico",
+          "status_code": 200,
+          "content_type": "image/x-icon",
+          "sensitivity_level": "low",
+          "title": "",
+          "forms_count": 0,
+          "technologies": [
+            "AWS",
+            "Nginx"
+          ],
+          "response_time": 0.4710988998413086
+        },
+        {
+          "url": "https://online.boc.lk/T003/jsdir/boc_virtualkeyboard.js",
+          "status_code": 200,
+          "content_type": "",
+          "sensitivity_level": "low",
+          "title": "",
+          "forms_count": 0,
+          "technologies": [
+            "Apache"
+          ],
+          "response_time": 0.1939225196838379
+        },
+        {
+          "url": "https://online.boc.lk/T003/jsdir/fb.js",
+          "status_code": 200,
+          "content_type": "",
+          "sensitivity_level": "low",
+          "title": "",
+          "forms_count": 0,
+          "technologies": [
+            "Apache"
+          ],
+          "response_time": 0.19693899154663086
+        },
+        {
+          "url": "https://online.boc.lk/T003/css/cmn/banking.uri.css",
+          "status_code": 200,
+          "content_type": "text/css",
+          "sensitivity_level": "low",
+          "title": "",
+          "forms_count": 0,
+          "technologies": [
+            "Apache"
+          ],
+          "response_time": 2.376795768737793
+        },
+        {
+          "url": "https://www.boc.lk/download-forms/en/account-opening-application/get",
+          "status_code": 200,
+          "content_type": "application/",
+          "sensitivity_level": "low",
+          "title": "",
+          "forms_count": 0,
+          "technologies": [
+            "AWS",
+            "Nginx"
+          ],
+          "response_time": 0.9895281791687012
+        }
+      ]
+    },
+    "Sensitive Content": {
+      "count": 37,
+      "sensitivity_breakdown": {
+        "critical": 37
+      },
+      "urls": [
+        {
+          "url": "https://boc.lk/sitemap.xml",
+          "status_code": 200,
+          "content_type": "text/xml",
+          "sensitivity_level": "critical",
+          "title": "",
+          "forms_count": 0,
+          "technologies": [
+            "AWS",
+            "Nginx"
+          ],
+          "response_time": 0.4757843017578125
+        },
+        {
+          "url": "https://boc.lk/robots.txt",
+          "status_code": 200,
+          "content_type": "text/plain",
+          "sensitivity_level": "critical",
+          "title": "",
+          "forms_count": 0,
+          "technologies": [
+            "AWS",
+            "Nginx"
+          ],
+          "response_time": 0.5021295547485352
+        },
+        {
+          "url": "https://boc.lk/index.php",
+          "status_code": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "sensitivity_level": "critical",
+          "title": "Bank of Ceylon - Bankers to the Nation | The No. 1 Bank in Sri Lanka | Bank of Ceylon",
+          "forms_count": 5,
+          "technologies": [
+            "AWS",
+            "Nginx",
+            "PHP",
+            "Java"
+          ],
+          "response_time": 1.28409743309021
+        },
+        {
+          "url": "https://online.boc.lk/T003/channel.jsp",
+          "status_code": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "sensitivity_level": "critical",
+          "title": "BOC Smart Online Banking",
+          "forms_count": 3,
+          "technologies": [
+            "PHP",
+            "Java",
+            "Apache"
+          ],
+          "response_time": 0.19312357902526855
+        },
+        {
+          "url": "https://boc.lk",
+          "status_code": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "sensitivity_level": "critical",
+          "title": "Bank of Ceylon - Bankers to the Nation | The No. 1 Bank in Sri Lanka | Bank of Ceylon",
+          "forms_count": 5,
+          "technologies": [
+            "AWS",
+            "Nginx",
+            "PHP",
+            "Java"
+          ],
+          "response_time": 1.7259612083435059
+        },
+        {
+          "url": "https://www.boc.lk/index.php/personal-banking/loans/overdraft-facilities/overdraft-facilities",
+          "status_code": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "sensitivity_level": "critical",
+          "title": "Overdraft Facilities | Bank of Ceylon | Bank of Ceylon",
+          "forms_count": 0,
+          "technologies": [
+            "AWS",
+            "Nginx",
+            "PHP",
+            "Java"
+          ],
+          "response_time": 1.292639970779419
+        },
+        {
+          "url": "https://www.boc.lk/index.php/business-banking/business-revival/brru/success-stories-with-profit-magazine",
+          "status_code": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "sensitivity_level": "critical",
+          "title": "Bank of Ceylon",
+          "forms_count": 0,
+          "technologies": [
+            "AWS",
+            "Nginx",
+            "PHP",
+            "Java"
+          ],
+          "response_time": 1.504530668258667
+        },
+        {
+          "url": "https://www.boc.lk/index.php/personal-banking/ran-surekum-naya-sewa",
+          "status_code": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "sensitivity_level": "critical",
+          "title": "Gold Loan from BOC | Bank of Ceylon",
+          "forms_count": 0,
+          "technologies": [
+            "AWS",
+            "Nginx",
+            "PHP",
+            "Java"
+          ],
+          "response_time": 1.646083116531372
+        },
+        {
+          "url": "https://www.boc.lk/personal-banking/savings-accounts/ladies-regular-savings",
+          "status_code": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "sensitivity_level": "critical",
+          "title": "Savings Accounts | Bank of Ceylon",
+          "forms_count": 0,
+          "technologies": [
+            "AWS",
+            "Nginx",
+            "PHP",
+            "Java"
+          ],
+          "response_time": 1.1287710666656494
+        },
+        {
+          "url": "https://www.boc.lk/business-banking/treasury-and-investment/treasury",
+          "status_code": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "sensitivity_level": "critical",
+          "title": "Treasury and Investment | Bank of Ceylon",
+          "forms_count": 0,
+          "technologies": [
+            "AWS",
+            "Nginx",
+            "PHP",
+            "Java"
+          ],
+          "response_time": 1.6311874389648438
+        },
+        {
+          "url": "https://boc.lk/assets/js/lib.js?id=ed272012c3809447ebf45d3077fa5826",
+          "status_code": 200,
+          "content_type": "application/javascript",
+          "sensitivity_level": "critical",
+          "title": "",
+          "forms_count": 2,
+          "technologies": [
+            "ASP.NET",
+            "Nginx",
+            "PHP",
+            "AWS"
+          ],
+          "response_time": 1.0064749717712402
+        },
+        {
+          "url": "https://www.boc.lk/index.php/personal-banking/cards/credit-cards/visa-gold-card",
+          "status_code": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "sensitivity_level": "critical",
+          "title": "Visa Gold Card | Bank of Ceylon | Bank of Ceylon",
+          "forms_count": 0,
+          "technologies": [
+            "AWS",
+            "Nginx",
+            "PHP",
+            "Java"
+          ],
+          "response_time": 1.9204065799713135
+        },
+        {
+          "url": "https://www.boc.lk/index.php/personal-banking/loans/personal-loan",
+          "status_code": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "sensitivity_level": "critical",
+          "title": "Loans | Bank of Ceylon",
+          "forms_count": 0,
+          "technologies": [
+            "AWS",
+            "Nginx",
+            "PHP",
+            "Java"
+          ],
+          "response_time": 2.338817596435547
+        },
+        {
+          "url": "https://www.boc.lk/boc-weekend-banking",
+          "status_code": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "sensitivity_level": "critical",
+          "title": "Weekend Banking | Bank of Ceylon",
+          "forms_count": 0,
+          "technologies": [
+            "AWS",
+            "Nginx",
+            "PHP",
+            "Java"
+          ],
+          "response_time": 4.7226808071136475
+        },
+        {
+          "url": "https://www.boc.lk/boc-protecting-yourself-from-fraud",
+          "status_code": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "sensitivity_level": "critical",
+          "title": "Protecting Yourself from Fraud | Bank of Ceylon",
+          "forms_count": 0,
+          "technologies": [
+            "AWS",
+            "Nginx",
+            "PHP",
+            "Java"
+          ],
+          "response_time": 4.725464344024658
+        },
+        {
+          "url": "https://www.boc.lk/index.php/international-banking/overseas-branches?country=maldives",
+          "status_code": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "sensitivity_level": "critical",
+          "title": "BOC Overseas branches | Bank of Ceylon",
+          "forms_count": 1,
+          "technologies": [
+            "AWS",
+            "Java",
+            "Nginx",
+            "PHP",
+            "Ruby"
+          ],
+          "response_time": 2.0699589252471924
+        },
+        {
+          "url": "https://www.boc.lk/index.php/personal-banking/investment-plans/investment-accounts/abhimana-retirement-scheme",
+          "status_code": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "sensitivity_level": "critical",
+          "title": "BOC Abhimana Retirement Scheme | Bank of Ceylon | Bank of Ceylon",
+          "forms_count": 0,
+          "technologies": [
+            "AWS",
+            "Nginx",
+            "PHP",
+            "Java"
+          ],
+          "response_time": 3.990093469619751
+        },
+        {
+          "url": "https://www.boc.lk/index.php/personal-banking/term-deposits/fixed-deposits/prosperity-deposits",
+          "status_code": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "sensitivity_level": "critical",
+          "title": "BOC Prosperity Deposit Scheme | Bank of Ceylon",
+          "forms_count": 0,
+          "technologies": [
+            "AWS",
+            "Nginx",
+            "PHP",
+            "Java"
+          ],
+          "response_time": 3.3097622394561768
+        },
+        {
+          "url": "https://www.boc.lk/index.php/international-banking/loans/loans/special-housing-loan-scheme-for-sri-lankans-resident-outside-of-sri-lanka-on-permanent-residency-visa-pr",
+          "status_code": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "sensitivity_level": "critical",
+          "title": "Bank of Ceylon - Special housing loan scheme for Sri Lankans | Bank of Ceylon",
+          "forms_count": 0,
+          "technologies": [
+            "AWS",
+            "Nginx",
+            "PHP",
+            "Java"
+          ],
+          "response_time": 4.4101221561431885
+        },
+        {
+          "url": "https://www.boc.lk/index.php/personal-banking/cards/credit-cards",
+          "status_code": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "sensitivity_level": "critical",
+          "title": "Cards | Bank of Ceylon",
+          "forms_count": 0,
+          "technologies": [
+            "AWS",
+            "Nginx",
+            "PHP",
+            "Java"
+          ],
+          "response_time": 1.6399259567260742
+        },
+        {
+          "url": "https://www.boc.lk/personal-banking/term-deposits/fixed-deposits",
+          "status_code": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "sensitivity_level": "critical",
+          "title": "Fixed Deposits | BOC | Bank of Ceylon",
+          "forms_count": 0,
+          "technologies": [
+            "AWS",
+            "Nginx",
+            "PHP",
+            "Java"
+          ],
+          "response_time": 2.031381368637085
+        },
+        {
+          "url": "https://www.boc.lk/index.php/personal-banking/savings-accounts/ladies-regular-savings/ran-ulpatha",
+          "status_code": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "sensitivity_level": "critical",
+          "title": "BOC Ran Ulpatha | Bank of Ceylon | Bank of Ceylon",
+          "forms_count": 0,
+          "technologies": [
+            "AWS",
+            "Nginx",
+            "PHP",
+            "Java"
+          ],
+          "response_time": 1.759809970855713
+        },
+        {
+          "url": "https://www.boc.lk/personal-banking/cards/credit-cards/boc-credit-cards",
+          "status_code": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "sensitivity_level": "critical",
+          "title": "BOC Credit Cards | Best Credit Card in Sri Lanka - BOC | Bank of Ceylon",
+          "forms_count": 0,
+          "technologies": [
+            "AWS",
+            "Nginx",
+            "PHP",
+            "Java"
+          ],
+          "response_time": 3.071589708328247
+        },
+        {
+          "url": "https://www.boc.lk/personal-banking/term-deposits/fixed-deposits/100-200-400-days-investments",
+          "status_code": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "sensitivity_level": "critical",
+          "title": "BOC 100, 200 &amp; 400 Days Investments | Bank of Ceylon",
+          "forms_count": 0,
+          "technologies": [
+            "AWS",
+            "Nginx",
+            "PHP",
+            "Java"
+          ],
+          "response_time": 1.8681588172912598
+        },
+        {
+          "url": "https://www.boc.lk/personal-banking/other-services/safe-deposit-lockers/safe-deposit-lockers",
+          "status_code": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "sensitivity_level": "critical",
+          "title": "Safe Deposit Lockers | Bank of Ceylon | Bank of Ceylon",
+          "forms_count": 0,
+          "technologies": [
+            "AWS",
+            "Nginx",
+            "PHP",
+            "Java"
+          ],
+          "response_time": 1.8056535720825195
+        },
+        {
+          "url": "https://www.boc.lk/assets/js/lib.js?id=ed272012c3809447ebf45d3077fa5826",
+          "status_code": 200,
+          "content_type": "application/javascript",
+          "sensitivity_level": "critical",
+          "title": "",
+          "forms_count": 2,
+          "technologies": [
+            "ASP.NET",
+            "Nginx",
+            "PHP",
+            "AWS"
+          ],
+          "response_time": 0.7421188354492188
+        },
+        {
+          "url": "https://www.boc.lk/careers",
+          "status_code": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "sensitivity_level": "critical",
+          "title": "Vacancies at BOC | Bank of Ceylon | Bank of Ceylon",
+          "forms_count": 0,
+          "technologies": [
+            "AWS",
+            "Nginx",
+            "PHP",
+            "Java"
+          ],
+          "response_time": 1.4999582767486572
+        },
+        {
+          "url": "https://www.boc.lk/international-banking/deposits/deposit-accounts/my-sri-lanka",
+          "status_code": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "sensitivity_level": "critical",
+          "title": "BOC My Sri Lanka FC Account | Bank of Ceylon | Bank of Ceylon",
+          "forms_count": 0,
+          "technologies": [
+            "AWS",
+            "Nginx",
+            "PHP",
+            "Java"
+          ],
+          "response_time": 3.0351943969726562
+        },
+        {
+          "url": "https://www.boc.lk/index.php/business-banking/corporate/additional-corporate-services/rtgs-slips",
+          "status_code": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "sensitivity_level": "critical",
+          "title": "RTGS &amp; SLIPS | Bank of Ceylon | Bank of Ceylon",
+          "forms_count": 0,
+          "technologies": [
+            "AWS",
+            "Nginx",
+            "PHP",
+            "Java"
+          ],
+          "response_time": 1.2123198509216309
+        },
+        {
+          "url": "https://examresults.boc.lk/BOCResult/",
+          "status_code": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "sensitivity_level": "critical",
+          "title": "BOC Examination Results Portal",
+          "forms_count": 1,
+          "technologies": [
+            "PHP",
+            "Apache"
+          ],
+          "response_time": 0.17708873748779297
+        },
+        {
+          "url": "https://www.boc.lk/business-banking/corporate/offshore-banking/overview-of-offshore-banking",
+          "status_code": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "sensitivity_level": "critical",
+          "title": "Overview of Offshore Banking | Bank of Ceylon | Bank of Ceylon",
+          "forms_count": 0,
+          "technologies": [
+            "AWS",
+            "Nginx",
+            "PHP",
+            "Java"
+          ],
+          "response_time": 1.6577098369598389
+        },
+        {
+          "url": "https://www.boc.lk/index.php/international-banking/deposits/deposit-accounts/bfca",
+          "status_code": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "sensitivity_level": "critical",
+          "title": "Bank of Ceylon - Business Foreign Currency Account (BFCA) | Bank of Ceylon",
+          "forms_count": 0,
+          "technologies": [
+            "AWS",
+            "Nginx",
+            "PHP",
+            "Java"
+          ],
+          "response_time": 1.2782459259033203
+        },
+        {
+          "url": "https://www.boc.lk/index.php/personal-banking/loans/education-loan/educational-loan-for-postgraduate-studies",
+          "status_code": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "sensitivity_level": "critical",
+          "title": "BOC Educational Loan for Postgraduate Studies - Bank of Ceylon | Bank of Ceylon",
+          "forms_count": 0,
+          "technologies": [
+            "AWS",
+            "Nginx",
+            "PHP",
+            "Java"
+          ],
+          "response_time": 1.436784267425537
+        },
+        {
+          "url": "https://www.boc.lk/index.php/personal-banking/loans",
+          "status_code": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "sensitivity_level": "critical",
+          "title": "BOC Loans | Bank of Ceylon",
+          "forms_count": 0,
+          "technologies": [
+            "AWS",
+            "Nginx",
+            "PHP",
+            "Java"
+          ],
+          "response_time": 1.250838041305542
+        },
+        {
+          "url": "https://www.boc.lk/download-forms/en/My-Sri-Lanka-Personal-Application/get",
+          "status_code": 200,
+          "content_type": "application/",
+          "sensitivity_level": "critical",
+          "title": "",
+          "forms_count": 0,
+          "technologies": [
+            "AWS",
+            "Nginx"
+          ],
+          "response_time": 0.8100786209106445
+        },
+        {
+          "url": "https://www.boc.lk/index.php/international-banking/overseas-branches?country=india",
+          "status_code": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "sensitivity_level": "critical",
+          "title": "BOC Overseas branches | Bank of Ceylon",
+          "forms_count": 1,
+          "technologies": [
+            "AWS",
+            "Java",
+            "Nginx",
+            "PHP",
+            "Ruby"
+          ],
+          "response_time": 1.971440315246582
+        },
+        {
+          "url": "https://www.boc.lk/personal-banking/loans/pensioners-loan",
+          "status_code": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "sensitivity_level": "critical",
+          "title": "Loans | Bank of Ceylon",
+          "forms_count": 0,
+          "technologies": [
+            "AWS",
+            "Nginx",
+            "PHP",
+            "Java"
+          ],
+          "response_time": 1.2681264877319336
+        }
+      ]
+    },
+    "Configuration": {
+      "count": 1,
+      "sensitivity_breakdown": {
+        "critical": 1
+      },
+      "urls": [
+        {
+          "url": "https://boc.lk/web.config",
+          "status_code": 200,
+          "content_type": "application/octet-stream",
+          "sensitivity_level": "critical",
+          "title": "",
+          "forms_count": 0,
+          "technologies": [
+            "ASP.NET",
+            "Nginx",
+            "PHP",
+            "AWS"
+          ],
+          "response_time": 0.47235774993896484
+        }
+      ]
+    },
+    "API Endpoint": {
+      "count": 1,
+      "sensitivity_breakdown": {
+        "medium": 1
+      },
+      "urls": [
+        {
+          "url": "https://www.boc.lk/business-banking/development-banking/tourism/new-working-capital-and-refurbishment-loan-scheme-for-tourism-sector",
+          "status_code": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "sensitivity_level": "medium",
+          "title": "New Working Capital and Refurbishment Loan Scheme - Tourism | Bank of Ceylon",
+          "forms_count": 0,
+          "technologies": [
+            "AWS",
+            "Nginx",
+            "PHP",
+            "Java"
+          ],
+          "response_time": 1.3753204345703125
+        }
+      ]
+    },
+    "Web Page": {
+      "count": 2,
+      "sensitivity_breakdown": {
+        "low": 2
+      },
+      "urls": [
+        {
+          "url": "https://inet.boc.lk/inetlogin.html",
+          "status_code": 200,
+          "content_type": "text/html",
+          "sensitivity_level": "low",
+          "title": "BoC Information Network Login",
+          "forms_count": 1,
+          "technologies": [
+            "Java",
+            "Apache"
+          ],
+          "response_time": 0.2902953624725342
+        },
+        {
+          "url": "https://forms.boc.lk/infor/",
+          "status_code": 200,
+          "content_type": "text/html",
+          "sensitivity_level": "low",
+          "title": "Flexi - Investor",
+          "forms_count": 0,
+          "technologies": [
+            "PHP",
+            "Apache"
+          ],
+          "response_time": 0.22456884384155273
+        }
+      ]
+    },
+    "Development": {
+      "count": 6,
+      "sensitivity_breakdown": {
+        "medium": 6
+      },
+      "urls": [
+        {
+          "url": "https://www.boc.lk/index.php/business-banking/development-banking/msme/boc-mithuru",
+          "status_code": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "sensitivity_level": "medium",
+          "title": "Bank of Ceylon - BOC Mithuru | Bank of Ceylon",
+          "forms_count": 0,
+          "technologies": [
+            "AWS",
+            "Nginx",
+            "PHP",
+            "Java"
+          ],
+          "response_time": 1.6925976276397705
+        },
+        {
+          "url": "https://www.boc.lk/index.php/business-banking/development-banking/women-entrepreneurship/ranliya",
+          "status_code": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "sensitivity_level": "medium",
+          "title": "BOC Ranliya | Empowering Women Entrepreneurs - Bank of Ceylon | Bank of Ceylon",
+          "forms_count": 1,
+          "technologies": [
+            "AWS",
+            "Nginx",
+            "PHP",
+            "Java"
+          ],
+          "response_time": 1.9468860626220703
+        },
+        {
+          "url": "https://www.boc.lk/business-banking/development-banking/msme/boc-youth",
+          "status_code": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "sensitivity_level": "medium",
+          "title": "BOC Youth | Empowering Young Entrepreneurs - Bank of Ceylon | Bank of Ceylon",
+          "forms_count": 1,
+          "technologies": [
+            "AWS",
+            "Nginx",
+            "PHP",
+            "Java"
+          ],
+          "response_time": 2.7935643196105957
+        },
+        {
+          "url": "https://inet.boc.lk/DEVUWAR/JPDDSLogin.jsp",
+          "status_code": 200,
+          "content_type": "text/html;charset=ISO-8859-1",
+          "sensitivity_level": "medium",
+          "title": "Exception Message Display",
+          "forms_count": 0,
+          "technologies": [
+            "Java",
+            "Apache"
+          ],
+          "response_time": 0.2769176959991455
+        },
+        {
+          "url": "https://www.boc.lk/index.php/business-banking/development-banking/women-entrepreneurship/siriliya-saviya",
+          "status_code": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "sensitivity_level": "medium",
+          "title": "Siriliya Saviya | Bank of Ceylon | Bank of Ceylon",
+          "forms_count": 0,
+          "technologies": [
+            "AWS",
+            "Nginx",
+            "PHP",
+            "Java"
+          ],
+          "response_time": 1.328134536743164
+        },
+        {
+          "url": "https://www.boc.lk/index.php/business-banking/development-banking/msme/sme-energizer",
+          "status_code": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "sensitivity_level": "medium",
+          "title": "SME Energizer | Bank of Ceylon | Bank of Ceylon",
+          "forms_count": 0,
+          "technologies": [
+            "AWS",
+            "Nginx",
+            "PHP",
+            "Java"
+          ],
+          "response_time": 1.0671160221099854
+        }
+      ]
+    }
+  },
+  "sensitivity_analysis": {
+    "low": 7,
+    "critical": 38,
+    "medium": 7
+  },
+  "technology_fingerprints": {
+    "AWS": 44,
+    "Nginx": 44,
+    "ASP.NET": 3,
+    "PHP": 42,
+    "Java": 39,
+    "Apache": 8,
+    "Ruby": 2
+  },
+  "security_analysis": {
+    "security_headers_coverage": {
+      "X-Frame-Options": 45,
+      "X-XSS-Protection": 44,
+      "X-Content-Type-Options": 45,
+      "Strict-Transport-Security": 45,
+      "Content-Security-Policy": 39,
+      "Referrer-Policy": 39
+    },
+    "forms_discovered": 23,
+    "cookies_found": 218
+  },
+  "detailed_results": [
+    {
+      "url": "https://boc.lk/sitemap.xml",
+      "category": "Sensitive Content",
+      "sensitivity_level": "critical",
+      "status_code": 200,
+      "content_type": "text/xml",
+      "content_length": 52389,
+      "response_time": 0.4757843017578125,
+      "title": "",
+      "forms": [],
+      "technologies": [
+        "AWS",
+        "Nginx"
+      ],
+      "security_headers": {
+        "X-Frame-Options": "SAMEORIGIN",
+        "X-XSS-Protection": "1; mode=block",
+        "X-Content-Type-Options": "nosniff",
+        "Strict-Transport-Security": "max-age=31536000; includeSubDomains; preload"
+      },
+      "cookies": [
+        {
+          "name": "AWSALB",
+          "value": "IDBVMwgjcCdE1jvApv/YG4RB6Kggv5Kb5vK5iJAW4knBuZ4a+xw+HyMdgpHD3CKZ91HO3s2XNfNGNR7AQAcR7Wf/fu4GgrHNbWVuur7Xv4b3hLKaI9yOTtV9DFp6",
+          "domain": "www.boc.lk",
+          "path": "/",
+          "secure": false,
+          "httponly": false
+        },
+        {
+          "name": "AWSALBCORS",
+          "value": "IDBVMwgjcCdE1jvApv/YG4RB6Kggv5Kb5vK5iJAW4knBuZ4a+xw+HyMdgpHD3CKZ91HO3s2XNfNGNR7AQAcR7Wf/fu4GgrHNbWVuur7Xv4b3hLKaI9yOTtV9DFp6",
+          "domain": "www.boc.lk",
+          "path": "/",
+          "secure": false,
+          "httponly": false
+        },
+        {
+          "name": "Path",
+          "value": "/",
+          "domain": "www.boc.lk",
+          "path": "/",
+          "secure": true,
+          "httponly": false
+        }
+      ],
+      "comments_count": 0,
+      "scripts_count": 0,
+      "redirect_chain": [
+        "https://boc.lk/sitemap.xml"
+      ]
+    },
+    {
+      "url": "https://boc.lk/robots.txt",
+      "category": "Sensitive Content",
+      "sensitivity_level": "critical",
+      "status_code": 200,
+      "content_type": "text/plain",
+      "content_length": 64,
+      "response_time": 0.5021295547485352,
+      "title": "",
+      "forms": [],
+      "technologies": [
+        "AWS",
+        "Nginx"
+      ],
+      "security_headers": {
+        "X-Frame-Options": "SAMEORIGIN",
+        "X-XSS-Protection": "1; mode=block",
+        "X-Content-Type-Options": "nosniff",
+        "Strict-Transport-Security": "max-age=31536000; includeSubDomains; preload"
+      },
+      "cookies": [
+        {
+          "name": "AWSALB",
+          "value": "bieoE2mpslhKpmsIGAj92grHkH0ksJKku1TV+JNfO2Tgj2NyJLqmSjlPPrpoUb9jU1TFHsUk5U39bZzW0HP4yDu2F0u0k37/GymVu3SR+s8wvAHYJO9n/J+GRcQi",
+          "domain": "www.boc.lk",
+          "path": "/",
+          "secure": false,
+          "httponly": false
+        },
+        {
+          "name": "AWSALBCORS",
+          "value": "bieoE2mpslhKpmsIGAj92grHkH0ksJKku1TV+JNfO2Tgj2NyJLqmSjlPPrpoUb9jU1TFHsUk5U39bZzW0HP4yDu2F0u0k37/GymVu3SR+s8wvAHYJO9n/J+GRcQi",
+          "domain": "www.boc.lk",
+          "path": "/",
+          "secure": false,
+          "httponly": false
+        },
+        {
+          "name": "Path",
+          "value": "/",
+          "domain": "www.boc.lk",
+          "path": "/",
+          "secure": true,
+          "httponly": false
+        }
+      ],
+      "comments_count": 0,
+      "scripts_count": 0,
+      "redirect_chain": [
+        "https://boc.lk/robots.txt"
+      ]
+    },
+    {
+      "url": "https://boc.lk/web.config",
+      "category": "Configuration",
+      "sensitivity_level": "critical",
+      "status_code": 200,
+      "content_type": "application/octet-stream",
+      "content_length": 1194,
+      "response_time": 0.47235774993896484,
+      "title": "",
+      "forms": [],
+      "technologies": [
+        "ASP.NET",
+        "Nginx",
+        "PHP",
+        "AWS"
+      ],
+      "security_headers": {
+        "X-Frame-Options": "SAMEORIGIN",
+        "X-XSS-Protection": "1; mode=block",
+        "X-Content-Type-Options": "nosniff",
+        "Strict-Transport-Security": "max-age=31536000; includeSubDomains; preload"
+      },
+      "cookies": [
+        {
+          "name": "AWSALB",
+          "value": "ocJS+OCzdBur9MtJY5DP35CemHj6bZB5q+Nfg5Qc0X4iRDFf9CYYh/TTqMXlFGvAv8moSpcZae7fJuDEYRxuINbQ+8A8c8fLbF6p4LbsiskGeJGZZmrykYGCrGdp",
+          "domain": "www.boc.lk",
+          "path": "/",
+          "secure": false,
+          "httponly": false
+        },
+        {
+          "name": "AWSALBCORS",
+          "value": "ocJS+OCzdBur9MtJY5DP35CemHj6bZB5q+Nfg5Qc0X4iRDFf9CYYh/TTqMXlFGvAv8moSpcZae7fJuDEYRxuINbQ+8A8c8fLbF6p4LbsiskGeJGZZmrykYGCrGdp",
+          "domain": "www.boc.lk",
+          "path": "/",
+          "secure": false,
+          "httponly": false
+        },
+        {
+          "name": "Path",
+          "value": "/",
+          "domain": "www.boc.lk",
+          "path": "/",
+          "secure": true,
+          "httponly": false
+        }
+      ],
+      "comments_count": 1,
+      "scripts_count": 0,
+      "redirect_chain": [
+        "https://boc.lk/web.config"
+      ]
+    },
+    {
+      "url": "https://boc.lk/index.php",
+      "category": "Sensitive Content",
+      "sensitivity_level": "critical",
+      "status_code": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "content_length": 258935,
+      "response_time": 1.28409743309021,
+      "title": "Bank of Ceylon - Bankers to the Nation | The No. 1 Bank in Sri Lanka | Bank of Ceylon",
+      "forms": [
+        {
+          "action": "",
+          "method": "GET",
+          "inputs": [
+            {
+              "name": "flex_periodtype",
+              "type": "radio",
+              "value": "in_days"
+            },
+            {
+              "name": "flex_periodtype",
+              "type": "radio",
+              "value": "in_months"
+            },
+            {
+              "name": "start-date",
+              "type": "date",
+              "value": ""
+            },
+            {
+              "name": "end-date",
+              "type": "date",
+              "value": ""
+            },
+            {
+              "name": "interest-type",
+              "type": "radio",
+              "value": ""
+            },
+            {
+              "name": "interest-type",
+              "type": "radio",
+              "value": ""
+            },
+            {
+              "name": "ipsum_amount",
+              "type": "text",
+              "value": "0"
+            }
+          ]
+        },
+        {
+          "action": "",
+          "method": "GET",
+          "inputs": [
+            {
+              "name": "personal_loan_amount",
+              "type": "text",
+              "value": "0"
+            },
+            {
+              "name": "loan_interest_rate",
+              "type": "text",
+              "value": "0"
+            },
+            {
+              "name": "loan_interest_period",
+              "type": "text",
+              "value": "0"
+            },
+            {
+              "name": "repayment_method",
+              "type": "radio",
+              "value": "equated-monthly-instalment"
+            }
+          ]
+        },
+        {
+          "action": "",
+          "method": "GET",
+          "inputs": [
+            {
+              "name": "home_loan_amount",
+              "type": "text",
+              "value": "0"
+            },
+            {
+              "name": "home_loan_interest_rate",
+              "type": "text",
+              "value": "0"
+            },
+            {
+              "name": "home_loan_interest_period",
+              "type": "text",
+              "value": "36"
+            },
+            {
+              "name": "repayment_method",
+              "type": "radio",
+              "value": "equated"
+            },
+            {
+              "name": "repayment_method",
+              "type": "radio",
+              "value": "reducing"
+            }
+          ]
+        },
+        {
+          "action": "",
+          "method": "GET",
+          "inputs": [
+            {
+              "name": "lease_amount",
+              "type": "text",
+              "value": "0"
+            },
+            {
+              "name": "lease_interest_rate",
+              "type": "text",
+              "value": "0"
+            },
+            {
+              "name": "lease_interest_period",
+              "type": "text",
+              "value": "0"
+            }
+          ]
+        },
+        {
+          "action": "",
+          "method": "GET",
+          "inputs": [
+            {
+              "name": "_token",
+              "type": "hidden",
+              "value": "2JwYxZx2HHVPSakMjYlNaGWDPOAP6oBFrP8IKTeQ"
+            },
+            {
+              "name": "dob",
+              "type": "date",
+              "value": ""
+            },
+            {
+              "name": "retirement_benefit",
+              "type": "number",
+              "value": "10000"
+            },
+            {
+              "name": "monthly_installment_amount",
+              "type": "text",
+              "value": ""
+            },
+            {
+              "name": "no_of_installments",
+              "type": "text",
+              "value": ""
+            }
+          ]
+        }
+      ],
+      "technologies": [
+        "AWS",
+        "Nginx",
+        "PHP",
+        "Java"
+      ],
+      "security_headers": {
+        "X-Frame-Options": "DENY, SAMEORIGIN",
+        "X-XSS-Protection": "1; mode=block, 1; mode=block",
+        "X-Content-Type-Options": "nosniff, nosniff",
+        "Strict-Transport-Security": "max-age=31536000; includeSubDomains, max-age=31536000; includeSubDomains; preload",
+        "Content-Security-Policy": "frame-ancestors 'none';",
+        "Referrer-Policy": "strict-origin-when-cross-origin"
+      },
+      "cookies": [
+        {
+          "name": "AWSALB",
+          "value": "m09TkNytUA3+mUCnc3jv8CnWP3YB34nK6JfEUZJrWrrLF2TzUMJvIcWMeOGxhpqUUT72QuVF6NempBgmwRmMR9tG2W/72JwoL1WQ4cVuS4GGOpTGBivlTYaJbdN0",
+          "domain": "www.boc.lk",
+          "path": "/",
+          "secure": false,
+          "httponly": false
+        },
+        {
+          "name": "AWSALBCORS",
+          "value": "m09TkNytUA3+mUCnc3jv8CnWP3YB34nK6JfEUZJrWrrLF2TzUMJvIcWMeOGxhpqUUT72QuVF6NempBgmwRmMR9tG2W/72JwoL1WQ4cVuS4GGOpTGBivlTYaJbdN0",
+          "domain": "www.boc.lk",
+          "path": "/",
+          "secure": false,
+          "httponly": false
+        },
+        {
+          "name": "XSRF-TOKEN",
+          "value": "eyJpdiI6Ikllam0wZVptYUVPd25LTktVQXZqd0E9PSIsInZhbHVlIjoiSE4veHlwVjZuUUJtd3J0S2k5SXRWV0Y5Q0QvRzJNZ01zT1NsVTFkcmxZdHZxYS9NQWtVZncvc2YxZDFGTXdjQ3VQWlpzTWc3V2NQMzdrSElnNk1jV0xZY1BpMlZxcHRVeFlaMGhvTnl2alpqcXR3bEJOa2dXamtoVS9xZGNCSWEiLCJtYWMiOiI3ZTJkZWE4Nzc2NjFkMGQ4OGU0ZGFjYzViYmZhMTM5OWM5ODNlNmM5MmE4YTQyMGRiZDAxZjM0MTllNDU5MTE4IiwidGFnIjoiIn0%3D",
+          "domain": "www.boc.lk",
+          "path": "/",
+          "secure": true,
+          "httponly": false
+        },
+        {
+          "name": "bank_of_ceylon_session",
+          "value": "eyJpdiI6ImxDcVQ5eXR3eTFjMUYzeC9oZlowbEE9PSIsInZhbHVlIjoiQThkS21NbUZYR2VYc3hVSS8vNk1CbGhoMGN5QmNGdkZSZm1kUlhPYTUyRmswSHAxUGlkL2NZejhTelZnaGsydVk2RXNWY0tHZ05tVWNDbjFwdWY4andYRUhGTjJGaG9jWjhIV3htSW9nSGpPQWxZSGZXa2JndDFjdGxqQTJDVEMiLCJtYWMiOiI5YTViNzY3MDA5MmE0ODIyNDQ1OGZiYjg5MTA5NGUzZGE4MjY1NTNjMzZiYWNhMDlhZmQ5NDJkNWE1ZjE0OTI1IiwidGFnIjoiIn0%3D",
+          "domain": "www.boc.lk",
+          "path": "/",
+          "secure": true,
+          "httponly": false
+        },
+        {
+          "name": "Path",
+          "value": "/",
+          "domain": "www.boc.lk",
+          "path": "/",
+          "secure": true,
+          "httponly": false
+        }
+      ],
+      "comments_count": 19,
+      "scripts_count": 15,
+      "redirect_chain": [
+        "https://boc.lk/index.php"
+      ]
+    },
+    {
+      "url": "https://online.boc.lk/T003/channel.jsp",
+      "category": "Sensitive Content",
+      "sensitivity_level": "critical",
+      "status_code": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "content_length": 31665,
+      "response_time": 0.19312357902526855,
+      "title": "BOC Smart Online Banking",
+      "forms": [
+        {
+          "action": "",
+          "method": "GET",
+          "inputs": []
+        },
+        {
+          "action": "process.jsp",
+          "method": "POST",
+          "inputs": [
+            {
+              "name": "idsequence",
+              "type": "hidden",
+              "value": "ZaHRAAvzgm7AzCPMjNNeaZUDfzXXDijRoy9/52pKRLk="
+            },
+            {
+              "name": "fldRequestId",
+              "type": "hidden",
+              "value": "+p_requestid+"
+            },
+            {
+              "name": "fldDeviceId",
+              "type": "hidden",
+              "value": "01"
+            },
+            {
+              "name": "title",
+              "type": "hidden",
+              "value": ""
+            },
+            {
+              "name": "fldLoginUserId",
+              "type": "text",
+              "value": ""
+            },
+            {
+              "name": "fldPasswordVirtual",
+              "type": "password",
+              "value": ""
+            },
+            {
+              "name": "fldPasswordStandard",
+              "type": "password",
+              "value": ""
+            },
+            {
+              "name": "fldPassword",
+              "type": "hidden",
+              "value": ""
+            },
+            {
+              "name": "fldudf",
+              "type": "hidden",
+              "value": "fldRequestId"
+            },
+            {
+              "name": "fldLangId",
+              "type": "hidden",
+              "value": "eng"
+            },
+            {
+              "name": "fldRequestId",
+              "type": "hidden",
+              "value": "RRLGN01"
+            },
+            {
+              "name": "fldDeviceId",
+              "type": "hidden",
+              "value": "01"
+            }
+          ]
+        },
+        {
+          "action": "",
+          "method": "GET",
+          "inputs": [
+            {
+              "name": "fldRequestId",
+              "type": "hidden",
+              "value": ""
+            },
+            {
+              "name": "fldDeviceId",
+              "type": "hidden",
+              "value": "01"
+            },
+            {
+              "name": "title",
+              "type": "hidden",
+              "value": ""
+            },
+            {
+              "name": "usertype",
+              "type": "hidden",
+              "value": "EN1"
+            }
+          ]
+        }
+      ],
+      "technologies": [
+        "PHP",
+        "Java",
+        "Apache"
+      ],
+      "security_headers": {},
+      "cookies": [
+        {
+          "name": "AlteonP",
+          "value": "BMELIn4yFKwPR6ZSmkzqPQ$$",
+          "domain": "online.boc.lk",
+          "path": "/T001",
+          "secure": true,
+          "httponly": false
+        },
+        {
+          "name": "JSESSIONID",
+          "value": "0HOK3-MrYwIUAqvxHd0tOFXuAeUgxe43o6JBYwB6w9b1kad3iN5h!504752942",
+          "domain": "online.boc.lk",
+          "path": "/T003",
+          "secure": false,
+          "httponly": false
+        },
+        {
+          "name": "ORA_FCDB_LANG",
+          "value": "eng",
+          "domain": "online.boc.lk",
+          "path": "/T003",
+          "secure": true,
+          "httponly": false
+        },
+        {
+          "name": "ORA_FCDB_USERTYPE",
+          "value": "EN1",
+          "domain": "online.boc.lk",
+          "path": "/T003",
+          "secure": true,
+          "httponly": false
+        },
+        {
+          "name": "DAY_ZERO_LOGINLAYOUT",
+          "value": "C",
+          "domain": "online.boc.lk",
+          "path": "/T003",
+          "secure": true,
+          "httponly": false
+        }
+      ],
+      "comments_count": 4,
+      "scripts_count": 21,
+      "redirect_chain": []
+    },
+    {
+      "url": "https://boc.lk",
+      "category": "Sensitive Content",
+      "sensitivity_level": "critical",
+      "status_code": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "content_length": 254265,
+      "response_time": 1.7259612083435059,
+      "title": "Bank of Ceylon - Bankers to the Nation | The No. 1 Bank in Sri Lanka | Bank of Ceylon",
+      "forms": [
+        {
+          "action": "",
+          "method": "GET",
+          "inputs": [
+            {
+              "name": "flex_periodtype",
+              "type": "radio",
+              "value": "in_days"
+            },
+            {
+              "name": "flex_periodtype",
+              "type": "radio",
+              "value": "in_months"
+            },
+            {
+              "name": "start-date",
+              "type": "date",
+              "value": ""
+            },
+            {
+              "name": "end-date",
+              "type": "date",
+              "value": ""
+            },
+            {
+              "name": "interest-type",
+              "type": "radio",
+              "value": ""
+            },
+            {
+              "name": "interest-type",
+              "type": "radio",
+              "value": ""
+            },
+            {
+              "name": "ipsum_amount",
+              "type": "text",
+              "value": "0"
+            }
+          ]
+        },
+        {
+          "action": "",
+          "method": "GET",
+          "inputs": [
+            {
+              "name": "personal_loan_amount",
+              "type": "text",
+              "value": "0"
+            },
+            {
+              "name": "loan_interest_rate",
+              "type": "text",
+              "value": "0"
+            },
+            {
+              "name": "loan_interest_period",
+              "type": "text",
+              "value": "0"
+            },
+            {
+              "name": "repayment_method",
+              "type": "radio",
+              "value": "equated-monthly-instalment"
+            }
+          ]
+        },
+        {
+          "action": "",
+          "method": "GET",
+          "inputs": [
+            {
+              "name": "home_loan_amount",
+              "type": "text",
+              "value": "0"
+            },
+            {
+              "name": "home_loan_interest_rate",
+              "type": "text",
+              "value": "0"
+            },
+            {
+              "name": "home_loan_interest_period",
+              "type": "text",
+              "value": "36"
+            },
+            {
+              "name": "repayment_method",
+              "type": "radio",
+              "value": "equated"
+            },
+            {
+              "name": "repayment_method",
+              "type": "radio",
+              "value": "reducing"
+            }
+          ]
+        },
+        {
+          "action": "",
+          "method": "GET",
+          "inputs": [
+            {
+              "name": "lease_amount",
+              "type": "text",
+              "value": "0"
+            },
+            {
+              "name": "lease_interest_rate",
+              "type": "text",
+              "value": "0"
+            },
+            {
+              "name": "lease_interest_period",
+              "type": "text",
+              "value": "0"
+            }
+          ]
+        },
+        {
+          "action": "",
+          "method": "GET",
+          "inputs": [
+            {
+              "name": "_token",
+              "type": "hidden",
+              "value": "naBzENLyGrEXn9eDscN3K7RQL0hxvPPAm1REXYW5"
+            },
+            {
+              "name": "dob",
+              "type": "date",
+              "value": ""
+            },
+            {
+              "name": "retirement_benefit",
+              "type": "number",
+              "value": "10000"
+            },
+            {
+              "name": "monthly_installment_amount",
+              "type": "text",
+              "value": ""
+            },
+            {
+              "name": "no_of_installments",
+              "type": "text",
+              "value": ""
+            }
+          ]
+        }
+      ],
+      "technologies": [
+        "AWS",
+        "Nginx",
+        "PHP",
+        "Java"
+      ],
+      "security_headers": {
+        "X-Frame-Options": "DENY, SAMEORIGIN",
+        "X-XSS-Protection": "1; mode=block, 1; mode=block",
+        "X-Content-Type-Options": "nosniff, nosniff",
+        "Strict-Transport-Security": "max-age=31536000; includeSubDomains, max-age=31536000; includeSubDomains; preload",
+        "Content-Security-Policy": "frame-ancestors 'none';",
+        "Referrer-Policy": "strict-origin-when-cross-origin"
+      },
+      "cookies": [
+        {
+          "name": "AWSALB",
+          "value": "R+4yjh1NUIpJU/pd/VbVJrGoDz3koWH6WGuIGPmDtx9K0MGiC7lw4Y2tmLj/LiuP0mqGMp2zJudCkHiWXCgW0JEtyZZw6SMU5nPfQIcbBGiB/6qjFReSAUqaFdCF",
+          "domain": "www.boc.lk",
+          "path": "/",
+          "secure": false,
+          "httponly": false
+        },
+        {
+          "name": "AWSALBCORS",
+          "value": "R+4yjh1NUIpJU/pd/VbVJrGoDz3koWH6WGuIGPmDtx9K0MGiC7lw4Y2tmLj/LiuP0mqGMp2zJudCkHiWXCgW0JEtyZZw6SMU5nPfQIcbBGiB/6qjFReSAUqaFdCF",
+          "domain": "www.boc.lk",
+          "path": "/",
+          "secure": false,
+          "httponly": false
+        },
+        {
+          "name": "XSRF-TOKEN",
+          "value": "eyJpdiI6Ii9UdUM2WkIxNEhQeUw2REtTYUhGVmc9PSIsInZhbHVlIjoieVByUzF1R0hKQS93VFpwd29JQXNTSjNZMXdEZXo4cTdQSHBqZkVXOVpjYXB3dnVYTXhGMC9wbjd6aG9Hd0hMdkpjUUJGSjlUYnhuNUtZeHozQTNpT2dOczlJc1NjNnBVbTRPL1NBRlhHM2phR3FDeGtpTUZLSUU5dlg5MGc4RUoiLCJtYWMiOiI5ODA1NjJlZjgyMzY1NmNlYjEwNzIzNTg5ZTk0NGFhYTI3YTM5M2MxMmM4MjYzMzFjZTk1NmNlMTFjZTIzYzE5IiwidGFnIjoiIn0%3D",
+          "domain": "www.boc.lk",
+          "path": "/",
+          "secure": true,
+          "httponly": false
+        },
+        {
+          "name": "bank_of_ceylon_session",
+          "value": "eyJpdiI6IjFqbjZJOGc1QW4xbTNCdkFQVlFYL3c9PSIsInZhbHVlIjoiRXh3RHZ3UmozUElBNUxDL25TL2x5WmJDVGNJeVRkOCtuMXhyL2RZQlhudzc0YzI5empSVlZhTDNDV3l6bEhqQ2txN0VBS3VkRkM0RFdlbnpEN3prUmRHSkpkU05ucGhSdXhieDNRZjZtNGZuWnFnN1VUYWlMS0xqM2hoMGpGSnAiLCJtYWMiOiJlOWU0Mzg1NTQ3Y2YzOTgxMmQyYjc3OWU5ZGNlNmY2MTBiNTlmZTk4ZDlhMzcxZjEzYWVkY2NjNGJlN2M1MThiIiwidGFnIjoiIn0%3D",
+          "domain": "www.boc.lk",
+          "path": "/",
+          "secure": true,
+          "httponly": false
+        },
+        {
+          "name": "Path",
+          "value": "/",
+          "domain": "www.boc.lk",
+          "path": "/",
+          "secure": true,
+          "httponly": false
+        }
+      ],
+      "comments_count": 19,
+      "scripts_count": 15,
+      "redirect_chain": [
+        "https://boc.lk"
+      ]
+    },
+    {
+      "url": "https://www.boc.lk/index.php/personal-banking/loans/overdraft-facilities/overdraft-facilities",
+      "category": "Sensitive Content",
+      "sensitivity_level": "critical",
+      "status_code": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "content_length": 178667,
+      "response_time": 1.292639970779419,
+      "title": "Overdraft Facilities | Bank of Ceylon | Bank of Ceylon",
+      "forms": [],
+      "technologies": [
+        "AWS",
+        "Nginx",
+        "PHP",
+        "Java"
+      ],
+      "security_headers": {
+        "X-Frame-Options": "DENY, SAMEORIGIN",
+        "X-XSS-Protection": "1; mode=block, 1; mode=block",
+        "X-Content-Type-Options": "nosniff, nosniff",
+        "Strict-Transport-Security": "max-age=31536000; includeSubDomains, max-age=31536000; includeSubDomains; preload",
+        "Content-Security-Policy": "frame-ancestors 'none';",
+        "Referrer-Policy": "strict-origin-when-cross-origin"
+      },
+      "cookies": [
+        {
+          "name": "AWSALB",
+          "value": "62pHatIvefNJHnNRDJjsaomrnry7ZD6kdrLvXvhCVDw9vGgyHZsJCwtwacnfbHTzGA4g3+hVzGz4Jd/gyn/BOzpAjvGS94BE5VZ7+oyfclQih4fWm1MWBJHol3Ii",
+          "domain": "www.boc.lk",
+          "path": "/",
+          "secure": false,
+          "httponly": false
+        },
+        {
+          "name": "AWSALBCORS",
+          "value": "62pHatIvefNJHnNRDJjsaomrnry7ZD6kdrLvXvhCVDw9vGgyHZsJCwtwacnfbHTzGA4g3+hVzGz4Jd/gyn/BOzpAjvGS94BE5VZ7+oyfclQih4fWm1MWBJHol3Ii",
+          "domain": "www.boc.lk",
+          "path": "/",
+          "secure": false,
+          "httponly": false
+        },
+        {
+          "name": "XSRF-TOKEN",
+          "value": "eyJpdiI6Ijkxa0NybmtpckJGUEhpY1BDTGlzNUE9PSIsInZhbHVlIjoiSU0vdFJWbDBhVmt0Unl3UTdpQXozdUxSNmdoMlhlNG5id3NlVEt1Y0NKellxOStiejZNRkRTWXpiaXhtSDhCVk1WTkRZMmpHbzZrMEJIRThoSU9hMERScXB0dHBncjVra0wxYzdnUnBoVzBtZytxbEtuSGVTdFdjcDVIS3czOFgiLCJtYWMiOiJmMTcxMWE4MTc1YTQ5ZWE0YzdmZDQ1NjZkNDNjMmNmOTg0OTBjZjhlZjJkNDQ5ZGExODMyYTVkMDNkNmY1ZWNhIiwidGFnIjoiIn0%3D",
+          "domain": "www.boc.lk",
+          "path": "/",
+          "secure": true,
+          "httponly": false
+        },
+        {
+          "name": "bank_of_ceylon_session",
+          "value": "eyJpdiI6ImpxbmY5K0dHdW5obUVnQXZQLzRDQ0E9PSIsInZhbHVlIjoiSlB4cC80Zk9vZ2ZIMEZZUGNSUGZiZmt1dk5KWVRiSzU3blpvNm5YQ3FxQ3lPak5QaVJ6RG9GZk0zQUg0SnVaS0RHTlFEd1o3dFJoN2xoUjRnSVpzb29GTEJKSm9nTHBwdTllZnVRSnlTUFdUY3dROHJHMGVzQ3ptazUyVWZxRDgiLCJtYWMiOiIxYTc4MjgwNWIxYTZjMWM0ODNmN2JjYWIyY2NhZDVlNWRkMmU2NTdkMmM3NTZjZTJlNGNlMDk2NWI2OTU5ODk2IiwidGFnIjoiIn0%3D",
+          "domain": "www.boc.lk",
+          "path": "/",
+          "secure": true,
+          "httponly": false
+        },
+        {
+          "name": "Path",
+          "value": "/",
+          "domain": "www.boc.lk",
+          "path": "/index.php/personal-banking/loans/overdraft-facilities",
+          "secure": true,
+          "httponly": false
+        }
+      ],
+      "comments_count": 11,
+      "scripts_count": 9,
+      "redirect_chain": []
+    },
+    {
+      "url": "https://www.boc.lk/index.php/business-banking/business-revival/brru/success-stories-with-profit-magazine",
+      "category": "Sensitive Content",
+      "sensitivity_level": "critical",
+      "status_code": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "content_length": 180541,
+      "response_time": 1.504530668258667,
+      "title": "Bank of Ceylon",
+      "forms": [],
+      "technologies": [
+        "AWS",
+        "Nginx",
+        "PHP",
+        "Java"
+      ],
+      "security_headers": {
+        "X-Frame-Options": "DENY, SAMEORIGIN",
+        "X-XSS-Protection": "1; mode=block, 1; mode=block",
+        "X-Content-Type-Options": "nosniff, nosniff",
+        "Strict-Transport-Security": "max-age=31536000; includeSubDomains, max-age=31536000; includeSubDomains; preload",
+        "Content-Security-Policy": "frame-ancestors 'none';",
+        "Referrer-Policy": "strict-origin-when-cross-origin"
+      },
+      "cookies": [
+        {
+          "name": "AWSALB",
+          "value": "TJH/oIbjN89lHotBVV23iP/MobLS9Rk6DQXm7mM7mc/xbVVcs4d6lxyj1AAygv3J7iKq4/QUiU7pMqZs6kIvA6I8wIdTEn/UUXqhLGLz88Q7gw1rN0JG0qFRzwYn",
+          "domain": "www.boc.lk",
+          "path": "/",
+          "secure": false,
+          "httponly": false
+        },
+        {
+          "name": "AWSALBCORS",
+          "value": "TJH/oIbjN89lHotBVV23iP/MobLS9Rk6DQXm7mM7mc/xbVVcs4d6lxyj1AAygv3J7iKq4/QUiU7pMqZs6kIvA6I8wIdTEn/UUXqhLGLz88Q7gw1rN0JG0qFRzwYn",
+          "domain": "www.boc.lk",
+          "path": "/",
+          "secure": false,
+          "httponly": false
+        },
+        {
+          "name": "XSRF-TOKEN",
+          "value": "eyJpdiI6ImJiVmswYmdhY21NekpnM2dqMWxBZmc9PSIsInZhbHVlIjoiTXE2ekwzOWlBQTRuL3JwUmZwNm9DcDVnRkNEcU4yRTM2bC9WckFKenJMbFkrTW95YWRSMTZPVmlKVGhuUVdMSkM1WXo2dFQ5d29rNEFZNUFYaGJ3K0x1cGtXWEtwU1E5OUxrN1hKMnR1UXVVQ1BIR0FTQjFrSHR0dDF1TWNSQjciLCJtYWMiOiIyZmQ0YjE2ZGU0NmNhZTM0MzQyN2VlM2MyNGViZGQ3NTg2MDAxY2QwY2UxNDc4ZTY4ZDY5ZTk4NjI4N2QyZWQ3IiwidGFnIjoiIn0%3D",
+          "domain": "www.boc.lk",
+          "path": "/",
+          "secure": true,
+          "httponly": false
+        },
+        {
+          "name": "bank_of_ceylon_session",
+          "value": "eyJpdiI6InlhK09SUC9INDBqTWNtQlp1bnRyZlE9PSIsInZhbHVlIjoiZXVpRUV6QTh0aGY4eEQyZ1hOMGNRZVZpK2F4ZlpsdVVHWmt6alBBUW1ydXIzYVAyTEZoNTdzN25WaHlHU2dMOWFDREdGMU8zZC9ZaUh4anBPb1Z1UW1Xc0JYalowdUZSMkhObW4zcXN1bWZ2QWE4U1pveFlSdDFxSE1tM1YycXIiLCJtYWMiOiIwMWM3NGQyNDRkMmIxYmQyMzUzMzNkMDQwN2RhYjkxMzMxZDQ2MmE0MTEwMTU4N2U4NjRkNmZiOWNjNDQzN2E3IiwidGFnIjoiIn0%3D",
+          "domain": "www.boc.lk",
+          "path": "/",
+          "secure": true,
+          "httponly": false
+        },
+        {
+          "name": "Path",
+          "value": "/",
+          "domain": "www.boc.lk",
+          "path": "/index.php/business-banking/business-revival/brru",
+          "secure": true,
+          "httponly": false
+        }
+      ],
+      "comments_count": 10,
+      "scripts_count": 9,
+      "redirect_chain": []
+    },
+    {
+      "url": "https://www.boc.lk/index.php/personal-banking/ran-surekum-naya-sewa",
+      "category": "Sensitive Content",
+      "sensitivity_level": "critical",
+      "status_code": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "content_length": 189594,
+      "response_time": 1.646083116531372,
+      "title": "Gold Loan from BOC | Bank of Ceylon",
+      "forms": [],
+      "technologies": [
+        "AWS",
+        "Nginx",
+        "PHP",
+        "Java"
+      ],
+      "security_headers": {
+        "X-Frame-Options": "DENY, SAMEORIGIN",
+        "X-XSS-Protection": "1; mode=block, 1; mode=block",
+        "X-Content-Type-Options": "nosniff, nosniff",
+        "Strict-Transport-Security": "max-age=31536000; includeSubDomains, max-age=31536000; includeSubDomains; preload",
+        "Content-Security-Policy": "frame-ancestors 'none';",
+        "Referrer-Policy": "strict-origin-when-cross-origin"
+      },
+      "cookies": [
+        {
+          "name": "AWSALB",
+          "value": "mhm4VwoANxb9Jlsbh/kq7AjOlDkiSdsV5WLAcrw8vjLkDU9XFKeBBFrHqymPL2GhLyDYLKku1dsVeIyQZDN49nDowmnzr87kvtUEpYjrYqsbofsra1Q4HidRhnmG",
+          "domain": "www.boc.lk",
+          "path": "/",
+          "secure": false,
+          "httponly": false
+        },
+        {
+          "name": "AWSALBCORS",
+          "value": "mhm4VwoANxb9Jlsbh/kq7AjOlDkiSdsV5WLAcrw8vjLkDU9XFKeBBFrHqymPL2GhLyDYLKku1dsVeIyQZDN49nDowmnzr87kvtUEpYjrYqsbofsra1Q4HidRhnmG",
+          "domain": "www.boc.lk",
+          "path": "/",
+          "secure": false,
+          "httponly": false
+        },
+        {
+          "name": "XSRF-TOKEN",
+          "value": "eyJpdiI6ImVJL1g2cnFGQ3p0N3hEOWhjTzFSaEE9PSIsInZhbHVlIjoiZG5USnFBYjVzTHdLN0xTQjVhUURrM3UrOHBpODFtcXNhdlZFalNyVjB6eVZQcENRWGxCM2kxWnNYUVZueVUzd3hqbm9ubnF2ZUhwL3MwbkpRbzkxclJiMmpEZEIyaFR2ME5Va2hJOGtTVHR3WEEyMVVTOVNSOEJnMm5Qclp5WXYiLCJtYWMiOiI3YmMxMmJjZWU0MWIwMTZlY2RhMTlhZTc5YzQwMzVjYjU5YWRhZDE4OGNiODIxODc4NTc2NWQzYTA4ZmU0ODMwIiwidGFnIjoiIn0%3D",
+          "domain": "www.boc.lk",
+          "path": "/",
+          "secure": true,
+          "httponly": false
+        },
+        {
+          "name": "bank_of_ceylon_session",
+          "value": "eyJpdiI6IjdGR0FEell6Z09GSEdZLzBNcUJSR1E9PSIsInZhbHVlIjoiS2tqbXZmZ1Zmc3VJQXc2bDJobEc0YU1NVUVTeHFuT0xPTlRkRzh0T2cwMngvWHdueGFRZS9maXp5bERnNUNjWkM1cHpRRXViZjRKS1Bhb0txZ211N3BNN2ZpY1hoMGdNcHNXNGkvemJoZFJ2MERsd09Fd2VtVVREL0JaYk9WZmQiLCJtYWMiOiJiMmNjNGI0ZWNkYTY1Mjg1MWIwMDZiZWE0NTAwNjlkYzdkY2IxNGRlNDk4NDZhYjZjN2ViOWNhMDAxYzBkOGFhIiwidGFnIjoiIn0%3D",
+          "domain": "www.boc.lk",
+          "path": "/",
+          "secure": true,
+          "httponly": false
+        },
+        {
+          "name": "Path",
+          "value": "/",
+          "domain": "www.boc.lk",
+          "path": "/index.php/personal-banking",
+          "secure": true,
+          "httponly": false
+        }
+      ],
+      "comments_count": 10,
+      "scripts_count": 9,
+      "redirect_chain": []
+    },
+    {
+      "url": "https://www.boc.lk/personal-banking/savings-accounts/ladies-regular-savings",
+      "category": "Sensitive Content",
+      "sensitivity_level": "critical",
+      "status_code": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "content_length": 189331,
+      "response_time": 1.1287710666656494,
+      "title": "Savings Accounts | Bank of Ceylon",
+      "forms": [],
+      "technologies": [
+        "AWS",
+        "Nginx",
+        "PHP",
+        "Java"
+      ],
+      "security_headers": {
+        "X-Frame-Options": "DENY, SAMEORIGIN",
+        "X-XSS-Protection": "1; mode=block, 1; mode=block",
+        "X-Content-Type-Options": "nosniff, nosniff",
+        "Strict-Transport-Security": "max-age=31536000; includeSubDomains, max-age=31536000; includeSubDomains; preload",
+        "Content-Security-Policy": "frame-ancestors 'none';",
+        "Referrer-Policy": "strict-origin-when-cross-origin"
+      },
+      "cookies": [
+        {
+          "name": "AWSALB",
+          "value": "WwzKGDeIla/5eq2bSvWkzEC0aOLz2icB/FxxVH3CHPEPLwOH5k12gK75Oo4dvAolCorEfQdo1DWbAwTpt1Ml1vo96r/qJK2YrtttaOzpZKkND4Vnxgle9fVctiXl",
+          "domain": "www.boc.lk",
+          "path": "/",
+          "secure": false,
+          "httponly": false
+        },
+        {
+          "name": "AWSALBCORS",
+          "value": "WwzKGDeIla/5eq2bSvWkzEC0aOLz2icB/FxxVH3CHPEPLwOH5k12gK75Oo4dvAolCorEfQdo1DWbAwTpt1Ml1vo96r/qJK2YrtttaOzpZKkND4Vnxgle9fVctiXl",
+          "domain": "www.boc.lk",
+          "path": "/",
+          "secure": false,
+          "httponly": false
+        },
+        {
+          "name": "XSRF-TOKEN",
+          "value": "eyJpdiI6ImpiK1FVbGtvYTRZTzNLZ2U5eGlMNEE9PSIsInZhbHVlIjoiUjh4WmtCSWozMGVoS0szd3dUL1JCSTRlQ2NZT2ZER0UwZ0VjRVdoRGhHNWV0eGtacHZhSjRPQzEvdUk3TkM2aFpFdERORHVpMkpiOWI0aU84bTRFQ2RtMjNXWlQwdFFRRWpmdDNJSHBPdG1JQWhHMjRqanZpVEVMZGRtdlpuVEwiLCJtYWMiOiI3ZTFlMDgzMDM1OGQyZTc3MDI5ZDY4YjE4YzZjM2YxMzI0ZTUyYjVhNTI0MTZkMWU4YzYzZmU2OGE2YjIzMGNmIiwidGFnIjoiIn0%3D",
+          "domain": "www.boc.lk",
+          "path": "/",
+          "secure": true,
+          "httponly": false
+        },
+        {
+          "name": "bank_of_ceylon_session",
+          "value": "eyJpdiI6ImtodnNaYmUyaDVYMVhkb2w1bjNNOHc9PSIsInZhbHVlIjoiN0Y1dWxXMURFUnlLYnBVSTVpVkV1NzA3c1cxUTlSbVhrOFFnVWZqOWRxd0xaMGpSTVlsSkhzVUtGeDd5akpMZTRTVHg3cDFRbnE3VTE1cFRmajBBRENkSTB1SklSbkExTFhUZFV5SUJWbXRzZTROTnNEVXNZcHNSYzdPY04xbnMiLCJtYWMiOiIxZWZhNWY2NjBhY2NjOGFkMGFmNGQyNTdlYzE4YjFiZWZiNmUyNmE0YjZiNTNhYWNlZTc0YTcwNzZlZjdiNDY4IiwidGFnIjoiIn0%3D",
+          "domain": "www.boc.lk",
+          "path": "/",
+          "secure": true,
+          "httponly": false
+        },
+        {
+          "name": "Path",
+          "value": "/",
+          "domain": "www.boc.lk",
+          "path": "/personal-banking/savings-accounts",
+          "secure": true,
+          "httponly": false
+        }
+      ],
+      "comments_count": 10,
+      "scripts_count": 9,
+      "redirect_chain": []
+    },
+    {
+      "url": "https://www.boc.lk/business-banking/treasury-and-investment/treasury",
+      "category": "Sensitive Content",
+      "sensitivity_level": "critical",
+      "status_code": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "content_length": 174970,
+      "response_time": 1.6311874389648438,
+      "title": "Treasury and Investment | Bank of Ceylon",
+      "forms": [],
+      "technologies": [
+        "AWS",
+        "Nginx",
+        "PHP",
+        "Java"
+      ],
+      "security_headers": {
+        "X-Frame-Options": "DENY, SAMEORIGIN",
+        "X-XSS-Protection": "1; mode=block, 1; mode=block",
+        "X-Content-Type-Options": "nosniff, nosniff",
+        "Strict-Transport-Security": "max-age=31536000; includeSubDomains, max-age=31536000; includeSubDomains; preload",
+        "Content-Security-Policy": "frame-ancestors 'none';",
+        "Referrer-Policy": "strict-origin-when-cross-origin"
+      },
+      "cookies": [
+        {
+          "name": "AWSALB",
+          "value": "fdSAPbxjorrT7DRnm5vj7RSD6J5F0+7l962mKTmqOg7dNff192saXO9uwwzrQBlDlULz8D7ymeAs1HlQUwmc4alQM7AZ8LvwZeS2kXjbTzSXed5uhlNN7v44Ryow",
+          "domain": "www.boc.lk",
+          "path": "/",
+          "secure": false,
+          "httponly": false
+        },
+        {
+          "name": "AWSALBCORS",
+          "value": "fdSAPbxjorrT7DRnm5vj7RSD6J5F0+7l962mKTmqOg7dNff192saXO9uwwzrQBlDlULz8D7ymeAs1HlQUwmc4alQM7AZ8LvwZeS2kXjbTzSXed5uhlNN7v44Ryow",
+          "domain": "www.boc.lk",
+          "path": "/",
+          "secure": false,
+          "httponly": false
+        },
+        {
+          "name": "XSRF-TOKEN",
+          "value": "eyJpdiI6IjZmbTJzWVRxaEtORTJZWSs5NEk2T2c9PSIsInZhbHVlIjoiWTQyS0ZoaG0wSWN1TERIV0dBNnJtM0hFekplUy9helJ3bThSNnp3aXhYeWppZTZYclRqWlJnOTQ2dWxrekJlOTdvV24zVjRrdGlETzRzM3pnaFJ3ZkpMZTZYdk1PZnlDQTUzd1VVWVBjQ1pwVll1MTZBL2xDUFA0MkN3UlJESzAiLCJtYWMiOiJlMmJmOWU4Y2FiNTY3Mzk2YjJjMWYyNGU2ZTVlMzA1ZjcwZDM4YmU0ZGY3ZDgwMDVlZTc1ZWVkMzM3ZGVmOTdlIiwidGFnIjoiIn0%3D",
+          "domain": "www.boc.lk",
+          "path": "/",
+          "secure": true,
+          "httponly": false
+        },
+        {
+          "name": "bank_of_ceylon_session",
+          "value": "eyJpdiI6IjVVbHBPcHMyWWVCU29MSmdIYWVpd2c9PSIsInZhbHVlIjoiemVScmtHMkEzY1ovWXlna0tUSUw0SmFvK2RwNjlNMXRtc0lGREdhNi9WSGhTU0ZQNzF6UW55RW9rS3FYYWwveWFtZGVPWFJGaXNoSnZLOXc5L3pnUFdXNjQ5RjZvdmhhQWVSM0VxOGpvV1Z5L1BENnR1eHdhblh0Z3VEdVgzRFgiLCJtYWMiOiJhYjQwMGJjNmRiMTU4ZjQ1YzM3OTNhZTJiNzU1OGE0YmRhYWYzM2U5ZGQ1MDk0N2RhZjlhMjU2MDc5ZDA1ZjUwIiwidGFnIjoiIn0%3D",
+          "domain": "www.boc.lk",
+          "path": "/",
+          "secure": true,
+          "httponly": false
+        },
+        {
+          "name": "Path",
+          "value": "/",
+          "domain": "www.boc.lk",
+          "path": "/business-banking/treasury-and-investment",
+          "secure": true,
+          "httponly": false
+        }
+      ],
+      "comments_count": 10,
+      "scripts_count": 9,
+      "redirect_chain": []
+    },
+    {
+      "url": "https://boc.lk/assets/js/lib.js?id=ed272012c3809447ebf45d3077fa5826",
+      "category": "Sensitive Content",
+      "sensitivity_level": "critical",
+      "status_code": 200,
+      "content_type": "application/javascript",
+      "content_length": 1447347,
+      "response_time": 1.0064749717712402,
+      "title": "",
+      "forms": [
+        {
+          "action": "",
+          "method": "GET",
+          "inputs": []
+        },
+        {
+          "action": "",
+          "method": "GET",
+          "inputs": []
+        }
+      ],
+      "technologies": [
+        "ASP.NET",
+        "Nginx",
+        "PHP",
+        "AWS"
+      ],
+      "security_headers": {
+        "X-Frame-Options": "SAMEORIGIN",
+        "X-XSS-Protection": "1; mode=block",
+        "X-Content-Type-Options": "nosniff",
+        "Strict-Transport-Security": "max-age=31536000; includeSubDomains; preload"
+      },
+      "cookies": [
+        {
+          "name": "AWSALB",
+          "value": "8ZGVGMnkNfI+XXbduL5Nkqjlxxh3HmIFyEUBvqI23q/dFzRACsBMMeICPBe8RtVzuqOEDMoJkHt9wuyYNwnKcFvgK5Xg3hZkbmsKR+zVQNaHk3CYHKGHPivlpP7V",
+          "domain": "www.boc.lk",
+          "path": "/",
+          "secure": false,
+          "httponly": false
+        },
+        {
+          "name": "AWSALBCORS",
+          "value": "8ZGVGMnkNfI+XXbduL5Nkqjlxxh3HmIFyEUBvqI23q/dFzRACsBMMeICPBe8RtVzuqOEDMoJkHt9wuyYNwnKcFvgK5Xg3hZkbmsKR+zVQNaHk3CYHKGHPivlpP7V",
+          "domain": "www.boc.lk",
+          "path": "/",
+          "secure": false,
+          "httponly": false
+        },
+        {
+          "name": "Path",
+          "value": "/",
+          "domain": "www.boc.lk",
+          "path": "/assets/js",
+          "secure": true,
+          "httponly": false
+        }
+      ],
+      "comments_count": 0,
+      "scripts_count": 0,
+      "redirect_chain": [
+        "https://boc.lk/assets/js/lib.js?id=ed272012c3809447ebf45d3077fa5826"
+      ]
+    },
+    {
+      "url": "https://www.boc.lk/index.php/personal-banking/cards/credit-cards/visa-gold-card",
+      "category": "Sensitive Content",
+      "sensitivity_level": "critical",
+      "status_code": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "content_length": 184508,
+      "response_time": 1.9204065799713135,
+      "title": "Visa Gold Card | Bank of Ceylon | Bank of Ceylon",
+      "forms": [],
+      "technologies": [
+        "AWS",
+        "Nginx",
+        "PHP",
+        "Java"
+      ],
+      "security_headers": {
+        "X-Frame-Options": "DENY, SAMEORIGIN",
+        "X-XSS-Protection": "1; mode=block, 1; mode=block",
+        "X-Content-Type-Options": "nosniff, nosniff",
+        "Strict-Transport-Security": "max-age=31536000; includeSubDomains, max-age=31536000; includeSubDomains; preload",
+        "Content-Security-Policy": "frame-ancestors 'none';",
+        "Referrer-Policy": "strict-origin-when-cross-origin"
+      },
+      "cookies": [
+        {
+          "name": "AWSALB",
+          "value": "+rs2wrW6YDi0BAS9iOsB/jXGM8rRi5FxqK3jileOm0sP024xY2w737h18LnUmk9RpexfUXkCfj4hlUXMOB0ka48xBPiFHtFuCV2p+gB+KPaBw0pfywwsGynj3wJ4",
+          "domain": "www.boc.lk",
+          "path": "/",
+          "secure": false,
+          "httponly": false
+        },
+        {
+          "name": "AWSALBCORS",
+          "value": "+rs2wrW6YDi0BAS9iOsB/jXGM8rRi5FxqK3jileOm0sP024xY2w737h18LnUmk9RpexfUXkCfj4hlUXMOB0ka48xBPiFHtFuCV2p+gB+KPaBw0pfywwsGynj3wJ4",
+          "domain": "www.boc.lk",
+          "path": "/",
+          "secure": false,
+          "httponly": false
+        },
+        {
+          "name": "XSRF-TOKEN",
+          "value": "eyJpdiI6InlUaW5YVDFsajU3dGlHTldvR2I2Rnc9PSIsInZhbHVlIjoidVpsbTAzeWc5SEEvVkdTM0tnOU83RllhRWtSYmRFOFViRGdmYk1qbXBqUHZoSU1pMVNROWF2TmZlRnBNby90Lzd1WmUwNCtnT0FLVnloV2s5T0hGeFpySDliWVJuSlFFcU1PaktycmpxVGx0YWYxNjhiT1Yra0VzTGZvbWFLN1giLCJtYWMiOiJjODBiNDMwZDRkMzUzNGM2ZTkxM2VkNDljYmM3ZTJmOGNhNWJlMzA1NTE0NGZiZDc1OTRkMjE5ZjlhYjhkZWQ5IiwidGFnIjoiIn0%3D",
+          "domain": "www.boc.lk",
+          "path": "/",
+          "secure": true,
+          "httponly": false
+        },
+        {
+          "name": "bank_of_ceylon_session",
+          "value": "eyJpdiI6ImVUZzdscDVwMDFOMlQxUUh3dG9MV2c9PSIsInZhbHVlIjoiNVJWTVBOVlZkaGFyYXAyVG1CYUxvZFNsUWlCQ0daWUJGZVEvaTlySmdhZmkvM2Y2L0pUMmNHQXFqTTV6Y01wRXMrZHhRR0ZZY3Z5SDFSdXZ3YzNpTEFIa0M5NjlVZklLcThOdzBVVWc2a3V1eHVTY1ROR3liLzN2djNFNVJtOEEiLCJtYWMiOiIwZmUxMjFmZjExNmVjZDQ1YTVkNDkxMzEyMmRmZTRjOGNlNDU1OTVhNTNkMmY4YWU1NDY2OGM2NjVmNDc5MTE0IiwidGFnIjoiIn0%3D",
+          "domain": "www.boc.lk",
+          "path": "/",
+          "secure": true,
+          "httponly": false
+        },
+        {
+          "name": "Path",
+          "value": "/",
+          "domain": "www.boc.lk",
+          "path": "/index.php/personal-banking/cards/credit-cards",
+          "secure": true,
+          "httponly": false
+        }
+      ],
+      "comments_count": 11,
+      "scripts_count": 9,
+      "redirect_chain": []
+    },
+    {
+      "url": "https://www.boc.lk/index.php/personal-banking/loans/personal-loan",
+      "category": "Sensitive Content",
+      "sensitivity_level": "critical",
+      "status_code": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "content_length": 189634,
+      "response_time": 2.338817596435547,
+      "title": "Loans | Bank of Ceylon",
+      "forms": [],
+      "technologies": [
+        "AWS",
+        "Nginx",
+        "PHP",
+        "Java"
+      ],
+      "security_headers": {
+        "X-Frame-Options": "DENY, SAMEORIGIN",
+        "X-XSS-Protection": "1; mode=block, 1; mode=block",
+        "X-Content-Type-Options": "nosniff, nosniff",
+        "Strict-Transport-Security": "max-age=31536000; includeSubDomains, max-age=31536000; includeSubDomains; preload",
+        "Content-Security-Policy": "frame-ancestors 'none';",
+        "Referrer-Policy": "strict-origin-when-cross-origin"
+      },
+      "cookies": [
+        {
+          "name": "AWSALB",
+          "value": "+DcYpJVIXbo8sBZbSdnNfiYzrFt39WPGei9yPL/ANuAX360HUKlgwxZzGlSoHGs2s+CQV/YJ3man6aNoDNjNtly1dI4OSswNLbH7xPDMQiw/CrzGQkso8MiEEc7f",
+          "domain": "www.boc.lk",
+          "path": "/",
+          "secure": false,
+          "httponly": false
+        },
+        {
+          "name": "AWSALBCORS",
+          "value": "+DcYpJVIXbo8sBZbSdnNfiYzrFt39WPGei9yPL/ANuAX360HUKlgwxZzGlSoHGs2s+CQV/YJ3man6aNoDNjNtly1dI4OSswNLbH7xPDMQiw/CrzGQkso8MiEEc7f",
+          "domain": "www.boc.lk",
+          "path": "/",
+          "secure": false,
+          "httponly": false
+        },
+        {
+          "name": "XSRF-TOKEN",
+          "value": "eyJpdiI6ImpEWkloWm8zcDR5V3VkR2VjYmNhTFE9PSIsInZhbHVlIjoiem1pSlZHTVpYUFVhSDlDd2NWSXdQV3lFSHYyTUp2ZGRDemtHU3B5SkdHNHZiOWordmx3TzJQQWxYVDA5dnFlcEpIL3dXVmdmcFY5bjhsV3Nqdzk3Zkt6RTVZOWxNQUM0c0k3WHU1WkFlRVdtaDNJOVlGUXpRY2ZrWUQxQUtFNHIiLCJtYWMiOiIzNGMyODY4NDgzNDhjN2M2ZTI0ZGE1NTkyZDRjZGFlMDNmYmM2MjIxZDQ4ZGQxYTRlNjc3ODBmYjE5N2RmODM5IiwidGFnIjoiIn0%3D",
+          "domain": "www.boc.lk",
+          "path": "/",
+          "secure": true,
+          "httponly": false
+        },
+        {
+          "name": "bank_of_ceylon_session",
+          "value": "eyJpdiI6IjhidXlXcW1kSkV1ODZ6aDNpS3U5VVE9PSIsInZhbHVlIjoiamV0N0I0aTdINm9uck83VDNISDNaaHdwL2hiVk8ybnhCL0tLWTZleUppanZDL200aVI1azIwYUlrVXFVRlRSNEdFTGVTczJ0bXM2ejMrcHNHQkgrcUZ2QnlpQTF2ZWNsblVmU1U0TjMwekZXcDdCTXdicmF2SkRjSVpuMU5vV08iLCJtYWMiOiI0ZjRlODllYmE5ZDNjMWM3OTI0MWM1YjIyNmZhNDcwZTM3YWY1ODMyNDFjNmFjNTMxYzhhOGFjOTE2NjMxMjMxIiwidGFnIjoiIn0%3D",
+          "domain": "www.boc.lk",
+          "path": "/",
+          "secure": true,
+          "httponly": false
+        },
+        {
+          "name": "Path",
+          "value": "/",
+          "domain": "www.boc.lk",
+          "path": "/index.php/personal-banking/loans",
+          "secure": true,
+          "httponly": false
+        }
+      ],
+      "comments_count": 10,
+      "scripts_count": 9,
+      "redirect_chain": []
+    },
+    {
+      "url": "https://www.boc.lk/boc-weekend-banking",
+      "category": "Sensitive Content",
+      "sensitivity_level": "critical",
+      "status_code": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "content_length": 193297,
+      "response_time": 4.7226808071136475,
+      "title": "Weekend Banking | Bank of Ceylon",
+      "forms": [],
+      "technologies": [
+        "AWS",
+        "Nginx",
+        "PHP",
+        "Java"
+      ],
+      "security_headers": {
+        "X-Frame-Options": "DENY, SAMEORIGIN",
+        "X-XSS-Protection": "1; mode=block, 1; mode=block",
+        "X-Content-Type-Options": "nosniff, nosniff",
+        "Strict-Transport-Security": "max-age=31536000; includeSubDomains, max-age=31536000; includeSubDomains; preload",
+        "Content-Security-Policy": "frame-ancestors 'none';",
+        "Referrer-Policy": "strict-origin-when-cross-origin"
+      },
+      "cookies": [
+        {
+          "name": "AWSALB",
+          "value": "3Sa9oAPAMEwEwIaFooKqeB25/F58n0EWihI+8iEqri3S/jPbRr+IC0SB+M6qGasXJk0tYnI5Yo/pnNDhtxAFuEtU+LWA7hVEOH2UcFDIsqDEYQJnVPnlJJqRpkS5",
+          "domain": "www.boc.lk",
+          "path": "/",
+          "secure": false,
+          "httponly": false
+        },
+        {
+          "name": "AWSALBCORS",
+          "value": "3Sa9oAPAMEwEwIaFooKqeB25/F58n0EWihI+8iEqri3S/jPbRr+IC0SB+M6qGasXJk0tYnI5Yo/pnNDhtxAFuEtU+LWA7hVEOH2UcFDIsqDEYQJnVPnlJJqRpkS5",
+          "domain": "www.boc.lk",
+          "path": "/",
+          "secure": false,
+          "httponly": false
+        },
+        {
+          "name": "XSRF-TOKEN",
+          "value": "eyJpdiI6IkNSZmxOQ2dHdXJ1ZURIUmNFdzNzVVE9PSIsInZhbHVlIjoiV2xnWlNCbTgwVHcvTEJPSHJOcGRBTzg3aWRxN1FlTWswV3pPOVJYc0RjbDFleTNLL1VUbzFKWVprc3REQTIwdG1nZUpCSFFoNlV2N2VJQ0V1SHRodCtOZWVzUzZxd1Uyc3FVM0grVnppT21ISDBHVXp6dWdtTjhVRjlvU0VteG4iLCJtYWMiOiJmYzE4MjYwYzM0N2Y1YzM1Y2FjOWYxZDQxZWUxMzBmMTZlMDZjMjc5ZTdhZWE5N2QyN2I5MmU1ZTEwMWUwODk3IiwidGFnIjoiIn0%3D",
+          "domain": "www.boc.lk",
+          "path": "/",
+          "secure": true,
+          "httponly": false
+        },
+        {
+          "name": "bank_of_ceylon_session",
+          "value": "eyJpdiI6InJMd1IxQWdzTUE3MHBrSkNCRlBxTmc9PSIsInZhbHVlIjoiU2JqZVJNUUVnMTNhbU9XTkpHMkhWd2kwWnp2T1VvQlNOUEM0QzRNRHFPNkJjNWVGZEgvQUtncXR2bDZCOWZqRDI5b256bU1iWEVubTZUbU1xMEV2WHBWMENQaVA2aHV4WVU1K2dkdDNTYjlNcWk0eDU5MVJGYmJLcWxNMGgwOFoiLCJtYWMiOiI4YmU3MDJkNzY0MTJhZjQ4YjIyZDEyMmQxN2M4MmMyNTViZDE5NTM0MmY0NzgxNDViYzJiZDljMDRjYjc2NTNiIiwidGFnIjoiIn0%3D",
+          "domain": "www.boc.lk",
+          "path": "/",
+          "secure": true,
+          "httponly": false
+        },
+        {
+          "name": "Path",
+          "value": "/",
+          "domain": "www.boc.lk",
+          "path": "/",
+          "secure": true,
+          "httponly": false
+        }
+      ],
+      "comments_count": 10,
+      "scripts_count": 9,
+      "redirect_chain": []
+    },
+    {
+      "url": "https://www.boc.lk/boc-protecting-yourself-from-fraud",
+      "category": "Sensitive Content",
+      "sensitivity_level": "critical",
+      "status_code": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "content_length": 174612,
+      "response_time": 4.725464344024658,
+      "title": "Protecting Yourself from Fraud | Bank of Ceylon",
+      "forms": [],
+      "technologies": [
+        "AWS",
+        "Nginx",
+        "PHP",
+        "Java"
+      ],
+      "security_headers": {
+        "X-Frame-Options": "DENY, SAMEORIGIN",
+        "X-XSS-Protection": "1; mode=block, 1; mode=block",
+        "X-Content-Type-Options": "nosniff, nosniff",
+        "Strict-Transport-Security": "max-age=31536000; includeSubDomains, max-age=31536000; includeSubDomains; preload",
+        "Content-Security-Policy": "frame-ancestors 'none';",
+        "Referrer-Policy": "strict-origin-when-cross-origin"
+      },
+      "cookies": [
+        {
+          "name": "AWSALB",
+          "value": "VGutQvlD0Spt8k+yCRPFpjcqBrtIvSgkyNbf8ja8fW9PXHVMf++W14QjVS6xOUnJ0YQjpEcCWLt3UAATFWrNgyJjtRShUEWLiDrQjEjlQMblRyOv/7DWe4X4538y",
+          "domain": "www.boc.lk",
+          "path": "/",
+          "secure": false,
+          "httponly": false
+        },
+        {
+          "name": "AWSALBCORS",
+          "value": "VGutQvlD0Spt8k+yCRPFpjcqBrtIvSgkyNbf8ja8fW9PXHVMf++W14QjVS6xOUnJ0YQjpEcCWLt3UAATFWrNgyJjtRShUEWLiDrQjEjlQMblRyOv/7DWe4X4538y",
+          "domain": "www.boc.lk",
+          "path": "/",
+          "secure": false,
+          "httponly": false
+        },
+        {
+          "name": "XSRF-TOKEN",
+          "value": "eyJpdiI6InhWbWJDcVNwb3NCNFBlVFIxaGxtd1E9PSIsInZhbHVlIjoiYjVTeDFuRTBzWXk4elQrMHdERDdRakxwcDMwRDVtUWxlbkZYZ00rM1RFY3BsbGRFOUcySnlxanFlcHVYVlFWUFIrYUtETnVBTkxRVXJNQnlGbU1Ea1RLYUdMMit6cGh6ckV3a1Z3WDNHWVZ5N3RZeTNxUmZlQTRhTk50THdid3UiLCJtYWMiOiI3NjM3NzNmMGJhYjExNTgyNjllOGMxZDY2Y2I1ZWNjMGFkMTI5N2QzYzQ2ZGRmZmUwMmRkMWYxNDhiZDkyYmNjIiwidGFnIjoiIn0%3D",
+          "domain": "www.boc.lk",
+          "path": "/",
+          "secure": true,
+          "httponly": false
+        },
+        {
+          "name": "bank_of_ceylon_session",
+          "value": "eyJpdiI6Iks2SkpOdTYvVFlRVjdwSkpNMlIzalE9PSIsInZhbHVlIjoianVZazZqL2svdHZ4WUJNZVh0ZDYrZmZScXY0MWtWajhqWk1UdGRKcExrSmZJSWpiQTBYTjlyL0lGeVg3K3JTUjB3d2NoZU9OUGkwMUdwSUpRZEFlelVCUU9KejBaSnlDUVluSXE1eFEydXlWdUFsZWlCTjhmU0pEN3prWFNTNjUiLCJtYWMiOiIyNDg1MDE3Y2NmZDZjMzY0ODhhNGU0ZDVjNGIwM2MwNmRkNWYxYzIyNTMwM2UzZTFkNzQ5NWUzM2MxYmRlOGZlIiwidGFnIjoiIn0%3D",
+          "domain": "www.boc.lk",
+          "path": "/",
+          "secure": true,
+          "httponly": false
+        },
+        {
+          "name": "Path",
+          "value": "/",
+          "domain": "www.boc.lk",
+          "path": "/",
+          "secure": true,
+          "httponly": false
+        }
+      ],
+      "comments_count": 10,
+      "scripts_count": 9,
+      "redirect_chain": []
+    },
+    {
+      "url": "https://www.boc.lk/index.php/international-banking/overseas-branches?country=maldives",
+      "category": "Sensitive Content",
+      "sensitivity_level": "critical",
+      "status_code": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "content_length": 181908,
+      "response_time": 2.0699589252471924,
+      "title": "BOC Overseas branches | Bank of Ceylon",
+      "forms": [
+        {
+          "action": "",
+          "method": "GET",
+          "inputs": []
+        }
+      ],
+      "technologies": [
+        "AWS",
+        "Java",
+        "Nginx",
+        "PHP",
+        "Ruby"
+      ],
+      "security_headers": {
+        "X-Frame-Options": "DENY, SAMEORIGIN",
+        "X-XSS-Protection": "1; mode=block, 1; mode=block",
+        "X-Content-Type-Options": "nosniff, nosniff",
+        "Strict-Transport-Security": "max-age=31536000; includeSubDomains, max-age=31536000; includeSubDomains; preload",
+        "Content-Security-Policy": "frame-ancestors 'none';",
+        "Referrer-Policy": "strict-origin-when-cross-origin"
+      },
+      "cookies": [
+        {
+          "name": "AWSALB",
+          "value": "sLb1MRWGay0LXwm5KT/VDaPH2TjpzZAB6BCTpp+swLc2LpH8we2kS3aaz9og0MBzYpP5Sb/X2cG5P00UhiNk1hXqGAnKRG0eDNMUDlYz0E3kKNO9ZnapgHPomQ1A",
+          "domain": "www.boc.lk",
+          "path": "/",
+          "secure": false,
+          "httponly": false
+        },
+        {
+          "name": "AWSALBCORS",
+          "value": "sLb1MRWGay0LXwm5KT/VDaPH2TjpzZAB6BCTpp+swLc2LpH8we2kS3aaz9og0MBzYpP5Sb/X2cG5P00UhiNk1hXqGAnKRG0eDNMUDlYz0E3kKNO9ZnapgHPomQ1A",
+          "domain": "www.boc.lk",
+          "path": "/",
+          "secure": false,
+          "httponly": false
+        },
+        {
+          "name": "XSRF-TOKEN",
+          "value": "eyJpdiI6IktDT2QxUzNVWnVkQjQ2aXp6S0lTcEE9PSIsInZhbHVlIjoiRkkyN2dPV3UzZ0RDcGJ3dEZmemp6Mi9Jc2thNDdRamlHRXFSWFgxSnh6ME12eTJHekVOYkhBcmovaVVIVWQwWU1FSDdqY0x4SkNMaFYvaTkvWXJ3eWd2YndTQ1F5NUF1L29HTi9YY1pLOUVESmQ5VjM1UlkrT3dvMWM1cCtqUTIiLCJtYWMiOiJhMGE2MDMyMTVjZmQyZGY4ZjJkOGMyNWFjMGQyMDQxZGRjYzJlOTk5ZjdiZTU0OGFlYTQ3MzI0Yzc2YTZlZTJlIiwidGFnIjoiIn0%3D",
+          "domain": "www.boc.lk",
+          "path": "/",
+          "secure": true,
+          "httponly": false
+        },
+        {
+          "name": "bank_of_ceylon_session",
+          "value": "eyJpdiI6IkFXb1JEaGl2ZGpwL0tBVFJFMDBFUVE9PSIsInZhbHVlIjoiYmxvNisvWjM1czJyWUVqUEtqeEtZZ056UkQ5Y3VZblhwNGc0YlEyZEE1Z1BwK0N5OTd2Wk9Xa1ppNENGeTlxRlBVR1ExWTBuTVBvOE5QT2g0Wm90SlNQbHZ6Q2xpZXhaZ1A3a3hGelJqL1dOL1NXU1dZaDd3bGhDY2RXZ29CSVciLCJtYWMiOiJmODcxNGZjNzQxNDExNTc5NzM0YjAxNGU5NjUzMDQxZGZiMWVhZGM5ODdjYzQwZGVkYTFiNThkNTgwOTJlYzM3IiwidGFnIjoiIn0%3D",
+          "domain": "www.boc.lk",
+          "path": "/",
+          "secure": true,
+          "httponly": false
+        },
+        {
+          "name": "Path",
+          "value": "/",
+          "domain": "www.boc.lk",
+          "path": "/index.php/international-banking",
+          "secure": true,
+          "httponly": false
+        }
+      ],
+      "comments_count": 10,
+      "scripts_count": 10,
+      "redirect_chain": []
+    },
+    {
+      "url": "https://www.boc.lk/index.php/personal-banking/investment-plans/investment-accounts/abhimana-retirement-scheme",
+      "category": "Sensitive Content",
+      "sensitivity_level": "critical",
+      "status_code": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "content_length": 185618,
+      "response_time": 3.990093469619751,
+      "title": "BOC Abhimana Retirement Scheme | Bank of Ceylon | Bank of Ceylon",
+      "forms": [],
+      "technologies": [
+        "AWS",
+        "Nginx",
+        "PHP",
+        "Java"
+      ],
+      "security_headers": {
+        "X-Frame-Options": "DENY, SAMEORIGIN",
+        "X-XSS-Protection": "1; mode=block, 1; mode=block",
+        "X-Content-Type-Options": "nosniff, nosniff",
+        "Strict-Transport-Security": "max-age=31536000; includeSubDomains, max-age=31536000; includeSubDomains; preload",
+        "Content-Security-Policy": "frame-ancestors 'none';",
+        "Referrer-Policy": "strict-origin-when-cross-origin"
+      },
+      "cookies": [
+        {
+          "name": "AWSALB",
+          "value": "7vWDs8/vRvNv1dClfMz6Q3AkljL8PKDR1pFxnTnO8osiv2WZKXLMv9G2TjWTunNcRYBqQoN4zdmMv9qm5BHDwnLFtM6FmxPTmlJKKgDZgj9ckzv0O3bAJYi4ohPL",
+          "domain": "www.boc.lk",
+          "path": "/",
+          "secure": false,
+          "httponly": false
+        },
+        {
+          "name": "AWSALBCORS",
+          "value": "7vWDs8/vRvNv1dClfMz6Q3AkljL8PKDR1pFxnTnO8osiv2WZKXLMv9G2TjWTunNcRYBqQoN4zdmMv9qm5BHDwnLFtM6FmxPTmlJKKgDZgj9ckzv0O3bAJYi4ohPL",
+          "domain": "www.boc.lk",
+          "path": "/",
+          "secure": false,
+          "httponly": false
+        },
+        {
+          "name": "XSRF-TOKEN",
+          "value": "eyJpdiI6InRoVnFqNXpud0N2Nm9VZnZzSUoybUE9PSIsInZhbHVlIjoiYmJPTDZoL1lRQzc4djMyeWZvOFhLMitQclloZjFUQm9GSkZ5c2xxTkpPOW5DRTU1Z3NvMGNCc1MzWWJHRmZsQWxTOWdjSjA3UFR3OFZDb2U4S0xLaDZvZGZSSm0rV25abHdWSFhyUTFWa1ZqenpvUTMzR1RGd0pNYUtvd2ZhUW0iLCJtYWMiOiJiY2Y5NDJhMjk2NjYwMjUzMmE4YzcwODBjZWI2ZmRmZTA0MzhjODU3YmMyOWQxNTU5NGQwZjA4MzM3NTAwNzlhIiwidGFnIjoiIn0%3D",
+          "domain": "www.boc.lk",
+          "path": "/",
+          "secure": true,
+          "httponly": false
+        },
+        {
+          "name": "bank_of_ceylon_session",
+          "value": "eyJpdiI6InZoVmllYjM0U01ROWo0VDMzencra3c9PSIsInZhbHVlIjoiOERHYnJtK1hsN1ZFelZnYmQ4SDJiTDZ1WHBlTWhKc1RtanZaZWlucjk5RmJodkR3VHRQYml1SDlhVmhRQkk5Z01CMWxSanBQMjdXc001R2s0OXpWRThDWGl2STQraWN6S2UyWjhzZjMxbk5GRjhWZkFZVm96L1pGaDhVRXRuMDkiLCJtYWMiOiI4NDhiN2FiNTQxZDdlMDA3OWEyMzU0ZTk4N2FjNTI2Nzg4MTA4ZDAxN2MzMWFmZDhjZDhjNWM1YzA3OGE5MzkxIiwidGFnIjoiIn0%3D",
+          "domain": "www.boc.lk",
+          "path": "/",
+          "secure": true,
+          "httponly": false
+        },
+        {
+          "name": "Path",
+          "value": "/",
+          "domain": "www.boc.lk",
+          "path": "/index.php/personal-banking/investment-plans/investment-accounts",
+          "secure": true,
+          "httponly": false
+        }
+      ],
+      "comments_count": 11,
+      "scripts_count": 9,
+      "redirect_chain": []
+    },
+    {
+      "url": "https://www.boc.lk/index.php/personal-banking/term-deposits/fixed-deposits/prosperity-deposits",
+      "category": "Sensitive Content",
+      "sensitivity_level": "critical",
+      "status_code": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "content_length": 187326,
+      "response_time": 3.3097622394561768,
+      "title": "BOC Prosperity Deposit Scheme | Bank of Ceylon",
+      "forms": [],
+      "technologies": [
+        "AWS",
+        "Nginx",
+        "PHP",
+        "Java"
+      ],
+      "security_headers": {
+        "X-Frame-Options": "DENY, SAMEORIGIN",
+        "X-XSS-Protection": "1; mode=block, 1; mode=block",
+        "X-Content-Type-Options": "nosniff, nosniff",
+        "Strict-Transport-Security": "max-age=31536000; includeSubDomains, max-age=31536000; includeSubDomains; preload",
+        "Content-Security-Policy": "frame-ancestors 'none';",
+        "Referrer-Policy": "strict-origin-when-cross-origin"
+      },
+      "cookies": [
+        {
+          "name": "AWSALB",
+          "value": "o0FWh8hqp5b2qnoSkL3glBIT7iBm+cm0j7eBM+g28XOqZMSD76q8RSgoJ/AJRVn3EMcr0BhPMJLGu+F57NONzKr9wLYasi9qoCrOpiJJM+V6N9dfak8tBt5qkhbD",
+          "domain": "www.boc.lk",
+          "path": "/",
+          "secure": false,
+          "httponly": false
+        },
+        {
+          "name": "AWSALBCORS",
+          "value": "o0FWh8hqp5b2qnoSkL3glBIT7iBm+cm0j7eBM+g28XOqZMSD76q8RSgoJ/AJRVn3EMcr0BhPMJLGu+F57NONzKr9wLYasi9qoCrOpiJJM+V6N9dfak8tBt5qkhbD",
+          "domain": "www.boc.lk",
+          "path": "/",
+          "secure": false,
+          "httponly": false
+        },
+        {
+          "name": "XSRF-TOKEN",
+          "value": "eyJpdiI6IldZUTRQNkRMSFhCWGUvWHUyNjJ5WHc9PSIsInZhbHVlIjoiSGE4OXlyTlZtRWZnWXdaZGR5cHVoMHlKRXFvbWlPaEI1ZU9LZmM2ci9iQ3BvMUU0TS9GYnFGTmxjOENNOS9yL3lkNGx6TGVEZ3kzLzJ2QUE3Nnh5YXRYQUFZMFpXeFFqNnl3RGpJeDluSzlwVzFPS0xlRVJpV0NqYkQ1bzg5ZXAiLCJtYWMiOiJhZTE2YzMzY2MwYjA5MDUzMGQ2NGU1OWQ3NDQ1MjYyOTllMmZkZTFiMDdkMzZhY2ZkZjhhYmQ2ZmY1MTZiOTQ2IiwidGFnIjoiIn0%3D",
+          "domain": "www.boc.lk",
+          "path": "/",
+          "secure": true,
+          "httponly": false
+        },
+        {
+          "name": "bank_of_ceylon_session",
+          "value": "eyJpdiI6ImsrQm9KSVRxK2hvZkZyQXVXajJkNWc9PSIsInZhbHVlIjoiZWJITjJiTHptaEFaNWtzWjJrUmo2Ujl1b1lMeEVqbkowbWVjM1RhRFJjRVdHNElvUDgybkI4bkpUS0R3U3djZ0l1eERBcitDN3Y3UkE3Y1lBRmtINDdXaVlVc2p0c2FWWExRK1Y5ZlIySVVPY3Y1ZTM2YWxDWThadjM4MkhGUjYiLCJtYWMiOiI2ZjZmZmVhMGEzYWJhMGIxMmI4NDYyMWUwOGI4NzhmMDNjNjNlMWJhMzFmMmJmNDJmMjhlMGJiYzJlYWU0YjQzIiwidGFnIjoiIn0%3D",
+          "domain": "www.boc.lk",
+          "path": "/",
+          "secure": true,
+          "httponly": false
+        },
+        {
+          "name": "Path",
+          "value": "/",
+          "domain": "www.boc.lk",
+          "path": "/index.php/personal-banking/term-deposits/fixed-deposits",
+          "secure": true,
+          "httponly": false
+        }
+      ],
+      "comments_count": 11,
+      "scripts_count": 9,
+      "redirect_chain": []
+    },
+    {
+      "url": "https://www.boc.lk/index.php/international-banking/loans/loans/special-housing-loan-scheme-for-sri-lankans-resident-outside-of-sri-lanka-on-permanent-residency-visa-pr",
+      "category": "Sensitive Content",
+      "sensitivity_level": "critical",
+      "status_code": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "content_length": 325932,
+      "response_time": 4.4101221561431885,
+      "title": "Bank of Ceylon - Special housing loan scheme for Sri Lankans | Bank of Ceylon",
+      "forms": [],
+      "technologies": [
+        "AWS",
+        "Nginx",
+        "PHP",
+        "Java"
+      ],
+      "security_headers": {
+        "X-Frame-Options": "DENY, SAMEORIGIN",
+        "X-XSS-Protection": "1; mode=block, 1; mode=block",
+        "X-Content-Type-Options": "nosniff, nosniff",
+        "Strict-Transport-Security": "max-age=31536000; includeSubDomains, max-age=31536000; includeSubDomains; preload",
+        "Content-Security-Policy": "frame-ancestors 'none';",
+        "Referrer-Policy": "strict-origin-when-cross-origin"
+      },
+      "cookies": [
+        {
+          "name": "AWSALB",
+          "value": "TBFstpOA0wQb9uWg1n1eciRZipNwyuKB4Mqc9AeAvhY7aKAcIl0od1XaUhQ+/ZNUjyJyTl4/gLkFuI6XtNwpwvqdMl/fj8g5xq/0zdZvYmPcuLVRmh7mBbWlJfVs",
+          "domain": "www.boc.lk",
+          "path": "/",
+          "secure": false,
+          "httponly": false
+        },
+        {
+          "name": "AWSALBCORS",
+          "value": "TBFstpOA0wQb9uWg1n1eciRZipNwyuKB4Mqc9AeAvhY7aKAcIl0od1XaUhQ+/ZNUjyJyTl4/gLkFuI6XtNwpwvqdMl/fj8g5xq/0zdZvYmPcuLVRmh7mBbWlJfVs",
+          "domain": "www.boc.lk",
+          "path": "/",
+          "secure": false,
+          "httponly": false
+        },
+        {
+          "name": "XSRF-TOKEN",
+          "value": "eyJpdiI6IjZTZU1SN2k3dDVoSjdCV0RyMUNUVGc9PSIsInZhbHVlIjoiOHdRU3d3Qk1PUVpMNW1ha1AzckdtdUwxc3FXTTJsb2FCWVErVkJIUW00ZmdrYXBhVzBQVjlJNU1DSk85dHNxUzdTS3kxcVR6SFFZYllDSVVwSUx0Vnd4Z1M5d05xZVczcStJdElIR2JKWjZmYnRxdHUyYnluRFU1NUJqdUkwcXAiLCJtYWMiOiI2N2I0Y2UzMGFlZjI4NTk4ZDRjMDUxOWVlNzQ0MDcyYmJkMTBiOTM1OTYxMWU0MGM5MzY2OTZkNDM4N2ZhNDJjIiwidGFnIjoiIn0%3D",
+          "domain": "www.boc.lk",
+          "path": "/",
+          "secure": true,
+          "httponly": false
+        },
+        {
+          "name": "bank_of_ceylon_session",
+          "value": "eyJpdiI6IjNMQXQwT0VDUmlHdTJZZWN2UHE0SkE9PSIsInZhbHVlIjoiYUhLU1RueitoaERqNVdCVE1Femg4dlgzRlJqMjByVkhNOFZiZWxoOGczZ0ZJNWs3L3ZhV0YyL3o3LzBZcGNieVFWTlM4UjhYUWsyT1ZCZE9FaWxuemFjUUROV3ZYbGVPM3hUMitHdTNlQXBianFDdExscEVwVXhBRmFqMDY4WUIiLCJtYWMiOiJhZWE0NmUwYzJhYzk1MGRmNThiMzcwN2I2MmI2MWFmNzhmOGVlMDdjZTM2NmYxYWY4YmFkODY5NDY1OTMwNThjIiwidGFnIjoiIn0%3D",
+          "domain": "www.boc.lk",
+          "path": "/",
+          "secure": true,
+          "httponly": false
+        },
+        {
+          "name": "Path",
+          "value": "/",
+          "domain": "www.boc.lk",
+          "path": "/index.php/international-banking/loans/loans",
+          "secure": true,
+          "httponly": false
+        }
+      ],
+      "comments_count": 10,
+      "scripts_count": 9,
+      "redirect_chain": []
+    },
+    {
+      "url": "https://www.boc.lk/index.php/personal-banking/cards/credit-cards",
+      "category": "Sensitive Content",
+      "sensitivity_level": "critical",
+      "status_code": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "content_length": 192419,
+      "response_time": 1.6399259567260742,
+      "title": "Cards | Bank of Ceylon",
+      "forms": [],
+      "technologies": [
+        "AWS",
+        "Nginx",
+        "PHP",
+        "Java"
+      ],
+      "security_headers": {
+        "X-Frame-Options": "DENY, SAMEORIGIN",
+        "X-XSS-Protection": "1; mode=block, 1; mode=block",
+        "X-Content-Type-Options": "nosniff, nosniff",
+        "Strict-Transport-Security": "max-age=31536000; includeSubDomains, max-age=31536000; includeSubDomains; preload",
+        "Content-Security-Policy": "frame-ancestors 'none';",
+        "Referrer-Policy": "strict-origin-when-cross-origin"
+      },
+      "cookies": [
+        {
+          "name": "AWSALB",
+          "value": "kAsMv7aEiB78GZcRSoxpXd7XlOoH7RG3cqR+lUdz/AzPPLb/U9ABzNrevBOz0emYAH6QN9Fq2sS+mp+VACQW8xr5ifCAlwVhNonN1LJVUOvAT9xqZdZBOFSmSDT5",
+          "domain": "www.boc.lk",
+          "path": "/",
+          "secure": false,
+          "httponly": false
+        },
+        {
+          "name": "AWSALBCORS",
+          "value": "kAsMv7aEiB78GZcRSoxpXd7XlOoH7RG3cqR+lUdz/AzPPLb/U9ABzNrevBOz0emYAH6QN9Fq2sS+mp+VACQW8xr5ifCAlwVhNonN1LJVUOvAT9xqZdZBOFSmSDT5",
+          "domain": "www.boc.lk",
+          "path": "/",
+          "secure": false,
+          "httponly": false
+        },
+        {
+          "name": "XSRF-TOKEN",
+          "value": "eyJpdiI6Im1rTURaVTRGMW5FcnRpSmFHdnFjL1E9PSIsInZhbHVlIjoiRjBVOUlvSlQwSURTZE9mUW5VbUhUb0NNS2pTeCtYT085ZHV4Yi9KKzJFTUdyQ2VBZEJoQ21ad0VmcEFSck9GR1dIWkZDOHhUVDg5S1V2WEdVL1RKM2VseFQwRSsvc3VQZTN6NUFndlQ4VDkzUDBsMzJHakI0R3B5TUp6cm9xSnEiLCJtYWMiOiI4NWZjNWJlM2U1Y2M1MzY4YzZiOTZlYTYzMWYzNGNiYjUyN2ZkMzBmNmE4MjQ0NzY4MDQwNmUxNzgxZWJiNjAwIiwidGFnIjoiIn0%3D",
+          "domain": "www.boc.lk",
+          "path": "/",
+          "secure": true,
+          "httponly": false
+        },
+        {
+          "name": "bank_of_ceylon_session",
+          "value": "eyJpdiI6IkdWZXZIZXpCZHdFellqaGlaRWxPU0E9PSIsInZhbHVlIjoiRmY4UE9TQVdYZkVzZDNZaHBiWGR4LzVXVVBSZkpNZXF2Y080ZlZPOW4xcFZ4QjU3SnlLNUFNMVBXRDlLaVdmRWdhb1hGeG1TWXZlbjAvaTdSL1NLdjA0YzNpaVZxWGh6bFh4MDZNOVdWaExKUWlZUC9MQitTQkhhOENnajJLQU4iLCJtYWMiOiJiNDE4MTYwMjE3ZDA4Y2Q1YjIyNjQzYjg1NzkxMWM2OGY5YzY5MDA3ZjQ0ZWY3NzE2N2Y1MDlkMDc1ODA5ZDVjIiwidGFnIjoiIn0%3D",
+          "domain": "www.boc.lk",
+          "path": "/",
+          "secure": true,
+          "httponly": false
+        },
+        {
+          "name": "Path",
+          "value": "/",
+          "domain": "www.boc.lk",
+          "path": "/index.php/personal-banking/cards",
+          "secure": true,
+          "httponly": false
+        }
+      ],
+      "comments_count": 10,
+      "scripts_count": 9,
+      "redirect_chain": []
+    },
+    {
+      "url": "https://www.boc.lk/personal-banking/term-deposits/fixed-deposits",
+      "category": "Sensitive Content",
+      "sensitivity_level": "critical",
+      "status_code": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "content_length": 187895,
+      "response_time": 2.031381368637085,
+      "title": "Fixed Deposits | BOC | Bank of Ceylon",
+      "forms": [],
+      "technologies": [
+        "AWS",
+        "Nginx",
+        "PHP",
+        "Java"
+      ],
+      "security_headers": {
+        "X-Frame-Options": "DENY, SAMEORIGIN",
+        "X-XSS-Protection": "1; mode=block, 1; mode=block",
+        "X-Content-Type-Options": "nosniff, nosniff",
+        "Strict-Transport-Security": "max-age=31536000; includeSubDomains, max-age=31536000; includeSubDomains; preload",
+        "Content-Security-Policy": "frame-ancestors 'none';",
+        "Referrer-Policy": "strict-origin-when-cross-origin"
+      },
+      "cookies": [
+        {
+          "name": "AWSALB",
+          "value": "V1i4kykuhiogdCja5aJ6n0iOGz4eZeTHzeYI4XjmRYWEuAHttFNv8V0hlB6oTxCIh6UxZHrhsaUNHT/UlrSsD6O2ktRGo1jxJCt18VLO2HfZW92aMo4eUUY/wIvz",
+          "domain": "www.boc.lk",
+          "path": "/",
+          "secure": false,
+          "httponly": false
+        },
+        {
+          "name": "AWSALBCORS",
+          "value": "V1i4kykuhiogdCja5aJ6n0iOGz4eZeTHzeYI4XjmRYWEuAHttFNv8V0hlB6oTxCIh6UxZHrhsaUNHT/UlrSsD6O2ktRGo1jxJCt18VLO2HfZW92aMo4eUUY/wIvz",
+          "domain": "www.boc.lk",
+          "path": "/",
+          "secure": false,
+          "httponly": false
+        },
+        {
+          "name": "XSRF-TOKEN",
+          "value": "eyJpdiI6InNmVkJQcDRMK25hcXErTEtCd1pqQWc9PSIsInZhbHVlIjoiUzAxMmRWODhjK0xKdXVTTzhZaVAyU084Vi9kMGNpZUZDSERQQjl2Sm02RERYOEUwU2huOXd4empqSW9uaGVQNmlKY0U5ZmxaOVo1cEJJUXFzeEpWOXllK1lZLytwTGVSQWI4QzV3NFZUVGFUdkNqeHVKckVkNlNXY3huN3hEcHEiLCJtYWMiOiI3NWYzNzE3ZjhhM2I4ZGVhMTRlYjA5MTQ5YTkyOWVlNGM4ZDJhY2E1Y2E1MTE3YzFiMjEzYWY3N2JmMzYxOWM1IiwidGFnIjoiIn0%3D",
+          "domain": "www.boc.lk",
+          "path": "/",
+          "secure": true,
+          "httponly": false
+        },
+        {
+          "name": "bank_of_ceylon_session",
+          "value": "eyJpdiI6IkpodzVrMlAwRC9nc0lZYXIxa1pMemc9PSIsInZhbHVlIjoicDk0b3Z6WTRoNTU0cXRBZ2REcC94MGVTcjNVaXBmUUlySklxc0pUZHNZTE5jUlowaHFvU2lheHliRFZoZmhVQ05MM3hUMnpzcDUxK3hUbkxQOHdQbkN4K3lwU2hkaHIxUDkxRStLQUplY3g3QzhmOC9YZjNuOGtOOVZMdS8yK0QiLCJtYWMiOiIxY2UwMDA1OWRkOTFlZGI4YmRjZDQ5MzMxZDg2YmJlYzk1ZmM2YzU3YjAyYjZkN2MzYjAwNjAyMDdiMDM5NjMxIiwidGFnIjoiIn0%3D",
+          "domain": "www.boc.lk",
+          "path": "/",
+          "secure": true,
+          "httponly": false
+        },
+        {
+          "name": "Path",
+          "value": "/",
+          "domain": "www.boc.lk",
+          "path": "/personal-banking/term-deposits",
+          "secure": true,
+          "httponly": false
+        }
+      ],
+      "comments_count": 10,
+      "scripts_count": 9,
+      "redirect_chain": []
+    },
+    {
+      "url": "https://www.boc.lk/index.php/personal-banking/savings-accounts/ladies-regular-savings/ran-ulpatha",
+      "category": "Sensitive Content",
+      "sensitivity_level": "critical",
+      "status_code": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "content_length": 184918,
+      "response_time": 1.759809970855713,
+      "title": "BOC Ran Ulpatha | Bank of Ceylon | Bank of Ceylon",
+      "forms": [],
+      "technologies": [
+        "AWS",
+        "Nginx",
+        "PHP",
+        "Java"
+      ],
+      "security_headers": {
+        "X-Frame-Options": "DENY, SAMEORIGIN",
+        "X-XSS-Protection": "1; mode=block, 1; mode=block",
+        "X-Content-Type-Options": "nosniff, nosniff",
+        "Strict-Transport-Security": "max-age=31536000; includeSubDomains, max-age=31536000; includeSubDomains; preload",
+        "Content-Security-Policy": "frame-ancestors 'none';",
+        "Referrer-Policy": "strict-origin-when-cross-origin"
+      },
+      "cookies": [
+        {
+          "name": "AWSALB",
+          "value": "SqoThGod6WYFGeRWsl2//ITGYXOm84f4C3mFJyQWfmZD8WxyA33WMkZ0UWl3B1/EPMOG6TYwINKyqRJmCHjCFmnaB6StWJSJwpxAI7f+DkDLtwnM9RXTCojyM2lW",
+          "domain": "www.boc.lk",
+          "path": "/",
+          "secure": false,
+          "httponly": false
+        },
+        {
+          "name": "AWSALBCORS",
+          "value": "SqoThGod6WYFGeRWsl2//ITGYXOm84f4C3mFJyQWfmZD8WxyA33WMkZ0UWl3B1/EPMOG6TYwINKyqRJmCHjCFmnaB6StWJSJwpxAI7f+DkDLtwnM9RXTCojyM2lW",
+          "domain": "www.boc.lk",
+          "path": "/",
+          "secure": false,
+          "httponly": false
+        },
+        {
+          "name": "XSRF-TOKEN",
+          "value": "eyJpdiI6Ik00M1F6b3N0TGNTb3RyKzRSSkt5MEE9PSIsInZhbHVlIjoiNkhVNGkxWHVOakhZd0t1eWRXZGZmSDB5eXd3Q05IR2xNTmxOMDRPbVgrUnQ5d01VV3VwUHV6VTlIRVkxQzRLYWowc2JqK0pCaUlaNU9PV2hYWnlnU24rU2doODk4Qnp6VXZIL2tJeU1WUDZHLzNuVDhkeldKWlNjY1FrNyt3UFkiLCJtYWMiOiJkMjE4OTdlNjExOGJiZTRkYWIyOTFjOTMzYmMzYTJkMGY1YjUzMGE3YWI0NDgxZjI2YzlkOTljZmMzZmZkNTczIiwidGFnIjoiIn0%3D",
+          "domain": "www.boc.lk",
+          "path": "/",
+          "secure": true,
+          "httponly": false
+        },
+        {
+          "name": "bank_of_ceylon_session",
+          "value": "eyJpdiI6IlBrbENraHJUSFJiSGNydEI5Nnh6NXc9PSIsInZhbHVlIjoiZmxyQUo1RUxjalNzWGY1Z0ppRTZCYTJORHNreElBSVl4dkpXZjZjQjJzSlJnN1lpZHk2YlN4SHZCLzQvaXcvWmY0SjR0c3BtM1h1M2pJdXgyWHlJTU5waHJpTTlYSDBtY0VmMVhEVy95STZyU005R2tEaW5FSDB6SUx2eVgzWTkiLCJtYWMiOiI1YmViMTE0MjFiNTFhNDg1NzJjN2I3Njg4Zjk2NTUyOWNkZDdmZGQ0NjBhZDAzNjk5Y2Y0NmVmYjk2YjBlODJmIiwidGFnIjoiIn0%3D",
+          "domain": "www.boc.lk",
+          "path": "/",
+          "secure": true,
+          "httponly": false
+        },
+        {
+          "name": "Path",
+          "value": "/",
+          "domain": "www.boc.lk",
+          "path": "/index.php/personal-banking/savings-accounts/ladies-regular-savings",
+          "secure": true,
+          "httponly": false
+        }
+      ],
+      "comments_count": 11,
+      "scripts_count": 9,
+      "redirect_chain": []
+    },
+    {
+      "url": "https://www.boc.lk/personal-banking/cards/credit-cards/boc-credit-cards",
+      "category": "Sensitive Content",
+      "sensitivity_level": "critical",
+      "status_code": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "content_length": 181397,
+      "response_time": 3.071589708328247,
+      "title": "BOC Credit Cards | Best Credit Card in Sri Lanka - BOC | Bank of Ceylon",
+      "forms": [],
+      "technologies": [
+        "AWS",
+        "Nginx",
+        "PHP",
+        "Java"
+      ],
+      "security_headers": {
+        "X-Frame-Options": "DENY, SAMEORIGIN",
+        "X-XSS-Protection": "1; mode=block, 1; mode=block",
+        "X-Content-Type-Options": "nosniff, nosniff",
+        "Strict-Transport-Security": "max-age=31536000; includeSubDomains, max-age=31536000; includeSubDomains; preload",
+        "Content-Security-Policy": "frame-ancestors 'none';",
+        "Referrer-Policy": "strict-origin-when-cross-origin"
+      },
+      "cookies": [
+        {
+          "name": "AWSALB",
+          "value": "uJToFbZfoYdUDDAz0ashMSXs33ZCCT1XMicgZtVeINv2Lmk38iSX5/7A5Dwr50PRYCw9wg2Y8ap++Dgh+mr0chENvntNGDi/QnaxwQyRRcYBV5t2Jz2Ns4hBxsbX",
+          "domain": "www.boc.lk",
+          "path": "/",
+          "secure": false,
+          "httponly": false
+        },
+        {
+          "name": "AWSALBCORS",
+          "value": "uJToFbZfoYdUDDAz0ashMSXs33ZCCT1XMicgZtVeINv2Lmk38iSX5/7A5Dwr50PRYCw9wg2Y8ap++Dgh+mr0chENvntNGDi/QnaxwQyRRcYBV5t2Jz2Ns4hBxsbX",
+          "domain": "www.boc.lk",
+          "path": "/",
+          "secure": false,
+          "httponly": false
+        },
+        {
+          "name": "XSRF-TOKEN",
+          "value": "eyJpdiI6IkFFSTdMbno5MzZ0R0ZIRTl0UXFzcVE9PSIsInZhbHVlIjoidlFGTnptMjBNd2txRnZtWU94MUxiRHBPMkZNckQ5eUxNMzNYeVlITDZ5dUp4Rk0zUmU0SmZNUHowajhqaC9Sb1RkeXJ5aG5MMjBjT2R1SmhQQzBuempSNk5acTNmR3pLL0RzMVdXUlFsSkhmenVqT2NYcFJha3g2OWl6NGJRbmoiLCJtYWMiOiJhNmU1MmQ0OWVkMzNjYzQ3MTYwMmU4MTM0NDU3YmVkM2EwMzI5NmQ0ZDY3MTdmNTk1YWZlMmQ0ODJiODk5OWZlIiwidGFnIjoiIn0%3D",
+          "domain": "www.boc.lk",
+          "path": "/",
+          "secure": true,
+          "httponly": false
+        },
+        {
+          "name": "bank_of_ceylon_session",
+          "value": "eyJpdiI6IlNhaGVTVUxPcEhCaXh4R1UyUG1MRVE9PSIsInZhbHVlIjoiaDh4WHNvMlJWQ2tEaGwvL0QzNWNGTERGWnhLRDI4SWlkWTBzSndKY241QjMvT29pWTMwVTBuQWI3YU14L1cyU204MXhJcXpXMVNNZlpraEh0U1A0OGpTbHBkd2dJQ3dVZVNTbldUTHlHVVN3Q0N0bHI0ajFvdnhZa0taOGFzZEkiLCJtYWMiOiJmZjQ2MzEyNTEwOTQwZjBiN2E5NzQ3ZTQ0ODkyM2I3YWRlMWVkOWRlMTcyZjVlNTI4YTA5MjE3MDU4ZmFhNjhlIiwidGFnIjoiIn0%3D",
+          "domain": "www.boc.lk",
+          "path": "/",
+          "secure": true,
+          "httponly": false
+        },
+        {
+          "name": "Path",
+          "value": "/",
+          "domain": "www.boc.lk",
+          "path": "/personal-banking/cards/credit-cards",
+          "secure": true,
+          "httponly": false
+        }
+      ],
+      "comments_count": 11,
+      "scripts_count": 9,
+      "redirect_chain": []
+    },
+    {
+      "url": "https://www.boc.lk/personal-banking/term-deposits/fixed-deposits/100-200-400-days-investments",
+      "category": "Sensitive Content",
+      "sensitivity_level": "critical",
+      "status_code": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "content_length": 179744,
+      "response_time": 1.8681588172912598,
+      "title": "BOC 100, 200 &amp; 400 Days Investments | Bank of Ceylon",
+      "forms": [],
+      "technologies": [
+        "AWS",
+        "Nginx",
+        "PHP",
+        "Java"
+      ],
+      "security_headers": {
+        "X-Frame-Options": "DENY, SAMEORIGIN",
+        "X-XSS-Protection": "1; mode=block, 1; mode=block",
+        "X-Content-Type-Options": "nosniff, nosniff",
+        "Strict-Transport-Security": "max-age=31536000; includeSubDomains, max-age=31536000; includeSubDomains; preload",
+        "Content-Security-Policy": "frame-ancestors 'none';",
+        "Referrer-Policy": "strict-origin-when-cross-origin"
+      },
+      "cookies": [
+        {
+          "name": "AWSALB",
+          "value": "Z44Kmc32FTyYnkeQQsxgJJrdWAvQumUJ2/cs4x+zdN8cqT7/esLoL+pYhtu05dgqe6f+Q0a5GyIYQB44m2MNRXTsACvwmSSO5T69/C3Q1WTi+0rfYYJwcWgIzUh5",
+          "domain": "www.boc.lk",
+          "path": "/",
+          "secure": false,
+          "httponly": false
+        },
+        {
+          "name": "AWSALBCORS",
+          "value": "Z44Kmc32FTyYnkeQQsxgJJrdWAvQumUJ2/cs4x+zdN8cqT7/esLoL+pYhtu05dgqe6f+Q0a5GyIYQB44m2MNRXTsACvwmSSO5T69/C3Q1WTi+0rfYYJwcWgIzUh5",
+          "domain": "www.boc.lk",
+          "path": "/",
+          "secure": false,
+          "httponly": false
+        },
+        {
+          "name": "XSRF-TOKEN",
+          "value": "eyJpdiI6IlY4MUlxN1JpczE4RUk5TGVRZHd0RVE9PSIsInZhbHVlIjoiTkQrRVduWXlxbHFrU2NIZHhnUnMva1ZwV0I0VUpOWllFV3lNYlF0elNENEhjSHMyeWVBS2tXdmxFeURzY0tWMEJUSFd1OG5oM2ZGV1JLcGxCYTUrNEU1dzNPNGpibHNvWDYyWkc0Y3FCQ1ZSWmZNNWl5a3MwNHdsSC9YWHZBL2wiLCJtYWMiOiI1MDYyYjljMWZjNjA1YjA3ZGVlZmVhM2JiZTMwYTg0NjQ4MmEwMmJiZGVhN2JhYjRlOWE2OWY1YTRiYTg3ZGFkIiwidGFnIjoiIn0%3D",
+          "domain": "www.boc.lk",
+          "path": "/",
+          "secure": true,
+          "httponly": false
+        },
+        {
+          "name": "bank_of_ceylon_session",
+          "value": "eyJpdiI6Im1tUFF0VFZ2YWY2ai9MTUQ0bE1xMHc9PSIsInZhbHVlIjoieG1yd3hRR1loZ29XTk92c0tTeTllOXJTajdFcElaZy9BcDZvc0R4ajlFOXpmN25HdTM4RjkwZVY1Nkc5VDhlay9JOXJxV3pKQ1BPa0lTN2lCLzBmNGxwOUJPa3gvVGlwUStYQWNMRHJLM3RBeWhkMVFacVpWVzFnVXpHeStSYVMiLCJtYWMiOiI2OTgxODE4NmU1MTVhOTZkZjIxNWNmNmIzOWYyZDEzNjZjOWY5OGEyMzU3ZWM3MWUxYWY4Nzg3MTdmN2ZkMGJkIiwidGFnIjoiIn0%3D",
+          "domain": "www.boc.lk",
+          "path": "/",
+          "secure": true,
+          "httponly": false
+        },
+        {
+          "name": "Path",
+          "value": "/",
+          "domain": "www.boc.lk",
+          "path": "/personal-banking/term-deposits/fixed-deposits",
+          "secure": true,
+          "httponly": false
+        }
+      ],
+      "comments_count": 11,
+      "scripts_count": 9,
+      "redirect_chain": []
+    },
+    {
+      "url": "https://www.boc.lk/personal-banking/other-services/safe-deposit-lockers/safe-deposit-lockers",
+      "category": "Sensitive Content",
+      "sensitivity_level": "critical",
+      "status_code": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "content_length": 180943,
+      "response_time": 1.8056535720825195,
+      "title": "Safe Deposit Lockers | Bank of Ceylon | Bank of Ceylon",
+      "forms": [],
+      "technologies": [
+        "AWS",
+        "Nginx",
+        "PHP",
+        "Java"
+      ],
+      "security_headers": {
+        "X-Frame-Options": "DENY, SAMEORIGIN",
+        "X-XSS-Protection": "1; mode=block, 1; mode=block",
+        "X-Content-Type-Options": "nosniff, nosniff",
+        "Strict-Transport-Security": "max-age=31536000; includeSubDomains, max-age=31536000; includeSubDomains; preload",
+        "Content-Security-Policy": "frame-ancestors 'none';",
+        "Referrer-Policy": "strict-origin-when-cross-origin"
+      },
+      "cookies": [
+        {
+          "name": "AWSALB",
+          "value": "UuWJOS6wS+o6SqhmnxlVn5QYUUgskT06t0UXouSNM4B2FsZicbs/6UJVs+/1jF0W3n9SwemDZSpf15+b69EtROT/mtIQlR/XLonZkOaPhDBg8Oj6CcvUqi6YCpvn",
+          "domain": "www.boc.lk",
+          "path": "/",
+          "secure": false,
+          "httponly": false
+        },
+        {
+          "name": "AWSALBCORS",
+          "value": "UuWJOS6wS+o6SqhmnxlVn5QYUUgskT06t0UXouSNM4B2FsZicbs/6UJVs+/1jF0W3n9SwemDZSpf15+b69EtROT/mtIQlR/XLonZkOaPhDBg8Oj6CcvUqi6YCpvn",
+          "domain": "www.boc.lk",
+          "path": "/",
+          "secure": false,
+          "httponly": false
+        },
+        {
+          "name": "XSRF-TOKEN",
+          "value": "eyJpdiI6IndYNzRwbzd2OElYTkdMMWdYZzdFbnc9PSIsInZhbHVlIjoiUDg5RnlwQmVUWThmanR6YlloQS90U0hvaUVaamZUYU1Zd1R5ZUhQQythMWY2Rkx2WU5ZNmZqdTNEOHJTeXJ2NnNGcEVWZmJXMVFPK0J2TWtZekdMa3BoMXVrSjAzWDFBVVgxYnBxcUF4WGhDNm93NWk2Zlg1S3BQL0YrbC91aVgiLCJtYWMiOiIzOGFlMTY5YzBkZmE0OTgwYWI0Nzg0YjZhMTc3YTE3OTk4YmNjODUxMmZiOTY4ZTczZDMxNTg1OGVmYmVmNzQ4IiwidGFnIjoiIn0%3D",
+          "domain": "www.boc.lk",
+          "path": "/",
+          "secure": true,
+          "httponly": false
+        },
+        {
+          "name": "bank_of_ceylon_session",
+          "value": "eyJpdiI6IkU5MHh0bi91UlZZSXpQZ1AvSmpCQXc9PSIsInZhbHVlIjoiUjN1MlFFR0x1Wk5CTlRTOEs0dnc1dGdSdy9oaW9YRkJnYm14NmJZdHVVOGNPMUpNWWlOenFDVisvSzM5aE52UDdEYnFOV3ppaHdGYXBWaEtLQXY3OERSc21Ld0w0NUNjVFNSblBKNFFScjFxZ2J0WkxKWVQ5eGR1UEhCdktVS1ciLCJtYWMiOiIxZTNlYWFjNTBlNmYyMWY0MDE4NGYyZmYzOWYwMmM5MzI2MWE2ZThmNzQ5NDE3YzQ5YWE2NDQzMjVlOWU4YjM2IiwidGFnIjoiIn0%3D",
+          "domain": "www.boc.lk",
+          "path": "/",
+          "secure": true,
+          "httponly": false
+        },
+        {
+          "name": "Path",
+          "value": "/",
+          "domain": "www.boc.lk",
+          "path": "/personal-banking/other-services/safe-deposit-lockers",
+          "secure": true,
+          "httponly": false
+        }
+      ],
+      "comments_count": 11,
+      "scripts_count": 9,
+      "redirect_chain": []
+    },
+    {
+      "url": "https://www.boc.lk/assets/js/lib.js?id=ed272012c3809447ebf45d3077fa5826",
+      "category": "Sensitive Content",
+      "sensitivity_level": "critical",
+      "status_code": 200,
+      "content_type": "application/javascript",
+      "content_length": 1447347,
+      "response_time": 0.7421188354492188,
+      "title": "",
+      "forms": [
+        {
+          "action": "",
+          "method": "GET",
+          "inputs": []
+        },
+        {
+          "action": "",
+          "method": "GET",
+          "inputs": []
+        }
+      ],
+      "technologies": [
+        "ASP.NET",
+        "Nginx",
+        "PHP",
+        "AWS"
+      ],
+      "security_headers": {
+        "X-Frame-Options": "SAMEORIGIN",
+        "X-XSS-Protection": "1; mode=block",
+        "X-Content-Type-Options": "nosniff",
+        "Strict-Transport-Security": "max-age=31536000; includeSubDomains; preload"
+      },
+      "cookies": [
+        {
+          "name": "AWSALB",
+          "value": "mfWhYqt5+TWhlcvnX7K8v8Hkuiq983d2HkI180YmaSSReIi8iIszL+rfhpga/+DYemYByG0/ZZ7LRgBIY2NjM36vNY4L2RQkgfXfz7xO95gmq+AuSfBBsKTFPt0B",
+          "domain": "www.boc.lk",
+          "path": "/",
+          "secure": false,
+          "httponly": false
+        },
+        {
+          "name": "AWSALBCORS",
+          "value": "mfWhYqt5+TWhlcvnX7K8v8Hkuiq983d2HkI180YmaSSReIi8iIszL+rfhpga/+DYemYByG0/ZZ7LRgBIY2NjM36vNY4L2RQkgfXfz7xO95gmq+AuSfBBsKTFPt0B",
+          "domain": "www.boc.lk",
+          "path": "/",
+          "secure": false,
+          "httponly": false
+        },
+        {
+          "name": "Path",
+          "value": "/",
+          "domain": "www.boc.lk",
+          "path": "/assets/js",
+          "secure": true,
+          "httponly": false
+        }
+      ],
+      "comments_count": 0,
+      "scripts_count": 0,
+      "redirect_chain": []
+    },
+    {
+      "url": "https://www.boc.lk/careers",
+      "category": "Sensitive Content",
+      "sensitivity_level": "critical",
+      "status_code": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "content_length": 183014,
+      "response_time": 1.4999582767486572,
+      "title": "Vacancies at BOC | Bank of Ceylon | Bank of Ceylon",
+      "forms": [],
+      "technologies": [
+        "AWS",
+        "Nginx",
+        "PHP",
+        "Java"
+      ],
+      "security_headers": {
+        "X-Frame-Options": "DENY, SAMEORIGIN",
+        "X-XSS-Protection": "1; mode=block, 1; mode=block",
+        "X-Content-Type-Options": "nosniff, nosniff",
+        "Strict-Transport-Security": "max-age=31536000; includeSubDomains, max-age=31536000; includeSubDomains; preload",
+        "Content-Security-Policy": "frame-ancestors 'none';",
+        "Referrer-Policy": "strict-origin-when-cross-origin"
+      },
+      "cookies": [
+        {
+          "name": "AWSALB",
+          "value": "7UpeeuU0iAEl4tLOs/2dCCFoeA7i2rHVQd3aAYdlBag4pzoEEhqtSOvRY3entbV408JgYopqrWf9kcQ8APjkZ0pV/TyFPpqKbX0QJAgJRrNCUjla0AO9gipSxtj+",
+          "domain": "www.boc.lk",
+          "path": "/",
+          "secure": false,
+          "httponly": false
+        },
+        {
+          "name": "AWSALBCORS",
+          "value": "7UpeeuU0iAEl4tLOs/2dCCFoeA7i2rHVQd3aAYdlBag4pzoEEhqtSOvRY3entbV408JgYopqrWf9kcQ8APjkZ0pV/TyFPpqKbX0QJAgJRrNCUjla0AO9gipSxtj+",
+          "domain": "www.boc.lk",
+          "path": "/",
+          "secure": false,
+          "httponly": false
+        },
+        {
+          "name": "XSRF-TOKEN",
+          "value": "eyJpdiI6ImpDUysyWlBXUVlOeHJCUDhCZ3BqZkE9PSIsInZhbHVlIjoiZGlGNlY0Y2lSa1MvNkZsdmdEOWdzL0MrODg1MXZkeUY2ZzRtS2t1c0F4TEhtUG1haE5QUHp2Yk9jK0hhdGsvZVNpZ1UzT2JJWXhIUHNZM2xmb08rYnN1S1JwNytqN3c5Q0RSclBTSzVESFVpcGRaZE5xdlZ6UmNrYVFTd3JHRFoiLCJtYWMiOiJjOTFhZjlkODg3YjZmZThiNmUyYTdmYTkyYjkzYjY5ODU5Y2EzNjFiNDQzNDA1MmU5ZTZlM2RlOWJhMWU4ODQzIiwidGFnIjoiIn0%3D",
+          "domain": "www.boc.lk",
+          "path": "/",
+          "secure": true,
+          "httponly": false
+        },
+        {
+          "name": "bank_of_ceylon_session",
+          "value": "eyJpdiI6IlErWXR2VzN1M2liMXZOamR3c2cvZEE9PSIsInZhbHVlIjoiUXFOK1VrdmszUWxadnVoZEYzaW4vRFFYL0RrbXdqNGhKSjlZOEo1L2FsWFpldkFmaW5zdE5FOCtmeEFLRlVTUEZ1bnhYMmpmRlBVQ29KR2xrK0dZdVgweTc0VTlUdi9PRU1QNStvcDdramJ2MVA5NGRwNWVFKy8vYzV6NHdzVEoiLCJtYWMiOiJiMTg5OWQ0MzhlYjU2Y2U0ZTdmM2ZiMTk1OGU2NWE5NjIxNDJmM2VlZDk1YTRmNzg0OWRiZjU4MjZjM2E0MjQzIiwidGFnIjoiIn0%3D",
+          "domain": "www.boc.lk",
+          "path": "/",
+          "secure": true,
+          "httponly": false
+        },
+        {
+          "name": "Path",
+          "value": "/",
+          "domain": "www.boc.lk",
+          "path": "/",
+          "secure": true,
+          "httponly": false
+        }
+      ],
+      "comments_count": 10,
+      "scripts_count": 9,
+      "redirect_chain": []
+    },
+    {
+      "url": "https://www.boc.lk/international-banking/deposits/deposit-accounts/my-sri-lanka",
+      "category": "Sensitive Content",
+      "sensitivity_level": "critical",
+      "status_code": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "content_length": 330231,
+      "response_time": 3.0351943969726562,
+      "title": "BOC My Sri Lanka FC Account | Bank of Ceylon | Bank of Ceylon",
+      "forms": [],
+      "technologies": [
+        "AWS",
+        "Nginx",
+        "PHP",
+        "Java"
+      ],
+      "security_headers": {
+        "X-Frame-Options": "DENY, SAMEORIGIN",
+        "X-XSS-Protection": "1; mode=block, 1; mode=block",
+        "X-Content-Type-Options": "nosniff, nosniff",
+        "Strict-Transport-Security": "max-age=31536000; includeSubDomains, max-age=31536000; includeSubDomains; preload",
+        "Content-Security-Policy": "frame-ancestors 'none';",
+        "Referrer-Policy": "strict-origin-when-cross-origin"
+      },
+      "cookies": [
+        {
+          "name": "AWSALB",
+          "value": "7m4XooeQHa8VqwaRI3mdmreQhC2v+cvxGMeFctT8FYH4/+8b+I7DdSSIiHVIrj54oB0ovnPV7+djIBXU5wcW10RXTSLjATJhvxYSEBy1enYExxBpYNuKJPSlof9Z",
+          "domain": "www.boc.lk",
+          "path": "/",
+          "secure": false,
+          "httponly": false
+        },
+        {
+          "name": "AWSALBCORS",
+          "value": "7m4XooeQHa8VqwaRI3mdmreQhC2v+cvxGMeFctT8FYH4/+8b+I7DdSSIiHVIrj54oB0ovnPV7+djIBXU5wcW10RXTSLjATJhvxYSEBy1enYExxBpYNuKJPSlof9Z",
+          "domain": "www.boc.lk",
+          "path": "/",
+          "secure": false,
+          "httponly": false
+        },
+        {
+          "name": "XSRF-TOKEN",
+          "value": "eyJpdiI6ImNHbnRpMlpjS2hVSFFieGhVaGpUQ0E9PSIsInZhbHVlIjoiVDdsUG00eGRhclRzdUtXRHhiamN0c0tqNkVucGhlYnRVYXNYSDNvcGkrYStYUTBSSUh4SEt5dWNKbjZ5cjQzQzczV0ZzNk04SHBTaWREN2NoYWlFRFdBRXVXWGFsSDFmZnJNZUdtSEViRGdaSHp2bDBlcHZjWDZJTkNVNGFXTWciLCJtYWMiOiJmYzVkZGM0MGEwNTdkMjU4NmJjYjczMjk2NDBmZDYwOWNhYmZjYTZlODNiZmE3MzVmMjE0MmRhMmM2MmUzYzE3IiwidGFnIjoiIn0%3D",
+          "domain": "www.boc.lk",
+          "path": "/",
+          "secure": true,
+          "httponly": false
+        },
+        {
+          "name": "bank_of_ceylon_session",
+          "value": "eyJpdiI6IlJldTdYNS9nZmxWVDRZRGxzc3lSWkE9PSIsInZhbHVlIjoiY1hpcHVvMWREL3NVWTdhUVF1SmNWTXdvM0VjS3JTaklkOStWNk5JS3JjSEVUY0hUL0p5bzFoMlRNczBHMTl4bHZDVmI1U20rRUVMNDJKSGZFQVc4ZHBOY2lXWTRoZllWUTVDSFJGM3VvSjNUKzZaM1M1MzB2R3N2eUV5RGpGTjIiLCJtYWMiOiI5ZDA4NzJlM2M3YWQ4MTJlNGE5OTc4M2RmNDdlNDg2NDVmYjE4ZmY1NzEyYjc4ODRmOTg2YjQwYTUwZmFiMjQ1IiwidGFnIjoiIn0%3D",
+          "domain": "www.boc.lk",
+          "path": "/",
+          "secure": true,
+          "httponly": false
+        },
+        {
+          "name": "Path",
+          "value": "/",
+          "domain": "www.boc.lk",
+          "path": "/international-banking/deposits/deposit-accounts",
+          "secure": true,
+          "httponly": false
+        }
+      ],
+      "comments_count": 10,
+      "scripts_count": 9,
+      "redirect_chain": []
+    },
+    {
+      "url": "https://www.boc.lk/index.php/business-banking/corporate/additional-corporate-services/rtgs-slips",
+      "category": "Sensitive Content",
+      "sensitivity_level": "critical",
+      "status_code": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "content_length": 198221,
+      "response_time": 1.2123198509216309,
+      "title": "RTGS &amp; SLIPS | Bank of Ceylon | Bank of Ceylon",
+      "forms": [],
+      "technologies": [
+        "AWS",
+        "Nginx",
+        "PHP",
+        "Java"
+      ],
+      "security_headers": {
+        "X-Frame-Options": "DENY, SAMEORIGIN",
+        "X-XSS-Protection": "1; mode=block, 1; mode=block",
+        "X-Content-Type-Options": "nosniff, nosniff",
+        "Strict-Transport-Security": "max-age=31536000; includeSubDomains, max-age=31536000; includeSubDomains; preload",
+        "Content-Security-Policy": "frame-ancestors 'none';",
+        "Referrer-Policy": "strict-origin-when-cross-origin"
+      },
+      "cookies": [
+        {
+          "name": "AWSALB",
+          "value": "aPQyTyzbaMVWrlebzXA0vlhjrF94IkFTdc7eTsgpg5s6jtFnW0oUFbXSMW2A/FtM7FNEhX9QngfL7Ipw2UqXXg3UTvwa6x9zTsULPOGCii/D+2iyS5lT1viOWje0",
+          "domain": "www.boc.lk",
+          "path": "/",
+          "secure": false,
+          "httponly": false
+        },
+        {
+          "name": "AWSALBCORS",
+          "value": "aPQyTyzbaMVWrlebzXA0vlhjrF94IkFTdc7eTsgpg5s6jtFnW0oUFbXSMW2A/FtM7FNEhX9QngfL7Ipw2UqXXg3UTvwa6x9zTsULPOGCii/D+2iyS5lT1viOWje0",
+          "domain": "www.boc.lk",
+          "path": "/",
+          "secure": false,
+          "httponly": false
+        },
+        {
+          "name": "XSRF-TOKEN",
+          "value": "eyJpdiI6ImxqNmNDNzBUaTBheG5KejFIa1NoR2c9PSIsInZhbHVlIjoiOWRXLzROb0VIUkx4Mjk4OXBqU0ZMOFo5UEhOTW1ZZHA2MEpZWGpIVk9GaGxPVG15TWVHdld1UlRaQUZKL1VsamZzaTVRcXQvUExvTC91SUZDQmx2U25uOHJqcnJVMEFCYXkwQm8vZGpsUnhsS0ZKQjBoaUUzQWRwK1ZBelZrM1UiLCJtYWMiOiIzZDUwYzUzMzUxMTNjYTYzZTM2MDdlYzgzOTgwZTA1ODdmYzE1MTA5YTk2NmNlNWRiNGQ5ZWEwN2UyMGY2YmE0IiwidGFnIjoiIn0%3D",
+          "domain": "www.boc.lk",
+          "path": "/",
+          "secure": true,
+          "httponly": false
+        },
+        {
+          "name": "bank_of_ceylon_session",
+          "value": "eyJpdiI6IllMT3ZqTVN6UU1kS3JQam1JSFgyMFE9PSIsInZhbHVlIjoia3JVUHYwK3VFRUlNQk9DK2h0MkN1cEhGR3d4c1I0VGE0bDNtZWFSb3J0dTVpdVNuaDBzVjVrc1pxQjNnendQZytNTkVnY1lVSkZDR0M2YmxCeVh1L2NKYTU5akxrVVE5ejhOTzVKSlZjWHljeUlrSmk1WXN1b2E1Qlh6NGdtL3IiLCJtYWMiOiI4Y2Y2NjEyNTg0NjFmYjk5YzdjNzZjYWNlNzUyMThkNzU2M2YzZjM1Yjk3MWUxZDBlN2ZhYWM1Y2IxNmE5MWUyIiwidGFnIjoiIn0%3D",
+          "domain": "www.boc.lk",
+          "path": "/",
+          "secure": true,
+          "httponly": false
+        },
+        {
+          "name": "Path",
+          "value": "/",
+          "domain": "www.boc.lk",
+          "path": "/index.php/business-banking/corporate/additional-corporate-services",
+          "secure": true,
+          "httponly": false
+        }
+      ],
+      "comments_count": 10,
+      "scripts_count": 9,
+      "redirect_chain": []
+    },
+    {
+      "url": "https://examresults.boc.lk/BOCResult/",
+      "category": "Sensitive Content",
+      "sensitivity_level": "critical",
+      "status_code": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "content_length": 4144,
+      "response_time": 0.17708873748779297,
+      "title": "BOC Examination Results Portal",
+      "forms": [
+        {
+          "action": "",
+          "method": "GET",
+          "inputs": [
+            {
+              "name": "nic",
+              "type": "text",
+              "value": ""
+            }
+          ]
+        }
+      ],
+      "technologies": [
+        "PHP",
+        "Apache"
+      ],
+      "security_headers": {},
+      "cookies": [
+        {
+          "name": "ci_session",
+          "value": "gf0iqh8pmogt1dnka9oqfusk3sai2dvr",
+          "domain": "examresults.boc.lk",
+          "path": "/",
+          "secure": false,
+          "httponly": false
+        }
+      ],
+      "comments_count": 6,
+      "scripts_count": 3,
+      "redirect_chain": []
+    },
+    {
+      "url": "https://www.boc.lk/business-banking/corporate/offshore-banking/overview-of-offshore-banking",
+      "category": "Sensitive Content",
+      "sensitivity_level": "critical",
+      "status_code": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "content_length": 193236,
+      "response_time": 1.6577098369598389,
+      "title": "Overview of Offshore Banking | Bank of Ceylon | Bank of Ceylon",
+      "forms": [],
+      "technologies": [
+        "AWS",
+        "Nginx",
+        "PHP",
+        "Java"
+      ],
+      "security_headers": {
+        "X-Frame-Options": "DENY, SAMEORIGIN",
+        "X-XSS-Protection": "1; mode=block, 1; mode=block",
+        "X-Content-Type-Options": "nosniff, nosniff",
+        "Strict-Transport-Security": "max-age=31536000; includeSubDomains, max-age=31536000; includeSubDomains; preload",
+        "Content-Security-Policy": "frame-ancestors 'none';",
+        "Referrer-Policy": "strict-origin-when-cross-origin"
+      },
+      "cookies": [
+        {
+          "name": "AWSALB",
+          "value": "6SPcqPjYaT+RFv4ILI45riTHaRsuov5kuh+ycDydvSDFQGTiGs5OsuNTM8EJ2FBLvA7I63qhRWMXxgNFj/4/lTFegWhlXZCIxROZC/bpXASNwtSeBiTnpd2O7Fe5",
+          "domain": "www.boc.lk",
+          "path": "/",
+          "secure": false,
+          "httponly": false
+        },
+        {
+          "name": "AWSALBCORS",
+          "value": "6SPcqPjYaT+RFv4ILI45riTHaRsuov5kuh+ycDydvSDFQGTiGs5OsuNTM8EJ2FBLvA7I63qhRWMXxgNFj/4/lTFegWhlXZCIxROZC/bpXASNwtSeBiTnpd2O7Fe5",
+          "domain": "www.boc.lk",
+          "path": "/",
+          "secure": false,
+          "httponly": false
+        },
+        {
+          "name": "XSRF-TOKEN",
+          "value": "eyJpdiI6IkVRV1Flc2R6TEJiL3JlZ0I3UnJKMEE9PSIsInZhbHVlIjoiWlp3NXhKeUhBdXZGRUZ1SndlSEZFT25CKzJCTU0xS0RhbHZZdzA0dFpCNFc3WFVtdnM0RnU3c0JDWUVzQ0VCYTZnSW9CVkh3TWR6dXRYUHFXOEVtait2Y3ZkdGh5WXYyd25UTnZpciswaEJhWllIRW9TdUJzVk1HMWJoV1BTb3UiLCJtYWMiOiI5Njg1OWJmMzJjNmZlMGExM2I0NTU0NjBkOGNiNDg0YjUyNjYwOWQ1NmQ1MDA4MTFjZjNiNGNiYmZmMzAwOWJlIiwidGFnIjoiIn0%3D",
+          "domain": "www.boc.lk",
+          "path": "/",
+          "secure": true,
+          "httponly": false
+        },
+        {
+          "name": "bank_of_ceylon_session",
+          "value": "eyJpdiI6IldWNUNNODZDUHVhdk9uTDBZQVh2c2c9PSIsInZhbHVlIjoiM1hoRTVwMml4R3RUbFJXZlN3R3NUbkM1RnZ2MCs0MUcyV3ZNUlgvbzVLa2RJTmQzZC8zYW9GMHNEemphWVhDNzUwendCRzBNSkl0enVFbERMVlBIUy83RDJhbSs2ZHNJTHVqTzJ4WSs3RnJmdUk2S3dIaFdsb3ZWMkwyWlBGcGYiLCJtYWMiOiI0YWE1M2YwNjEzN2U3NTA1MjVhNDJiNTJkODExMzAyM2FiOTBhZDMyYmI1OWZlYjkxM2Q2ZmRiMDU4ZTQwMTkwIiwidGFnIjoiIn0%3D",
+          "domain": "www.boc.lk",
+          "path": "/",
+          "secure": true,
+          "httponly": false
+        },
+        {
+          "name": "Path",
+          "value": "/",
+          "domain": "www.boc.lk",
+          "path": "/business-banking/corporate/offshore-banking",
+          "secure": true,
+          "httponly": false
+        }
+      ],
+      "comments_count": 10,
+      "scripts_count": 9,
+      "redirect_chain": []
+    },
+    {
+      "url": "https://www.boc.lk/index.php/international-banking/deposits/deposit-accounts/bfca",
+      "category": "Sensitive Content",
+      "sensitivity_level": "critical",
+      "status_code": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "content_length": 331780,
+      "response_time": 1.2782459259033203,
+      "title": "Bank of Ceylon - Business Foreign Currency Account (BFCA) | Bank of Ceylon",
+      "forms": [],
+      "technologies": [
+        "AWS",
+        "Nginx",
+        "PHP",
+        "Java"
+      ],
+      "security_headers": {
+        "X-Frame-Options": "DENY, SAMEORIGIN",
+        "X-XSS-Protection": "1; mode=block, 1; mode=block",
+        "X-Content-Type-Options": "nosniff, nosniff",
+        "Strict-Transport-Security": "max-age=31536000; includeSubDomains, max-age=31536000; includeSubDomains; preload",
+        "Content-Security-Policy": "frame-ancestors 'none';",
+        "Referrer-Policy": "strict-origin-when-cross-origin"
+      },
+      "cookies": [
+        {
+          "name": "AWSALB",
+          "value": "+ZMhsxpP9yMl7/ZCkejajXuhfMwg4OG9Z5g0YnVwLo3CHMTXCV+ryA8L9yvvQ19P0fdA2SKitt2Di4JDHAYPUjgbvkV87pZ2sY1E9IEs0Nft5zenDIp1MD4A2hSt",
+          "domain": "www.boc.lk",
+          "path": "/",
+          "secure": false,
+          "httponly": false
+        },
+        {
+          "name": "AWSALBCORS",
+          "value": "+ZMhsxpP9yMl7/ZCkejajXuhfMwg4OG9Z5g0YnVwLo3CHMTXCV+ryA8L9yvvQ19P0fdA2SKitt2Di4JDHAYPUjgbvkV87pZ2sY1E9IEs0Nft5zenDIp1MD4A2hSt",
+          "domain": "www.boc.lk",
+          "path": "/",
+          "secure": false,
+          "httponly": false
+        },
+        {
+          "name": "XSRF-TOKEN",
+          "value": "eyJpdiI6InZqMU43akc5ejc4WVN1ZnlzUEpqOXc9PSIsInZhbHVlIjoiMG1IelZQOGo4ZXFSSVNDM2FvQ1lHWklWN1pQa3FnaEpHSWdvbGVmcUUySlFkYkQzQ1FKeDNqdUpMVXlYZk8weWNmL2NSOGRwUXg3Q09kMWF3ejNJeVBPbHZaKzExZG15V3RUUEQ1N3RTdWdCU3g4Mnlwekh3KzBHcktLeWhoc24iLCJtYWMiOiJlM2M3MjZkNWU1ZDNhMWVmM2YwOWEyMTNkNzIyZDFkNDFiODFhODY3MTZlYTBjYWY0ZDM2NWNiMjI4OWVjNGIwIiwidGFnIjoiIn0%3D",
+          "domain": "www.boc.lk",
+          "path": "/",
+          "secure": true,
+          "httponly": false
+        },
+        {
+          "name": "bank_of_ceylon_session",
+          "value": "eyJpdiI6InBKZ01LeUZscTVtZ0d2UHlweUdqY1E9PSIsInZhbHVlIjoia21ndWZldTVCSXJYWFlmMitQY3FWb2IxMmN2T3hUMTJOdUxsYml0dkV0alYyb3VPdHk1TUNFUEVOZkR6TUI2TGhiRXZzem1za1JmS3oyVHhIR1VPQTBPZjhCSytWT1NVaDVnWlREdEdxdkRQNnB4SE8valZMemo2cHNxMm83dkEiLCJtYWMiOiI5MDcyYzZjMzQ3YmUxZTQ2YWNkMWJiMjVlNGQyOWQ3NWRlYmRjNGNlMTg4NjNhMGY0NTJjMDk4ODNkODE1OGYwIiwidGFnIjoiIn0%3D",
+          "domain": "www.boc.lk",
+          "path": "/",
+          "secure": true,
+          "httponly": false
+        },
+        {
+          "name": "Path",
+          "value": "/",
+          "domain": "www.boc.lk",
+          "path": "/index.php/international-banking/deposits/deposit-accounts",
+          "secure": true,
+          "httponly": false
+        }
+      ],
+      "comments_count": 10,
+      "scripts_count": 9,
+      "redirect_chain": []
+    },
+    {
+      "url": "https://www.boc.lk/index.php/personal-banking/loans/education-loan/educational-loan-for-postgraduate-studies",
+      "category": "Sensitive Content",
+      "sensitivity_level": "critical",
+      "status_code": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "content_length": 180261,
+      "response_time": 1.436784267425537,
+      "title": "BOC Educational Loan for Postgraduate Studies - Bank of Ceylon | Bank of Ceylon",
+      "forms": [],
+      "technologies": [
+        "AWS",
+        "Nginx",
+        "PHP",
+        "Java"
+      ],
+      "security_headers": {
+        "X-Frame-Options": "DENY, SAMEORIGIN",
+        "X-XSS-Protection": "1; mode=block, 1; mode=block",
+        "X-Content-Type-Options": "nosniff, nosniff",
+        "Strict-Transport-Security": "max-age=31536000; includeSubDomains, max-age=31536000; includeSubDomains; preload",
+        "Content-Security-Policy": "frame-ancestors 'none';",
+        "Referrer-Policy": "strict-origin-when-cross-origin"
+      },
+      "cookies": [
+        {
+          "name": "AWSALB",
+          "value": "CesMnIqbck3N4m+RQ+4wDe0uZxrLVVt+IIZfvhxpFAYx7bajlREIDoeFf8iFp4NAXi2ZNcWpvRBFdoZOgHnegqX7+hmzJ86dXlG2epK5Dw1IEQc2Irh//G/0+wmM",
+          "domain": "www.boc.lk",
+          "path": "/",
+          "secure": false,
+          "httponly": false
+        },
+        {
+          "name": "AWSALBCORS",
+          "value": "CesMnIqbck3N4m+RQ+4wDe0uZxrLVVt+IIZfvhxpFAYx7bajlREIDoeFf8iFp4NAXi2ZNcWpvRBFdoZOgHnegqX7+hmzJ86dXlG2epK5Dw1IEQc2Irh//G/0+wmM",
+          "domain": "www.boc.lk",
+          "path": "/",
+          "secure": false,
+          "httponly": false
+        },
+        {
+          "name": "XSRF-TOKEN",
+          "value": "eyJpdiI6IkRNWmREWjA3UzRCWEw1cFlMaUJSakE9PSIsInZhbHVlIjoiRmxYV2F3RWtSbklnUHhkYXlGV0xjQU1mKzBSeUNvRzNFRWZsdmV1YS8yMm92NHJGRWgyODNUcU50R0t6Y2d2M2ZvbXUzWXIrYWtVV0ZvdDlYRmtGNnFSTWxSa2NBOFBLMWgyaktNWS9ZQUlHYXc5TEhHUVN5eFBLR2ZGUE10cmkiLCJtYWMiOiI1OThjNzY2ZGQ1OGYyNzJlZmJmMDQ2M2Q3MDZjNDg5MjBlNjc2MTcwM2RmM2Q1NDdlNmMyNzQ3NmJlM2Y4NGNhIiwidGFnIjoiIn0%3D",
+          "domain": "www.boc.lk",
+          "path": "/",
+          "secure": true,
+          "httponly": false
+        },
+        {
+          "name": "bank_of_ceylon_session",
+          "value": "eyJpdiI6InVCQmNiNTI3VkRVaTd6bGI3b1Z0bmc9PSIsInZhbHVlIjoiVjY5empaeitnVUtxSCt5VGhRSC9iRnBFNkFQTTlGMHJ4aWlTcnljYUxhQ2o2U1BiUWJPL1dIZFkvSmd0KzVHK0lRQWlSTjh3VXZYUXAxeC8vYTBnZWk0OXBGNERIUlZtM0FJTmM3U1pLaHBzSzV4M2ZjUUFmWG85TDhYMjdmcEsiLCJtYWMiOiIyNzJjZGRkN2E5OGU4YTM0MmJkNGIyMzE1OWEzMzYxODJjOTkxOWE5MDU1NDg4ODIyMDkzYzE4ZGY5MTg2YTc5IiwidGFnIjoiIn0%3D",
+          "domain": "www.boc.lk",
+          "path": "/",
+          "secure": true,
+          "httponly": false
+        },
+        {
+          "name": "Path",
+          "value": "/",
+          "domain": "www.boc.lk",
+          "path": "/index.php/personal-banking/loans/education-loan",
+          "secure": true,
+          "httponly": false
+        }
+      ],
+      "comments_count": 11,
+      "scripts_count": 9,
+      "redirect_chain": []
+    },
+    {
+      "url": "https://www.boc.lk/index.php/personal-banking/loans",
+      "category": "Sensitive Content",
+      "sensitivity_level": "critical",
+      "status_code": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "content_length": 200397,
+      "response_time": 1.250838041305542,
+      "title": "BOC Loans | Bank of Ceylon",
+      "forms": [],
+      "technologies": [
+        "AWS",
+        "Nginx",
+        "PHP",
+        "Java"
+      ],
+      "security_headers": {
+        "X-Frame-Options": "DENY, SAMEORIGIN",
+        "X-XSS-Protection": "1; mode=block, 1; mode=block",
+        "X-Content-Type-Options": "nosniff, nosniff",
+        "Strict-Transport-Security": "max-age=31536000; includeSubDomains, max-age=31536000; includeSubDomains; preload",
+        "Content-Security-Policy": "frame-ancestors 'none';",
+        "Referrer-Policy": "strict-origin-when-cross-origin"
+      },
+      "cookies": [
+        {
+          "name": "AWSALB",
+          "value": "UZpLBgxiYns3JltIY2XYkdJdyMu7/p4QG/6wbFHpw3+hWa9dkZsUNZA2zvOABh8SuJ1y+OubM+LKvzXxrWWz2UvrxYsiOOLky8YRJxaLK+qWlreS/ege67xIUiV2",
+          "domain": "www.boc.lk",
+          "path": "/",
+          "secure": false,
+          "httponly": false
+        },
+        {
+          "name": "AWSALBCORS",
+          "value": "UZpLBgxiYns3JltIY2XYkdJdyMu7/p4QG/6wbFHpw3+hWa9dkZsUNZA2zvOABh8SuJ1y+OubM+LKvzXxrWWz2UvrxYsiOOLky8YRJxaLK+qWlreS/ege67xIUiV2",
+          "domain": "www.boc.lk",
+          "path": "/",
+          "secure": false,
+          "httponly": false
+        },
+        {
+          "name": "XSRF-TOKEN",
+          "value": "eyJpdiI6Im9FMGozRzZ0UjZ6Y2xlbUphSXB6SXc9PSIsInZhbHVlIjoicWJiaVdtS3VFbG9mbWpBL0FUT1VoeXEyaDNBRGtxQWxabWRRekowNHdMa0pJYXpya3BTZWNUTytvL29WSmRpRmVQWlNCbG03dTdJT1FFSFUvYzk1a2IxdjVGVE9YZEd1L2dwQUo5djc4MExZTTlsU1RzUXBYcTdlWVlzK3p6MHgiLCJtYWMiOiI1ZTNhZTFkZTBkOTUzNTg0NzhmY2M1NzEwMWIwYjIxODg0OTYyNzFlOGM1YWYzMjMyMDExNzU3ZDdkMjhjZjE5IiwidGFnIjoiIn0%3D",
+          "domain": "www.boc.lk",
+          "path": "/",
+          "secure": true,
+          "httponly": false
+        },
+        {
+          "name": "bank_of_ceylon_session",
+          "value": "eyJpdiI6Ii9RODdoTDlCVGZvNkJVNWtFbHlLV0E9PSIsInZhbHVlIjoiZlhNSTR1dnAzbnZzUW5oREhQUmNVaXJXQisyOWQ2cmZGS2VWcGFuUnNJYkxDc2xkOCtqMDdTOTNjMmZnTlltck1LT0VQMnR3ZVhYS3RGUm5la1RRSERoN29mUlBsdWEzUjZtU041UmNya2k1U3AyUjZsb3dUMWx3N2xQNGc4aUsiLCJtYWMiOiJmZThhNWE5YWY1NGQwMDRhYzU1NDExNmU4Mjk5Nzk4NWViYTY3N2ZkNzA0OWY4ZTkzNzlkMmFkY2FmMzAyNDZhIiwidGFnIjoiIn0%3D",
+          "domain": "www.boc.lk",
+          "path": "/",
+          "secure": true,
+          "httponly": false
+        },
+        {
+          "name": "Path",
+          "value": "/",
+          "domain": "www.boc.lk",
+          "path": "/index.php/personal-banking",
+          "secure": true,
+          "httponly": false
+        }
+      ],
+      "comments_count": 10,
+      "scripts_count": 9,
+      "redirect_chain": []
+    },
+    {
+      "url": "https://www.boc.lk/download-forms/en/My-Sri-Lanka-Personal-Application/get",
+      "category": "Sensitive Content",
+      "sensitivity_level": "critical",
+      "status_code": 200,
+      "content_type": "application/",
+      "content_length": 189756,
+      "response_time": 0.8100786209106445,
+      "title": "",
+      "forms": [],
+      "technologies": [
+        "AWS",
+        "Nginx"
+      ],
+      "security_headers": {
+        "X-Frame-Options": "DENY, SAMEORIGIN",
+        "X-XSS-Protection": "1; mode=block, 1; mode=block",
+        "X-Content-Type-Options": "nosniff, nosniff",
+        "Strict-Transport-Security": "max-age=31536000; includeSubDomains, max-age=31536000; includeSubDomains; preload",
+        "Content-Security-Policy": "frame-ancestors 'none';",
+        "Referrer-Policy": "strict-origin-when-cross-origin"
+      },
+      "cookies": [
+        {
+          "name": "AWSALB",
+          "value": "GF+2DkOnaBBLwI5Rgg5IhJqXikyxJNTwMSo1pqg2eo2zDDM5UKX54oV7qaR5kZIIEQvDxPctdBq9hAjkxsd+xF40zgSJ/+e7jkL3jRxjIMmWVwh8xZsN/6K6e6tB",
+          "domain": "www.boc.lk",
+          "path": "/",
+          "secure": false,
+          "httponly": false
+        },
+        {
+          "name": "AWSALBCORS",
+          "value": "GF+2DkOnaBBLwI5Rgg5IhJqXikyxJNTwMSo1pqg2eo2zDDM5UKX54oV7qaR5kZIIEQvDxPctdBq9hAjkxsd+xF40zgSJ/+e7jkL3jRxjIMmWVwh8xZsN/6K6e6tB",
+          "domain": "www.boc.lk",
+          "path": "/",
+          "secure": false,
+          "httponly": false
+        },
+        {
+          "name": "XSRF-TOKEN",
+          "value": "eyJpdiI6IjlUTGQwejdaNjV1MjZLY0Z1ZVBvcnc9PSIsInZhbHVlIjoiUW5NbUxoZEJ1a253aXJoaWg3Uk5wZ21jYktKck5XQnpFUDUvNWhxOERjWEVIallNUjFCaE0yUmhETWxOYnVmM09iRHhFcFZEOEJKTFIxMFg2Ym1nNkZGY0xKSHdQVU12cjNabzJlOStPVGxsQUNuc2F5QWhyN1JUSlRxbnFhTmgiLCJtYWMiOiJhYTZiODg0NDNlYjUyMWNhNmQzYjEwNWIwNzFkMjQyNWIzYWRjOTE2NDdiMmI0NTliYzgxN2Q2OTc3NDFiYmYxIiwidGFnIjoiIn0%3D",
+          "domain": "www.boc.lk",
+          "path": "/",
+          "secure": true,
+          "httponly": false
+        },
+        {
+          "name": "bank_of_ceylon_session",
+          "value": "eyJpdiI6IlRJSjBYdXlFTlA2VERYWm1vMllFeXc9PSIsInZhbHVlIjoiVUZvZFRWSEFTMXZDRERrSnNIeENSYVpPMWhYV1RIUUI4MTdqQ1h1V2Y0MmtSNWtqcnZIM3MxczBuek9nVTJkUTBidzlOSTJJdC9IaWQvb0ExY3FxaDQ0ZlZBV2pEZmF2c0l1UTBZRmdnY1pLTDlmM1gvazQrRjdkWll2Wm84UFYiLCJtYWMiOiI4Y2M5MjJmMzY1NmJlZmNjY2NhYmU2YzU3MDdiNGRkZDdkZDA5Y2U5MWM4NmY0OWIzYmViYTYzOGM0MWU1ZmMzIiwidGFnIjoiIn0%3D",
+          "domain": "www.boc.lk",
+          "path": "/",
+          "secure": true,
+          "httponly": false
+        },
+        {
+          "name": "Path",
+          "value": "/",
+          "domain": "www.boc.lk",
+          "path": "/download-forms/en/My-Sri-Lanka-Personal-Application",
+          "secure": true,
+          "httponly": false
+        }
+      ],
+      "comments_count": 0,
+      "scripts_count": 0,
+      "redirect_chain": []
+    },
+    {
+      "url": "https://www.boc.lk/index.php/international-banking/overseas-branches?country=india",
+      "category": "Sensitive Content",
+      "sensitivity_level": "critical",
+      "status_code": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "content_length": 181908,
+      "response_time": 1.971440315246582,
+      "title": "BOC Overseas branches | Bank of Ceylon",
+      "forms": [
+        {
+          "action": "",
+          "method": "GET",
+          "inputs": []
+        }
+      ],
+      "technologies": [
+        "AWS",
+        "Java",
+        "Nginx",
+        "PHP",
+        "Ruby"
+      ],
+      "security_headers": {
+        "X-Frame-Options": "DENY, SAMEORIGIN",
+        "X-XSS-Protection": "1; mode=block, 1; mode=block",
+        "X-Content-Type-Options": "nosniff, nosniff",
+        "Strict-Transport-Security": "max-age=31536000; includeSubDomains, max-age=31536000; includeSubDomains; preload",
+        "Content-Security-Policy": "frame-ancestors 'none';",
+        "Referrer-Policy": "strict-origin-when-cross-origin"
+      },
+      "cookies": [
+        {
+          "name": "AWSALB",
+          "value": "/XDONm0hZjDq9ndXVv2Cmhq0uoys7rIcIIW87IQzzBI7rOL/oeg8dNTABgKBYxE8th9aKkv2OCbQ/vMhJ8RKJSozlubR60Z2bwd3+38BCYkcRlpDmzx7kFD2hSwK",
+          "domain": "www.boc.lk",
+          "path": "/",
+          "secure": false,
+          "httponly": false
+        },
+        {
+          "name": "AWSALBCORS",
+          "value": "/XDONm0hZjDq9ndXVv2Cmhq0uoys7rIcIIW87IQzzBI7rOL/oeg8dNTABgKBYxE8th9aKkv2OCbQ/vMhJ8RKJSozlubR60Z2bwd3+38BCYkcRlpDmzx7kFD2hSwK",
+          "domain": "www.boc.lk",
+          "path": "/",
+          "secure": false,
+          "httponly": false
+        },
+        {
+          "name": "XSRF-TOKEN",
+          "value": "eyJpdiI6IlhZcWNKTVZOTVNONlZDY2dISnljK2c9PSIsInZhbHVlIjoiWXVBRnl1N2c3RitWbWZBUDlHQm5wcnE4c1BsNmwzcDFWVFd3Wnp0NDNhdGFxeVdQYk1TMVdLdkFmYXZkUmpRRG5lTy9vUUVKOVZpdGhyWXJZbm9xQWZLb3E4Yi85R2h5YngyQVVnYWgzOXNMcFI2MVpwRUErMThPR05jYUE2enciLCJtYWMiOiI0YTI3YmM5MWJkYjE0MDY3MThiYTJhOGViMmFlYzk0NjEwZjI3ZjY3MTg0Y2E1YTgzNzRhODQwZTE1YjMzMzIyIiwidGFnIjoiIn0%3D",
+          "domain": "www.boc.lk",
+          "path": "/",
+          "secure": true,
+          "httponly": false
+        },
+        {
+          "name": "bank_of_ceylon_session",
+          "value": "eyJpdiI6InlReWMzc3VuRGx4NklPUlpLamxLckE9PSIsInZhbHVlIjoiczBKd2QwSzIyVk9QVC9lNDJYYUtheVJpRytCclVsbERhc0lZbmpua2l0Q1ZLdlRMUEFEWTBPdHQ2OStlMWk4ZmdldUN6MjNjSVFEd2xjRU9EZGU3ZnBwckNUN0VtTnFYczliVEhtaUNUdHRqMmtWejRSWUdOOThnY0ViMUpaRWciLCJtYWMiOiI5NjAxZWM2YzcwN2Q0OTg5ODY2YjcxZTkwYmQ1ZGFmYzcxMDgzOTc0ZTY2NGE4Y2Q3OTg1YjBmZGNiODA1MWIzIiwidGFnIjoiIn0%3D",
+          "domain": "www.boc.lk",
+          "path": "/",
+          "secure": true,
+          "httponly": false
+        },
+        {
+          "name": "Path",
+          "value": "/",
+          "domain": "www.boc.lk",
+          "path": "/index.php/international-banking",
+          "secure": true,
+          "httponly": false
+        }
+      ],
+      "comments_count": 10,
+      "scripts_count": 10,
+      "redirect_chain": []
+    },
+    {
+      "url": "https://www.boc.lk/personal-banking/loans/pensioners-loan",
+      "category": "Sensitive Content",
+      "sensitivity_level": "critical",
+      "status_code": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "content_length": 184895,
+      "response_time": 1.2681264877319336,
+      "title": "Loans | Bank of Ceylon",
+      "forms": [],
+      "technologies": [
+        "AWS",
+        "Nginx",
+        "PHP",
+        "Java"
+      ],
+      "security_headers": {
+        "X-Frame-Options": "DENY, SAMEORIGIN",
+        "X-XSS-Protection": "1; mode=block, 1; mode=block",
+        "X-Content-Type-Options": "nosniff, nosniff",
+        "Strict-Transport-Security": "max-age=31536000; includeSubDomains, max-age=31536000; includeSubDomains; preload",
+        "Content-Security-Policy": "frame-ancestors 'none';",
+        "Referrer-Policy": "strict-origin-when-cross-origin"
+      },
+      "cookies": [
+        {
+          "name": "AWSALB",
+          "value": "DtOubIID/OlAIOVY8vb7/w65ZDC2g0qg8z1I1Q8FGB/LoDcXZtCeaxIWV1hbFrDLDeMWtqLTVXPlMfAyYhonTs6UxnG8Xk1QLh58dr4s2xZWOTD9sbGYM80JiuiG",
+          "domain": "www.boc.lk",
+          "path": "/",
+          "secure": false,
+          "httponly": false
+        },
+        {
+          "name": "AWSALBCORS",
+          "value": "DtOubIID/OlAIOVY8vb7/w65ZDC2g0qg8z1I1Q8FGB/LoDcXZtCeaxIWV1hbFrDLDeMWtqLTVXPlMfAyYhonTs6UxnG8Xk1QLh58dr4s2xZWOTD9sbGYM80JiuiG",
+          "domain": "www.boc.lk",
+          "path": "/",
+          "secure": false,
+          "httponly": false
+        },
+        {
+          "name": "XSRF-TOKEN",
+          "value": "eyJpdiI6IndoSjFZQVRZK3VCYTVNSER5ZmVsVFE9PSIsInZhbHVlIjoiNjB2bzVtOTNaWmZMc2hlc3d3NVB4T05QSmNlSS9FVG5HU3paNERyVkU4T0YvVWswRkFaSGNuYU92S1gvVFpISEpGTU9VaEk0dnFxZWU2a1RqWmFPTFFYcGQ5YUNraDdXdGJpbGxwbDBGdWZwUHRNYnBVZTJaWGxlY3dzRTZWTDIiLCJtYWMiOiIwZjYyODJhMjA4ZGZjZjcyYWMzZDBhMGVhMGJlMmZkODc2ZDk5M2JhMzQ0MDIyYmVjZTliMzFhNzdhMzVmYTI3IiwidGFnIjoiIn0%3D",
+          "domain": "www.boc.lk",
+          "path": "/",
+          "secure": true,
+          "httponly": false
+        },
+        {
+          "name": "bank_of_ceylon_session",
+          "value": "eyJpdiI6IjRyWHFkNlkveGR3dWJZRUpsSGd6Rmc9PSIsInZhbHVlIjoibFVkbCtlNVZLazdwb3FPM1RLWDBkMFB4c252eTdoSWh6YkJUZmt0dGIwcG5jQ3E1S0JEUFJlYjV4WDY2ZWFxN0txZUVwQmY4VVpVbDFTQlVnaGVhbHRPMGdoWEpDbWg5Y3M3dWlwT3VwMWZVWW1nUEpEcU5OK1FTYWJhaEVPdHoiLCJtYWMiOiJmOTIwMTQ4NGFkNzg0ZDk2OGZmMDU0YzEwNjJjMjExMWUyMjFmMDlkNjkyZTQzZDkzMzg4MTNmYTQyYmY4ZTgxIiwidGFnIjoiIn0%3D",
+          "domain": "www.boc.lk",
+          "path": "/",
+          "secure": true,
+          "httponly": false
+        },
+        {
+          "name": "Path",
+          "value": "/",
+          "domain": "www.boc.lk",
+          "path": "/personal-banking/loans",
+          "secure": true,
+          "httponly": false
+        }
+      ],
+      "comments_count": 10,
+      "scripts_count": 9,
+      "redirect_chain": []
+    }
+  ]
+}

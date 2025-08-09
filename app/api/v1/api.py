@@ -11,4 +11,3 @@ api_router = APIRouter(prefix="/api/v1")
 api_router.include_router(web_crawler_controller.router)
 
 # Note: Include other routers as they are implemented
-# api_router.include_router(predict_model_a.router)
