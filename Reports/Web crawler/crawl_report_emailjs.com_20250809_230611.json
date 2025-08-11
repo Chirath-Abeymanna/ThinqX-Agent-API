@@ -1,0 +1,3586 @@
+{
+  "crawl_summary": {
+    "target_domain": "emailjs.com",
+    "crawl_duration": 51.755431,
+    "urls_discovered": 120,
+    "urls_successfully_crawled": 120,
+    "errors_encountered": 0,
+    "start_time": "2025-08-09T23:05:19.525518",
+    "end_time": "2025-08-09T23:06:11.280949"
+  },
+  "discovery_statistics": {
+    "total_files_found": 120,
+    "total_forms_found": 1,
+    "sensitive_files_found": 82,
+    "hidden_files_discovered": 120
+  },
+  "categorized_findings": {
+    "Sensitive Content": {
+      "count": 79,
+      "sensitivity_breakdown": {
+        "critical": 79
+      },
+      "urls": [
+        {
+          "url": "https://emailjs.com/robots.txt",
+          "status_code": 200,
+          "content_type": "text/plain; charset=utf-8",
+          "sensitivity_level": "critical",
+          "title": "",
+          "forms_count": 0,
+          "technologies": [
+            "Cloudflare"
+          ],
+          "response_time": 1.282062292098999
+        },
+        {
+          "url": "https://emailjs.com/sitemap.xml",
+          "status_code": 200,
+          "content_type": "application/xml",
+          "sensitivity_level": "critical",
+          "title": "",
+          "forms_count": 0,
+          "technologies": [
+            "Cloudflare"
+          ],
+          "response_time": 1.2880628108978271
+        },
+        {
+          "url": "https://emailjs.com/404.html",
+          "status_code": 200,
+          "content_type": "text/html; charset=utf-8",
+          "sensitivity_level": "critical",
+          "title": "EmailJS",
+          "forms_count": 0,
+          "technologies": [
+            "Cloudflare"
+          ],
+          "response_time": 1.8594346046447754
+        },
+        {
+          "url": "https://emailjs.com/index.html",
+          "status_code": 200,
+          "content_type": "text/html; charset=utf-8",
+          "sensitivity_level": "critical",
+          "title": "EmailJS",
+          "forms_count": 0,
+          "technologies": [
+            "Cloudflare"
+          ],
+          "response_time": 1.894866704940796
+        },
+        {
+          "url": "https://emailjs.com/404",
+          "status_code": 200,
+          "content_type": "text/html; charset=utf-8",
+          "sensitivity_level": "critical",
+          "title": "EmailJS",
+          "forms_count": 0,
+          "technologies": [
+            "Cloudflare"
+          ],
+          "response_time": 1.3330662250518799
+        },
+        {
+          "url": "https://emailjs.com",
+          "status_code": 200,
+          "content_type": "text/html; charset=utf-8",
+          "sensitivity_level": "critical",
+          "title": "EmailJS",
+          "forms_count": 0,
+          "technologies": [
+            "Cloudflare"
+          ],
+          "response_time": 1.3060615062713623
+        },
+        {
+          "url": "https://emailjs.com/assets/js/60.fde82c5f.js",
+          "status_code": 200,
+          "content_type": "application/javascript",
+          "sensitivity_level": "critical",
+          "title": "",
+          "forms_count": 0,
+          "technologies": [
+            "Cloudflare"
+          ],
+          "response_time": 1.1498007774353027
+        },
+        {
+          "url": "https://emailjs.com/assets/js/39.86e0a928.js",
+          "status_code": 200,
+          "content_type": "application/javascript",
+          "sensitivity_level": "critical",
+          "title": "",
+          "forms_count": 0,
+          "technologies": [
+            "Cloudflare"
+          ],
+          "response_time": 1.200786828994751
+        },
+        {
+          "url": "https://emailjs.com/assets/js/43.dc2d8511.js",
+          "status_code": 200,
+          "content_type": "application/javascript",
+          "sensitivity_level": "critical",
+          "title": "",
+          "forms_count": 0,
+          "technologies": [
+            "Cloudflare"
+          ],
+          "response_time": 1.259152889251709
+        },
+        {
+          "url": "https://emailjs.com/assets/js/1.0aa6c328.js",
+          "status_code": 200,
+          "content_type": "application/javascript",
+          "sensitivity_level": "critical",
+          "title": "",
+          "forms_count": 0,
+          "technologies": [
+            "Cloudflare"
+          ],
+          "response_time": 1.1588020324707031
+        },
+        {
+          "url": "https://emailjs.com/assets/js/69.cac543c0.js",
+          "status_code": 200,
+          "content_type": "application/javascript",
+          "sensitivity_level": "critical",
+          "title": "",
+          "forms_count": 0,
+          "technologies": [
+            "Cloudflare"
+          ],
+          "response_time": 1.4664325714111328
+        },
+        {
+          "url": "https://emailjs.com/assets/js/45.88574545.js",
+          "status_code": 200,
+          "content_type": "application/javascript",
+          "sensitivity_level": "critical",
+          "title": "",
+          "forms_count": 0,
+          "technologies": [
+            "Cloudflare"
+          ],
+          "response_time": 1.4393625259399414
+        },
+        {
+          "url": "https://emailjs.com/assets/js/68.3cde2a66.js",
+          "status_code": 200,
+          "content_type": "application/javascript",
+          "sensitivity_level": "critical",
+          "title": "",
+          "forms_count": 0,
+          "technologies": [
+            "Cloudflare"
+          ],
+          "response_time": 1.180663824081421
+        },
+        {
+          "url": "https://emailjs.com/assets/js/10.9e4c7c16.js",
+          "status_code": 200,
+          "content_type": "application/javascript",
+          "sensitivity_level": "critical",
+          "title": "",
+          "forms_count": 0,
+          "technologies": [
+            "Cloudflare"
+          ],
+          "response_time": 1.2004828453063965
+        },
+        {
+          "url": "https://emailjs.com/assets/js/15.e9df1221.js",
+          "status_code": 200,
+          "content_type": "application/javascript",
+          "sensitivity_level": "critical",
+          "title": "",
+          "forms_count": 0,
+          "technologies": [
+            "Cloudflare"
+          ],
+          "response_time": 1.4413621425628662
+        },
+        {
+          "url": "https://emailjs.com/assets/js/65.7a0784d7.js",
+          "status_code": 200,
+          "content_type": "application/javascript",
+          "sensitivity_level": "critical",
+          "title": "",
+          "forms_count": 0,
+          "technologies": [
+            "Cloudflare"
+          ],
+          "response_time": 1.4937536716461182
+        },
+        {
+          "url": "https://dashboard.emailjs.com/sign-in",
+          "status_code": 200,
+          "content_type": "text/html; charset=utf-8",
+          "sensitivity_level": "critical",
+          "title": "Dashboard - EmailJS",
+          "forms_count": 0,
+          "technologies": [
+            "Cloudflare"
+          ],
+          "response_time": 0.7279372215270996
+        },
+        {
+          "url": "https://emailjs.com/legal/data-protection-agreement/",
+          "status_code": 200,
+          "content_type": "text/html; charset=utf-8",
+          "sensitivity_level": "critical",
+          "title": "Data Processing Agreements | EmailJS",
+          "forms_count": 0,
+          "technologies": [
+            "Cloudflare"
+          ],
+          "response_time": 1.5541985034942627
+        },
+        {
+          "url": "https://emailjs.com/",
+          "status_code": 200,
+          "content_type": "text/html; charset=utf-8",
+          "sensitivity_level": "critical",
+          "title": "EmailJS",
+          "forms_count": 0,
+          "technologies": [
+            "Cloudflare"
+          ],
+          "response_time": 1.4956998825073242
+        },
+        {
+          "url": "https://dashboard.emailjs.com/assets/index-C2z91WFG.js",
+          "status_code": 200,
+          "content_type": "application/javascript",
+          "sensitivity_level": "critical",
+          "title": "",
+          "forms_count": 0,
+          "technologies": [
+            "Cloudflare"
+          ],
+          "response_time": 0.9138526916503906
+        },
+        {
+          "url": "https://emailjs.com/legal/privacy-policy/",
+          "status_code": 200,
+          "content_type": "text/html; charset=utf-8",
+          "sensitivity_level": "critical",
+          "title": "Privacy Policy | EmailJS",
+          "forms_count": 0,
+          "technologies": [
+            "Cloudflare"
+          ],
+          "response_time": 1.5885074138641357
+        },
+        {
+          "url": "https://dashboard.emailjs.com/assets/index-D8EmXif3.css",
+          "status_code": 200,
+          "content_type": "text/css; charset=utf-8",
+          "sensitivity_level": "critical",
+          "title": "",
+          "forms_count": 0,
+          "technologies": [
+            "Cloudflare"
+          ],
+          "response_time": 0.7321279048919678
+        },
+        {
+          "url": "https://emailjs.com/contact-us/",
+          "status_code": 200,
+          "content_type": "text/html; charset=utf-8",
+          "sensitivity_level": "critical",
+          "title": "Contact Us | EmailJS",
+          "forms_count": 1,
+          "technologies": [
+            "Cloudflare"
+          ],
+          "response_time": 1.279329538345337
+        },
+        {
+          "url": "https://dashboard.emailjs.com/image/png",
+          "status_code": 200,
+          "content_type": "text/html; charset=utf-8",
+          "sensitivity_level": "critical",
+          "title": "Dashboard - EmailJS",
+          "forms_count": 0,
+          "technologies": [
+            "Cloudflare"
+          ],
+          "response_time": 0.6400492191314697
+        },
+        {
+          "url": "https://dashboard.emailjs.com/,        send_page_view: false,      });    </script>    <script type=",
+          "status_code": 200,
+          "content_type": "text/html; charset=utf-8",
+          "sensitivity_level": "critical",
+          "title": "Dashboard - EmailJS",
+          "forms_count": 0,
+          "technologies": [
+            "Cloudflare"
+          ],
+          "response_time": 0.7310805320739746
+        },
+        {
+          "url": "https://emailjs.com/pricing/",
+          "status_code": 200,
+          "content_type": "text/html; charset=utf-8",
+          "sensitivity_level": "critical",
+          "title": "Pricing | EmailJS",
+          "forms_count": 0,
+          "technologies": [
+            "Cloudflare"
+          ],
+          "response_time": 1.3923234939575195
+        },
+        {
+          "url": "https://dashboard.emailjs.com/favicon/manifest.json",
+          "status_code": 200,
+          "content_type": "application/json",
+          "sensitivity_level": "critical",
+          "title": "",
+          "forms_count": 0,
+          "technologies": [
+            "Cloudflare"
+          ],
+          "response_time": 1.017803430557251
+        },
+        {
+          "url": "https://dashboard.emailjs.com/>    <title>Dashboard - EmailJS</title>    <meta name=",
+          "status_code": 200,
+          "content_type": "text/html; charset=utf-8",
+          "sensitivity_level": "critical",
+          "title": "Dashboard - EmailJS",
+          "forms_count": 0,
+          "technologies": [
+            "Cloudflare"
+          ],
+          "response_time": 1.0451974868774414
+        },
+        {
+          "url": "https://dashboard.emailjs.com/font/woff2",
+          "status_code": 200,
+          "content_type": "text/html; charset=utf-8",
+          "sensitivity_level": "critical",
+          "title": "Dashboard - EmailJS",
+          "forms_count": 0,
+          "technologies": [
+            "Cloudflare"
+          ],
+          "response_time": 0.606910228729248
+        },
+        {
+          "url": "https://emailjs.com/assets/js/42.557461d7.js",
+          "status_code": 200,
+          "content_type": "application/javascript",
+          "sensitivity_level": "critical",
+          "title": "",
+          "forms_count": 0,
+          "technologies": [
+            "Cloudflare"
+          ],
+          "response_time": 1.5218992233276367
+        },
+        {
+          "url": "https://emailjs.com/assets/js/3.27f41fe7.js",
+          "status_code": 200,
+          "content_type": "application/javascript",
+          "sensitivity_level": "critical",
+          "title": "",
+          "forms_count": 0,
+          "technologies": [
+            "Cloudflare"
+          ],
+          "response_time": 1.53712797164917
+        },
+        {
+          "url": "https://emailjs.com/assets/js/29.84320b00.js",
+          "status_code": 200,
+          "content_type": "application/javascript",
+          "sensitivity_level": "critical",
+          "title": "",
+          "forms_count": 0,
+          "technologies": [
+            "Cloudflare"
+          ],
+          "response_time": 2.007183790206909
+        },
+        {
+          "url": "https://dashboard.emailjs.com/assets/];return!(B===B.top&&r.some(i=>n.startsWith(`${i}:/`)))}function R0(e){return[Dv(),Pv(),l0(),q_(),g0(),N0(),Qv(),w0(),p0()]}function O0(e={}){const t=!e.skipBrowserExtensionCheck&&I0(),n={...e,enabled:t?!1:e.enabled,stackParser:ag(e.stackParser||Q_),integrations:rv({integrations:e.integrations,defaultIntegrations:e.defaultIntegrations==null?R0():e.defaultIntegrations}),transport:e.transport||M_};return mv(__,n)}function Cc(e={}){const t=B.document,n=t?.head||t?.body;if(!n){An&&I.error(",
+          "status_code": 200,
+          "content_type": "text/html; charset=utf-8",
+          "sensitivity_level": "critical",
+          "title": "Dashboard - EmailJS",
+          "forms_count": 0,
+          "technologies": [
+            "Cloudflare"
+          ],
+          "response_time": 0.5130078792572021
+        },
+        {
+          "url": "https://dashboard.emailjs.com/assets/}function Ur(e,t=!1){const{host:n,path:r,pass:o,port:i,projectId:s,protocol:l,publicKey:u}=e;return`${l}:/${u}${t&&o?`:${o}`:",
+          "status_code": 200,
+          "content_type": "text/html; charset=utf-8",
+          "sensitivity_level": "critical",
+          "title": "Dashboard - EmailJS",
+          "forms_count": 0,
+          "technologies": [
+            "Cloudflare"
+          ],
+          "response_time": 0.5225746631622314
+        },
+        {
+          "url": "https://dashboard.emailjs.com/assets/$&/",
+          "status_code": 200,
+          "content_type": "text/html; charset=utf-8",
+          "sensitivity_level": "critical",
+          "title": "Dashboard - EmailJS",
+          "forms_count": 0,
+          "technologies": [
+            "Cloudflare"
+          ],
+          "response_time": 0.5338454246520996
+        },
+        {
+          "url": "https://dashboard.emailjs.com/assets/,allowUrls:[/emailjs\\.com/],ignoreErrors:[/^ResizeObserver loop/,/^",
+          "status_code": 200,
+          "content_type": "text/html; charset=utf-8",
+          "sensitivity_level": "critical",
+          "title": "Dashboard - EmailJS",
+          "forms_count": 0,
+          "technologies": [
+            "Cloudflare"
+          ],
+          "response_time": 0.5583786964416504
+        },
+        {
+          "url": "https://dashboard.emailjs.com/assets/,e,t,n)}catch(r){return{ERROR:`**non-serializable** (${r})`}}}function fp(e,t=3,n=100*1024){const r=Ze(e,t);return Ey(r)>n?fp(e,t-1,n):r}function ul(e,t,n=1/0,r=1/0,o=Sy()){const[i,s]=o;if(t==null||[",
+          "status_code": 200,
+          "content_type": "text/html; charset=utf-8",
+          "sensitivity_level": "critical",
+          "title": "Dashboard - EmailJS",
+          "forms_count": 0,
+          "technologies": [
+            "Cloudflare"
+          ],
+          "response_time": 0.5991520881652832
+        },
+        {
+          "url": "https://dashboard.emailjs.com/assets/&&l.match(/sentry_key/)&&(n.__sentry_own_request__=!0);const u=()=>{const a=n[or];if(a&&n.readyState===4){try{a.status_code=n.status}catch{}const f={endTimestamp:it()*1e3,startTimestamp:i,xhr:n,virtualError:o};He(",
+          "status_code": 200,
+          "content_type": "text/html; charset=utf-8",
+          "sensitivity_level": "critical",
+          "title": "Dashboard - EmailJS",
+          "forms_count": 0,
+          "technologies": [
+            "Cloudflare"
+          ],
+          "response_time": 0.5288815498352051
+        },
+        {
+          "url": "https://dashboard.emailjs.com/assets/,uy=/^o(\\d+)\\./,ay=/^(?:(\\w+):)\\/\\/(?:(\\w+)(?::(\\w+)?)?@)([\\w.-]+)(?::(\\d+))?\\/(.+)/;function cy(e){return e===",
+          "status_code": 200,
+          "content_type": "text/html; charset=utf-8",
+          "sensitivity_level": "critical",
+          "title": "Dashboard - EmailJS",
+          "forms_count": 0,
+          "technologies": [
+            "Cloudflare"
+          ],
+          "response_time": 0.5536537170410156
+        },
+        {
+          "url": "https://dashboard.emailjs.com/assets/)===0){const s=$_.exec(n[2]);s&&(n[2]=s[1],n[3]=s[2],n[4]=s[3])}const[o,i]=Op(n[1]||bt,n[2]);return _l(i,o,n[3]?+n[3]:void 0,n[4]?+n[4]:void 0)}},B_=[F_,U_],H_=/^\\s*(.*?)(?:\\((.*?)\\))?(?:^|@)?((?:[-a-z]+)?:\\/.*?|\\[native code\\]|[^@]*(?:bundle|\\d+\\.js)|\\/[\\w\\-. /=]+)(?::(\\d+))?(?::(\\d+))?\\s*$/i,W_=/(\\S+) line (\\d+)(?: > eval line \\d+)* > eval/i,V_=e=>{const t=H_.exec(e);if(t){if(t[3]&&t[3].indexOf(",
+          "status_code": 200,
+          "content_type": "text/html; charset=utf-8",
+          "sensitivity_level": "critical",
+          "title": "Dashboard - EmailJS",
+          "forms_count": 0,
+          "technologies": [
+            "Cloudflare"
+          ],
+          "response_time": 0.5402565002441406
+        },
+        {
+          "url": "https://dashboard.emailjs.com/assets/,za=/\\(error: (.*)\\)/,Aa=/captureMessage|captureException/;function Qd(...e){const t=e.sort((n,r)=>n[0]-r[0]).map(n=>n[1]);return(n,r=0,o=0)=>{const i=[],s=n.split(``);for(let l=r;l<s.length;l++){const u=s[l];if(u.length>1024)continue;const a=za.test(u)?u.replace(za,",
+          "status_code": 200,
+          "content_type": "text/html; charset=utf-8",
+          "sensitivity_level": "critical",
+          "title": "Dashboard - EmailJS",
+          "forms_count": 0,
+          "technologies": [
+            "Cloudflare"
+          ],
+          "response_time": 0.6422321796417236
+        },
+        {
+          "url": "https://dashboard.emailjs.com/assets/,!0)}catch{}return!1}function Tg(e){try{return e.__sentry_captured__}catch{}}const tp=1e3;function Ar(){return Date.now()/tp}function Ng(){const{performance:e}=j;if(!e?.now)return Ar;const t=Date.now()-e.now(),n=e.timeOrigin==null?t:e.timeOrigin;return()=>(n+e.now())/tp}const it=Ng();function Ig(e){const t=it(),n={sid:Le(),init:!0,timestamp:t,started:t,duration:0,status:",
+          "status_code": 200,
+          "content_type": "text/html; charset=utf-8",
+          "sensitivity_level": "critical",
+          "title": "Dashboard - EmailJS",
+          "forms_count": 0,
+          "technologies": [
+            "Cloudflare"
+          ],
+          "response_time": 0.6427726745605469
+        },
+        {
+          "url": "https://dashboard.emailjs.com/assets/].find(s=>e[s]?!1:(I.error(`Invalid Sentry Dsn: ${s} missing`),!0))?!1:n.match(/^\\d+$/)?cy(r)?t&&isNaN(parseInt(t,10))?(I.error(`Invalid Sentry Dsn: Invalid port ${t}`),!1):!0:(I.error(`Invalid Sentry Dsn: Invalid protocol ${r}`),!1):(I.error(`Invalid Sentry Dsn: Invalid projectId ${n}`),!1)}function py(e){return e.match(uy)?.[1]}function ap(e){const t=typeof e==",
+          "status_code": 200,
+          "content_type": "text/html; charset=utf-8",
+          "sensitivity_level": "critical",
+          "title": "Dashboard - EmailJS",
+          "forms_count": 0,
+          "technologies": [
+            "Cloudflare"
+          ],
+          "response_time": 0.6230483055114746
+        },
+        {
+          "url": "https://dashboard.emailjs.com/assets/<script><\\/script>",
+          "status_code": 200,
+          "content_type": "text/html; charset=utf-8",
+          "sensitivity_level": "critical",
+          "title": "Dashboard - EmailJS",
+          "forms_count": 0,
+          "technologies": [
+            "Cloudflare"
+          ],
+          "response_time": 0.6106469631195068
+        },
+        {
+          "url": "https://dashboard.emailjs.com/assets/assets/Router-qowrJCDe.css",
+          "status_code": 200,
+          "content_type": "text/html; charset=utf-8",
+          "sensitivity_level": "critical",
+          "title": "Dashboard - EmailJS",
+          "forms_count": 0,
+          "technologies": [
+            "Cloudflare"
+          ],
+          "response_time": 0.5102074146270752
+        },
+        {
+          "url": "https://dashboard.emailjs.com/assets/assets/Router-D3fFsZ1_.js",
+          "status_code": 200,
+          "content_type": "text/html; charset=utf-8",
+          "sensitivity_level": "critical",
+          "title": "Dashboard - EmailJS",
+          "forms_count": 0,
+          "technologies": [
+            "Cloudflare"
+          ],
+          "response_time": 0.5040614604949951
+        },
+        {
+          "url": "https://dashboard.emailjs.com/$",
+          "status_code": 200,
+          "content_type": "text/html; charset=utf-8",
+          "sensitivity_level": "critical",
+          "title": "Dashboard - EmailJS",
+          "forms_count": 0,
+          "technologies": [
+            "Cloudflare"
+          ],
+          "response_time": 0.5228784084320068
+        },
+        {
+          "url": "https://dashboard.emailjs.com/assets/;const r=`${yp(n)}embed/error-page/`;let o=`dsn=${Ur(n)}`;for(const i in t)if(i!==",
+          "status_code": 200,
+          "content_type": "text/html; charset=utf-8",
+          "sensitivity_level": "critical",
+          "title": "Dashboard - EmailJS",
+          "forms_count": 0,
+          "technologies": [
+            "Cloudflare"
+          ],
+          "response_time": 0.5352983474731445
+        },
+        {
+          "url": "https://dashboard.emailjs.com/assets/)}catch{return!1}}function vc(e){return e.exception?.values&&e.exception.values[0]}function ls(e){if(!e)return{};const t=e.match(/^(([^:/?",
+          "status_code": 200,
+          "content_type": "text/html; charset=utf-8",
+          "sensitivity_level": "critical",
+          "title": "Dashboard - EmailJS",
+          "forms_count": 0,
+          "technologies": [
+            "Cloudflare"
+          ],
+          "response_time": 0.5893549919128418
+        },
+        {
+          "url": "https://dashboard.emailjs.com/assets/\\)$/,`can",
+          "status_code": 200,
+          "content_type": "text/html; charset=utf-8",
+          "sensitivity_level": "critical",
+          "title": "Dashboard - EmailJS",
+          "forms_count": 0,
+          "technologies": [
+            "Cloudflare"
+          ],
+          "response_time": 0.5137574672698975
+        },
+        {
+          "url": "https://dashboard.emailjs.com/assets/].forEach(function(e){ie[e]=new he(e,5,!1,e.toLowerCase(),null,!1,!1)});var xl=/[\\-:]([a-z])/g;function Cl(e){return e[1].toUpperCase()}",
+          "status_code": 200,
+          "content_type": "text/html; charset=utf-8",
+          "sensitivity_level": "critical",
+          "title": "Dashboard - EmailJS",
+          "forms_count": 0,
+          "technologies": [
+            "Cloudflare"
+          ],
+          "response_time": 0.5196480751037598
+        },
+        {
+          "url": "https://emailjs.com/assets/js/11.c5257dce.js",
+          "status_code": 200,
+          "content_type": "application/javascript",
+          "sensitivity_level": "critical",
+          "title": "",
+          "forms_count": 0,
+          "technologies": [
+            "Cloudflare"
+          ],
+          "response_time": 1.9877874851226807
+        },
+        {
+          "url": "https://emailjs.com/assets/js/14.fbb5d543.js",
+          "status_code": 200,
+          "content_type": "application/javascript",
+          "sensitivity_level": "critical",
+          "title": "",
+          "forms_count": 0,
+          "technologies": [
+            "Cloudflare"
+          ],
+          "response_time": 1.0089428424835205
+        },
+        {
+          "url": "https://dashboard.emailjs.com/assets/),url(https:/fonts.gstatic.com/s/opensans/v16/mem5YaGs126MiZpBA-UN7rgOUuhpKKSTjw.woff2) format(",
+          "status_code": 200,
+          "content_type": "text/html; charset=utf-8",
+          "sensitivity_level": "critical",
+          "title": "Dashboard - EmailJS",
+          "forms_count": 0,
+          "technologies": [
+            "Cloudflare"
+          ],
+          "response_time": 0.58882737159729
+        },
+        {
+          "url": "https://dashboard.emailjs.com/assets/),url(https:/fonts.gstatic.com/s/opensans/v16/mem8YaGs126MiZpBA-UFVZ0bf8pkAg.woff2) format(",
+          "status_code": 200,
+          "content_type": "text/html; charset=utf-8",
+          "sensitivity_level": "critical",
+          "title": "Dashboard - EmailJS",
+          "forms_count": 0,
+          "technologies": [
+            "Cloudflare"
+          ],
+          "response_time": 0.6073555946350098
+        },
+        {
+          "url": "https://dashboard.emailjs.com/assets/),url(https:/fonts.gstatic.com/s/opensans/v16/mem5YaGs126MiZpBA-UN_r8OUuhpKKSTjw.woff2) format(",
+          "status_code": 200,
+          "content_type": "text/html; charset=utf-8",
+          "sensitivity_level": "critical",
+          "title": "Dashboard - EmailJS",
+          "forms_count": 0,
+          "technologies": [
+            "Cloudflare"
+          ],
+          "response_time": 0.5398077964782715
+        },
+        {
+          "url": "https://emailjs.com/legal/nfadp/",
+          "status_code": 200,
+          "content_type": "text/html; charset=utf-8",
+          "sensitivity_level": "critical",
+          "title": "New Federal Act on Data Protection | EmailJS",
+          "forms_count": 0,
+          "technologies": [
+            "Cloudflare"
+          ],
+          "response_time": 1.0151653289794922
+        },
+        {
+          "url": "https://dashboard.emailjs.com/assets/),url(https:/fonts.gstatic.com/s/opensans/v16/mem5YaGs126MiZpBA-UNirkOUuhpKKSTjw.woff2) format(",
+          "status_code": 200,
+          "content_type": "text/html; charset=utf-8",
+          "sensitivity_level": "critical",
+          "title": "Dashboard - EmailJS",
+          "forms_count": 0,
+          "technologies": [
+            "Cloudflare"
+          ],
+          "response_time": 0.6162748336791992
+        },
+        {
+          "url": "https://emailjs.com/assets/js/61.792035c7.js",
+          "status_code": 200,
+          "content_type": "application/javascript",
+          "sensitivity_level": "critical",
+          "title": "",
+          "forms_count": 0,
+          "technologies": [
+            "Cloudflare"
+          ],
+          "response_time": 1.052541971206665
+        },
+        {
+          "url": "https://dashboard.emailjs.com/image/image/png",
+          "status_code": 200,
+          "content_type": "text/html; charset=utf-8",
+          "sensitivity_level": "critical",
+          "title": "Dashboard - EmailJS",
+          "forms_count": 0,
+          "technologies": [
+            "Cloudflare"
+          ],
+          "response_time": 0.5548560619354248
+        },
+        {
+          "url": "https://dashboard.emailjs.com/image/font/woff2",
+          "status_code": 200,
+          "content_type": "text/html; charset=utf-8",
+          "sensitivity_level": "critical",
+          "title": "Dashboard - EmailJS",
+          "forms_count": 0,
+          "technologies": [
+            "Cloudflare"
+          ],
+          "response_time": 0.5913808345794678
+        },
+        {
+          "url": "https://dashboard.emailjs.com/image/>    <title>Dashboard - EmailJS</title>    <meta name=",
+          "status_code": 200,
+          "content_type": "text/html; charset=utf-8",
+          "sensitivity_level": "critical",
+          "title": "Dashboard - EmailJS",
+          "forms_count": 0,
+          "technologies": [
+            "Cloudflare"
+          ],
+          "response_time": 0.6073846817016602
+        },
+        {
+          "url": "https://dashboard.emailjs.com/image/,        send_page_view: false,      });    </script>    <script type=",
+          "status_code": 200,
+          "content_type": "text/html; charset=utf-8",
+          "sensitivity_level": "critical",
+          "title": "Dashboard - EmailJS",
+          "forms_count": 0,
+          "technologies": [
+            "Cloudflare"
+          ],
+          "response_time": 0.6226329803466797
+        },
+        {
+          "url": "https://dashboard.emailjs.com/,        send_page_view: false,      });    </image/png",
+          "status_code": 200,
+          "content_type": "text/html; charset=utf-8",
+          "sensitivity_level": "critical",
+          "title": "Dashboard - EmailJS",
+          "forms_count": 0,
+          "technologies": [
+            "Cloudflare"
+          ],
+          "response_time": 0.6032729148864746
+        },
+        {
+          "url": "https://dashboard.emailjs.com/,        send_page_view: false,      });    </,        send_page_view: false,      });    </script>    <script type=",
+          "status_code": 200,
+          "content_type": "text/html; charset=utf-8",
+          "sensitivity_level": "critical",
+          "title": "Dashboard - EmailJS",
+          "forms_count": 0,
+          "technologies": [
+            "Cloudflare"
+          ],
+          "response_time": 0.5696914196014404
+        },
+        {
+          "url": "https://dashboard.emailjs.com/,        send_page_view: false,      });    </>    <title>Dashboard - EmailJS</title>    <meta name=",
+          "status_code": 200,
+          "content_type": "text/html; charset=utf-8",
+          "sensitivity_level": "critical",
+          "title": "Dashboard - EmailJS",
+          "forms_count": 0,
+          "technologies": [
+            "Cloudflare"
+          ],
+          "response_time": 0.5700619220733643
+        },
+        {
+          "url": "https://dashboard.emailjs.com/,        send_page_view: false,      });    </font/woff2",
+          "status_code": 200,
+          "content_type": "text/html; charset=utf-8",
+          "sensitivity_level": "critical",
+          "title": "Dashboard - EmailJS",
+          "forms_count": 0,
+          "technologies": [
+            "Cloudflare"
+          ],
+          "response_time": 0.5959839820861816
+        },
+        {
+          "url": "https://emailjs.com/assets/js/87.fcb6efb0.js",
+          "status_code": 200,
+          "content_type": "application/javascript",
+          "sensitivity_level": "critical",
+          "title": "",
+          "forms_count": 0,
+          "technologies": [
+            "Cloudflare"
+          ],
+          "response_time": 1.1069285869598389
+        },
+        {
+          "url": "https://dashboard.emailjs.com/favicon/image/png",
+          "status_code": 200,
+          "content_type": "text/html; charset=utf-8",
+          "sensitivity_level": "critical",
+          "title": "Dashboard - EmailJS",
+          "forms_count": 0,
+          "technologies": [
+            "Cloudflare"
+          ],
+          "response_time": 0.5964839458465576
+        },
+        {
+          "url": "https://dashboard.emailjs.com/>    <title>Dashboard - EmailJS</font/woff2",
+          "status_code": 200,
+          "content_type": "text/html; charset=utf-8",
+          "sensitivity_level": "critical",
+          "title": "Dashboard - EmailJS",
+          "forms_count": 0,
+          "technologies": [
+            "Cloudflare"
+          ],
+          "response_time": 0.6330938339233398
+        },
+        {
+          "url": "https://dashboard.emailjs.com/>    <title>Dashboard - EmailJS</,        send_page_view: false,      });    </script>    <script type=",
+          "status_code": 200,
+          "content_type": "text/html; charset=utf-8",
+          "sensitivity_level": "critical",
+          "title": "Dashboard - EmailJS",
+          "forms_count": 0,
+          "technologies": [
+            "Cloudflare"
+          ],
+          "response_time": 0.6478841304779053
+        },
+        {
+          "url": "https://dashboard.emailjs.com/>    <title>Dashboard - EmailJS</>    <title>Dashboard - EmailJS</title>    <meta name=",
+          "status_code": 200,
+          "content_type": "text/html; charset=utf-8",
+          "sensitivity_level": "critical",
+          "title": "Dashboard - EmailJS",
+          "forms_count": 0,
+          "technologies": [
+            "Cloudflare"
+          ],
+          "response_time": 0.6162230968475342
+        },
+        {
+          "url": "https://dashboard.emailjs.com/>    <title>Dashboard - EmailJS</image/png",
+          "status_code": 200,
+          "content_type": "text/html; charset=utf-8",
+          "sensitivity_level": "critical",
+          "title": "Dashboard - EmailJS",
+          "forms_count": 0,
+          "technologies": [
+            "Cloudflare"
+          ],
+          "response_time": 0.6289708614349365
+        },
+        {
+          "url": "https://dashboard.emailjs.com/font/font/woff2",
+          "status_code": 200,
+          "content_type": "text/html; charset=utf-8",
+          "sensitivity_level": "critical",
+          "title": "Dashboard - EmailJS",
+          "forms_count": 0,
+          "technologies": [
+            "Cloudflare"
+          ],
+          "response_time": 0.62056565284729
+        },
+        {
+          "url": "https://dashboard.emailjs.com/font/>    <title>Dashboard - EmailJS</title>    <meta name=",
+          "status_code": 200,
+          "content_type": "text/html; charset=utf-8",
+          "sensitivity_level": "critical",
+          "title": "Dashboard - EmailJS",
+          "forms_count": 0,
+          "technologies": [
+            "Cloudflare"
+          ],
+          "response_time": 0.729285717010498
+        },
+        {
+          "url": "https://dashboard.emailjs.com/font/image/png",
+          "status_code": 200,
+          "content_type": "text/html; charset=utf-8",
+          "sensitivity_level": "critical",
+          "title": "Dashboard - EmailJS",
+          "forms_count": 0,
+          "technologies": [
+            "Cloudflare"
+          ],
+          "response_time": 0.6494653224945068
+        },
+        {
+          "url": "https://dashboard.emailjs.com/font/,        send_page_view: false,      });    </script>    <script type=",
+          "status_code": 200,
+          "content_type": "text/html; charset=utf-8",
+          "sensitivity_level": "critical",
+          "title": "Dashboard - EmailJS",
+          "forms_count": 0,
+          "technologies": [
+            "Cloudflare"
+          ],
+          "response_time": 0.6929895877838135
+        },
+        {
+          "url": "https://emailjs.com/assets/js/73.442a64d4.js",
+          "status_code": 200,
+          "content_type": "application/javascript",
+          "sensitivity_level": "critical",
+          "title": "",
+          "forms_count": 0,
+          "technologies": [
+            "Cloudflare"
+          ],
+          "response_time": 1.2205145359039307
+        },
+        {
+          "url": "https://emailjs.com/assets/js/app.fb803cb8.js",
+          "status_code": 200,
+          "content_type": "application/javascript",
+          "sensitivity_level": "critical",
+          "title": "",
+          "forms_count": 0,
+          "technologies": [
+            "Cloudflare",
+            "Joomla",
+            "Node.js"
+          ],
+          "response_time": 1.4393303394317627
+        }
+      ]
+    },
+    "Documentation": {
+      "count": 21,
+      "sensitivity_breakdown": {
+        "low": 21
+      },
+      "urls": [
+        {
+          "url": "https://emailjs.com/docs",
+          "status_code": 200,
+          "content_type": "text/html; charset=utf-8",
+          "sensitivity_level": "low",
+          "title": "Getting Started | EmailJS",
+          "forms_count": 0,
+          "technologies": [
+            "Cloudflare"
+          ],
+          "response_time": 1.877392292022705
+        },
+        {
+          "url": "https://emailjs.com/docs/sdk/options/",
+          "status_code": 200,
+          "content_type": "text/html; charset=utf-8",
+          "sensitivity_level": "low",
+          "title": "Options | EmailJS",
+          "forms_count": 0,
+          "technologies": [
+            "Cloudflare",
+            "Node.js"
+          ],
+          "response_time": 1.596604824066162
+        },
+        {
+          "url": "https://emailjs.com/docs/user-guide/adding-captcha-verification/",
+          "status_code": 200,
+          "content_type": "text/html; charset=utf-8",
+          "sensitivity_level": "low",
+          "title": "Adding CAPTCHA verification | EmailJS",
+          "forms_count": 0,
+          "technologies": [
+            "Cloudflare"
+          ],
+          "response_time": 1.640167236328125
+        },
+        {
+          "url": "https://emailjs.com/docs/sdk/init/",
+          "status_code": 200,
+          "content_type": "text/html; charset=utf-8",
+          "sensitivity_level": "low",
+          "title": "emailjs.init | EmailJS",
+          "forms_count": 0,
+          "technologies": [
+            "Cloudflare"
+          ],
+          "response_time": 1.5430057048797607
+        },
+        {
+          "url": "https://emailjs.com/docs/user-guide/connecting-email-services/",
+          "status_code": 200,
+          "content_type": "text/html; charset=utf-8",
+          "sensitivity_level": "low",
+          "title": "Connecting email services | EmailJS",
+          "forms_count": 0,
+          "technologies": [
+            "Cloudflare"
+          ],
+          "response_time": 1.6419343948364258
+        },
+        {
+          "url": "https://emailjs.com/docs/user-guide/creating-email-templates/",
+          "status_code": 200,
+          "content_type": "text/html; charset=utf-8",
+          "sensitivity_level": "low",
+          "title": "Creating email templates | EmailJS",
+          "forms_count": 0,
+          "technologies": [
+            "Cloudflare"
+          ],
+          "response_time": 1.3485963344573975
+        },
+        {
+          "url": "https://emailjs.com/docs/sdk/installation/",
+          "status_code": 200,
+          "content_type": "text/html; charset=utf-8",
+          "sensitivity_level": "low",
+          "title": "Installation | EmailJS",
+          "forms_count": 0,
+          "technologies": [
+            "Cloudflare"
+          ],
+          "response_time": 1.3314571380615234
+        },
+        {
+          "url": "https://emailjs.com/docs/sdk/send-form/",
+          "status_code": 200,
+          "content_type": "text/html; charset=utf-8",
+          "sensitivity_level": "low",
+          "title": "emailjs.sendForm | EmailJS",
+          "forms_count": 0,
+          "technologies": [
+            "Cloudflare"
+          ],
+          "response_time": 1.1895976066589355
+        },
+        {
+          "url": "https://emailjs.com/docs/user-guide/file-attachments/",
+          "status_code": 200,
+          "content_type": "text/html; charset=utf-8",
+          "sensitivity_level": "low",
+          "title": "File attachments | EmailJS",
+          "forms_count": 0,
+          "technologies": [
+            "Cloudflare"
+          ],
+          "response_time": 1.5386829376220703
+        },
+        {
+          "url": "https://emailjs.com/docs/examples/wix-code/",
+          "status_code": 200,
+          "content_type": "text/html; charset=utf-8",
+          "sensitivity_level": "low",
+          "title": "Wix Code | EmailJS",
+          "forms_count": 0,
+          "technologies": [
+            "Cloudflare"
+          ],
+          "response_time": 1.1911394596099854
+        },
+        {
+          "url": "https://emailjs.com/docs/sdk/send/",
+          "status_code": 200,
+          "content_type": "text/html; charset=utf-8",
+          "sensitivity_level": "low",
+          "title": "emailjs.send | EmailJS",
+          "forms_count": 0,
+          "technologies": [
+            "Cloudflare"
+          ],
+          "response_time": 1.1915974617004395
+        },
+        {
+          "url": "https://emailjs.com/docs/user-guide/pre-built-email-templates/",
+          "status_code": 200,
+          "content_type": "text/html; charset=utf-8",
+          "sensitivity_level": "low",
+          "title": "Pre-built email templates | EmailJS",
+          "forms_count": 0,
+          "technologies": [
+            "Cloudflare"
+          ],
+          "response_time": 3.0098156929016113
+        },
+        {
+          "url": "https://emailjs.com/docs/faq/can-i-send-html-from-my-code/",
+          "status_code": 200,
+          "content_type": "text/html; charset=utf-8",
+          "sensitivity_level": "low",
+          "title": "Can I send HTML from my code? | EmailJS",
+          "forms_count": 0,
+          "technologies": [
+            "Cloudflare"
+          ],
+          "response_time": 1.1525769233703613
+        },
+        {
+          "url": "https://emailjs.com/docs/examples/flutter/",
+          "status_code": 200,
+          "content_type": "text/html; charset=utf-8",
+          "sensitivity_level": "low",
+          "title": "Flutter | EmailJS",
+          "forms_count": 0,
+          "technologies": [
+            "Cloudflare"
+          ],
+          "response_time": 1.2214148044586182
+        },
+        {
+          "url": "https://emailjs.com/docs/tutorial/adding-email-service/",
+          "status_code": 200,
+          "content_type": "text/html; charset=utf-8",
+          "sensitivity_level": "low",
+          "title": "Add an email service | EmailJS",
+          "forms_count": 0,
+          "technologies": [
+            "Cloudflare"
+          ],
+          "response_time": 1.1665210723876953
+        },
+        {
+          "url": "https://emailjs.com/docs/faq/can-i-add-my-domain-to-allowlist/",
+          "status_code": 200,
+          "content_type": "text/html; charset=utf-8",
+          "sensitivity_level": "low",
+          "title": "Can I add my domain to the allowlist? | EmailJS",
+          "forms_count": 0,
+          "technologies": [
+            "Cloudflare"
+          ],
+          "response_time": 1.1340246200561523
+        },
+        {
+          "url": "https://emailjs.com/docs/examples/react-native/",
+          "status_code": 200,
+          "content_type": "text/html; charset=utf-8",
+          "sensitivity_level": "low",
+          "title": "React Native | EmailJS",
+          "forms_count": 0,
+          "technologies": [
+            "Cloudflare"
+          ],
+          "response_time": 2.0698578357696533
+        },
+        {
+          "url": "https://emailjs.com/docs/faq/do-you-support-mobile-platforms/",
+          "status_code": 200,
+          "content_type": "text/html; charset=utf-8",
+          "sensitivity_level": "low",
+          "title": "Do you support mobile platforms? | EmailJS",
+          "forms_count": 0,
+          "technologies": [
+            "Cloudflare"
+          ],
+          "response_time": 1.1689674854278564
+        },
+        {
+          "url": "https://emailjs.com/docs/user-guide/dynamic-variables-templates/",
+          "status_code": 200,
+          "content_type": "text/html; charset=utf-8",
+          "sensitivity_level": "low",
+          "title": "Dynamic variables in templates | EmailJS",
+          "forms_count": 0,
+          "technologies": [
+            "Cloudflare"
+          ],
+          "response_time": 1.1251988410949707
+        },
+        {
+          "url": "https://emailjs.com/docs/user-guide/multi-user-access/",
+          "status_code": 200,
+          "content_type": "text/html; charset=utf-8",
+          "sensitivity_level": "low",
+          "title": "Multi-user access | EmailJS",
+          "forms_count": 0,
+          "technologies": [
+            "Cloudflare"
+          ],
+          "response_time": 1.1234028339385986
+        },
+        {
+          "url": "https://emailjs.com/docs/faq/is-it-okay-to-expose-my-public-key/",
+          "status_code": 200,
+          "content_type": "text/html; charset=utf-8",
+          "sensitivity_level": "low",
+          "title": "Is it okay to expose my Public Key? | EmailJS",
+          "forms_count": 0,
+          "technologies": [
+            "Cloudflare"
+          ],
+          "response_time": 1.0217254161834717
+        }
+      ]
+    },
+    "Other": {
+      "count": 15,
+      "sensitivity_breakdown": {
+        "low": 15
+      },
+      "urls": [
+        {
+          "url": "https://emailjs.com/assets/js/54.eaecc658.js",
+          "status_code": 200,
+          "content_type": "application/javascript",
+          "sensitivity_level": "low",
+          "title": "",
+          "forms_count": 0,
+          "technologies": [
+            "Cloudflare"
+          ],
+          "response_time": 1.2047874927520752
+        },
+        {
+          "url": "https://emailjs.com/assets/js/70.34ab2ddc.js",
+          "status_code": 200,
+          "content_type": "application/javascript",
+          "sensitivity_level": "low",
+          "title": "",
+          "forms_count": 0,
+          "technologies": [
+            "Cloudflare"
+          ],
+          "response_time": 1.2018067836761475
+        },
+        {
+          "url": "https://emailjs.com/assets/js/106.aa1d731b.js",
+          "status_code": 200,
+          "content_type": "application/javascript",
+          "sensitivity_level": "low",
+          "title": "",
+          "forms_count": 0,
+          "technologies": [
+            "Cloudflare"
+          ],
+          "response_time": 1.1690726280212402
+        },
+        {
+          "url": "https://emailjs.com/assets/js/41.f8929f2e.js",
+          "status_code": 200,
+          "content_type": "application/javascript",
+          "sensitivity_level": "low",
+          "title": "",
+          "forms_count": 0,
+          "technologies": [
+            "Cloudflare"
+          ],
+          "response_time": 1.593202829360962
+        },
+        {
+          "url": "https://emailjs.com/assets/js/79.b932642b.js",
+          "status_code": 200,
+          "content_type": "application/javascript",
+          "sensitivity_level": "low",
+          "title": "",
+          "forms_count": 0,
+          "technologies": [
+            "Cloudflare"
+          ],
+          "response_time": 1.420879602432251
+        },
+        {
+          "url": "https://emailjs.com/assets/js/5.440a92a4.js",
+          "status_code": 200,
+          "content_type": "application/javascript",
+          "sensitivity_level": "low",
+          "title": "",
+          "forms_count": 0,
+          "technologies": [
+            "Cloudflare"
+          ],
+          "response_time": 1.5052225589752197
+        },
+        {
+          "url": "https://emailjs.com/assets/js/99.5099a45b.js",
+          "status_code": 200,
+          "content_type": "application/javascript",
+          "sensitivity_level": "low",
+          "title": "",
+          "forms_count": 0,
+          "technologies": [
+            "Cloudflare"
+          ],
+          "response_time": 1.546743631362915
+        },
+        {
+          "url": "https://emailjs.com/assets/js/7.d7704da5.js",
+          "status_code": 200,
+          "content_type": "application/javascript",
+          "sensitivity_level": "low",
+          "title": "",
+          "forms_count": 0,
+          "technologies": [
+            "Cloudflare"
+          ],
+          "response_time": 1.9467194080352783
+        },
+        {
+          "url": "https://emailjs.com/assets/js/56.fa65f01c.js",
+          "status_code": 200,
+          "content_type": "application/javascript",
+          "sensitivity_level": "low",
+          "title": "",
+          "forms_count": 0,
+          "technologies": [
+            "Cloudflare"
+          ],
+          "response_time": 0.9350714683532715
+        },
+        {
+          "url": "https://emailjs.com/assets/js/34.93f0bd6d.js",
+          "status_code": 200,
+          "content_type": "application/javascript",
+          "sensitivity_level": "low",
+          "title": "",
+          "forms_count": 0,
+          "technologies": [
+            "Cloudflare"
+          ],
+          "response_time": 0.9920690059661865
+        },
+        {
+          "url": "https://emailjs.com/assets/js/90.3bf4d4cc.js",
+          "status_code": 200,
+          "content_type": "application/javascript",
+          "sensitivity_level": "low",
+          "title": "",
+          "forms_count": 0,
+          "technologies": [
+            "Cloudflare"
+          ],
+          "response_time": 7.072019338607788
+        },
+        {
+          "url": "https://emailjs.com/assets/js/77.75138d25.js",
+          "status_code": 200,
+          "content_type": "application/javascript",
+          "sensitivity_level": "low",
+          "title": "",
+          "forms_count": 0,
+          "technologies": [
+            "Cloudflare"
+          ],
+          "response_time": 1.0200998783111572
+        },
+        {
+          "url": "https://emailjs.com/assets/js/8.9ec04d58.js",
+          "status_code": 200,
+          "content_type": "application/javascript",
+          "sensitivity_level": "low",
+          "title": "",
+          "forms_count": 0,
+          "technologies": [
+            "Cloudflare"
+          ],
+          "response_time": 1.0260050296783447
+        },
+        {
+          "url": "https://emailjs.com/assets/js/86.e2dcddcf.js",
+          "status_code": 200,
+          "content_type": "application/javascript",
+          "sensitivity_level": "low",
+          "title": "",
+          "forms_count": 0,
+          "technologies": [
+            "Cloudflare"
+          ],
+          "response_time": 1.14194917678833
+        },
+        {
+          "url": "https://emailjs.com/assets/js/40.dafe0156.js",
+          "status_code": 200,
+          "content_type": "application/javascript",
+          "sensitivity_level": "low",
+          "title": "",
+          "forms_count": 0,
+          "technologies": [
+            "Cloudflare"
+          ],
+          "response_time": 1.06069016456604
+        }
+      ]
+    },
+    "Configuration": {
+      "count": 2,
+      "sensitivity_breakdown": {
+        "critical": 2
+      },
+      "urls": [
+        {
+          "url": "https://emailjs.com/assets/js/85.4f09ddb5.js",
+          "status_code": 200,
+          "content_type": "application/javascript",
+          "sensitivity_level": "critical",
+          "title": "",
+          "forms_count": 0,
+          "technologies": [
+            "Cloudflare"
+          ],
+          "response_time": 1.202380895614624
+        },
+        {
+          "url": "https://dashboard.emailjs.com/favicon/browserconfig.xml",
+          "status_code": 200,
+          "content_type": "application/xml",
+          "sensitivity_level": "critical",
+          "title": "",
+          "forms_count": 0,
+          "technologies": [
+            "Cloudflare"
+          ],
+          "response_time": 0.8781745433807373
+        }
+      ]
+    },
+    "API Endpoint": {
+      "count": 1,
+      "sensitivity_breakdown": {
+        "medium": 1
+      },
+      "urls": [
+        {
+          "url": "https://emailjs.com/docs/rest-api/send-form/",
+          "status_code": 200,
+          "content_type": "text/html; charset=utf-8",
+          "sensitivity_level": "medium",
+          "title": "/send-form | EmailJS",
+          "forms_count": 0,
+          "technologies": [
+            "Cloudflare"
+          ],
+          "response_time": 1.629786491394043
+        }
+      ]
+    },
+    "Admin/Management": {
+      "count": 1,
+      "sensitivity_breakdown": {
+        "high": 1
+      },
+      "urls": [
+        {
+          "url": "https://dashboard.emailjs.com/admin",
+          "status_code": 200,
+          "content_type": "text/html; charset=utf-8",
+          "sensitivity_level": "high",
+          "title": "Dashboard - EmailJS",
+          "forms_count": 0,
+          "technologies": [
+            "Cloudflare"
+          ],
+          "response_time": 0.5136165618896484
+        }
+      ]
+    },
+    "Development": {
+      "count": 1,
+      "sensitivity_breakdown": {
+        "medium": 1
+      },
+      "urls": [
+        {
+          "url": "https://dashboard.emailjs.com/assets/)return`[BigInt: ${String(t)}]`;const n=vy(t);return/^HTML(\\w*)Element$/.test(n)?`[HTMLElement: ${n}]`:`[object ${n}]`}catch(n){return`**non-serializable** (${n})`}}function vy(e){const t=Object.getPrototypeOf(e);return t?.constructor?t.constructor.name:",
+          "status_code": 200,
+          "content_type": "text/html; charset=utf-8",
+          "sensitivity_level": "medium",
+          "title": "Dashboard - EmailJS",
+          "forms_count": 0,
+          "technologies": [
+            "Cloudflare"
+          ],
+          "response_time": 0.5567669868469238
+        }
+      ]
+    }
+  },
+  "sensitivity_analysis": {
+    "critical": 81,
+    "low": 36,
+    "medium": 2,
+    "high": 1
+  },
+  "technology_fingerprints": {
+    "Cloudflare": 120,
+    "Node.js": 2,
+    "Joomla": 1
+  },
+  "security_analysis": {
+    "security_headers_coverage": {
+      "X-Content-Type-Options": 120,
+      "Referrer-Policy": 120,
+      "X-Frame-Options": 51,
+      "X-XSS-Protection": 51,
+      "Strict-Transport-Security": 51
+    },
+    "forms_discovered": 1,
+    "cookies_found": 0
+  },
+  "detailed_results": [
+    {
+      "url": "https://emailjs.com/robots.txt",
+      "category": "Sensitive Content",
+      "sensitivity_level": "critical",
+      "status_code": 200,
+      "content_type": "text/plain; charset=utf-8",
+      "content_length": 69,
+      "response_time": 1.282062292098999,
+      "title": "",
+      "forms": [],
+      "technologies": [
+        "Cloudflare"
+      ],
+      "security_headers": {
+        "X-Content-Type-Options": "nosniff",
+        "Referrer-Policy": "strict-origin-when-cross-origin"
+      },
+      "cookies": [],
+      "comments_count": 0,
+      "scripts_count": 0,
+      "redirect_chain": [
+        "https://emailjs.com/robots.txt"
+      ]
+    },
+    {
+      "url": "https://emailjs.com/sitemap.xml",
+      "category": "Sensitive Content",
+      "sensitivity_level": "critical",
+      "status_code": 200,
+      "content_type": "application/xml",
+      "content_length": 8950,
+      "response_time": 1.2880628108978271,
+      "title": "",
+      "forms": [],
+      "technologies": [
+        "Cloudflare"
+      ],
+      "security_headers": {
+        "X-Content-Type-Options": "nosniff",
+        "Referrer-Policy": "strict-origin-when-cross-origin"
+      },
+      "cookies": [],
+      "comments_count": 1,
+      "scripts_count": 0,
+      "redirect_chain": [
+        "https://emailjs.com/sitemap.xml"
+      ]
+    },
+    {
+      "url": "https://emailjs.com/404.html",
+      "category": "Sensitive Content",
+      "sensitivity_level": "critical",
+      "status_code": 200,
+      "content_type": "text/html; charset=utf-8",
+      "content_length": 8936,
+      "response_time": 1.8594346046447754,
+      "title": "EmailJS",
+      "forms": [],
+      "technologies": [
+        "Cloudflare"
+      ],
+      "security_headers": {
+        "X-Content-Type-Options": "nosniff",
+        "Referrer-Policy": "strict-origin-when-cross-origin"
+      },
+      "cookies": [],
+      "comments_count": 0,
+      "scripts_count": 5,
+      "redirect_chain": [
+        "https://emailjs.com/404.html",
+        "https://www.emailjs.com/404.html"
+      ]
+    },
+    {
+      "url": "https://emailjs.com/index.html",
+      "category": "Sensitive Content",
+      "sensitivity_level": "critical",
+      "status_code": 200,
+      "content_type": "text/html; charset=utf-8",
+      "content_length": 26039,
+      "response_time": 1.894866704940796,
+      "title": "EmailJS",
+      "forms": [],
+      "technologies": [
+        "Cloudflare"
+      ],
+      "security_headers": {
+        "X-Content-Type-Options": "nosniff",
+        "Referrer-Policy": "strict-origin-when-cross-origin"
+      },
+      "cookies": [],
+      "comments_count": 0,
+      "scripts_count": 9,
+      "redirect_chain": [
+        "https://emailjs.com/index.html",
+        "https://www.emailjs.com/index.html"
+      ]
+    },
+    {
+      "url": "https://emailjs.com/404",
+      "category": "Sensitive Content",
+      "sensitivity_level": "critical",
+      "status_code": 200,
+      "content_type": "text/html; charset=utf-8",
+      "content_length": 8936,
+      "response_time": 1.3330662250518799,
+      "title": "EmailJS",
+      "forms": [],
+      "technologies": [
+        "Cloudflare"
+      ],
+      "security_headers": {
+        "X-Content-Type-Options": "nosniff",
+        "Referrer-Policy": "strict-origin-when-cross-origin"
+      },
+      "cookies": [],
+      "comments_count": 0,
+      "scripts_count": 5,
+      "redirect_chain": [
+        "https://emailjs.com/404"
+      ]
+    },
+    {
+      "url": "https://emailjs.com",
+      "category": "Sensitive Content",
+      "sensitivity_level": "critical",
+      "status_code": 200,
+      "content_type": "text/html; charset=utf-8",
+      "content_length": 26039,
+      "response_time": 1.3060615062713623,
+      "title": "EmailJS",
+      "forms": [],
+      "technologies": [
+        "Cloudflare"
+      ],
+      "security_headers": {
+        "X-Content-Type-Options": "nosniff",
+        "Referrer-Policy": "strict-origin-when-cross-origin"
+      },
+      "cookies": [],
+      "comments_count": 0,
+      "scripts_count": 9,
+      "redirect_chain": [
+        "https://emailjs.com"
+      ]
+    },
+    {
+      "url": "https://emailjs.com/assets/js/60.fde82c5f.js",
+      "category": "Sensitive Content",
+      "sensitivity_level": "critical",
+      "status_code": 200,
+      "content_type": "application/javascript",
+      "content_length": 8021,
+      "response_time": 1.1498007774353027,
+      "title": "",
+      "forms": [],
+      "technologies": [
+        "Cloudflare"
+      ],
+      "security_headers": {
+        "X-Content-Type-Options": "nosniff",
+        "Referrer-Policy": "strict-origin-when-cross-origin"
+      },
+      "cookies": [],
+      "comments_count": 0,
+      "scripts_count": 0,
+      "redirect_chain": [
+        "https://emailjs.com/assets/js/60.fde82c5f.js"
+      ]
+    },
+    {
+      "url": "https://emailjs.com/assets/js/39.86e0a928.js",
+      "category": "Sensitive Content",
+      "sensitivity_level": "critical",
+      "status_code": 200,
+      "content_type": "application/javascript",
+      "content_length": 612,
+      "response_time": 1.200786828994751,
+      "title": "",
+      "forms": [],
+      "technologies": [
+        "Cloudflare"
+      ],
+      "security_headers": {
+        "X-Content-Type-Options": "nosniff",
+        "Referrer-Policy": "strict-origin-when-cross-origin"
+      },
+      "cookies": [],
+      "comments_count": 0,
+      "scripts_count": 0,
+      "redirect_chain": [
+        "https://emailjs.com/assets/js/39.86e0a928.js"
+      ]
+    },
+    {
+      "url": "https://emailjs.com/assets/js/43.dc2d8511.js",
+      "category": "Sensitive Content",
+      "sensitivity_level": "critical",
+      "status_code": 200,
+      "content_type": "application/javascript",
+      "content_length": 857,
+      "response_time": 1.259152889251709,
+      "title": "",
+      "forms": [],
+      "technologies": [
+        "Cloudflare"
+      ],
+      "security_headers": {
+        "X-Content-Type-Options": "nosniff",
+        "Referrer-Policy": "strict-origin-when-cross-origin"
+      },
+      "cookies": [],
+      "comments_count": 0,
+      "scripts_count": 0,
+      "redirect_chain": [
+        "https://emailjs.com/assets/js/43.dc2d8511.js"
+      ]
+    },
+    {
+      "url": "https://emailjs.com/assets/js/1.0aa6c328.js",
+      "category": "Sensitive Content",
+      "sensitivity_level": "critical",
+      "status_code": 200,
+      "content_type": "application/javascript",
+      "content_length": 17856,
+      "response_time": 1.1588020324707031,
+      "title": "",
+      "forms": [],
+      "technologies": [
+        "Cloudflare"
+      ],
+      "security_headers": {
+        "X-Content-Type-Options": "nosniff",
+        "Referrer-Policy": "strict-origin-when-cross-origin"
+      },
+      "cookies": [],
+      "comments_count": 0,
+      "scripts_count": 0,
+      "redirect_chain": [
+        "https://emailjs.com/assets/js/1.0aa6c328.js"
+      ]
+    },
+    {
+      "url": "https://emailjs.com/assets/js/69.cac543c0.js",
+      "category": "Sensitive Content",
+      "sensitivity_level": "critical",
+      "status_code": 200,
+      "content_type": "application/javascript",
+      "content_length": 971,
+      "response_time": 1.4664325714111328,
+      "title": "",
+      "forms": [],
+      "technologies": [
+        "Cloudflare"
+      ],
+      "security_headers": {
+        "X-Content-Type-Options": "nosniff",
+        "Referrer-Policy": "strict-origin-when-cross-origin"
+      },
+      "cookies": [],
+      "comments_count": 0,
+      "scripts_count": 0,
+      "redirect_chain": [
+        "https://emailjs.com/assets/js/69.cac543c0.js"
+      ]
+    },
+    {
+      "url": "https://emailjs.com/assets/js/45.88574545.js",
+      "category": "Sensitive Content",
+      "sensitivity_level": "critical",
+      "status_code": 200,
+      "content_type": "application/javascript",
+      "content_length": 931,
+      "response_time": 1.4393625259399414,
+      "title": "",
+      "forms": [],
+      "technologies": [
+        "Cloudflare"
+      ],
+      "security_headers": {
+        "X-Content-Type-Options": "nosniff",
+        "Referrer-Policy": "strict-origin-when-cross-origin"
+      },
+      "cookies": [],
+      "comments_count": 0,
+      "scripts_count": 0,
+      "redirect_chain": [
+        "https://emailjs.com/assets/js/45.88574545.js"
+      ]
+    },
+    {
+      "url": "https://emailjs.com/assets/js/68.3cde2a66.js",
+      "category": "Sensitive Content",
+      "sensitivity_level": "critical",
+      "status_code": 200,
+      "content_type": "application/javascript",
+      "content_length": 1775,
+      "response_time": 1.180663824081421,
+      "title": "",
+      "forms": [],
+      "technologies": [
+        "Cloudflare"
+      ],
+      "security_headers": {
+        "X-Content-Type-Options": "nosniff",
+        "Referrer-Policy": "strict-origin-when-cross-origin"
+      },
+      "cookies": [],
+      "comments_count": 0,
+      "scripts_count": 0,
+      "redirect_chain": [
+        "https://emailjs.com/assets/js/68.3cde2a66.js"
+      ]
+    },
+    {
+      "url": "https://emailjs.com/assets/js/85.4f09ddb5.js",
+      "category": "Configuration",
+      "sensitivity_level": "critical",
+      "status_code": 200,
+      "content_type": "application/javascript",
+      "content_length": 6990,
+      "response_time": 1.202380895614624,
+      "title": "",
+      "forms": [],
+      "technologies": [
+        "Cloudflare"
+      ],
+      "security_headers": {
+        "X-Content-Type-Options": "nosniff",
+        "Referrer-Policy": "strict-origin-when-cross-origin"
+      },
+      "cookies": [],
+      "comments_count": 0,
+      "scripts_count": 0,
+      "redirect_chain": [
+        "https://emailjs.com/assets/js/85.4f09ddb5.js"
+      ]
+    },
+    {
+      "url": "https://emailjs.com/assets/js/10.9e4c7c16.js",
+      "category": "Sensitive Content",
+      "sensitivity_level": "critical",
+      "status_code": 200,
+      "content_type": "application/javascript",
+      "content_length": 19118,
+      "response_time": 1.2004828453063965,
+      "title": "",
+      "forms": [],
+      "technologies": [
+        "Cloudflare"
+      ],
+      "security_headers": {
+        "X-Content-Type-Options": "nosniff",
+        "Referrer-Policy": "strict-origin-when-cross-origin"
+      },
+      "cookies": [],
+      "comments_count": 0,
+      "scripts_count": 0,
+      "redirect_chain": [
+        "https://emailjs.com/assets/js/10.9e4c7c16.js"
+      ]
+    },
+    {
+      "url": "https://emailjs.com/assets/js/15.e9df1221.js",
+      "category": "Sensitive Content",
+      "sensitivity_level": "critical",
+      "status_code": 200,
+      "content_type": "application/javascript",
+      "content_length": 10327,
+      "response_time": 1.4413621425628662,
+      "title": "",
+      "forms": [],
+      "technologies": [
+        "Cloudflare"
+      ],
+      "security_headers": {
+        "X-Content-Type-Options": "nosniff",
+        "Referrer-Policy": "strict-origin-when-cross-origin"
+      },
+      "cookies": [],
+      "comments_count": 0,
+      "scripts_count": 0,
+      "redirect_chain": [
+        "https://emailjs.com/assets/js/15.e9df1221.js"
+      ]
+    },
+    {
+      "url": "https://emailjs.com/assets/js/65.7a0784d7.js",
+      "category": "Sensitive Content",
+      "sensitivity_level": "critical",
+      "status_code": 200,
+      "content_type": "application/javascript",
+      "content_length": 13683,
+      "response_time": 1.4937536716461182,
+      "title": "",
+      "forms": [],
+      "technologies": [
+        "Cloudflare"
+      ],
+      "security_headers": {
+        "X-Content-Type-Options": "nosniff",
+        "Referrer-Policy": "strict-origin-when-cross-origin"
+      },
+      "cookies": [],
+      "comments_count": 0,
+      "scripts_count": 0,
+      "redirect_chain": [
+        "https://emailjs.com/assets/js/65.7a0784d7.js"
+      ]
+    },
+    {
+      "url": "https://dashboard.emailjs.com/sign-in",
+      "category": "Sensitive Content",
+      "sensitivity_level": "critical",
+      "status_code": 200,
+      "content_type": "text/html; charset=utf-8",
+      "content_length": 3351,
+      "response_time": 0.7279372215270996,
+      "title": "Dashboard - EmailJS",
+      "forms": [],
+      "technologies": [
+        "Cloudflare"
+      ],
+      "security_headers": {
+        "X-Frame-Options": "DENY",
+        "X-XSS-Protection": "1",
+        "X-Content-Type-Options": "nosniff",
+        "Strict-Transport-Security": "max-age=31536000; includeSubDomains; preload",
+        "Referrer-Policy": "strict-origin-when-cross-origin"
+      },
+      "cookies": [],
+      "comments_count": 0,
+      "scripts_count": 3,
+      "redirect_chain": []
+    },
+    {
+      "url": "https://emailjs.com/legal/data-protection-agreement/",
+      "category": "Sensitive Content",
+      "sensitivity_level": "critical",
+      "status_code": 200,
+      "content_type": "text/html; charset=utf-8",
+      "content_length": 27105,
+      "response_time": 1.5541985034942627,
+      "title": "Data Processing Agreements | EmailJS",
+      "forms": [],
+      "technologies": [
+        "Cloudflare"
+      ],
+      "security_headers": {
+        "X-Content-Type-Options": "nosniff",
+        "Referrer-Policy": "strict-origin-when-cross-origin"
+      },
+      "cookies": [],
+      "comments_count": 0,
+      "scripts_count": 8,
+      "redirect_chain": [
+        "https://emailjs.com/legal/data-protection-agreement/"
+      ]
+    },
+    {
+      "url": "https://emailjs.com/",
+      "category": "Sensitive Content",
+      "sensitivity_level": "critical",
+      "status_code": 200,
+      "content_type": "text/html; charset=utf-8",
+      "content_length": 26039,
+      "response_time": 1.4956998825073242,
+      "title": "EmailJS",
+      "forms": [],
+      "technologies": [
+        "Cloudflare"
+      ],
+      "security_headers": {
+        "X-Content-Type-Options": "nosniff",
+        "Referrer-Policy": "strict-origin-when-cross-origin"
+      },
+      "cookies": [],
+      "comments_count": 0,
+      "scripts_count": 9,
+      "redirect_chain": [
+        "https://emailjs.com/"
+      ]
+    },
+    {
+      "url": "https://dashboard.emailjs.com/assets/index-C2z91WFG.js",
+      "category": "Sensitive Content",
+      "sensitivity_level": "critical",
+      "status_code": 200,
+      "content_type": "application/javascript",
+      "content_length": 226377,
+      "response_time": 0.9138526916503906,
+      "title": "",
+      "forms": [],
+      "technologies": [
+        "Cloudflare"
+      ],
+      "security_headers": {
+        "X-Frame-Options": "DENY",
+        "X-XSS-Protection": "1",
+        "X-Content-Type-Options": "nosniff",
+        "Strict-Transport-Security": "max-age=31536000; includeSubDomains; preload",
+        "Referrer-Policy": "strict-origin-when-cross-origin"
+      },
+      "cookies": [],
+      "comments_count": 0,
+      "scripts_count": 0,
+      "redirect_chain": []
+    },
+    {
+      "url": "https://emailjs.com/legal/privacy-policy/",
+      "category": "Sensitive Content",
+      "sensitivity_level": "critical",
+      "status_code": 200,
+      "content_type": "text/html; charset=utf-8",
+      "content_length": 31372,
+      "response_time": 1.5885074138641357,
+      "title": "Privacy Policy | EmailJS",
+      "forms": [],
+      "technologies": [
+        "Cloudflare"
+      ],
+      "security_headers": {
+        "X-Content-Type-Options": "nosniff",
+        "Referrer-Policy": "strict-origin-when-cross-origin"
+      },
+      "cookies": [],
+      "comments_count": 0,
+      "scripts_count": 7,
+      "redirect_chain": [
+        "https://emailjs.com/legal/privacy-policy/"
+      ]
+    },
+    {
+      "url": "https://dashboard.emailjs.com/favicon/browserconfig.xml",
+      "category": "Configuration",
+      "sensitivity_level": "critical",
+      "status_code": 200,
+      "content_type": "application/xml",
+      "content_length": 253,
+      "response_time": 0.8781745433807373,
+      "title": "",
+      "forms": [],
+      "technologies": [
+        "Cloudflare"
+      ],
+      "security_headers": {
+        "X-Frame-Options": "DENY",
+        "X-XSS-Protection": "1",
+        "X-Content-Type-Options": "nosniff",
+        "Strict-Transport-Security": "max-age=31536000; includeSubDomains; preload",
+        "Referrer-Policy": "strict-origin-when-cross-origin"
+      },
+      "cookies": [],
+      "comments_count": 0,
+      "scripts_count": 0,
+      "redirect_chain": []
+    },
+    {
+      "url": "https://dashboard.emailjs.com/assets/index-D8EmXif3.css",
+      "category": "Sensitive Content",
+      "sensitivity_level": "critical",
+      "status_code": 200,
+      "content_type": "text/css; charset=utf-8",
+      "content_length": 6385,
+      "response_time": 0.7321279048919678,
+      "title": "",
+      "forms": [],
+      "technologies": [
+        "Cloudflare"
+      ],
+      "security_headers": {
+        "X-Frame-Options": "DENY",
+        "X-XSS-Protection": "1",
+        "X-Content-Type-Options": "nosniff",
+        "Strict-Transport-Security": "max-age=31536000; includeSubDomains; preload",
+        "Referrer-Policy": "strict-origin-when-cross-origin"
+      },
+      "cookies": [],
+      "comments_count": 0,
+      "scripts_count": 0,
+      "redirect_chain": []
+    },
+    {
+      "url": "https://emailjs.com/contact-us/",
+      "category": "Sensitive Content",
+      "sensitivity_level": "critical",
+      "status_code": 200,
+      "content_type": "text/html; charset=utf-8",
+      "content_length": 18291,
+      "response_time": 1.279329538345337,
+      "title": "Contact Us | EmailJS",
+      "forms": [
+        {
+          "action": "",
+          "method": "GET",
+          "inputs": [
+            {
+              "name": "name",
+              "type": "text",
+              "value": ""
+            },
+            {
+              "name": "email",
+              "type": "email",
+              "value": ""
+            },
+            {
+              "name": "subject",
+              "type": "text",
+              "value": ""
+            }
+          ]
+        }
+      ],
+      "technologies": [
+        "Cloudflare"
+      ],
+      "security_headers": {
+        "X-Content-Type-Options": "nosniff",
+        "Referrer-Policy": "strict-origin-when-cross-origin"
+      },
+      "cookies": [],
+      "comments_count": 0,
+      "scripts_count": 8,
+      "redirect_chain": [
+        "https://emailjs.com/contact-us/"
+      ]
+    },
+    {
+      "url": "https://dashboard.emailjs.com/image/png",
+      "category": "Sensitive Content",
+      "sensitivity_level": "critical",
+      "status_code": 200,
+      "content_type": "text/html; charset=utf-8",
+      "content_length": 3351,
+      "response_time": 0.6400492191314697,
+      "title": "Dashboard - EmailJS",
+      "forms": [],
+      "technologies": [
+        "Cloudflare"
+      ],
+      "security_headers": {
+        "X-Frame-Options": "DENY",
+        "X-XSS-Protection": "1",
+        "X-Content-Type-Options": "nosniff",
+        "Strict-Transport-Security": "max-age=31536000; includeSubDomains; preload",
+        "Referrer-Policy": "strict-origin-when-cross-origin"
+      },
+      "cookies": [],
+      "comments_count": 0,
+      "scripts_count": 3,
+      "redirect_chain": []
+    },
+    {
+      "url": "https://dashboard.emailjs.com/,        send_page_view: false,      });    </script>    <script type=",
+      "category": "Sensitive Content",
+      "sensitivity_level": "critical",
+      "status_code": 200,
+      "content_type": "text/html; charset=utf-8",
+      "content_length": 3351,
+      "response_time": 0.7310805320739746,
+      "title": "Dashboard - EmailJS",
+      "forms": [],
+      "technologies": [
+        "Cloudflare"
+      ],
+      "security_headers": {
+        "X-Frame-Options": "DENY",
+        "X-XSS-Protection": "1",
+        "X-Content-Type-Options": "nosniff",
+        "Strict-Transport-Security": "max-age=31536000; includeSubDomains; preload",
+        "Referrer-Policy": "strict-origin-when-cross-origin"
+      },
+      "cookies": [],
+      "comments_count": 0,
+      "scripts_count": 3,
+      "redirect_chain": []
+    },
+    {
+      "url": "https://emailjs.com/pricing/",
+      "category": "Sensitive Content",
+      "sensitivity_level": "critical",
+      "status_code": 200,
+      "content_type": "text/html; charset=utf-8",
+      "content_length": 52702,
+      "response_time": 1.3923234939575195,
+      "title": "Pricing | EmailJS",
+      "forms": [],
+      "technologies": [
+        "Cloudflare"
+      ],
+      "security_headers": {
+        "X-Content-Type-Options": "nosniff",
+        "Referrer-Policy": "strict-origin-when-cross-origin"
+      },
+      "cookies": [],
+      "comments_count": 0,
+      "scripts_count": 7,
+      "redirect_chain": [
+        "https://emailjs.com/pricing/"
+      ]
+    },
+    {
+      "url": "https://dashboard.emailjs.com/favicon/manifest.json",
+      "category": "Sensitive Content",
+      "sensitivity_level": "critical",
+      "status_code": 200,
+      "content_type": "application/json",
+      "content_length": 604,
+      "response_time": 1.017803430557251,
+      "title": "",
+      "forms": [],
+      "technologies": [
+        "Cloudflare"
+      ],
+      "security_headers": {
+        "X-Frame-Options": "DENY",
+        "X-XSS-Protection": "1",
+        "X-Content-Type-Options": "nosniff",
+        "Strict-Transport-Security": "max-age=31536000; includeSubDomains; preload",
+        "Referrer-Policy": "strict-origin-when-cross-origin"
+      },
+      "cookies": [],
+      "comments_count": 0,
+      "scripts_count": 0,
+      "redirect_chain": []
+    },
+    {
+      "url": "https://dashboard.emailjs.com/>    <title>Dashboard - EmailJS</title>    <meta name=",
+      "category": "Sensitive Content",
+      "sensitivity_level": "critical",
+      "status_code": 200,
+      "content_type": "text/html; charset=utf-8",
+      "content_length": 3351,
+      "response_time": 1.0451974868774414,
+      "title": "Dashboard - EmailJS",
+      "forms": [],
+      "technologies": [
+        "Cloudflare"
+      ],
+      "security_headers": {
+        "X-Frame-Options": "DENY",
+        "X-XSS-Protection": "1",
+        "X-Content-Type-Options": "nosniff",
+        "Strict-Transport-Security": "max-age=31536000; includeSubDomains; preload",
+        "Referrer-Policy": "strict-origin-when-cross-origin"
+      },
+      "cookies": [],
+      "comments_count": 0,
+      "scripts_count": 3,
+      "redirect_chain": []
+    },
+    {
+      "url": "https://dashboard.emailjs.com/font/woff2",
+      "category": "Sensitive Content",
+      "sensitivity_level": "critical",
+      "status_code": 200,
+      "content_type": "text/html; charset=utf-8",
+      "content_length": 3351,
+      "response_time": 0.606910228729248,
+      "title": "Dashboard - EmailJS",
+      "forms": [],
+      "technologies": [
+        "Cloudflare"
+      ],
+      "security_headers": {
+        "X-Frame-Options": "DENY",
+        "X-XSS-Protection": "1",
+        "X-Content-Type-Options": "nosniff",
+        "Strict-Transport-Security": "max-age=31536000; includeSubDomains; preload",
+        "Referrer-Policy": "strict-origin-when-cross-origin"
+      },
+      "cookies": [],
+      "comments_count": 0,
+      "scripts_count": 3,
+      "redirect_chain": []
+    },
+    {
+      "url": "https://emailjs.com/assets/js/42.557461d7.js",
+      "category": "Sensitive Content",
+      "sensitivity_level": "critical",
+      "status_code": 200,
+      "content_type": "application/javascript",
+      "content_length": 836,
+      "response_time": 1.5218992233276367,
+      "title": "",
+      "forms": [],
+      "technologies": [
+        "Cloudflare"
+      ],
+      "security_headers": {
+        "X-Content-Type-Options": "nosniff",
+        "Referrer-Policy": "strict-origin-when-cross-origin"
+      },
+      "cookies": [],
+      "comments_count": 0,
+      "scripts_count": 0,
+      "redirect_chain": [
+        "https://emailjs.com/assets/js/42.557461d7.js"
+      ]
+    },
+    {
+      "url": "https://emailjs.com/assets/js/3.27f41fe7.js",
+      "category": "Sensitive Content",
+      "sensitivity_level": "critical",
+      "status_code": 200,
+      "content_type": "application/javascript",
+      "content_length": 13752,
+      "response_time": 1.53712797164917,
+      "title": "",
+      "forms": [],
+      "technologies": [
+        "Cloudflare"
+      ],
+      "security_headers": {
+        "X-Content-Type-Options": "nosniff",
+        "Referrer-Policy": "strict-origin-when-cross-origin"
+      },
+      "cookies": [],
+      "comments_count": 0,
+      "scripts_count": 0,
+      "redirect_chain": [
+        "https://emailjs.com/assets/js/3.27f41fe7.js"
+      ]
+    },
+    {
+      "url": "https://emailjs.com/assets/js/29.84320b00.js",
+      "category": "Sensitive Content",
+      "sensitivity_level": "critical",
+      "status_code": 200,
+      "content_type": "application/javascript",
+      "content_length": 4387,
+      "response_time": 2.007183790206909,
+      "title": "",
+      "forms": [],
+      "technologies": [
+        "Cloudflare"
+      ],
+      "security_headers": {
+        "X-Content-Type-Options": "nosniff",
+        "Referrer-Policy": "strict-origin-when-cross-origin"
+      },
+      "cookies": [],
+      "comments_count": 0,
+      "scripts_count": 0,
+      "redirect_chain": [
+        "https://emailjs.com/assets/js/29.84320b00.js"
+      ]
+    },
+    {
+      "url": "https://dashboard.emailjs.com/admin",
+      "category": "Admin/Management",
+      "sensitivity_level": "high",
+      "status_code": 200,
+      "content_type": "text/html; charset=utf-8",
+      "content_length": 3351,
+      "response_time": 0.5136165618896484,
+      "title": "Dashboard - EmailJS",
+      "forms": [],
+      "technologies": [
+        "Cloudflare"
+      ],
+      "security_headers": {
+        "X-Frame-Options": "DENY",
+        "X-XSS-Protection": "1",
+        "X-Content-Type-Options": "nosniff",
+        "Strict-Transport-Security": "max-age=31536000; includeSubDomains; preload",
+        "Referrer-Policy": "strict-origin-when-cross-origin"
+      },
+      "cookies": [],
+      "comments_count": 0,
+      "scripts_count": 3,
+      "redirect_chain": []
+    },
+    {
+      "url": "https://dashboard.emailjs.com/assets/];return!(B===B.top&&r.some(i=>n.startsWith(`${i}:/`)))}function R0(e){return[Dv(),Pv(),l0(),q_(),g0(),N0(),Qv(),w0(),p0()]}function O0(e={}){const t=!e.skipBrowserExtensionCheck&&I0(),n={...e,enabled:t?!1:e.enabled,stackParser:ag(e.stackParser||Q_),integrations:rv({integrations:e.integrations,defaultIntegrations:e.defaultIntegrations==null?R0():e.defaultIntegrations}),transport:e.transport||M_};return mv(__,n)}function Cc(e={}){const t=B.document,n=t?.head||t?.body;if(!n){An&&I.error(",
+      "category": "Sensitive Content",
+      "sensitivity_level": "critical",
+      "status_code": 200,
+      "content_type": "text/html; charset=utf-8",
+      "content_length": 3351,
+      "response_time": 0.5130078792572021,
+      "title": "Dashboard - EmailJS",
+      "forms": [],
+      "technologies": [
+        "Cloudflare"
+      ],
+      "security_headers": {
+        "X-Frame-Options": "DENY",
+        "X-XSS-Protection": "1",
+        "X-Content-Type-Options": "nosniff",
+        "Strict-Transport-Security": "max-age=31536000; includeSubDomains; preload",
+        "Referrer-Policy": "strict-origin-when-cross-origin"
+      },
+      "cookies": [],
+      "comments_count": 0,
+      "scripts_count": 3,
+      "redirect_chain": []
+    },
+    {
+      "url": "https://dashboard.emailjs.com/assets/}function Ur(e,t=!1){const{host:n,path:r,pass:o,port:i,projectId:s,protocol:l,publicKey:u}=e;return`${l}:/${u}${t&&o?`:${o}`:",
+      "category": "Sensitive Content",
+      "sensitivity_level": "critical",
+      "status_code": 200,
+      "content_type": "text/html; charset=utf-8",
+      "content_length": 3351,
+      "response_time": 0.5225746631622314,
+      "title": "Dashboard - EmailJS",
+      "forms": [],
+      "technologies": [
+        "Cloudflare"
+      ],
+      "security_headers": {
+        "X-Frame-Options": "DENY",
+        "X-XSS-Protection": "1",
+        "X-Content-Type-Options": "nosniff",
+        "Strict-Transport-Security": "max-age=31536000; includeSubDomains; preload",
+        "Referrer-Policy": "strict-origin-when-cross-origin"
+      },
+      "cookies": [],
+      "comments_count": 0,
+      "scripts_count": 3,
+      "redirect_chain": []
+    },
+    {
+      "url": "https://dashboard.emailjs.com/assets/$&/",
+      "category": "Sensitive Content",
+      "sensitivity_level": "critical",
+      "status_code": 200,
+      "content_type": "text/html; charset=utf-8",
+      "content_length": 3351,
+      "response_time": 0.5338454246520996,
+      "title": "Dashboard - EmailJS",
+      "forms": [],
+      "technologies": [
+        "Cloudflare"
+      ],
+      "security_headers": {
+        "X-Frame-Options": "DENY",
+        "X-XSS-Protection": "1",
+        "X-Content-Type-Options": "nosniff",
+        "Strict-Transport-Security": "max-age=31536000; includeSubDomains; preload",
+        "Referrer-Policy": "strict-origin-when-cross-origin"
+      },
+      "cookies": [],
+      "comments_count": 0,
+      "scripts_count": 3,
+      "redirect_chain": []
+    },
+    {
+      "url": "https://dashboard.emailjs.com/assets/,allowUrls:[/emailjs\\.com/],ignoreErrors:[/^ResizeObserver loop/,/^",
+      "category": "Sensitive Content",
+      "sensitivity_level": "critical",
+      "status_code": 200,
+      "content_type": "text/html; charset=utf-8",
+      "content_length": 3351,
+      "response_time": 0.5583786964416504,
+      "title": "Dashboard - EmailJS",
+      "forms": [],
+      "technologies": [
+        "Cloudflare"
+      ],
+      "security_headers": {
+        "X-Frame-Options": "DENY",
+        "X-XSS-Protection": "1",
+        "X-Content-Type-Options": "nosniff",
+        "Strict-Transport-Security": "max-age=31536000; includeSubDomains; preload",
+        "Referrer-Policy": "strict-origin-when-cross-origin"
+      },
+      "cookies": [],
+      "comments_count": 0,
+      "scripts_count": 3,
+      "redirect_chain": []
+    },
+    {
+      "url": "https://dashboard.emailjs.com/assets/,e,t,n)}catch(r){return{ERROR:`**non-serializable** (${r})`}}}function fp(e,t=3,n=100*1024){const r=Ze(e,t);return Ey(r)>n?fp(e,t-1,n):r}function ul(e,t,n=1/0,r=1/0,o=Sy()){const[i,s]=o;if(t==null||[",
+      "category": "Sensitive Content",
+      "sensitivity_level": "critical",
+      "status_code": 200,
+      "content_type": "text/html; charset=utf-8",
+      "content_length": 3351,
+      "response_time": 0.5991520881652832,
+      "title": "Dashboard - EmailJS",
+      "forms": [],
+      "technologies": [
+        "Cloudflare"
+      ],
+      "security_headers": {
+        "X-Frame-Options": "DENY",
+        "X-XSS-Protection": "1",
+        "X-Content-Type-Options": "nosniff",
+        "Strict-Transport-Security": "max-age=31536000; includeSubDomains; preload",
+        "Referrer-Policy": "strict-origin-when-cross-origin"
+      },
+      "cookies": [],
+      "comments_count": 0,
+      "scripts_count": 3,
+      "redirect_chain": []
+    },
+    {
+      "url": "https://dashboard.emailjs.com/assets/&&l.match(/sentry_key/)&&(n.__sentry_own_request__=!0);const u=()=>{const a=n[or];if(a&&n.readyState===4){try{a.status_code=n.status}catch{}const f={endTimestamp:it()*1e3,startTimestamp:i,xhr:n,virtualError:o};He(",
+      "category": "Sensitive Content",
+      "sensitivity_level": "critical",
+      "status_code": 200,
+      "content_type": "text/html; charset=utf-8",
+      "content_length": 3351,
+      "response_time": 0.5288815498352051,
+      "title": "Dashboard - EmailJS",
+      "forms": [],
+      "technologies": [
+        "Cloudflare"
+      ],
+      "security_headers": {
+        "X-Frame-Options": "DENY",
+        "X-XSS-Protection": "1",
+        "X-Content-Type-Options": "nosniff",
+        "Strict-Transport-Security": "max-age=31536000; includeSubDomains; preload",
+        "Referrer-Policy": "strict-origin-when-cross-origin"
+      },
+      "cookies": [],
+      "comments_count": 0,
+      "scripts_count": 3,
+      "redirect_chain": []
+    },
+    {
+      "url": "https://dashboard.emailjs.com/assets/,uy=/^o(\\d+)\\./,ay=/^(?:(\\w+):)\\/\\/(?:(\\w+)(?::(\\w+)?)?@)([\\w.-]+)(?::(\\d+))?\\/(.+)/;function cy(e){return e===",
+      "category": "Sensitive Content",
+      "sensitivity_level": "critical",
+      "status_code": 200,
+      "content_type": "text/html; charset=utf-8",
+      "content_length": 3351,
+      "response_time": 0.5536537170410156,
+      "title": "Dashboard - EmailJS",
+      "forms": [],
+      "technologies": [
+        "Cloudflare"
+      ],
+      "security_headers": {
+        "X-Frame-Options": "DENY",
+        "X-XSS-Protection": "1",
+        "X-Content-Type-Options": "nosniff",
+        "Strict-Transport-Security": "max-age=31536000; includeSubDomains; preload",
+        "Referrer-Policy": "strict-origin-when-cross-origin"
+      },
+      "cookies": [],
+      "comments_count": 0,
+      "scripts_count": 3,
+      "redirect_chain": []
+    },
+    {
+      "url": "https://dashboard.emailjs.com/assets/)===0){const s=$_.exec(n[2]);s&&(n[2]=s[1],n[3]=s[2],n[4]=s[3])}const[o,i]=Op(n[1]||bt,n[2]);return _l(i,o,n[3]?+n[3]:void 0,n[4]?+n[4]:void 0)}},B_=[F_,U_],H_=/^\\s*(.*?)(?:\\((.*?)\\))?(?:^|@)?((?:[-a-z]+)?:\\/.*?|\\[native code\\]|[^@]*(?:bundle|\\d+\\.js)|\\/[\\w\\-. /=]+)(?::(\\d+))?(?::(\\d+))?\\s*$/i,W_=/(\\S+) line (\\d+)(?: > eval line \\d+)* > eval/i,V_=e=>{const t=H_.exec(e);if(t){if(t[3]&&t[3].indexOf(",
+      "category": "Sensitive Content",
+      "sensitivity_level": "critical",
+      "status_code": 200,
+      "content_type": "text/html; charset=utf-8",
+      "content_length": 3351,
+      "response_time": 0.5402565002441406,
+      "title": "Dashboard - EmailJS",
+      "forms": [],
+      "technologies": [
+        "Cloudflare"
+      ],
+      "security_headers": {
+        "X-Frame-Options": "DENY",
+        "X-XSS-Protection": "1",
+        "X-Content-Type-Options": "nosniff",
+        "Strict-Transport-Security": "max-age=31536000; includeSubDomains; preload",
+        "Referrer-Policy": "strict-origin-when-cross-origin"
+      },
+      "cookies": [],
+      "comments_count": 0,
+      "scripts_count": 3,
+      "redirect_chain": []
+    },
+    {
+      "url": "https://dashboard.emailjs.com/assets/,za=/\\(error: (.*)\\)/,Aa=/captureMessage|captureException/;function Qd(...e){const t=e.sort((n,r)=>n[0]-r[0]).map(n=>n[1]);return(n,r=0,o=0)=>{const i=[],s=n.split(``);for(let l=r;l<s.length;l++){const u=s[l];if(u.length>1024)continue;const a=za.test(u)?u.replace(za,",
+      "category": "Sensitive Content",
+      "sensitivity_level": "critical",
+      "status_code": 200,
+      "content_type": "text/html; charset=utf-8",
+      "content_length": 3351,
+      "response_time": 0.6422321796417236,
+      "title": "Dashboard - EmailJS",
+      "forms": [],
+      "technologies": [
+        "Cloudflare"
+      ],
+      "security_headers": {
+        "X-Frame-Options": "DENY",
+        "X-XSS-Protection": "1",
+        "X-Content-Type-Options": "nosniff",
+        "Strict-Transport-Security": "max-age=31536000; includeSubDomains; preload",
+        "Referrer-Policy": "strict-origin-when-cross-origin"
+      },
+      "cookies": [],
+      "comments_count": 0,
+      "scripts_count": 3,
+      "redirect_chain": []
+    },
+    {
+      "url": "https://dashboard.emailjs.com/assets/,!0)}catch{}return!1}function Tg(e){try{return e.__sentry_captured__}catch{}}const tp=1e3;function Ar(){return Date.now()/tp}function Ng(){const{performance:e}=j;if(!e?.now)return Ar;const t=Date.now()-e.now(),n=e.timeOrigin==null?t:e.timeOrigin;return()=>(n+e.now())/tp}const it=Ng();function Ig(e){const t=it(),n={sid:Le(),init:!0,timestamp:t,started:t,duration:0,status:",
+      "category": "Sensitive Content",
+      "sensitivity_level": "critical",
+      "status_code": 200,
+      "content_type": "text/html; charset=utf-8",
+      "content_length": 3351,
+      "response_time": 0.6427726745605469,
+      "title": "Dashboard - EmailJS",
+      "forms": [],
+      "technologies": [
+        "Cloudflare"
+      ],
+      "security_headers": {
+        "X-Frame-Options": "DENY",
+        "X-XSS-Protection": "1",
+        "X-Content-Type-Options": "nosniff",
+        "Strict-Transport-Security": "max-age=31536000; includeSubDomains; preload",
+        "Referrer-Policy": "strict-origin-when-cross-origin"
+      },
+      "cookies": [],
+      "comments_count": 0,
+      "scripts_count": 3,
+      "redirect_chain": []
+    },
+    {
+      "url": "https://dashboard.emailjs.com/assets/].find(s=>e[s]?!1:(I.error(`Invalid Sentry Dsn: ${s} missing`),!0))?!1:n.match(/^\\d+$/)?cy(r)?t&&isNaN(parseInt(t,10))?(I.error(`Invalid Sentry Dsn: Invalid port ${t}`),!1):!0:(I.error(`Invalid Sentry Dsn: Invalid protocol ${r}`),!1):(I.error(`Invalid Sentry Dsn: Invalid projectId ${n}`),!1)}function py(e){return e.match(uy)?.[1]}function ap(e){const t=typeof e==",
+      "category": "Sensitive Content",
+      "sensitivity_level": "critical",
+      "status_code": 200,
+      "content_type": "text/html; charset=utf-8",
+      "content_length": 3351,
+      "response_time": 0.6230483055114746,
+      "title": "Dashboard - EmailJS",
+      "forms": [],
+      "technologies": [
+        "Cloudflare"
+      ],
+      "security_headers": {
+        "X-Frame-Options": "DENY",
+        "X-XSS-Protection": "1",
+        "X-Content-Type-Options": "nosniff",
+        "Strict-Transport-Security": "max-age=31536000; includeSubDomains; preload",
+        "Referrer-Policy": "strict-origin-when-cross-origin"
+      },
+      "cookies": [],
+      "comments_count": 0,
+      "scripts_count": 3,
+      "redirect_chain": []
+    },
+    {
+      "url": "https://dashboard.emailjs.com/assets/<script><\\/script>",
+      "category": "Sensitive Content",
+      "sensitivity_level": "critical",
+      "status_code": 200,
+      "content_type": "text/html; charset=utf-8",
+      "content_length": 3351,
+      "response_time": 0.6106469631195068,
+      "title": "Dashboard - EmailJS",
+      "forms": [],
+      "technologies": [
+        "Cloudflare"
+      ],
+      "security_headers": {
+        "X-Frame-Options": "DENY",
+        "X-XSS-Protection": "1",
+        "X-Content-Type-Options": "nosniff",
+        "Strict-Transport-Security": "max-age=31536000; includeSubDomains; preload",
+        "Referrer-Policy": "strict-origin-when-cross-origin"
+      },
+      "cookies": [],
+      "comments_count": 0,
+      "scripts_count": 3,
+      "redirect_chain": []
+    },
+    {
+      "url": "https://dashboard.emailjs.com/assets/assets/Router-qowrJCDe.css",
+      "category": "Sensitive Content",
+      "sensitivity_level": "critical",
+      "status_code": 200,
+      "content_type": "text/html; charset=utf-8",
+      "content_length": 3351,
+      "response_time": 0.5102074146270752,
+      "title": "Dashboard - EmailJS",
+      "forms": [],
+      "technologies": [
+        "Cloudflare"
+      ],
+      "security_headers": {
+        "X-Frame-Options": "DENY",
+        "X-XSS-Protection": "1",
+        "X-Content-Type-Options": "nosniff",
+        "Strict-Transport-Security": "max-age=31536000; includeSubDomains; preload",
+        "Referrer-Policy": "strict-origin-when-cross-origin"
+      },
+      "cookies": [],
+      "comments_count": 0,
+      "scripts_count": 3,
+      "redirect_chain": []
+    },
+    {
+      "url": "https://dashboard.emailjs.com/assets/assets/Router-D3fFsZ1_.js",
+      "category": "Sensitive Content",
+      "sensitivity_level": "critical",
+      "status_code": 200,
+      "content_type": "text/html; charset=utf-8",
+      "content_length": 3351,
+      "response_time": 0.5040614604949951,
+      "title": "Dashboard - EmailJS",
+      "forms": [],
+      "technologies": [
+        "Cloudflare"
+      ],
+      "security_headers": {
+        "X-Frame-Options": "DENY",
+        "X-XSS-Protection": "1",
+        "X-Content-Type-Options": "nosniff",
+        "Strict-Transport-Security": "max-age=31536000; includeSubDomains; preload",
+        "Referrer-Policy": "strict-origin-when-cross-origin"
+      },
+      "cookies": [],
+      "comments_count": 0,
+      "scripts_count": 3,
+      "redirect_chain": []
+    },
+    {
+      "url": "https://dashboard.emailjs.com/$",
+      "category": "Sensitive Content",
+      "sensitivity_level": "critical",
+      "status_code": 200,
+      "content_type": "text/html; charset=utf-8",
+      "content_length": 3351,
+      "response_time": 0.5228784084320068,
+      "title": "Dashboard - EmailJS",
+      "forms": [],
+      "technologies": [
+        "Cloudflare"
+      ],
+      "security_headers": {
+        "X-Frame-Options": "DENY",
+        "X-XSS-Protection": "1",
+        "X-Content-Type-Options": "nosniff",
+        "Strict-Transport-Security": "max-age=31536000; includeSubDomains; preload",
+        "Referrer-Policy": "strict-origin-when-cross-origin"
+      },
+      "cookies": [],
+      "comments_count": 0,
+      "scripts_count": 3,
+      "redirect_chain": []
+    },
+    {
+      "url": "https://dashboard.emailjs.com/assets/;const r=`${yp(n)}embed/error-page/`;let o=`dsn=${Ur(n)}`;for(const i in t)if(i!==",
+      "category": "Sensitive Content",
+      "sensitivity_level": "critical",
+      "status_code": 200,
+      "content_type": "text/html; charset=utf-8",
+      "content_length": 3351,
+      "response_time": 0.5352983474731445,
+      "title": "Dashboard - EmailJS",
+      "forms": [],
+      "technologies": [
+        "Cloudflare"
+      ],
+      "security_headers": {
+        "X-Frame-Options": "DENY",
+        "X-XSS-Protection": "1",
+        "X-Content-Type-Options": "nosniff",
+        "Strict-Transport-Security": "max-age=31536000; includeSubDomains; preload",
+        "Referrer-Policy": "strict-origin-when-cross-origin"
+      },
+      "cookies": [],
+      "comments_count": 0,
+      "scripts_count": 3,
+      "redirect_chain": []
+    },
+    {
+      "url": "https://dashboard.emailjs.com/assets/)}catch{return!1}}function vc(e){return e.exception?.values&&e.exception.values[0]}function ls(e){if(!e)return{};const t=e.match(/^(([^:/?",
+      "category": "Sensitive Content",
+      "sensitivity_level": "critical",
+      "status_code": 200,
+      "content_type": "text/html; charset=utf-8",
+      "content_length": 3351,
+      "response_time": 0.5893549919128418,
+      "title": "Dashboard - EmailJS",
+      "forms": [],
+      "technologies": [
+        "Cloudflare"
+      ],
+      "security_headers": {
+        "X-Frame-Options": "DENY",
+        "X-XSS-Protection": "1",
+        "X-Content-Type-Options": "nosniff",
+        "Strict-Transport-Security": "max-age=31536000; includeSubDomains; preload",
+        "Referrer-Policy": "strict-origin-when-cross-origin"
+      },
+      "cookies": [],
+      "comments_count": 0,
+      "scripts_count": 3,
+      "redirect_chain": []
+    },
+    {
+      "url": "https://dashboard.emailjs.com/assets/\\)$/,`can",
+      "category": "Sensitive Content",
+      "sensitivity_level": "critical",
+      "status_code": 200,
+      "content_type": "text/html; charset=utf-8",
+      "content_length": 3351,
+      "response_time": 0.5137574672698975,
+      "title": "Dashboard - EmailJS",
+      "forms": [],
+      "technologies": [
+        "Cloudflare"
+      ],
+      "security_headers": {
+        "X-Frame-Options": "DENY",
+        "X-XSS-Protection": "1",
+        "X-Content-Type-Options": "nosniff",
+        "Strict-Transport-Security": "max-age=31536000; includeSubDomains; preload",
+        "Referrer-Policy": "strict-origin-when-cross-origin"
+      },
+      "cookies": [],
+      "comments_count": 0,
+      "scripts_count": 3,
+      "redirect_chain": []
+    },
+    {
+      "url": "https://dashboard.emailjs.com/assets/].forEach(function(e){ie[e]=new he(e,5,!1,e.toLowerCase(),null,!1,!1)});var xl=/[\\-:]([a-z])/g;function Cl(e){return e[1].toUpperCase()}",
+      "category": "Sensitive Content",
+      "sensitivity_level": "critical",
+      "status_code": 200,
+      "content_type": "text/html; charset=utf-8",
+      "content_length": 3351,
+      "response_time": 0.5196480751037598,
+      "title": "Dashboard - EmailJS",
+      "forms": [],
+      "technologies": [
+        "Cloudflare"
+      ],
+      "security_headers": {
+        "X-Frame-Options": "DENY",
+        "X-XSS-Protection": "1",
+        "X-Content-Type-Options": "nosniff",
+        "Strict-Transport-Security": "max-age=31536000; includeSubDomains; preload",
+        "Referrer-Policy": "strict-origin-when-cross-origin"
+      },
+      "cookies": [],
+      "comments_count": 0,
+      "scripts_count": 3,
+      "redirect_chain": []
+    },
+    {
+      "url": "https://emailjs.com/assets/js/11.c5257dce.js",
+      "category": "Sensitive Content",
+      "sensitivity_level": "critical",
+      "status_code": 200,
+      "content_type": "application/javascript",
+      "content_length": 11239,
+      "response_time": 1.9877874851226807,
+      "title": "",
+      "forms": [],
+      "technologies": [
+        "Cloudflare"
+      ],
+      "security_headers": {
+        "X-Content-Type-Options": "nosniff",
+        "Referrer-Policy": "strict-origin-when-cross-origin"
+      },
+      "cookies": [],
+      "comments_count": 0,
+      "scripts_count": 0,
+      "redirect_chain": [
+        "https://emailjs.com/assets/js/11.c5257dce.js"
+      ]
+    },
+    {
+      "url": "https://emailjs.com/assets/js/14.fbb5d543.js",
+      "category": "Sensitive Content",
+      "sensitivity_level": "critical",
+      "status_code": 200,
+      "content_type": "application/javascript",
+      "content_length": 12143,
+      "response_time": 1.0089428424835205,
+      "title": "",
+      "forms": [],
+      "technologies": [
+        "Cloudflare"
+      ],
+      "security_headers": {
+        "X-Content-Type-Options": "nosniff",
+        "Referrer-Policy": "strict-origin-when-cross-origin"
+      },
+      "cookies": [],
+      "comments_count": 0,
+      "scripts_count": 0,
+      "redirect_chain": [
+        "https://emailjs.com/assets/js/14.fbb5d543.js"
+      ]
+    },
+    {
+      "url": "https://dashboard.emailjs.com/assets/),url(https:/fonts.gstatic.com/s/opensans/v16/mem5YaGs126MiZpBA-UN7rgOUuhpKKSTjw.woff2) format(",
+      "category": "Sensitive Content",
+      "sensitivity_level": "critical",
+      "status_code": 200,
+      "content_type": "text/html; charset=utf-8",
+      "content_length": 3351,
+      "response_time": 0.58882737159729,
+      "title": "Dashboard - EmailJS",
+      "forms": [],
+      "technologies": [
+        "Cloudflare"
+      ],
+      "security_headers": {
+        "X-Frame-Options": "DENY",
+        "X-XSS-Protection": "1",
+        "X-Content-Type-Options": "nosniff",
+        "Strict-Transport-Security": "max-age=31536000; includeSubDomains; preload",
+        "Referrer-Policy": "strict-origin-when-cross-origin"
+      },
+      "cookies": [],
+      "comments_count": 0,
+      "scripts_count": 3,
+      "redirect_chain": []
+    },
+    {
+      "url": "https://dashboard.emailjs.com/assets/),url(https:/fonts.gstatic.com/s/opensans/v16/mem8YaGs126MiZpBA-UFVZ0bf8pkAg.woff2) format(",
+      "category": "Sensitive Content",
+      "sensitivity_level": "critical",
+      "status_code": 200,
+      "content_type": "text/html; charset=utf-8",
+      "content_length": 3351,
+      "response_time": 0.6073555946350098,
+      "title": "Dashboard - EmailJS",
+      "forms": [],
+      "technologies": [
+        "Cloudflare"
+      ],
+      "security_headers": {
+        "X-Frame-Options": "DENY",
+        "X-XSS-Protection": "1",
+        "X-Content-Type-Options": "nosniff",
+        "Strict-Transport-Security": "max-age=31536000; includeSubDomains; preload",
+        "Referrer-Policy": "strict-origin-when-cross-origin"
+      },
+      "cookies": [],
+      "comments_count": 0,
+      "scripts_count": 3,
+      "redirect_chain": []
+    },
+    {
+      "url": "https://dashboard.emailjs.com/assets/),url(https:/fonts.gstatic.com/s/opensans/v16/mem5YaGs126MiZpBA-UN_r8OUuhpKKSTjw.woff2) format(",
+      "category": "Sensitive Content",
+      "sensitivity_level": "critical",
+      "status_code": 200,
+      "content_type": "text/html; charset=utf-8",
+      "content_length": 3351,
+      "response_time": 0.5398077964782715,
+      "title": "Dashboard - EmailJS",
+      "forms": [],
+      "technologies": [
+        "Cloudflare"
+      ],
+      "security_headers": {
+        "X-Frame-Options": "DENY",
+        "X-XSS-Protection": "1",
+        "X-Content-Type-Options": "nosniff",
+        "Strict-Transport-Security": "max-age=31536000; includeSubDomains; preload",
+        "Referrer-Policy": "strict-origin-when-cross-origin"
+      },
+      "cookies": [],
+      "comments_count": 0,
+      "scripts_count": 3,
+      "redirect_chain": []
+    },
+    {
+      "url": "https://emailjs.com/legal/nfadp/",
+      "category": "Sensitive Content",
+      "sensitivity_level": "critical",
+      "status_code": 200,
+      "content_type": "text/html; charset=utf-8",
+      "content_length": 17077,
+      "response_time": 1.0151653289794922,
+      "title": "New Federal Act on Data Protection | EmailJS",
+      "forms": [],
+      "technologies": [
+        "Cloudflare"
+      ],
+      "security_headers": {
+        "X-Content-Type-Options": "nosniff",
+        "Referrer-Policy": "strict-origin-when-cross-origin"
+      },
+      "cookies": [],
+      "comments_count": 0,
+      "scripts_count": 7,
+      "redirect_chain": [
+        "https://emailjs.com/legal/nfadp/"
+      ]
+    },
+    {
+      "url": "https://dashboard.emailjs.com/assets/),url(https:/fonts.gstatic.com/s/opensans/v16/mem5YaGs126MiZpBA-UNirkOUuhpKKSTjw.woff2) format(",
+      "category": "Sensitive Content",
+      "sensitivity_level": "critical",
+      "status_code": 200,
+      "content_type": "text/html; charset=utf-8",
+      "content_length": 3351,
+      "response_time": 0.6162748336791992,
+      "title": "Dashboard - EmailJS",
+      "forms": [],
+      "technologies": [
+        "Cloudflare"
+      ],
+      "security_headers": {
+        "X-Frame-Options": "DENY",
+        "X-XSS-Protection": "1",
+        "X-Content-Type-Options": "nosniff",
+        "Strict-Transport-Security": "max-age=31536000; includeSubDomains; preload",
+        "Referrer-Policy": "strict-origin-when-cross-origin"
+      },
+      "cookies": [],
+      "comments_count": 0,
+      "scripts_count": 3,
+      "redirect_chain": []
+    },
+    {
+      "url": "https://emailjs.com/assets/js/61.792035c7.js",
+      "category": "Sensitive Content",
+      "sensitivity_level": "critical",
+      "status_code": 200,
+      "content_type": "application/javascript",
+      "content_length": 9652,
+      "response_time": 1.052541971206665,
+      "title": "",
+      "forms": [],
+      "technologies": [
+        "Cloudflare"
+      ],
+      "security_headers": {
+        "X-Content-Type-Options": "nosniff",
+        "Referrer-Policy": "strict-origin-when-cross-origin"
+      },
+      "cookies": [],
+      "comments_count": 0,
+      "scripts_count": 0,
+      "redirect_chain": [
+        "https://emailjs.com/assets/js/61.792035c7.js"
+      ]
+    },
+    {
+      "url": "https://dashboard.emailjs.com/image/image/png",
+      "category": "Sensitive Content",
+      "sensitivity_level": "critical",
+      "status_code": 200,
+      "content_type": "text/html; charset=utf-8",
+      "content_length": 3351,
+      "response_time": 0.5548560619354248,
+      "title": "Dashboard - EmailJS",
+      "forms": [],
+      "technologies": [
+        "Cloudflare"
+      ],
+      "security_headers": {
+        "X-Frame-Options": "DENY",
+        "X-XSS-Protection": "1",
+        "X-Content-Type-Options": "nosniff",
+        "Strict-Transport-Security": "max-age=31536000; includeSubDomains; preload",
+        "Referrer-Policy": "strict-origin-when-cross-origin"
+      },
+      "cookies": [],
+      "comments_count": 0,
+      "scripts_count": 3,
+      "redirect_chain": []
+    },
+    {
+      "url": "https://dashboard.emailjs.com/image/font/woff2",
+      "category": "Sensitive Content",
+      "sensitivity_level": "critical",
+      "status_code": 200,
+      "content_type": "text/html; charset=utf-8",
+      "content_length": 3351,
+      "response_time": 0.5913808345794678,
+      "title": "Dashboard - EmailJS",
+      "forms": [],
+      "technologies": [
+        "Cloudflare"
+      ],
+      "security_headers": {
+        "X-Frame-Options": "DENY",
+        "X-XSS-Protection": "1",
+        "X-Content-Type-Options": "nosniff",
+        "Strict-Transport-Security": "max-age=31536000; includeSubDomains; preload",
+        "Referrer-Policy": "strict-origin-when-cross-origin"
+      },
+      "cookies": [],
+      "comments_count": 0,
+      "scripts_count": 3,
+      "redirect_chain": []
+    },
+    {
+      "url": "https://dashboard.emailjs.com/image/>    <title>Dashboard - EmailJS</title>    <meta name=",
+      "category": "Sensitive Content",
+      "sensitivity_level": "critical",
+      "status_code": 200,
+      "content_type": "text/html; charset=utf-8",
+      "content_length": 3351,
+      "response_time": 0.6073846817016602,
+      "title": "Dashboard - EmailJS",
+      "forms": [],
+      "technologies": [
+        "Cloudflare"
+      ],
+      "security_headers": {
+        "X-Frame-Options": "DENY",
+        "X-XSS-Protection": "1",
+        "X-Content-Type-Options": "nosniff",
+        "Strict-Transport-Security": "max-age=31536000; includeSubDomains; preload",
+        "Referrer-Policy": "strict-origin-when-cross-origin"
+      },
+      "cookies": [],
+      "comments_count": 0,
+      "scripts_count": 3,
+      "redirect_chain": []
+    },
+    {
+      "url": "https://dashboard.emailjs.com/image/,        send_page_view: false,      });    </script>    <script type=",
+      "category": "Sensitive Content",
+      "sensitivity_level": "critical",
+      "status_code": 200,
+      "content_type": "text/html; charset=utf-8",
+      "content_length": 3351,
+      "response_time": 0.6226329803466797,
+      "title": "Dashboard - EmailJS",
+      "forms": [],
+      "technologies": [
+        "Cloudflare"
+      ],
+      "security_headers": {
+        "X-Frame-Options": "DENY",
+        "X-XSS-Protection": "1",
+        "X-Content-Type-Options": "nosniff",
+        "Strict-Transport-Security": "max-age=31536000; includeSubDomains; preload",
+        "Referrer-Policy": "strict-origin-when-cross-origin"
+      },
+      "cookies": [],
+      "comments_count": 0,
+      "scripts_count": 3,
+      "redirect_chain": []
+    },
+    {
+      "url": "https://dashboard.emailjs.com/,        send_page_view: false,      });    </image/png",
+      "category": "Sensitive Content",
+      "sensitivity_level": "critical",
+      "status_code": 200,
+      "content_type": "text/html; charset=utf-8",
+      "content_length": 3351,
+      "response_time": 0.6032729148864746,
+      "title": "Dashboard - EmailJS",
+      "forms": [],
+      "technologies": [
+        "Cloudflare"
+      ],
+      "security_headers": {
+        "X-Frame-Options": "DENY",
+        "X-XSS-Protection": "1",
+        "X-Content-Type-Options": "nosniff",
+        "Strict-Transport-Security": "max-age=31536000; includeSubDomains; preload",
+        "Referrer-Policy": "strict-origin-when-cross-origin"
+      },
+      "cookies": [],
+      "comments_count": 0,
+      "scripts_count": 3,
+      "redirect_chain": []
+    },
+    {
+      "url": "https://dashboard.emailjs.com/,        send_page_view: false,      });    </,        send_page_view: false,      });    </script>    <script type=",
+      "category": "Sensitive Content",
+      "sensitivity_level": "critical",
+      "status_code": 200,
+      "content_type": "text/html; charset=utf-8",
+      "content_length": 3351,
+      "response_time": 0.5696914196014404,
+      "title": "Dashboard - EmailJS",
+      "forms": [],
+      "technologies": [
+        "Cloudflare"
+      ],
+      "security_headers": {
+        "X-Frame-Options": "DENY",
+        "X-XSS-Protection": "1",
+        "X-Content-Type-Options": "nosniff",
+        "Strict-Transport-Security": "max-age=31536000; includeSubDomains; preload",
+        "Referrer-Policy": "strict-origin-when-cross-origin"
+      },
+      "cookies": [],
+      "comments_count": 0,
+      "scripts_count": 3,
+      "redirect_chain": []
+    },
+    {
+      "url": "https://dashboard.emailjs.com/,        send_page_view: false,      });    </>    <title>Dashboard - EmailJS</title>    <meta name=",
+      "category": "Sensitive Content",
+      "sensitivity_level": "critical",
+      "status_code": 200,
+      "content_type": "text/html; charset=utf-8",
+      "content_length": 3351,
+      "response_time": 0.5700619220733643,
+      "title": "Dashboard - EmailJS",
+      "forms": [],
+      "technologies": [
+        "Cloudflare"
+      ],
+      "security_headers": {
+        "X-Frame-Options": "DENY",
+        "X-XSS-Protection": "1",
+        "X-Content-Type-Options": "nosniff",
+        "Strict-Transport-Security": "max-age=31536000; includeSubDomains; preload",
+        "Referrer-Policy": "strict-origin-when-cross-origin"
+      },
+      "cookies": [],
+      "comments_count": 0,
+      "scripts_count": 3,
+      "redirect_chain": []
+    },
+    {
+      "url": "https://dashboard.emailjs.com/,        send_page_view: false,      });    </font/woff2",
+      "category": "Sensitive Content",
+      "sensitivity_level": "critical",
+      "status_code": 200,
+      "content_type": "text/html; charset=utf-8",
+      "content_length": 3351,
+      "response_time": 0.5959839820861816,
+      "title": "Dashboard - EmailJS",
+      "forms": [],
+      "technologies": [
+        "Cloudflare"
+      ],
+      "security_headers": {
+        "X-Frame-Options": "DENY",
+        "X-XSS-Protection": "1",
+        "X-Content-Type-Options": "nosniff",
+        "Strict-Transport-Security": "max-age=31536000; includeSubDomains; preload",
+        "Referrer-Policy": "strict-origin-when-cross-origin"
+      },
+      "cookies": [],
+      "comments_count": 0,
+      "scripts_count": 3,
+      "redirect_chain": []
+    },
+    {
+      "url": "https://emailjs.com/assets/js/87.fcb6efb0.js",
+      "category": "Sensitive Content",
+      "sensitivity_level": "critical",
+      "status_code": 200,
+      "content_type": "application/javascript",
+      "content_length": 2969,
+      "response_time": 1.1069285869598389,
+      "title": "",
+      "forms": [],
+      "technologies": [
+        "Cloudflare"
+      ],
+      "security_headers": {
+        "X-Content-Type-Options": "nosniff",
+        "Referrer-Policy": "strict-origin-when-cross-origin"
+      },
+      "cookies": [],
+      "comments_count": 0,
+      "scripts_count": 0,
+      "redirect_chain": [
+        "https://emailjs.com/assets/js/87.fcb6efb0.js"
+      ]
+    },
+    {
+      "url": "https://dashboard.emailjs.com/favicon/image/png",
+      "category": "Sensitive Content",
+      "sensitivity_level": "critical",
+      "status_code": 200,
+      "content_type": "text/html; charset=utf-8",
+      "content_length": 3351,
+      "response_time": 0.5964839458465576,
+      "title": "Dashboard - EmailJS",
+      "forms": [],
+      "technologies": [
+        "Cloudflare"
+      ],
+      "security_headers": {
+        "X-Frame-Options": "DENY",
+        "X-XSS-Protection": "1",
+        "X-Content-Type-Options": "nosniff",
+        "Strict-Transport-Security": "max-age=31536000; includeSubDomains; preload",
+        "Referrer-Policy": "strict-origin-when-cross-origin"
+      },
+      "cookies": [],
+      "comments_count": 0,
+      "scripts_count": 3,
+      "redirect_chain": []
+    },
+    {
+      "url": "https://dashboard.emailjs.com/>    <title>Dashboard - EmailJS</font/woff2",
+      "category": "Sensitive Content",
+      "sensitivity_level": "critical",
+      "status_code": 200,
+      "content_type": "text/html; charset=utf-8",
+      "content_length": 3351,
+      "response_time": 0.6330938339233398,
+      "title": "Dashboard - EmailJS",
+      "forms": [],
+      "technologies": [
+        "Cloudflare"
+      ],
+      "security_headers": {
+        "X-Frame-Options": "DENY",
+        "X-XSS-Protection": "1",
+        "X-Content-Type-Options": "nosniff",
+        "Strict-Transport-Security": "max-age=31536000; includeSubDomains; preload",
+        "Referrer-Policy": "strict-origin-when-cross-origin"
+      },
+      "cookies": [],
+      "comments_count": 0,
+      "scripts_count": 3,
+      "redirect_chain": []
+    },
+    {
+      "url": "https://dashboard.emailjs.com/>    <title>Dashboard - EmailJS</,        send_page_view: false,      });    </script>    <script type=",
+      "category": "Sensitive Content",
+      "sensitivity_level": "critical",
+      "status_code": 200,
+      "content_type": "text/html; charset=utf-8",
+      "content_length": 3351,
+      "response_time": 0.6478841304779053,
+      "title": "Dashboard - EmailJS",
+      "forms": [],
+      "technologies": [
+        "Cloudflare"
+      ],
+      "security_headers": {
+        "X-Frame-Options": "DENY",
+        "X-XSS-Protection": "1",
+        "X-Content-Type-Options": "nosniff",
+        "Strict-Transport-Security": "max-age=31536000; includeSubDomains; preload",
+        "Referrer-Policy": "strict-origin-when-cross-origin"
+      },
+      "cookies": [],
+      "comments_count": 0,
+      "scripts_count": 3,
+      "redirect_chain": []
+    },
+    {
+      "url": "https://dashboard.emailjs.com/>    <title>Dashboard - EmailJS</>    <title>Dashboard - EmailJS</title>    <meta name=",
+      "category": "Sensitive Content",
+      "sensitivity_level": "critical",
+      "status_code": 200,
+      "content_type": "text/html; charset=utf-8",
+      "content_length": 3351,
+      "response_time": 0.6162230968475342,
+      "title": "Dashboard - EmailJS",
+      "forms": [],
+      "technologies": [
+        "Cloudflare"
+      ],
+      "security_headers": {
+        "X-Frame-Options": "DENY",
+        "X-XSS-Protection": "1",
+        "X-Content-Type-Options": "nosniff",
+        "Strict-Transport-Security": "max-age=31536000; includeSubDomains; preload",
+        "Referrer-Policy": "strict-origin-when-cross-origin"
+      },
+      "cookies": [],
+      "comments_count": 0,
+      "scripts_count": 3,
+      "redirect_chain": []
+    },
+    {
+      "url": "https://dashboard.emailjs.com/>    <title>Dashboard - EmailJS</image/png",
+      "category": "Sensitive Content",
+      "sensitivity_level": "critical",
+      "status_code": 200,
+      "content_type": "text/html; charset=utf-8",
+      "content_length": 3351,
+      "response_time": 0.6289708614349365,
+      "title": "Dashboard - EmailJS",
+      "forms": [],
+      "technologies": [
+        "Cloudflare"
+      ],
+      "security_headers": {
+        "X-Frame-Options": "DENY",
+        "X-XSS-Protection": "1",
+        "X-Content-Type-Options": "nosniff",
+        "Strict-Transport-Security": "max-age=31536000; includeSubDomains; preload",
+        "Referrer-Policy": "strict-origin-when-cross-origin"
+      },
+      "cookies": [],
+      "comments_count": 0,
+      "scripts_count": 3,
+      "redirect_chain": []
+    },
+    {
+      "url": "https://dashboard.emailjs.com/font/font/woff2",
+      "category": "Sensitive Content",
+      "sensitivity_level": "critical",
+      "status_code": 200,
+      "content_type": "text/html; charset=utf-8",
+      "content_length": 3351,
+      "response_time": 0.62056565284729,
+      "title": "Dashboard - EmailJS",
+      "forms": [],
+      "technologies": [
+        "Cloudflare"
+      ],
+      "security_headers": {
+        "X-Frame-Options": "DENY",
+        "X-XSS-Protection": "1",
+        "X-Content-Type-Options": "nosniff",
+        "Strict-Transport-Security": "max-age=31536000; includeSubDomains; preload",
+        "Referrer-Policy": "strict-origin-when-cross-origin"
+      },
+      "cookies": [],
+      "comments_count": 0,
+      "scripts_count": 3,
+      "redirect_chain": []
+    },
+    {
+      "url": "https://dashboard.emailjs.com/font/>    <title>Dashboard - EmailJS</title>    <meta name=",
+      "category": "Sensitive Content",
+      "sensitivity_level": "critical",
+      "status_code": 200,
+      "content_type": "text/html; charset=utf-8",
+      "content_length": 3351,
+      "response_time": 0.729285717010498,
+      "title": "Dashboard - EmailJS",
+      "forms": [],
+      "technologies": [
+        "Cloudflare"
+      ],
+      "security_headers": {
+        "X-Frame-Options": "DENY",
+        "X-XSS-Protection": "1",
+        "X-Content-Type-Options": "nosniff",
+        "Strict-Transport-Security": "max-age=31536000; includeSubDomains; preload",
+        "Referrer-Policy": "strict-origin-when-cross-origin"
+      },
+      "cookies": [],
+      "comments_count": 0,
+      "scripts_count": 3,
+      "redirect_chain": []
+    },
+    {
+      "url": "https://dashboard.emailjs.com/font/image/png",
+      "category": "Sensitive Content",
+      "sensitivity_level": "critical",
+      "status_code": 200,
+      "content_type": "text/html; charset=utf-8",
+      "content_length": 3351,
+      "response_time": 0.6494653224945068,
+      "title": "Dashboard - EmailJS",
+      "forms": [],
+      "technologies": [
+        "Cloudflare"
+      ],
+      "security_headers": {
+        "X-Frame-Options": "DENY",
+        "X-XSS-Protection": "1",
+        "X-Content-Type-Options": "nosniff",
+        "Strict-Transport-Security": "max-age=31536000; includeSubDomains; preload",
+        "Referrer-Policy": "strict-origin-when-cross-origin"
+      },
+      "cookies": [],
+      "comments_count": 0,
+      "scripts_count": 3,
+      "redirect_chain": []
+    },
+    {
+      "url": "https://dashboard.emailjs.com/font/,        send_page_view: false,      });    </script>    <script type=",
+      "category": "Sensitive Content",
+      "sensitivity_level": "critical",
+      "status_code": 200,
+      "content_type": "text/html; charset=utf-8",
+      "content_length": 3351,
+      "response_time": 0.6929895877838135,
+      "title": "Dashboard - EmailJS",
+      "forms": [],
+      "technologies": [
+        "Cloudflare"
+      ],
+      "security_headers": {
+        "X-Frame-Options": "DENY",
+        "X-XSS-Protection": "1",
+        "X-Content-Type-Options": "nosniff",
+        "Strict-Transport-Security": "max-age=31536000; includeSubDomains; preload",
+        "Referrer-Policy": "strict-origin-when-cross-origin"
+      },
+      "cookies": [],
+      "comments_count": 0,
+      "scripts_count": 3,
+      "redirect_chain": []
+    },
+    {
+      "url": "https://emailjs.com/assets/js/73.442a64d4.js",
+      "category": "Sensitive Content",
+      "sensitivity_level": "critical",
+      "status_code": 200,
+      "content_type": "application/javascript",
+      "content_length": 1059,
+      "response_time": 1.2205145359039307,
+      "title": "",
+      "forms": [],
+      "technologies": [
+        "Cloudflare"
+      ],
+      "security_headers": {
+        "X-Content-Type-Options": "nosniff",
+        "Referrer-Policy": "strict-origin-when-cross-origin"
+      },
+      "cookies": [],
+      "comments_count": 0,
+      "scripts_count": 0,
+      "redirect_chain": [
+        "https://emailjs.com/assets/js/73.442a64d4.js"
+      ]
+    },
+    {
+      "url": "https://emailjs.com/assets/js/app.fb803cb8.js",
+      "category": "Sensitive Content",
+      "sensitivity_level": "critical",
+      "status_code": 200,
+      "content_type": "application/javascript",
+      "content_length": 233334,
+      "response_time": 1.4393303394317627,
+      "title": "",
+      "forms": [],
+      "technologies": [
+        "Cloudflare",
+        "Joomla",
+        "Node.js"
+      ],
+      "security_headers": {
+        "X-Content-Type-Options": "nosniff",
+        "Referrer-Policy": "strict-origin-when-cross-origin"
+      },
+      "cookies": [],
+      "comments_count": 0,
+      "scripts_count": 0,
+      "redirect_chain": [
+        "https://emailjs.com/assets/js/app.fb803cb8.js"
+      ]
+    }
+  ]
+}
