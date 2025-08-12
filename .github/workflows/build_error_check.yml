@@ -18,39 +18,10 @@ jobs:
               with:
                 python-version: '3.13'
 
-            - name: Install Rust
+            - name: Install system dependencies
               run: |
-                curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh -s -- -y
-                echo "$HOME/.cargo/bin" >> $GITHUB_PATH
-              env:
-                RUSTUP_UPDATE_ROOT: https://static.rust-lang.org/rustup
-                
-            - name: Cache Rust dependencies
-              uses: actions/cache@v4
-              with:
-                path: |
-                  ~/.cargo/registry
-                  ~/.cargo/git
-                key: ${{ runner.os }}-cargo-${{ hashFiles('**/Cargo.lock') }}
-                restore-keys: |
-                  ${{ runner.os }}-cargo-
-
-            - name: Verify Rust Installation
-              run: |
-                rustc --version
-                cargo --version
-
-            - name: Cache dependencies
-              uses: actions/cache@v4
-              with:
-                path: ~/.cache/pip
-                key: ${{ runner.os }}-pip-${{ hashFiles('**/requirements.txt') }}
-                restore-keys: |
-                    ${{ runner.os }}-pip-
-            - name: System Dependency Manual Installation
-              run: |
-                pip install libxml2 
-                pip install libxslt
+                sudo apt-get update
+                sudo apt-get install -y libxml2-dev libxslt1-dev
 
             - name: Install dependencies
               run: |
