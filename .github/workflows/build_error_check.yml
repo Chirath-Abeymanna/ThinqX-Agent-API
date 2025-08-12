@@ -82,11 +82,11 @@ jobs:
               env:
                 PYTHONUNBUFFERED: 1
 
-            # - name: Notify failed quality check
-            #   if: failure()
-            #   uses: jayqi/failed-build-issue-action@v1
-            #   with:
-            #     github-token: ${{ secrets.DEVOPS_TOKEN }}
-            #     title-template: "Python Code Quality Check Failed for branch {{ branch }}"
-            #     body-template: "The Python code quality check failed on branch {{ branch }}. Please check the workflow logs for details."
-            #     labels: "build-error"
+            - name: Notify failed quality check
+              if: failure()
+              uses: jayqi/failed-build-issue-action@v1
+              with:
+                github-token: ${{ secrets.DEVOPS_TOKEN }}
+                title-template: "Python Code Quality Check Failed for branch {{ branch }}"
+                body-template: "The Python code quality check failed on branch {{ branch }}. Please check the workflow logs for details."
+                labels: "build-error"
