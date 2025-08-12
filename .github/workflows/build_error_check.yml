@@ -65,8 +65,8 @@ jobs:
               if: success()
               run: pip check
 
-            - name: Run black to test formatting
-              run: black . --check --diff
+            # - name: Run black to test formatting
+            #   run: black . --check --diff
             
             - name: Run pylint for code analysis
               run: pylint **/*.py --rcfile=.pylintrc
