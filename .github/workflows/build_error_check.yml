@@ -69,7 +69,7 @@ jobs:
             #   run: black . --check --diff
             
             - name: Run pylint for code analysis
-              run: pylint **/*.py --rcfile=.pylintrc
+              run: pylint **/*.py #--rcfile=.pylintrc
 
             - name: Run pytest
               run: pytest
