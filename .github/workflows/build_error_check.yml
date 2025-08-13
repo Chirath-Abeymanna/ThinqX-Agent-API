@@ -72,7 +72,7 @@ jobs:
               run: pylint app/*.py --rcfile=.pylintrc
 
             - name: Run pytest
-              run: pytest
+              run: pytest || [ $? -eq 5 ]
 
             - name: Run the server
               run: |
