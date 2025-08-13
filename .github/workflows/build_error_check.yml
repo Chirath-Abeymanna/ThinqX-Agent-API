@@ -74,13 +74,41 @@ jobs:
             - name: Run pytest
               run: pytest || [ $? -eq 5 ]
 
-            - name: Run the server
-              run: |
-                python start_server.py &
-                sleep 5
-                curl -f http://localhost:8000/api/v1/crawler/scan || exit 1
+            - name: Start Python app in background and check
               env:
+                pythonLocation: /opt/hostedtoolcache/Python/3.12.11/x64
+                PKG_CONFIG_PATH: /opt/hostedtoolcache/Python/3.12.11/x64/lib/pkgconfig
+                Python_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.11/x64
+                Python2_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.11/x64
+                Python3_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.11/x64
+                LD_LIBRARY_PATH: /opt/hostedtoolcache/Python/3.12.11/x64/lib
                 PYTHONUNBUFFERED: 1
+              run: |
+                python start_server.py > output.log 2>&1 &
+                APP_PID=$!
+                echo "PID=$APP_PID"
+                
+                # Wait up to 30 seconds for the server to start
+                for i in {1..30}; do
+                  if grep -q "Application startup complete" output.log; then
+                    echo "Server started successfully"
+                    kill -SIGTERM $APP_PID
+                    wait $APP_PID 2>/dev/null || true
+                    exit 0
+                  fi
+                  if ! ps -p $APP_PID > /dev/null; then
+                    echo "Server failed to start"
+                    cat output.log
+                    exit 1
+                  fi
+                  sleep 1
+                done
+                
+                echo "Server startup failed"
+                cat output.log
+                kill -SIGTERM $APP_PID
+                wait $APP_PID 2>/dev/null || true
+                exit 1
 
             - name: Notify failed quality check
               if: failure()
