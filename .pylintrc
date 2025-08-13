@@ -1,0 +1,11 @@
+[MASTER]
+# Add any other project-wide config here
+ignore-patterns=
+
+[MESSAGES CONTROL]
+# Disable specific import-related checks
+disable=
+    import-error,
+    import-outside-toplevel,
+    unused-import,
+    relative-beyond-top-level
