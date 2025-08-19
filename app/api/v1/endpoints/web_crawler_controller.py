@@ -1,16 +1,14 @@
 """
 Web Crawler API endpoints
 """
-from fastapi import APIRouter, HTTPException, BackgroundTasks, Depends
-from fastapi.responses import JSONResponse
-from typing import Dict, Any
-import asyncio
 import time
+from typing import Dict
+
+from fastapi import APIRouter, HTTPException, BackgroundTasks
 
 from app.models.crawl_model import (
-    CrawlRequest, 
-    CrawlResponse, 
-    ErrorResponse, 
+    CrawlRequest,
+    CrawlResponse,
     StatusResponse
 )
 from app.services.crawler_service import crawler_service
@@ -85,7 +83,7 @@ async def start_web_crawl(
         raise HTTPException(
             status_code=500,
             detail=f"Internal server error during crawl: {str(e)}"
-        )
+        ) from e
 
 
 @router.post("/scan/async", response_model=Dict[str, str])
@@ -123,7 +121,7 @@ async def start_web_crawl_async(request: CrawlRequest):
         raise HTTPException(
             status_code=500,
             detail=f"Failed to start crawl: {str(e)}"
-        )
+        ) from e
 
 
 @router.get("/status/{task_id}", response_model=StatusResponse)
@@ -178,23 +176,22 @@ async def get_crawl_results(task_id: str):
             status_code=202, 
             detail="Task is still running. Check status endpoint for progress."
         )
-    elif task.status == "failed":
+    if task.status == "failed":
         raise HTTPException(
             status_code=500,
             detail=f"Task failed: {task.error or 'Unknown error'}"
         )
-    elif task.status == "completed":
+    if task.status == "completed":
         if not task.result:
             raise HTTPException(
                 status_code=500,
                 detail="Task completed but no results available"
             )
         return task.result
-    else:
-        raise HTTPException(
-            status_code=400,
-            detail=f"Task in unexpected state: {task.status}"
-        )
+    raise HTTPException(
+        status_code=400,
+        detail=f"Task in unexpected state: {task.status}"
+    )
 
 
 @router.get("/active-tasks")

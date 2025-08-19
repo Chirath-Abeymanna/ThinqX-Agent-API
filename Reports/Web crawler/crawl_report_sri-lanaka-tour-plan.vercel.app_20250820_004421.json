@@ -1,0 +1,26 @@
+{
+  "crawl_summary": {
+    "target_domain": "sri-lanaka-tour-plan.vercel.app",
+    "crawl_duration": 10.357696,
+    "urls_discovered": 2,
+    "urls_successfully_crawled": 0,
+    "errors_encountered": 2,
+    "start_time": "2025-08-20T00:44:11.124042",
+    "end_time": "2025-08-20T00:44:21.481738"
+  },
+  "discovery_statistics": {
+    "total_files_found": 0,
+    "total_forms_found": 0,
+    "sensitive_files_found": 0,
+    "hidden_files_discovered": 0
+  },
+  "categorized_findings": {},
+  "sensitivity_analysis": {},
+  "technology_fingerprints": {},
+  "security_analysis": {
+    "security_headers_coverage": {},
+    "forms_discovered": 0,
+    "cookies_found": 0
+  },
+  "detailed_results": []
+}
