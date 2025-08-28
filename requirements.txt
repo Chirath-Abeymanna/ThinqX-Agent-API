@@ -1,3 +1,10 @@
+rich
+requests
+whois
+aiohttp
+shodan
+beautifulsoup4
+dnspython
 # FastAPI core - using latest stable versions that work together
 fastapi==0.110.0
 pydantic==2.6.3
