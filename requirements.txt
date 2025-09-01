@@ -1,25 +1,43 @@
-# FastAPI core - using latest stable versions that work together
-fastapi
-pydantic
-uvicorn[standard]
-starlette
-typing-extensions
+
+# Core utilities
+rich==13.9.2
+requests==2.32.3
+python-whois>=0.8.0
+aiohttp==3.10.10
+shodan==1.31.0
+beautifulsoup4==4.12.3
+dnspython==2.7.0
+
+# For advanced web crawling and output formatting
+langchain==0.3.7   # supports Pydantic v2
+langchain_openai
+langchain-core>=0.1.0
+rich==13.9.2
+
+# FastAPI core - stable versions that work together
+fastapi==0.110.0
+pydantic==2.9.2
+uvicorn[standard]==0.27.0
+starlette==0.36.3
+typing-extensions==4.12.2
 
 # For ML models 
-httpx[http2]
-colorama
-aiofiles
-lxml
-beautifulsoup4
+httpx[http2]==0.25.2
+colorama==0.4.6
+aiofiles==23.2.1
+lxml==4.9.4
+beautifulsoup4==4.12.3
+
 
 # Additional dependencies for web crawler
 python-multipart
 
 # FastAPI additional dependencies
-email-validator
-pydantic-settings
+email-validator==2.2.0
+pydantic-settings==2.6.1
 
 # Optional: 
 # scikit-learn
 # tensorflow
 # torch
+

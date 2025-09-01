@@ -1,0 +1,154 @@
+{
+  "crawl_summary": {
+    "target_domain": "https://gymshark.com",
+    "crawl_duration": 3.471842,
+    "urls_discovered": 0,
+    "urls_successfully_crawled": 1,
+    "errors_encountered": 0,
+    "start_time": "2025-08-29T14:03:40.190483",
+    "end_time": "2025-08-29T14:03:43.662325"
+  },
+  "discovery_statistics": {
+    "total_files_found": 11,
+    "total_forms_found": 0,
+    "sensitive_files_found": 8,
+    "hidden_files_discovered": 10
+  },
+  "categorized_findings": {
+    "Other": {
+      "count": 3,
+      "sensitivity_breakdown": {
+        "low": 3,
+        "medium": 0,
+        "high": 0,
+        "critical": 0
+      },
+      "urls": [
+        {
+          "url": "https://gymshark.com",
+          "status_code": 200,
+          "content_type": "text/html; charset=utf-8",
+          "sensitivity_level": "low",
+          "title": "",
+          "forms_count": 0,
+          "technologies": [
+            "jQuery",
+            "Bootstrap"
+          ],
+          "response_time": 0.9191024303436279
+        },
+        {
+          "url": "https://gymshark.com/.htaccess",
+          "status_code": 200,
+          "content_type": "text/html; charset=utf-8",
+          "sensitivity_level": "low",
+          "title": "",
+          "forms_count": 0,
+          "technologies": [],
+          "response_time": 0.0
+        },
+        {
+          "url": "https://gymshark.com/crossdomain.xml",
+          "status_code": 200,
+          "content_type": "text/x-cross-domain-policy; charset=utf-8",
+          "sensitivity_level": "low",
+          "title": "",
+          "forms_count": 0,
+          "technologies": [],
+          "response_time": 0.0
+        }
+      ]
+    },
+    "Sensitive Content": {
+      "count": 8,
+      "sensitivity_breakdown": {
+        "low": 0,
+        "medium": 0,
+        "high": 0,
+        "critical": 8
+      },
+      "urls": [
+        {
+          "url": "https://gymshark.com/.htpasswd",
+          "status_code": 200,
+          "content_type": "text/html; charset=utf-8",
+          "sensitivity_level": "critical",
+          "title": "",
+          "forms_count": 0,
+          "technologies": [],
+          "response_time": 0.0
+        },
+        {
+          "url": "https://gymshark.com/.env",
+          "status_code": 200,
+          "content_type": "text/html; charset=utf-8",
+          "sensitivity_level": "critical",
+          "title": "",
+          "forms_count": 0,
+          "technologies": [],
+          "response_time": 0.0
+        },
+        {
+          "url": "https://gymshark.com/.gitignore",
+          "status_code": 200,
+          "content_type": "text/html; charset=utf-8",
+          "sensitivity_level": "critical",
+          "title": "",
+          "forms_count": 0,
+          "technologies": [],
+          "response_time": 0.0
+        },
+        {
+          "url": "https://gymshark.com/robots.txt",
+          "status_code": 200,
+          "content_type": "text/plain; charset=utf-8",
+          "sensitivity_level": "critical",
+          "title": "",
+          "forms_count": 0,
+          "technologies": [],
+          "response_time": 0.0
+        },
+        {
+          "url": "https://gymshark.com/sitemap.xml",
+          "status_code": 200,
+          "content_type": "application/xml; charset=utf-8",
+          "sensitivity_level": "critical",
+          "title": "",
+          "forms_count": 0,
+          "technologies": [],
+          "response_time": 0.0
+        },
+        {
+          "url": "https://gymshark.com/admin/",
+          "status_code": 200,
+          "content_type": "text/html; charset=utf-8",
+          "sensitivity_level": "critical",
+          "title": "",
+          "forms_count": 0,
+          "technologies": [],
+          "response_time": 0.0
+        },
+        {
+          "url": "https://gymshark.com/admin.php",
+          "status_code": 200,
+          "content_type": "text/html; charset=utf-8",
+          "sensitivity_level": "critical",
+          "title": "",
+          "forms_count": 0,
+          "technologies": [],
+          "response_time": 0.0
+        },
+        {
+          "url": "https://gymshark.com/admin.html",
+          "status_code": 200,
+          "content_type": "text/html; charset=utf-8",
+          "sensitivity_level": "critical",
+          "title": "",
+          "forms_count": 0,
+          "technologies": [],
+          "response_time": 0.0
+        }
+      ]
+    }
+  }
+}

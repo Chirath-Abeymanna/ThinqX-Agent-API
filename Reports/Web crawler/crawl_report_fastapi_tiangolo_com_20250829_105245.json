@@ -1,0 +1,610 @@
+{
+  "crawl_summary": {
+    "target_domain": "https://fastapi.tiangolo.com",
+    "crawl_duration": 14.198975,
+    "urls_discovered": 56,
+    "urls_successfully_crawled": 56,
+    "errors_encountered": 0,
+    "start_time": "2025-08-29T10:52:29.614815",
+    "end_time": "2025-08-29T10:52:43.813790"
+  },
+  "discovery_statistics": {
+    "total_files_found": 57,
+    "total_forms_found": 112,
+    "sensitive_files_found": 57,
+    "hidden_files_discovered": 1
+  },
+  "categorized_findings": {
+    "Other": {
+      "count": 0,
+      "sensitivity_breakdown": {
+        "low": 0,
+        "medium": 0,
+        "high": 0,
+        "critical": 0
+      },
+      "urls": []
+    },
+    "Sensitive Content": {
+      "count": 57,
+      "sensitivity_breakdown": {
+        "low": 0,
+        "medium": 0,
+        "high": 0,
+        "critical": 57
+      },
+      "urls": [
+        {
+          "url": "https://fastapi.tiangolo.com",
+          "status_code": 200,
+          "content_type": "text/html; charset=utf-8",
+          "sensitivity_level": "critical",
+          "title": "FastAPI",
+          "forms_count": 2,
+          "technologies": [],
+          "response_time": 0.892786979675293
+        },
+        {
+          "url": "https://fastapi.tiangolo.com/newsletter/",
+          "status_code": 200,
+          "content_type": "text/html; charset=utf-8",
+          "sensitivity_level": "critical",
+          "title": "FastAPI and friends newsletter - FastAPI",
+          "forms_count": 2,
+          "technologies": [],
+          "response_time": 0.1775815486907959
+        },
+        {
+          "url": "https://fastapi.tiangolo.com/",
+          "status_code": 200,
+          "content_type": "text/html; charset=utf-8",
+          "sensitivity_level": "critical",
+          "title": "FastAPI",
+          "forms_count": 2,
+          "technologies": [],
+          "response_time": 0.0859839916229248
+        },
+        {
+          "url": "https://fastapi.tiangolo.com/az/",
+          "status_code": 200,
+          "content_type": "text/html; charset=utf-8",
+          "sensitivity_level": "critical",
+          "title": "FastAPI",
+          "forms_count": 2,
+          "technologies": [],
+          "response_time": 0.18415617942810059
+        },
+        {
+          "url": "https://fastapi.tiangolo.com/bn/",
+          "status_code": 200,
+          "content_type": "text/html; charset=utf-8",
+          "sensitivity_level": "critical",
+          "title": "FastAPI",
+          "forms_count": 2,
+          "technologies": [],
+          "response_time": 0.1170966625213623
+        },
+        {
+          "url": "https://fastapi.tiangolo.com/de/",
+          "status_code": 200,
+          "content_type": "text/html; charset=utf-8",
+          "sensitivity_level": "critical",
+          "title": "FastAPI",
+          "forms_count": 2,
+          "technologies": [],
+          "response_time": 0.11323261260986328
+        },
+        {
+          "url": "https://fastapi.tiangolo.com/es/",
+          "status_code": 200,
+          "content_type": "text/html; charset=utf-8",
+          "sensitivity_level": "critical",
+          "title": "FastAPI",
+          "forms_count": 2,
+          "technologies": [],
+          "response_time": 0.3834969997406006
+        },
+        {
+          "url": "https://fastapi.tiangolo.com/fa/",
+          "status_code": 200,
+          "content_type": "text/html; charset=utf-8",
+          "sensitivity_level": "critical",
+          "title": "FastAPI",
+          "forms_count": 2,
+          "technologies": [],
+          "response_time": 0.27176928520202637
+        },
+        {
+          "url": "https://fastapi.tiangolo.com/fr/",
+          "status_code": 200,
+          "content_type": "text/html; charset=utf-8",
+          "sensitivity_level": "critical",
+          "title": "FastAPI",
+          "forms_count": 2,
+          "technologies": [],
+          "response_time": 0.13201355934143066
+        },
+        {
+          "url": "https://fastapi.tiangolo.com/he/",
+          "status_code": 200,
+          "content_type": "text/html; charset=utf-8",
+          "sensitivity_level": "critical",
+          "title": "FastAPI",
+          "forms_count": 2,
+          "technologies": [],
+          "response_time": 0.11243939399719238
+        },
+        {
+          "url": "https://fastapi.tiangolo.com/hu/",
+          "status_code": 200,
+          "content_type": "text/html; charset=utf-8",
+          "sensitivity_level": "critical",
+          "title": "FastAPI",
+          "forms_count": 2,
+          "technologies": [],
+          "response_time": 0.12499618530273438
+        },
+        {
+          "url": "https://fastapi.tiangolo.com/id/",
+          "status_code": 200,
+          "content_type": "text/html; charset=utf-8",
+          "sensitivity_level": "critical",
+          "title": "FastAPI",
+          "forms_count": 2,
+          "technologies": [],
+          "response_time": 0.10885930061340332
+        },
+        {
+          "url": "https://fastapi.tiangolo.com/it/",
+          "status_code": 200,
+          "content_type": "text/html; charset=utf-8",
+          "sensitivity_level": "critical",
+          "title": "FastAPI",
+          "forms_count": 2,
+          "technologies": [],
+          "response_time": 0.12419867515563965
+        },
+        {
+          "url": "https://fastapi.tiangolo.com/ja/",
+          "status_code": 200,
+          "content_type": "text/html; charset=utf-8",
+          "sensitivity_level": "critical",
+          "title": "FastAPI",
+          "forms_count": 2,
+          "technologies": [],
+          "response_time": 0.12638473510742188
+        },
+        {
+          "url": "https://fastapi.tiangolo.com/ko/",
+          "status_code": 200,
+          "content_type": "text/html; charset=utf-8",
+          "sensitivity_level": "critical",
+          "title": "FastAPI",
+          "forms_count": 2,
+          "technologies": [],
+          "response_time": 0.1256699562072754
+        },
+        {
+          "url": "https://fastapi.tiangolo.com/nl/",
+          "status_code": 200,
+          "content_type": "text/html; charset=utf-8",
+          "sensitivity_level": "critical",
+          "title": "FastAPI",
+          "forms_count": 2,
+          "technologies": [],
+          "response_time": 0.11870193481445312
+        },
+        {
+          "url": "https://fastapi.tiangolo.com/pl/",
+          "status_code": 200,
+          "content_type": "text/html; charset=utf-8",
+          "sensitivity_level": "critical",
+          "title": "FastAPI",
+          "forms_count": 2,
+          "technologies": [],
+          "response_time": 0.08250832557678223
+        },
+        {
+          "url": "https://fastapi.tiangolo.com/pt/",
+          "status_code": 200,
+          "content_type": "text/html; charset=utf-8",
+          "sensitivity_level": "critical",
+          "title": "FastAPI",
+          "forms_count": 2,
+          "technologies": [],
+          "response_time": 0.09125185012817383
+        },
+        {
+          "url": "https://fastapi.tiangolo.com/ru/",
+          "status_code": 200,
+          "content_type": "text/html; charset=utf-8",
+          "sensitivity_level": "critical",
+          "title": "FastAPI",
+          "forms_count": 2,
+          "technologies": [],
+          "response_time": 0.16628289222717285
+        },
+        {
+          "url": "https://fastapi.tiangolo.com/tr/",
+          "status_code": 200,
+          "content_type": "text/html; charset=utf-8",
+          "sensitivity_level": "critical",
+          "title": "FastAPI",
+          "forms_count": 2,
+          "technologies": [],
+          "response_time": 0.12075161933898926
+        },
+        {
+          "url": "https://fastapi.tiangolo.com/uk/",
+          "status_code": 200,
+          "content_type": "text/html; charset=utf-8",
+          "sensitivity_level": "critical",
+          "title": "FastAPI",
+          "forms_count": 2,
+          "technologies": [],
+          "response_time": 0.10175800323486328
+        },
+        {
+          "url": "https://fastapi.tiangolo.com/ur/",
+          "status_code": 200,
+          "content_type": "text/html; charset=utf-8",
+          "sensitivity_level": "critical",
+          "title": "FastAPI",
+          "forms_count": 2,
+          "technologies": [],
+          "response_time": 0.11664295196533203
+        },
+        {
+          "url": "https://fastapi.tiangolo.com/vi/",
+          "status_code": 200,
+          "content_type": "text/html; charset=utf-8",
+          "sensitivity_level": "critical",
+          "title": "FastAPI",
+          "forms_count": 2,
+          "technologies": [],
+          "response_time": 0.12236618995666504
+        },
+        {
+          "url": "https://fastapi.tiangolo.com/yo/",
+          "status_code": 200,
+          "content_type": "text/html; charset=utf-8",
+          "sensitivity_level": "critical",
+          "title": "FastAPI",
+          "forms_count": 2,
+          "technologies": [],
+          "response_time": 0.11688494682312012
+        },
+        {
+          "url": "https://fastapi.tiangolo.com/zh/",
+          "status_code": 200,
+          "content_type": "text/html; charset=utf-8",
+          "sensitivity_level": "critical",
+          "title": "FastAPI",
+          "forms_count": 2,
+          "technologies": [],
+          "response_time": 0.11687469482421875
+        },
+        {
+          "url": "https://fastapi.tiangolo.com/zh-hant/",
+          "status_code": 200,
+          "content_type": "text/html; charset=utf-8",
+          "sensitivity_level": "critical",
+          "title": "FastAPI",
+          "forms_count": 2,
+          "technologies": [],
+          "response_time": 0.11625242233276367
+        },
+        {
+          "url": "https://fastapi.tiangolo.com/em/",
+          "status_code": 200,
+          "content_type": "text/html; charset=utf-8",
+          "sensitivity_level": "critical",
+          "title": "FastAPI",
+          "forms_count": 2,
+          "technologies": [],
+          "response_time": 0.18343448638916016
+        },
+        {
+          "url": "https://fastapi.tiangolo.com/fastapi-people/#sponsors",
+          "status_code": 200,
+          "content_type": "text/html; charset=utf-8",
+          "sensitivity_level": "critical",
+          "title": "FastAPI People - FastAPI",
+          "forms_count": 2,
+          "technologies": [],
+          "response_time": 0.08210134506225586
+        },
+        {
+          "url": "https://fastapi.tiangolo.com/virtual-environments/",
+          "status_code": 200,
+          "content_type": "text/html; charset=utf-8",
+          "sensitivity_level": "critical",
+          "title": "Virtual Environments - FastAPI",
+          "forms_count": 2,
+          "technologies": [],
+          "response_time": 0.12938165664672852
+        },
+        {
+          "url": "https://fastapi.tiangolo.com/async/#in-a-hurry",
+          "status_code": 200,
+          "content_type": "text/html; charset=utf-8",
+          "sensitivity_level": "critical",
+          "title": "Concurrency and async / await - FastAPI",
+          "forms_count": 2,
+          "technologies": [],
+          "response_time": 0.12855792045593262
+        },
+        {
+          "url": "https://fastapi.tiangolo.com/fastapi-cli/",
+          "status_code": 200,
+          "content_type": "text/html; charset=utf-8",
+          "sensitivity_level": "critical",
+          "title": "FastAPI CLI - FastAPI",
+          "forms_count": 2,
+          "technologies": [],
+          "response_time": 0.14465808868408203
+        },
+        {
+          "url": "https://fastapi.tiangolo.com/tutorial/",
+          "status_code": 200,
+          "content_type": "text/html; charset=utf-8",
+          "sensitivity_level": "critical",
+          "title": "Tutorial - User Guide - FastAPI",
+          "forms_count": 2,
+          "technologies": [],
+          "response_time": 0.16998744010925293
+        },
+        {
+          "url": "https://fastapi.tiangolo.com/benchmarks/",
+          "status_code": 200,
+          "content_type": "text/html; charset=utf-8",
+          "sensitivity_level": "critical",
+          "title": "Benchmarks - FastAPI",
+          "forms_count": 2,
+          "technologies": [],
+          "response_time": 0.15255022048950195
+        },
+        {
+          "url": "https://fastapi.tiangolo.com/az/fastapi-people/#sponsors",
+          "status_code": 200,
+          "content_type": "text/html; charset=utf-8",
+          "sensitivity_level": "critical",
+          "title": "FastAPI People - FastAPI",
+          "forms_count": 2,
+          "technologies": [],
+          "response_time": 0.15254807472229004
+        },
+        {
+          "url": "https://fastapi.tiangolo.com/az/async/#in-a-hurry",
+          "status_code": 200,
+          "content_type": "text/html; charset=utf-8",
+          "sensitivity_level": "critical",
+          "title": "Concurrency and async / await - FastAPI",
+          "forms_count": 2,
+          "technologies": [],
+          "response_time": 0.08425211906433105
+        },
+        {
+          "url": "https://fastapi.tiangolo.com/az/tutorial/",
+          "status_code": 200,
+          "content_type": "text/html; charset=utf-8",
+          "sensitivity_level": "critical",
+          "title": "Tutorial - User Guide - FastAPI",
+          "forms_count": 2,
+          "technologies": [],
+          "response_time": 0.1418592929840088
+        },
+        {
+          "url": "https://fastapi.tiangolo.com/az/benchmarks/",
+          "status_code": 200,
+          "content_type": "text/html; charset=utf-8",
+          "sensitivity_level": "critical",
+          "title": "Benchmarks - FastAPI",
+          "forms_count": 2,
+          "technologies": [],
+          "response_time": 0.266340970993042
+        },
+        {
+          "url": "https://fastapi.tiangolo.com/de/fastapi-people/#sponsoren",
+          "status_code": 200,
+          "content_type": "text/html; charset=utf-8",
+          "sensitivity_level": "critical",
+          "title": "FastAPI People - FastAPI",
+          "forms_count": 2,
+          "technologies": [],
+          "response_time": 0.1702580451965332
+        },
+        {
+          "url": "https://fastapi.tiangolo.com/de/async/#in-eile",
+          "status_code": 200,
+          "content_type": "text/html; charset=utf-8",
+          "sensitivity_level": "critical",
+          "title": "Nebenl\u00e4ufigkeit und async / await - FastAPI",
+          "forms_count": 2,
+          "technologies": [],
+          "response_time": 0.18070054054260254
+        },
+        {
+          "url": "https://fastapi.tiangolo.com/#recap",
+          "status_code": 200,
+          "content_type": "text/html; charset=utf-8",
+          "sensitivity_level": "critical",
+          "title": "FastAPI",
+          "forms_count": 2,
+          "technologies": [],
+          "response_time": 0.0813453197479248
+        },
+        {
+          "url": "https://fastapi.tiangolo.com/fr/async/#vous-etes-presses",
+          "status_code": 200,
+          "content_type": "text/html; charset=utf-8",
+          "sensitivity_level": "critical",
+          "title": "Concurrence et les mots-cl\u00e9s async et await - FastAPI",
+          "forms_count": 2,
+          "technologies": [],
+          "response_time": 0.09069323539733887
+        },
+        {
+          "url": "https://fastapi.tiangolo.com/fr/tutorial/",
+          "status_code": 200,
+          "content_type": "text/html; charset=utf-8",
+          "sensitivity_level": "critical",
+          "title": "Tutoriel - Guide utilisateur - Introduction - FastAPI",
+          "forms_count": 2,
+          "technologies": [],
+          "response_time": 0.14001965522766113
+        },
+        {
+          "url": "https://fastapi.tiangolo.com/fr/benchmarks/",
+          "status_code": 200,
+          "content_type": "text/html; charset=utf-8",
+          "sensitivity_level": "critical",
+          "title": "Test de performance - FastAPI",
+          "forms_count": 2,
+          "technologies": [],
+          "response_time": 0.1600651741027832
+        },
+        {
+          "url": "https://fastapi.tiangolo.com/pt/virtual-environments/",
+          "status_code": 200,
+          "content_type": "text/html; charset=utf-8",
+          "sensitivity_level": "critical",
+          "title": "Ambientes Virtuais - FastAPI",
+          "forms_count": 2,
+          "technologies": [],
+          "response_time": 0.1641077995300293
+        },
+        {
+          "url": "https://fastapi.tiangolo.com/pt/async/#com-pressa",
+          "status_code": 200,
+          "content_type": "text/html; charset=utf-8",
+          "sensitivity_level": "critical",
+          "title": "Concorr\u00eancia e async / await - FastAPI",
+          "forms_count": 2,
+          "technologies": [],
+          "response_time": 0.1359705924987793
+        },
+        {
+          "url": "https://fastapi.tiangolo.com/pt/fastapi-cli/",
+          "status_code": 200,
+          "content_type": "text/html; charset=utf-8",
+          "sensitivity_level": "critical",
+          "title": "FastAPI CLI - FastAPI",
+          "forms_count": 2,
+          "technologies": [],
+          "response_time": 0.13912010192871094
+        },
+        {
+          "url": "https://fastapi.tiangolo.com/pt/tutorial/",
+          "status_code": 200,
+          "content_type": "text/html; charset=utf-8",
+          "sensitivity_level": "critical",
+          "title": "Tutorial - Guia de Usu\u00e1rio - FastAPI",
+          "forms_count": 2,
+          "technologies": [],
+          "response_time": 0.16646838188171387
+        },
+        {
+          "url": "https://fastapi.tiangolo.com/pt/benchmarks/",
+          "status_code": 200,
+          "content_type": "text/html; charset=utf-8",
+          "sensitivity_level": "critical",
+          "title": "Compara\u00e7\u00f5es - FastAPI",
+          "forms_count": 2,
+          "technologies": [],
+          "response_time": 0.16280484199523926
+        },
+        {
+          "url": "https://fastapi.tiangolo.com/tr/fastapi-people/#sponsors",
+          "status_code": 200,
+          "content_type": "text/html; charset=utf-8",
+          "sensitivity_level": "critical",
+          "title": "FastAPI People - FastAPI",
+          "forms_count": 2,
+          "technologies": [],
+          "response_time": 0.16437315940856934
+        },
+        {
+          "url": "https://fastapi.tiangolo.com/tr/async/#in-a-hurry",
+          "status_code": 200,
+          "content_type": "text/html; charset=utf-8",
+          "sensitivity_level": "critical",
+          "title": "Concurrency ve async / await - FastAPI",
+          "forms_count": 2,
+          "technologies": [],
+          "response_time": 0.08967161178588867
+        },
+        {
+          "url": "https://fastapi.tiangolo.com/tr/tutorial/",
+          "status_code": 200,
+          "content_type": "text/html; charset=utf-8",
+          "sensitivity_level": "critical",
+          "title": "Tutorial - User Guide - FastAPI",
+          "forms_count": 2,
+          "technologies": [],
+          "response_time": 0.09005427360534668
+        },
+        {
+          "url": "https://fastapi.tiangolo.com/tr/benchmarks/",
+          "status_code": 200,
+          "content_type": "text/html; charset=utf-8",
+          "sensitivity_level": "critical",
+          "title": "K\u0131yaslamalar - FastAPI",
+          "forms_count": 2,
+          "technologies": [],
+          "response_time": 0.18317270278930664
+        },
+        {
+          "url": "https://fastapi.tiangolo.com/contributing/",
+          "status_code": 200,
+          "content_type": "text/html; charset=utf-8",
+          "sensitivity_level": "critical",
+          "title": "Development - Contributing - FastAPI",
+          "forms_count": 2,
+          "technologies": [],
+          "response_time": 0.1507253646850586
+        },
+        {
+          "url": "https://fastapi.tiangolo.com/zh/async/#in-a-hurry",
+          "status_code": 200,
+          "content_type": "text/html; charset=utf-8",
+          "sensitivity_level": "critical",
+          "title": "\u5e76\u53d1 async / await - FastAPI",
+          "forms_count": 2,
+          "technologies": [],
+          "response_time": 0.10186982154846191
+        },
+        {
+          "url": "https://fastapi.tiangolo.com/zh/tutorial/",
+          "status_code": 200,
+          "content_type": "text/html; charset=utf-8",
+          "sensitivity_level": "critical",
+          "title": "\u6559\u7a0b - \u7528\u6237\u6307\u5357 - FastAPI",
+          "forms_count": 2,
+          "technologies": [],
+          "response_time": 0.14267325401306152
+        },
+        {
+          "url": "https://fastapi.tiangolo.com/zh/benchmarks/",
+          "status_code": 200,
+          "content_type": "text/html; charset=utf-8",
+          "sensitivity_level": "critical",
+          "title": "\u57fa\u51c6\u6d4b\u8bd5 - FastAPI",
+          "forms_count": 2,
+          "technologies": [],
+          "response_time": 0.1549229621887207
+        },
+        {
+          "url": "https://fastapi.tiangolo.com/sitemap.xml",
+          "status_code": 200,
+          "content_type": "application/xml",
+          "sensitivity_level": "critical",
+          "title": "",
+          "forms_count": 0,
+          "technologies": [],
+          "response_time": 0.0
+        }
+      ]
+    }
+  }
+}
