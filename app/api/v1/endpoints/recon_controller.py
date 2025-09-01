@@ -14,6 +14,7 @@ def scan_domain(request: ReconRequest):
     """
     Run recon-agent for the given domain and return the JSON result.
     """
+    print(f"Received scan request: {request.json()}")
     try:
         result = run_recon_agent(request.target, request.mission_type)
         return result

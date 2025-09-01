@@ -12,7 +12,7 @@ class WhoisInfo(BaseModel):
     expiration_date: Optional[str]
     updated_date: Optional[str]
     name_servers: Optional[List[str]]
-    status: Optional[str]
+    status: Optional[List[str]]
     emails: Optional[List[str]]
     registrant_country: Optional[str]
     registrant_org: Optional[str]

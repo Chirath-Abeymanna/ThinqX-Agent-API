@@ -1787,6 +1787,18 @@ def run_recon_agent(target: str, mission_type: str = "comprehensive") -> dict:
             return obj
 
     result = convert_sets_and_keys(result)
+
+    # --- Ensure required nested keys for Pydantic compatibility ---
+    findings = result.get('findings', {})
+    # Ensure virustotal.whois_info.registrar exists
+    vt = findings.get('virustotal')
+    if vt is not None:
+        if 'whois_info' not in vt or vt['whois_info'] is None:
+            vt['whois_info'] = {'registrar': None}
+        elif isinstance(vt['whois_info'], dict) and 'registrar' not in vt['whois_info']:
+            vt['whois_info']['registrar'] = None
+    result['findings'] = findings
+
     return result
 
 # ============================================================================

@@ -1,0 +1,772 @@
+{
+  "crawl_summary": {
+    "target_domain": "https://workupload.com",
+    "crawl_duration": 1.80703,
+    "urls_discovered": 0,
+    "urls_successfully_crawled": 1,
+    "errors_encountered": 0,
+    "start_time": "2025-08-29T10:53:34.677039",
+    "end_time": "2025-08-29T10:53:36.484069"
+  },
+  "discovery_statistics": {
+    "total_files_found": 73,
+    "total_forms_found": 0,
+    "sensitive_files_found": 73,
+    "hidden_files_discovered": 72
+  },
+  "categorized_findings": {
+    "Other": {
+      "count": 0,
+      "sensitivity_breakdown": {
+        "low": 0,
+        "medium": 0,
+        "high": 0,
+        "critical": 0
+      },
+      "urls": []
+    },
+    "Sensitive Content": {
+      "count": 73,
+      "sensitivity_breakdown": {
+        "low": 0,
+        "medium": 0,
+        "high": 42,
+        "critical": 31
+      },
+      "urls": [
+        {
+          "url": "https://workupload.com",
+          "status_code": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "sensitivity_level": "high",
+          "title": "workupload - Are you a human?",
+          "forms_count": 0,
+          "technologies": [
+            "Apache"
+          ],
+          "response_time": 0.5541391372680664
+        },
+        {
+          "url": "https://workupload.com/.env",
+          "status_code": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "sensitivity_level": "critical",
+          "title": "",
+          "forms_count": 0,
+          "technologies": [],
+          "response_time": 0.0
+        },
+        {
+          "url": "https://workupload.com/.git/config",
+          "status_code": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "sensitivity_level": "critical",
+          "title": "",
+          "forms_count": 0,
+          "technologies": [],
+          "response_time": 0.0
+        },
+        {
+          "url": "https://workupload.com/.gitignore",
+          "status_code": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "sensitivity_level": "critical",
+          "title": "",
+          "forms_count": 0,
+          "technologies": [],
+          "response_time": 0.0
+        },
+        {
+          "url": "https://workupload.com/robots.txt",
+          "status_code": 200,
+          "content_type": "text/plain",
+          "sensitivity_level": "critical",
+          "title": "",
+          "forms_count": 0,
+          "technologies": [],
+          "response_time": 0.0
+        },
+        {
+          "url": "https://workupload.com/sitemap.xml",
+          "status_code": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "sensitivity_level": "critical",
+          "title": "",
+          "forms_count": 0,
+          "technologies": [],
+          "response_time": 0.0
+        },
+        {
+          "url": "https://workupload.com/crossdomain.xml",
+          "status_code": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "sensitivity_level": "high",
+          "title": "",
+          "forms_count": 0,
+          "technologies": [],
+          "response_time": 0.0
+        },
+        {
+          "url": "https://workupload.com/clientaccesspolicy.xml",
+          "status_code": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "sensitivity_level": "high",
+          "title": "",
+          "forms_count": 0,
+          "technologies": [],
+          "response_time": 0.0
+        },
+        {
+          "url": "https://workupload.com/security.txt",
+          "status_code": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "sensitivity_level": "critical",
+          "title": "",
+          "forms_count": 0,
+          "technologies": [],
+          "response_time": 0.0
+        },
+        {
+          "url": "https://workupload.com/.well-known/security.txt",
+          "status_code": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "sensitivity_level": "critical",
+          "title": "",
+          "forms_count": 0,
+          "technologies": [],
+          "response_time": 0.0
+        },
+        {
+          "url": "https://workupload.com/backup/",
+          "status_code": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "sensitivity_level": "critical",
+          "title": "",
+          "forms_count": 0,
+          "technologies": [],
+          "response_time": 0.0
+        },
+        {
+          "url": "https://workupload.com/backups/",
+          "status_code": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "sensitivity_level": "critical",
+          "title": "",
+          "forms_count": 0,
+          "technologies": [],
+          "response_time": 0.0
+        },
+        {
+          "url": "https://workupload.com/bak/",
+          "status_code": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "sensitivity_level": "high",
+          "title": "",
+          "forms_count": 0,
+          "technologies": [],
+          "response_time": 0.0
+        },
+        {
+          "url": "https://workupload.com/old/",
+          "status_code": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "sensitivity_level": "high",
+          "title": "",
+          "forms_count": 0,
+          "technologies": [],
+          "response_time": 0.0
+        },
+        {
+          "url": "https://workupload.com/archive/",
+          "status_code": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "sensitivity_level": "high",
+          "title": "",
+          "forms_count": 0,
+          "technologies": [],
+          "response_time": 0.0
+        },
+        {
+          "url": "https://workupload.com/backup.zip",
+          "status_code": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "sensitivity_level": "critical",
+          "title": "",
+          "forms_count": 0,
+          "technologies": [],
+          "response_time": 0.0
+        },
+        {
+          "url": "https://workupload.com/backup.tar.gz",
+          "status_code": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "sensitivity_level": "critical",
+          "title": "",
+          "forms_count": 0,
+          "technologies": [],
+          "response_time": 0.0
+        },
+        {
+          "url": "https://workupload.com/backup.sql",
+          "status_code": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "sensitivity_level": "critical",
+          "title": "",
+          "forms_count": 0,
+          "technologies": [],
+          "response_time": 0.0
+        },
+        {
+          "url": "https://workupload.com/config.js",
+          "status_code": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "sensitivity_level": "critical",
+          "title": "",
+          "forms_count": 0,
+          "technologies": [],
+          "response_time": 0.0
+        },
+        {
+          "url": "https://workupload.com/config.json",
+          "status_code": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "sensitivity_level": "critical",
+          "title": "",
+          "forms_count": 0,
+          "technologies": [],
+          "response_time": 0.0
+        },
+        {
+          "url": "https://workupload.com/config.xml",
+          "status_code": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "sensitivity_level": "critical",
+          "title": "",
+          "forms_count": 0,
+          "technologies": [],
+          "response_time": 0.0
+        },
+        {
+          "url": "https://workupload.com/wp-config.php",
+          "status_code": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "sensitivity_level": "critical",
+          "title": "",
+          "forms_count": 0,
+          "technologies": [],
+          "response_time": 0.0
+        },
+        {
+          "url": "https://workupload.com/configuration.php",
+          "status_code": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "sensitivity_level": "critical",
+          "title": "",
+          "forms_count": 0,
+          "technologies": [],
+          "response_time": 0.0
+        },
+        {
+          "url": "https://workupload.com/admin/",
+          "status_code": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "sensitivity_level": "critical",
+          "title": "",
+          "forms_count": 0,
+          "technologies": [],
+          "response_time": 0.0
+        },
+        {
+          "url": "https://workupload.com/administrator/",
+          "status_code": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "sensitivity_level": "critical",
+          "title": "",
+          "forms_count": 0,
+          "technologies": [],
+          "response_time": 0.0
+        },
+        {
+          "url": "https://workupload.com/admin.php",
+          "status_code": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "sensitivity_level": "critical",
+          "title": "",
+          "forms_count": 0,
+          "technologies": [],
+          "response_time": 0.0
+        },
+        {
+          "url": "https://workupload.com/admin.html",
+          "status_code": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "sensitivity_level": "critical",
+          "title": "",
+          "forms_count": 0,
+          "technologies": [],
+          "response_time": 0.0
+        },
+        {
+          "url": "https://workupload.com/login/",
+          "status_code": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "sensitivity_level": "critical",
+          "title": "",
+          "forms_count": 0,
+          "technologies": [],
+          "response_time": 0.0
+        },
+        {
+          "url": "https://workupload.com/login.php",
+          "status_code": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "sensitivity_level": "critical",
+          "title": "",
+          "forms_count": 0,
+          "technologies": [],
+          "response_time": 0.0
+        },
+        {
+          "url": "https://workupload.com/login.html",
+          "status_code": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "sensitivity_level": "critical",
+          "title": "",
+          "forms_count": 0,
+          "technologies": [],
+          "response_time": 0.0
+        },
+        {
+          "url": "https://workupload.com/wp-admin/",
+          "status_code": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "sensitivity_level": "critical",
+          "title": "",
+          "forms_count": 0,
+          "technologies": [],
+          "response_time": 0.0
+        },
+        {
+          "url": "https://workupload.com/wp-login.php",
+          "status_code": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "sensitivity_level": "critical",
+          "title": "",
+          "forms_count": 0,
+          "technologies": [],
+          "response_time": 0.0
+        },
+        {
+          "url": "https://workupload.com/api/",
+          "status_code": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "sensitivity_level": "critical",
+          "title": "",
+          "forms_count": 0,
+          "technologies": [],
+          "response_time": 0.0
+        },
+        {
+          "url": "https://workupload.com/api/v1/",
+          "status_code": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "sensitivity_level": "critical",
+          "title": "",
+          "forms_count": 0,
+          "technologies": [],
+          "response_time": 0.0
+        },
+        {
+          "url": "https://workupload.com/api/v2/",
+          "status_code": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "sensitivity_level": "critical",
+          "title": "",
+          "forms_count": 0,
+          "technologies": [],
+          "response_time": 0.0
+        },
+        {
+          "url": "https://workupload.com/rest/",
+          "status_code": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "sensitivity_level": "high",
+          "title": "",
+          "forms_count": 0,
+          "technologies": [],
+          "response_time": 0.0
+        },
+        {
+          "url": "https://workupload.com/graphql",
+          "status_code": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "sensitivity_level": "high",
+          "title": "",
+          "forms_count": 0,
+          "technologies": [],
+          "response_time": 0.0
+        },
+        {
+          "url": "https://workupload.com/test/",
+          "status_code": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "sensitivity_level": "high",
+          "title": "",
+          "forms_count": 0,
+          "technologies": [],
+          "response_time": 0.0
+        },
+        {
+          "url": "https://workupload.com/dev/",
+          "status_code": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "sensitivity_level": "high",
+          "title": "",
+          "forms_count": 0,
+          "technologies": [],
+          "response_time": 0.0
+        },
+        {
+          "url": "https://workupload.com/development/",
+          "status_code": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "sensitivity_level": "high",
+          "title": "",
+          "forms_count": 0,
+          "technologies": [],
+          "response_time": 0.0
+        },
+        {
+          "url": "https://workupload.com/staging/",
+          "status_code": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "sensitivity_level": "high",
+          "title": "",
+          "forms_count": 0,
+          "technologies": [],
+          "response_time": 0.0
+        },
+        {
+          "url": "https://workupload.com/phpinfo.php",
+          "status_code": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "sensitivity_level": "high",
+          "title": "",
+          "forms_count": 0,
+          "technologies": [],
+          "response_time": 0.0
+        },
+        {
+          "url": "https://workupload.com/info.php",
+          "status_code": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "sensitivity_level": "high",
+          "title": "",
+          "forms_count": 0,
+          "technologies": [],
+          "response_time": 0.0
+        },
+        {
+          "url": "https://workupload.com/test.php",
+          "status_code": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "sensitivity_level": "high",
+          "title": "",
+          "forms_count": 0,
+          "technologies": [],
+          "response_time": 0.0
+        },
+        {
+          "url": "https://workupload.com/images/",
+          "status_code": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "sensitivity_level": "high",
+          "title": "",
+          "forms_count": 0,
+          "technologies": [],
+          "response_time": 0.0
+        },
+        {
+          "url": "https://workupload.com/img/",
+          "status_code": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "sensitivity_level": "high",
+          "title": "",
+          "forms_count": 0,
+          "technologies": [],
+          "response_time": 0.0
+        },
+        {
+          "url": "https://workupload.com/css/",
+          "status_code": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "sensitivity_level": "high",
+          "title": "",
+          "forms_count": 0,
+          "technologies": [],
+          "response_time": 0.0
+        },
+        {
+          "url": "https://workupload.com/js/",
+          "status_code": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "sensitivity_level": "high",
+          "title": "",
+          "forms_count": 0,
+          "technologies": [],
+          "response_time": 0.0
+        },
+        {
+          "url": "https://workupload.com/assets/",
+          "status_code": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "sensitivity_level": "high",
+          "title": "",
+          "forms_count": 0,
+          "technologies": [],
+          "response_time": 0.0
+        },
+        {
+          "url": "https://workupload.com/uploads/",
+          "status_code": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "sensitivity_level": "high",
+          "title": "",
+          "forms_count": 0,
+          "technologies": [],
+          "response_time": 0.0
+        },
+        {
+          "url": "https://workupload.com/files/",
+          "status_code": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "sensitivity_level": "high",
+          "title": "",
+          "forms_count": 0,
+          "technologies": [],
+          "response_time": 0.0
+        },
+        {
+          "url": "https://workupload.com/downloads/",
+          "status_code": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "sensitivity_level": "high",
+          "title": "",
+          "forms_count": 0,
+          "technologies": [],
+          "response_time": 0.0
+        },
+        {
+          "url": "https://workupload.com/media/",
+          "status_code": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "sensitivity_level": "high",
+          "title": "",
+          "forms_count": 0,
+          "technologies": [],
+          "response_time": 0.0
+        },
+        {
+          "url": "https://workupload.com/wp-content/",
+          "status_code": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "sensitivity_level": "high",
+          "title": "",
+          "forms_count": 0,
+          "technologies": [],
+          "response_time": 0.0
+        },
+        {
+          "url": "https://workupload.com/wp-includes/",
+          "status_code": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "sensitivity_level": "high",
+          "title": "",
+          "forms_count": 0,
+          "technologies": [],
+          "response_time": 0.0
+        },
+        {
+          "url": "https://workupload.com/wp-json/",
+          "status_code": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "sensitivity_level": "high",
+          "title": "",
+          "forms_count": 0,
+          "technologies": [],
+          "response_time": 0.0
+        },
+        {
+          "url": "https://workupload.com/joomla/",
+          "status_code": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "sensitivity_level": "high",
+          "title": "",
+          "forms_count": 0,
+          "technologies": [],
+          "response_time": 0.0
+        },
+        {
+          "url": "https://workupload.com/drupal/",
+          "status_code": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "sensitivity_level": "high",
+          "title": "",
+          "forms_count": 0,
+          "technologies": [],
+          "response_time": 0.0
+        },
+        {
+          "url": "https://workupload.com/magento/",
+          "status_code": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "sensitivity_level": "high",
+          "title": "",
+          "forms_count": 0,
+          "technologies": [],
+          "response_time": 0.0
+        },
+        {
+          "url": "https://workupload.com/server-info",
+          "status_code": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "sensitivity_level": "high",
+          "title": "",
+          "forms_count": 0,
+          "technologies": [],
+          "response_time": 0.0
+        },
+        {
+          "url": "https://workupload.com/status",
+          "status_code": 200,
+          "content_type": "text/plain; charset=UTF-8",
+          "sensitivity_level": "high",
+          "title": "",
+          "forms_count": 0,
+          "technologies": [],
+          "response_time": 0.0
+        },
+        {
+          "url": "https://workupload.com/logs/",
+          "status_code": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "sensitivity_level": "high",
+          "title": "",
+          "forms_count": 0,
+          "technologies": [],
+          "response_time": 0.0
+        },
+        {
+          "url": "https://workupload.com/log/",
+          "status_code": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "sensitivity_level": "high",
+          "title": "",
+          "forms_count": 0,
+          "technologies": [],
+          "response_time": 0.0
+        },
+        {
+          "url": "https://workupload.com/error.log",
+          "status_code": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "sensitivity_level": "high",
+          "title": "",
+          "forms_count": 0,
+          "technologies": [],
+          "response_time": 0.0
+        },
+        {
+          "url": "https://workupload.com/access.log",
+          "status_code": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "sensitivity_level": "high",
+          "title": "",
+          "forms_count": 0,
+          "technologies": [],
+          "response_time": 0.0
+        },
+        {
+          "url": "https://workupload.com/db/",
+          "status_code": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "sensitivity_level": "critical",
+          "title": "",
+          "forms_count": 0,
+          "technologies": [],
+          "response_time": 0.0
+        },
+        {
+          "url": "https://workupload.com/database/",
+          "status_code": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "sensitivity_level": "critical",
+          "title": "",
+          "forms_count": 0,
+          "technologies": [],
+          "response_time": 0.0
+        },
+        {
+          "url": "https://workupload.com/sql/",
+          "status_code": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "sensitivity_level": "high",
+          "title": "",
+          "forms_count": 0,
+          "technologies": [],
+          "response_time": 0.0
+        },
+        {
+          "url": "https://workupload.com/mysql/",
+          "status_code": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "sensitivity_level": "high",
+          "title": "",
+          "forms_count": 0,
+          "technologies": [],
+          "response_time": 0.0
+        },
+        {
+          "url": "https://workupload.com/cache/",
+          "status_code": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "sensitivity_level": "high",
+          "title": "",
+          "forms_count": 0,
+          "technologies": [],
+          "response_time": 0.0
+        },
+        {
+          "url": "https://workupload.com/temp/",
+          "status_code": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "sensitivity_level": "high",
+          "title": "",
+          "forms_count": 0,
+          "technologies": [],
+          "response_time": 0.0
+        },
+        {
+          "url": "https://workupload.com/tmp/",
+          "status_code": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "sensitivity_level": "high",
+          "title": "",
+          "forms_count": 0,
+          "technologies": [],
+          "response_time": 0.0
+        },
+        {
+          "url": "https://workupload.com/sessions/",
+          "status_code": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "sensitivity_level": "high",
+          "title": "",
+          "forms_count": 0,
+          "technologies": [],
+          "response_time": 0.0
+        }
+      ]
+    }
+  }
+}
