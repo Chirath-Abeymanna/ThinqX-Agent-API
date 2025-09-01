@@ -1,0 +1,19 @@
+[MASTER]
+ignore-patterns=
+
+[MESSAGES CONTROL]
+disable=
+    # Style / formatting
+    trailing-whitespace,
+    wrong-import-order,
+    f-string-without-interpolation,
+    redefined-outer-name,
+    unused-argument,
+    unused-import,
+    import-error,
+    import-outside-toplevel,
+    relative-beyond-top-level
+
+[FORMAT]
+# Ignore line length (optional)
+max-line-length=120
