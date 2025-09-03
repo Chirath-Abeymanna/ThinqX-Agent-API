@@ -1,0 +1,398 @@
+{
+  "timestamp": "20250903_153251",
+  "scan_type": "domain_reputation",
+  "identifier": "www.iit.ac.lk",
+  "virustotal_data": {
+    "WOT domain info": {
+      "Privacy": "Excellent",
+      "Trustworthiness": "Excellent",
+      "Vendor reliability": "Excellent"
+    },
+    "Webutation domain info": {
+      "Adult content": "no",
+      "Safety score": 100,
+      "Verdict": "safe"
+    },
+    "detected_communicating_samples": [],
+    "detected_downloaded_samples": [
+      {
+        "date": "2018-01-24 07:01:52",
+        "positives": 35,
+        "sha256": "b05c63a25e3541fe0773f15f5d5b9ea43a4b1b4773c957bdacffbab6bcc84c46",
+        "total": 70
+      }
+    ],
+    "detected_referrer_samples": [
+      {
+        "date": "2020-08-08 03:46:42",
+        "positives": 9,
+        "sha256": "bf0aec3799749236fa7a3847cb63436eff482ea5e3c299e406a9d90824178697",
+        "total": 76
+      }
+    ],
+    "detected_urls": [],
+    "domain_siblings": [
+      "education.iit.ac.lk",
+      "lms.iit.ac.lk",
+      "ieee.iit.ac.lk",
+      "pdu.iit.ac.lk",
+      "ilearn.iit.ac.lk",
+      "learning.iit.ac.lk",
+      "meetsru.iit.ac.lk",
+      "dlib.iit.ac.lk",
+      "cuttingedge.iit.ac.lk",
+      "srutest.iit.ac.lk",
+      "embs.iit.ac.lk",
+      "alumni.iit.ac.lk",
+      "in.iit.ac.lk",
+      "iciit.iit.ac.lk",
+      "ras.iit.ac.lk",
+      "soc.iit.ac.lk",
+      "sportsforhumanity.iit.ac.lk",
+      "helplink.iit.ac.lk",
+      "webcat.iit.ac.lk",
+      "ifm.iit.ac.lk",
+      "gdc.iit.ac.lk",
+      "tracking.iit.ac.lk",
+      "lmsiit.iit.ac.lk",
+      "autodiscover.iit.ac.lk",
+      "gateway.iit.ac.lk",
+      "meeting.iit.ac.lk",
+      "bbb.iit.ac.lk",
+      "clc.iit.ac.lk"
+    ],
+    "resolutions": [
+      {
+        "ip_address": "103.1.179.8",
+        "last_resolved": "2018-05-23 20:15:39"
+      },
+      {
+        "ip_address": "192.124.249.69",
+        "last_resolved": "2019-11-23 07:12:32"
+      },
+      {
+        "ip_address": "203.143.20.139",
+        "last_resolved": "2019-04-11 07:23:18"
+      },
+      {
+        "ip_address": "203.143.20.8",
+        "last_resolved": "2018-09-30 12:15:07"
+      },
+      {
+        "ip_address": "3.0.164.249",
+        "last_resolved": "2020-07-22 23:27:48"
+      },
+      {
+        "ip_address": "54.171.156.224",
+        "last_resolved": "2015-02-09 00:00:00"
+      },
+      {
+        "ip_address": "74.200.91.246",
+        "last_resolved": "2014-02-04 00:00:00"
+      }
+    ],
+    "response_code": 1,
+    "undetected_communicating_samples": [
+      {
+        "date": "2023-11-06 02:54:30",
+        "positives": 0,
+        "sha256": "7160f7453b18989cf4b46d0509a4681e8942037b6ace779417466359a5d26aec",
+        "total": 76
+      }
+    ],
+    "undetected_downloaded_samples": [
+      {
+        "date": "2018-09-09 08:42:06",
+        "positives": 0,
+        "sha256": "916165eab660021da3531333de6f0db5cdb82d8ab67dc23bcbef3e1812a5a7d4",
+        "total": 61
+      },
+      {
+        "date": "2014-05-13 11:19:05",
+        "positives": 0,
+        "sha256": "8374430c542e4ba80a530f9ffca2d201d563a9fa5c3db5ef627bde05090507c1",
+        "total": 45
+      }
+    ],
+    "undetected_referrer_samples": [
+      {
+        "date": "2025-05-13 15:08:50",
+        "positives": 0,
+        "sha256": "66b80a55b60d7c1ae3b4055e7d394db5bec0b11ae7e3e985501d64a86f97c027",
+        "total": 77
+      },
+      {
+        "date": "2024-10-01 19:32:18",
+        "positives": 0,
+        "sha256": "39f15d1abaf0d100853377419e735ea0ae8e13d8dce101766903ae544f6794f3",
+        "total": 76
+      },
+      {
+        "date": "2023-05-16 18:39:03",
+        "positives": 0,
+        "sha256": "c634592572f53fad0e1ffec7a0423a0e98bdbcea112da0b4c9c0899f7c65c1ee",
+        "total": 75
+      },
+      {
+        "date": "2023-03-17 19:06:36",
+        "positives": 0,
+        "sha256": "2f1eb80a0f55593806f878051899eef232de7ab3861fee1b0c86e377f4bf293a",
+        "total": 73
+      },
+      {
+        "date": "2023-01-29 19:20:32",
+        "positives": 0,
+        "sha256": "2c2a2fdb0e33c2a7d19e6776b48290c86db4488faa35de2a8676be4e0f39da0f",
+        "total": 74
+      },
+      {
+        "date": "2022-10-21 10:41:24",
+        "positives": 0,
+        "sha256": "e1ca69bb9238d378d3145f56d4f27650b58a7815b1a2457872ccc5b38407cb20",
+        "total": 76
+      },
+      {
+        "date": "2022-07-04 17:10:13",
+        "positives": 0,
+        "sha256": "3d58a0b59624a394ee0e1df01a70e22637b87e99c5e832658fa8a4c6e015951b",
+        "total": 72
+      },
+      {
+        "date": "2022-06-15 09:45:43",
+        "positives": 0,
+        "sha256": "e26a12da572500b125a979d4057159d2f6a240d786e7d5f29b121b4643877f1f",
+        "total": 71
+      },
+      {
+        "date": "2022-05-26 14:11:43",
+        "positives": 0,
+        "sha256": "cdd077eab5841554134877b3ab29da6fa54880a2dc1f76bea67790caa0c45738",
+        "total": 71
+      },
+      {
+        "positives": 0,
+        "sha256": "8e4b281e3b778a1a8ed9cf923a335625f3701d88b548cf51631c1e9b6f8eade4",
+        "total": 61
+      },
+      {
+        "positives": 0,
+        "sha256": "56b30da2cea82bf487f3916a4335f63f6216a2ee645ff9739b385889ff8acac1",
+        "total": 60
+      }
+    ],
+    "undetected_urls": [
+      [
+        "https://www.iit.ac.lk/",
+        "29f15df14585c8358389a207fdc35068f7642b1eaff94c3aaedecaae4e96522b",
+        0,
+        97,
+        "2025-08-30 02:53:37"
+      ],
+      [
+        "https://www.iit.ac.lk/scholarships/infoschol/",
+        "58aedc0170b2e82c4d4c13b9f187c015d07c5777f08e315a4f5ae3e8ddad9738",
+        0,
+        97,
+        "2025-08-12 04:00:01"
+      ],
+      [
+        "https://www.iit.ac.lk/course/professional-certificate-cyber-security/",
+        "25269b3f78d496842537a85790a5564377c791c997b05e8259b84d877bade80b",
+        0,
+        97,
+        "2025-06-23 07:14:32"
+      ],
+      [
+        "https://www.iit.ac.lk/course/msc-cyber-security-and-forensics/",
+        "d6555fba7ccb952c32c7e2cf6a2b26e043f6afed6f4d4814a0851e887cf397ce",
+        0,
+        97,
+        "2025-06-19 04:40:06"
+      ],
+      [
+        "https://www.iit.ac.lk/course/certified-ethical-hacker/",
+        "367d27acd82bad2b9d8d1988ee1cad3ef7af26668f6163de8ff8af1881da20ac",
+        0,
+        97,
+        "2025-05-18 08:48:19"
+      ],
+      [
+        "https://www.iit.ac.lk/course/beng-software-engineering/",
+        "e4da9e99501efedede7416832b46a4d42d4e017c39acf76434acc6e127e54ffa",
+        0,
+        97,
+        "2025-04-05 06:04:30"
+      ],
+      [
+        "https://www.iit.ac.lk/course/professional-certificate-cyber-security-networking/",
+        "14a815682b33dd3089e49e9fd8682da8a721e000c9972ca165a1a610a86f74d5",
+        0,
+        96,
+        "2025-03-03 12:52:35"
+      ],
+      [
+        "https://www.iit.ac.lk/course/professional-certificate-in-artificial-intelligence/",
+        "8e35cada4602f4cd37ed7347dedfafbc550ce2437dec3eaf19023b968aabca91",
+        0,
+        96,
+        "2025-01-30 09:13:58"
+      ],
+      [
+        "https://www.iit.ac.lk/course/professional-certificate-in-advanced-cyber-security/",
+        "779800aa63dfe3d6286fc80d9e9f66741d208024e0dc0f96847f82c6c76c6a55",
+        0,
+        96,
+        "2025-01-30 09:08:01"
+      ],
+      [
+        "https://www.iit.ac.lk/faculty/computing/",
+        "8e15b10945a07da6021232842bc51d84e5807fb64cb4b28dbddb08991fdde964",
+        0,
+        96,
+        "2024-12-04 09:57:57"
+      ],
+      [
+        "https://www.iit.ac.lk/about/academic-partners/",
+        "05e82a8bcae7083e946c3ef927cc8d5be919fcd01166a713a8c80d02c2171b5c",
+        0,
+        96,
+        "2024-11-23 09:54:20"
+      ],
+      [
+        "https://www.iit.ac.lk/admission/",
+        "8be801d3188f08703190220455a23bb70ec029e1a904540632725e8a0e49c53f",
+        0,
+        96,
+        "2024-08-22 11:29:57"
+      ],
+      [
+        "https://www.iit.ac.lk/postgraduate/",
+        "b6ccc8b2f258f1abbabc0b8670c95db8b22ad0beb9dd04ca5e7fb392e7cb2697",
+        0,
+        94,
+        "2024-07-25 10:37:51"
+      ],
+      [
+        "https://www.iit.ac.lk/study/",
+        "1bc0e5d3bc782f5f417698938da689f515385994b4a103d210ce92d900be6010",
+        0,
+        95,
+        "2024-06-16 09:54:32"
+      ],
+      [
+        "https://www.iit.ac.lk/iit-news/inauguration-of-iit-galle-regional-centre/",
+        "fed0c3e0c078d8222c1bee849877f633735697e045a4a1f34d71e87dd213a924",
+        0,
+        92,
+        "2024-03-31 11:52:51"
+      ],
+      [
+        "https://www.iit.ac.lk/computing/",
+        "14c864572b298f080238239abdc7959272bc9eba2c2a39953e6a3a134ec13786",
+        0,
+        90,
+        "2023-11-25 09:38:07"
+      ],
+      [
+        "https://www.iit.ac.lk/clubs-and-societies/ieee-computer-society-of-informatics-institute-of-technology/",
+        "7d141f8e444a011d9c1dfb73c6e0754b0436c1472857b72366235165424e7091",
+        0,
+        90,
+        "2023-09-27 10:27:49"
+      ],
+      [
+        "http://www.iit.ac.lk/",
+        "b59936edb0f6679831abdb2a1c300463fee08d018b575cc2e818bab45ecb0ad1",
+        0,
+        90,
+        "2023-06-15 12:10:18"
+      ],
+      [
+        "https://www.iit.ac.lk/course/foundation/",
+        "6e17d3eb6f21df2817b2fc71f5e0a10bb321a825f34c9e36f4e780a02bf91ad8",
+        0,
+        88,
+        "2022-09-27 11:42:06"
+      ],
+      [
+        "https://www.iit.ac.lk/bm/",
+        "80360cfed3b9c899cabe65b166d2ebcddf56f34e2f97046568c995c3cebb65a1",
+        0,
+        95,
+        "2022-06-08 12:33:34"
+      ],
+      [
+        "https://www.iit.ac.lk/course/bsc-business-information-systems/",
+        "e9ca7dc31db033eec74394b22472fdd5d14191361cc18744fb11c57320bbeb01",
+        0,
+        93,
+        "2022-03-09 10:20:17"
+      ],
+      [
+        "http://www.iit.ac.lk/mr-saman-hettiarachchi",
+        "4cbeec83f763b83476b47682ff9f517ab83456971764eaaaae986777830429a7",
+        0,
+        93,
+        "2022-02-28 13:53:17"
+      ],
+      [
+        "https://www.iit.ac.lk/undergraduate/",
+        "652bd63375560903f8594d48c0d6c58882e5f6f83e50a192572109f7483126d2",
+        0,
+        93,
+        "2022-02-03 13:02:53"
+      ],
+      [
+        "http://www.iit.ac.lk/research/266-engage.html",
+        "de1573720275236c92e18c70705aee30c951f7ff6c68071c463536dd41b7f3c5",
+        0,
+        93,
+        "2021-12-01 19:10:06"
+      ],
+      [
+        "https://www.iit.ac.lk/clc/",
+        "9425e10b0198077a2fa006145614f848094141f0aa6e6178901ea6450ebc47bd",
+        0,
+        89,
+        "2021-08-12 13:43:31"
+      ],
+      [
+        "https://www.iit.ac.lk/course/bsc-artificial-intelligence-and-data-science/",
+        "ae1bb41fe5425dfb4b3f7bda6b8a8ce433fee25975422bb700f9bef0b1ff05e4",
+        0,
+        88,
+        "2021-06-17 08:47:14"
+      ],
+      [
+        "https://www.iit.ac.lk/course/bsc-computer-science/",
+        "fdf3a8772691bd2d690c620370ab3043a2eac47aaaa29d8d4ce83febc68addd6",
+        0,
+        85,
+        "2021-03-17 11:01:20"
+      ],
+      [
+        "https://www.iit.ac.lk/news/iits-online-seminars-for-ict-exam-preparations/",
+        "3db8ccfbcc3de242be2865f00e018d2e3ed86d5c211d4f812d917c61954524ee",
+        0,
+        83,
+        "2021-01-04 10:49:01"
+      ],
+      [
+        "https://www.iit.ac.lk/index.html",
+        "98c6ac2cd9911e06b1c223e42a7fea23a8ae31c4c55828e3a4c56e5d36c47e69",
+        0,
+        69,
+        "2018-09-13 07:05:53"
+      ],
+      [
+        "http://www.iit.ac.lk/wp-content/plugins/front-end-only-users/js/ewd-feup-check-password-strength.js?ver=4.8.4",
+        "544aa3543d46e80784d868b5c5a4960b96c2564dab35f3e222496e04f09bf55f",
+        0,
+        66,
+        "2018-01-24 09:00:07"
+      ]
+    ],
+    "verbose_msg": "Domain found in dataset",
+    "whois": "changed: 2017-05-22\ncreated: 1990-06-15\ndomain: LK\nds-rdata: 181 5 1 A1907F85D49081239389C216912B8937D0ECEB3D\nds-rdata: 181 5 2 87516D56B697CB3F7A7C3EB594EE0E16AE509D16A503089F4FBD4F347B336F93\ne-mail: 5d2a5bebec442388s@cse.mrt.ac.lk\ne-mail: d52ad5e18ac11e26s@nic.lk\nnserver: C.NIC.LK 203.143.29.3 2405:5400:3:1:203:143:29:3\nnserver: D.NIC.LK 123.231.6.18\nnserver: L.NIC.LK 192.248.8.17\nnserver: M.NIC.LK 202.129.235.229\nnserver: NS1.AC.LK 192.248.1.162 2401:dd00:1:0:0:0:0:162\nnserver: P.NIC.LK 2001:500:14:6027:ad:0:0:1 204.61.216.27\nnserver: PENDRAGON.CS.PURDUE.EDU 128.10.2.5\nnserver: T.NIC.LK 203.94.66.129 2402:d000:100c:0:0:0:0:129\norganisation: Council for Information Technology\norganisation: LK Domain Registrar\norganisation: LK Domain Registry\nsource: IANA\nstatus: ACTIVE"
+  }
+}
