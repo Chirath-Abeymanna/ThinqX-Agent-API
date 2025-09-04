@@ -1,0 +1,773 @@
+{
+  "crawl_summary": {
+    "target_domain": "https://juice-shop.herokuapp.com",
+    "crawl_duration": 2.430841,
+    "urls_discovered": 0,
+    "urls_successfully_crawled": 1,
+    "errors_encountered": 0,
+    "start_time": "2025-08-31T17:15:59.900576",
+    "end_time": "2025-08-31T17:16:02.331417"
+  },
+  "discovery_statistics": {
+    "total_files_found": 73,
+    "total_forms_found": 0,
+    "sensitive_files_found": 34,
+    "hidden_files_discovered": 72
+  },
+  "categorized_findings": {
+    "Other": {
+      "count": 39,
+      "sensitivity_breakdown": {
+        "low": 39,
+        "medium": 0,
+        "high": 0,
+        "critical": 0
+      },
+      "urls": [
+        {
+          "url": "https://juice-shop.herokuapp.com",
+          "status_code": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "sensitivity_level": "low",
+          "title": "OWASP Juice Shop",
+          "forms_count": 0,
+          "technologies": [
+            "jQuery"
+          ],
+          "response_time": 1.0636162757873535
+        },
+        {
+          "url": "https://juice-shop.herokuapp.com/.htaccess",
+          "status_code": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "sensitivity_level": "low",
+          "title": "",
+          "forms_count": 0,
+          "technologies": [],
+          "response_time": 0.0
+        },
+        {
+          "url": "https://juice-shop.herokuapp.com/crossdomain.xml",
+          "status_code": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "sensitivity_level": "low",
+          "title": "",
+          "forms_count": 0,
+          "technologies": [],
+          "response_time": 0.0
+        },
+        {
+          "url": "https://juice-shop.herokuapp.com/clientaccesspolicy.xml",
+          "status_code": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "sensitivity_level": "low",
+          "title": "",
+          "forms_count": 0,
+          "technologies": [],
+          "response_time": 0.0
+        },
+        {
+          "url": "https://juice-shop.herokuapp.com/bak/",
+          "status_code": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "sensitivity_level": "low",
+          "title": "",
+          "forms_count": 0,
+          "technologies": [],
+          "response_time": 0.0
+        },
+        {
+          "url": "https://juice-shop.herokuapp.com/old/",
+          "status_code": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "sensitivity_level": "low",
+          "title": "",
+          "forms_count": 0,
+          "technologies": [],
+          "response_time": 0.0
+        },
+        {
+          "url": "https://juice-shop.herokuapp.com/archive/",
+          "status_code": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "sensitivity_level": "low",
+          "title": "",
+          "forms_count": 0,
+          "technologies": [],
+          "response_time": 0.0
+        },
+        {
+          "url": "https://juice-shop.herokuapp.com/graphql",
+          "status_code": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "sensitivity_level": "low",
+          "title": "",
+          "forms_count": 0,
+          "technologies": [],
+          "response_time": 0.0
+        },
+        {
+          "url": "https://juice-shop.herokuapp.com/test/",
+          "status_code": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "sensitivity_level": "low",
+          "title": "",
+          "forms_count": 0,
+          "technologies": [],
+          "response_time": 0.0
+        },
+        {
+          "url": "https://juice-shop.herokuapp.com/dev/",
+          "status_code": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "sensitivity_level": "low",
+          "title": "",
+          "forms_count": 0,
+          "technologies": [],
+          "response_time": 0.0
+        },
+        {
+          "url": "https://juice-shop.herokuapp.com/development/",
+          "status_code": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "sensitivity_level": "low",
+          "title": "",
+          "forms_count": 0,
+          "technologies": [],
+          "response_time": 0.0
+        },
+        {
+          "url": "https://juice-shop.herokuapp.com/staging/",
+          "status_code": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "sensitivity_level": "low",
+          "title": "",
+          "forms_count": 0,
+          "technologies": [],
+          "response_time": 0.0
+        },
+        {
+          "url": "https://juice-shop.herokuapp.com/phpinfo.php",
+          "status_code": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "sensitivity_level": "low",
+          "title": "",
+          "forms_count": 0,
+          "technologies": [],
+          "response_time": 0.0
+        },
+        {
+          "url": "https://juice-shop.herokuapp.com/info.php",
+          "status_code": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "sensitivity_level": "low",
+          "title": "",
+          "forms_count": 0,
+          "technologies": [],
+          "response_time": 0.0
+        },
+        {
+          "url": "https://juice-shop.herokuapp.com/test.php",
+          "status_code": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "sensitivity_level": "low",
+          "title": "",
+          "forms_count": 0,
+          "technologies": [],
+          "response_time": 0.0
+        },
+        {
+          "url": "https://juice-shop.herokuapp.com/images/",
+          "status_code": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "sensitivity_level": "low",
+          "title": "",
+          "forms_count": 0,
+          "technologies": [],
+          "response_time": 0.0
+        },
+        {
+          "url": "https://juice-shop.herokuapp.com/img/",
+          "status_code": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "sensitivity_level": "low",
+          "title": "",
+          "forms_count": 0,
+          "technologies": [],
+          "response_time": 0.0
+        },
+        {
+          "url": "https://juice-shop.herokuapp.com/css/",
+          "status_code": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "sensitivity_level": "low",
+          "title": "",
+          "forms_count": 0,
+          "technologies": [],
+          "response_time": 0.0
+        },
+        {
+          "url": "https://juice-shop.herokuapp.com/js/",
+          "status_code": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "sensitivity_level": "low",
+          "title": "",
+          "forms_count": 0,
+          "technologies": [],
+          "response_time": 0.0
+        },
+        {
+          "url": "https://juice-shop.herokuapp.com/assets/",
+          "status_code": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "sensitivity_level": "low",
+          "title": "",
+          "forms_count": 0,
+          "technologies": [],
+          "response_time": 0.0
+        },
+        {
+          "url": "https://juice-shop.herokuapp.com/wp-content/",
+          "status_code": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "sensitivity_level": "low",
+          "title": "",
+          "forms_count": 0,
+          "technologies": [],
+          "response_time": 0.0
+        },
+        {
+          "url": "https://juice-shop.herokuapp.com/wp-includes/",
+          "status_code": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "sensitivity_level": "low",
+          "title": "",
+          "forms_count": 0,
+          "technologies": [],
+          "response_time": 0.0
+        },
+        {
+          "url": "https://juice-shop.herokuapp.com/wp-json/",
+          "status_code": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "sensitivity_level": "low",
+          "title": "",
+          "forms_count": 0,
+          "technologies": [],
+          "response_time": 0.0
+        },
+        {
+          "url": "https://juice-shop.herokuapp.com/joomla/",
+          "status_code": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "sensitivity_level": "low",
+          "title": "",
+          "forms_count": 0,
+          "technologies": [],
+          "response_time": 0.0
+        },
+        {
+          "url": "https://juice-shop.herokuapp.com/drupal/",
+          "status_code": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "sensitivity_level": "low",
+          "title": "",
+          "forms_count": 0,
+          "technologies": [],
+          "response_time": 0.0
+        },
+        {
+          "url": "https://juice-shop.herokuapp.com/magento/",
+          "status_code": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "sensitivity_level": "low",
+          "title": "",
+          "forms_count": 0,
+          "technologies": [],
+          "response_time": 0.0
+        },
+        {
+          "url": "https://juice-shop.herokuapp.com/server-status",
+          "status_code": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "sensitivity_level": "low",
+          "title": "",
+          "forms_count": 0,
+          "technologies": [],
+          "response_time": 0.0
+        },
+        {
+          "url": "https://juice-shop.herokuapp.com/server-info",
+          "status_code": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "sensitivity_level": "low",
+          "title": "",
+          "forms_count": 0,
+          "technologies": [],
+          "response_time": 0.0
+        },
+        {
+          "url": "https://juice-shop.herokuapp.com/status",
+          "status_code": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "sensitivity_level": "low",
+          "title": "",
+          "forms_count": 0,
+          "technologies": [],
+          "response_time": 0.0
+        },
+        {
+          "url": "https://juice-shop.herokuapp.com/logs/",
+          "status_code": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "sensitivity_level": "low",
+          "title": "",
+          "forms_count": 0,
+          "technologies": [],
+          "response_time": 0.0
+        },
+        {
+          "url": "https://juice-shop.herokuapp.com/log/",
+          "status_code": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "sensitivity_level": "low",
+          "title": "",
+          "forms_count": 0,
+          "technologies": [],
+          "response_time": 0.0
+        },
+        {
+          "url": "https://juice-shop.herokuapp.com/error.log",
+          "status_code": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "sensitivity_level": "low",
+          "title": "",
+          "forms_count": 0,
+          "technologies": [],
+          "response_time": 0.0
+        },
+        {
+          "url": "https://juice-shop.herokuapp.com/access.log",
+          "status_code": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "sensitivity_level": "low",
+          "title": "",
+          "forms_count": 0,
+          "technologies": [],
+          "response_time": 0.0
+        },
+        {
+          "url": "https://juice-shop.herokuapp.com/sql/",
+          "status_code": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "sensitivity_level": "low",
+          "title": "",
+          "forms_count": 0,
+          "technologies": [],
+          "response_time": 0.0
+        },
+        {
+          "url": "https://juice-shop.herokuapp.com/mysql/",
+          "status_code": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "sensitivity_level": "low",
+          "title": "",
+          "forms_count": 0,
+          "technologies": [],
+          "response_time": 0.0
+        },
+        {
+          "url": "https://juice-shop.herokuapp.com/cache/",
+          "status_code": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "sensitivity_level": "low",
+          "title": "",
+          "forms_count": 0,
+          "technologies": [],
+          "response_time": 0.0
+        },
+        {
+          "url": "https://juice-shop.herokuapp.com/temp/",
+          "status_code": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "sensitivity_level": "low",
+          "title": "",
+          "forms_count": 0,
+          "technologies": [],
+          "response_time": 0.0
+        },
+        {
+          "url": "https://juice-shop.herokuapp.com/tmp/",
+          "status_code": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "sensitivity_level": "low",
+          "title": "",
+          "forms_count": 0,
+          "technologies": [],
+          "response_time": 0.0
+        },
+        {
+          "url": "https://juice-shop.herokuapp.com/sessions/",
+          "status_code": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "sensitivity_level": "low",
+          "title": "",
+          "forms_count": 0,
+          "technologies": [],
+          "response_time": 0.0
+        }
+      ]
+    },
+    "Sensitive Content": {
+      "count": 34,
+      "sensitivity_breakdown": {
+        "low": 0,
+        "medium": 1,
+        "high": 3,
+        "critical": 30
+      },
+      "urls": [
+        {
+          "url": "https://juice-shop.herokuapp.com/.htpasswd",
+          "status_code": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "sensitivity_level": "critical",
+          "title": "",
+          "forms_count": 0,
+          "technologies": [],
+          "response_time": 0.0
+        },
+        {
+          "url": "https://juice-shop.herokuapp.com/.env",
+          "status_code": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "sensitivity_level": "critical",
+          "title": "",
+          "forms_count": 0,
+          "technologies": [],
+          "response_time": 0.0
+        },
+        {
+          "url": "https://juice-shop.herokuapp.com/.git/config",
+          "status_code": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "sensitivity_level": "critical",
+          "title": "",
+          "forms_count": 0,
+          "technologies": [],
+          "response_time": 0.0
+        },
+        {
+          "url": "https://juice-shop.herokuapp.com/.gitignore",
+          "status_code": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "sensitivity_level": "critical",
+          "title": "",
+          "forms_count": 0,
+          "technologies": [],
+          "response_time": 0.0
+        },
+        {
+          "url": "https://juice-shop.herokuapp.com/robots.txt",
+          "status_code": 200,
+          "content_type": "text/plain; charset=utf-8",
+          "sensitivity_level": "critical",
+          "title": "",
+          "forms_count": 0,
+          "technologies": [],
+          "response_time": 0.0
+        },
+        {
+          "url": "https://juice-shop.herokuapp.com/sitemap.xml",
+          "status_code": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "sensitivity_level": "critical",
+          "title": "",
+          "forms_count": 0,
+          "technologies": [],
+          "response_time": 0.0
+        },
+        {
+          "url": "https://juice-shop.herokuapp.com/security.txt",
+          "status_code": 200,
+          "content_type": "text/plain; charset=utf-8",
+          "sensitivity_level": "critical",
+          "title": "",
+          "forms_count": 0,
+          "technologies": [],
+          "response_time": 0.0
+        },
+        {
+          "url": "https://juice-shop.herokuapp.com/.well-known/security.txt",
+          "status_code": 200,
+          "content_type": "text/plain; charset=utf-8",
+          "sensitivity_level": "critical",
+          "title": "",
+          "forms_count": 0,
+          "technologies": [],
+          "response_time": 0.0
+        },
+        {
+          "url": "https://juice-shop.herokuapp.com/backup/",
+          "status_code": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "sensitivity_level": "critical",
+          "title": "",
+          "forms_count": 0,
+          "technologies": [],
+          "response_time": 0.0
+        },
+        {
+          "url": "https://juice-shop.herokuapp.com/backups/",
+          "status_code": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "sensitivity_level": "critical",
+          "title": "",
+          "forms_count": 0,
+          "technologies": [],
+          "response_time": 0.0
+        },
+        {
+          "url": "https://juice-shop.herokuapp.com/backup.zip",
+          "status_code": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "sensitivity_level": "critical",
+          "title": "",
+          "forms_count": 0,
+          "technologies": [],
+          "response_time": 0.0
+        },
+        {
+          "url": "https://juice-shop.herokuapp.com/backup.tar.gz",
+          "status_code": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "sensitivity_level": "critical",
+          "title": "",
+          "forms_count": 0,
+          "technologies": [],
+          "response_time": 0.0
+        },
+        {
+          "url": "https://juice-shop.herokuapp.com/backup.sql",
+          "status_code": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "sensitivity_level": "critical",
+          "title": "",
+          "forms_count": 0,
+          "technologies": [],
+          "response_time": 0.0
+        },
+        {
+          "url": "https://juice-shop.herokuapp.com/config.php",
+          "status_code": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "sensitivity_level": "critical",
+          "title": "",
+          "forms_count": 0,
+          "technologies": [],
+          "response_time": 0.0
+        },
+        {
+          "url": "https://juice-shop.herokuapp.com/config.js",
+          "status_code": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "sensitivity_level": "critical",
+          "title": "",
+          "forms_count": 0,
+          "technologies": [],
+          "response_time": 0.0
+        },
+        {
+          "url": "https://juice-shop.herokuapp.com/config.json",
+          "status_code": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "sensitivity_level": "critical",
+          "title": "",
+          "forms_count": 0,
+          "technologies": [],
+          "response_time": 0.0
+        },
+        {
+          "url": "https://juice-shop.herokuapp.com/config.xml",
+          "status_code": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "sensitivity_level": "critical",
+          "title": "",
+          "forms_count": 0,
+          "technologies": [],
+          "response_time": 0.0
+        },
+        {
+          "url": "https://juice-shop.herokuapp.com/wp-config.php",
+          "status_code": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "sensitivity_level": "critical",
+          "title": "",
+          "forms_count": 0,
+          "technologies": [],
+          "response_time": 0.0
+        },
+        {
+          "url": "https://juice-shop.herokuapp.com/configuration.php",
+          "status_code": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "sensitivity_level": "critical",
+          "title": "",
+          "forms_count": 0,
+          "technologies": [],
+          "response_time": 0.0
+        },
+        {
+          "url": "https://juice-shop.herokuapp.com/admin/",
+          "status_code": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "sensitivity_level": "critical",
+          "title": "",
+          "forms_count": 0,
+          "technologies": [],
+          "response_time": 0.0
+        },
+        {
+          "url": "https://juice-shop.herokuapp.com/administrator/",
+          "status_code": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "sensitivity_level": "critical",
+          "title": "",
+          "forms_count": 0,
+          "technologies": [],
+          "response_time": 0.0
+        },
+        {
+          "url": "https://juice-shop.herokuapp.com/admin.php",
+          "status_code": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "sensitivity_level": "critical",
+          "title": "",
+          "forms_count": 0,
+          "technologies": [],
+          "response_time": 0.0
+        },
+        {
+          "url": "https://juice-shop.herokuapp.com/admin.html",
+          "status_code": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "sensitivity_level": "critical",
+          "title": "",
+          "forms_count": 0,
+          "technologies": [],
+          "response_time": 0.0
+        },
+        {
+          "url": "https://juice-shop.herokuapp.com/login/",
+          "status_code": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "sensitivity_level": "critical",
+          "title": "",
+          "forms_count": 0,
+          "technologies": [],
+          "response_time": 0.0
+        },
+        {
+          "url": "https://juice-shop.herokuapp.com/login.php",
+          "status_code": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "sensitivity_level": "critical",
+          "title": "",
+          "forms_count": 0,
+          "technologies": [],
+          "response_time": 0.0
+        },
+        {
+          "url": "https://juice-shop.herokuapp.com/login.html",
+          "status_code": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "sensitivity_level": "critical",
+          "title": "",
+          "forms_count": 0,
+          "technologies": [],
+          "response_time": 0.0
+        },
+        {
+          "url": "https://juice-shop.herokuapp.com/wp-admin/",
+          "status_code": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "sensitivity_level": "critical",
+          "title": "",
+          "forms_count": 0,
+          "technologies": [],
+          "response_time": 0.0
+        },
+        {
+          "url": "https://juice-shop.herokuapp.com/wp-login.php",
+          "status_code": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "sensitivity_level": "critical",
+          "title": "",
+          "forms_count": 0,
+          "technologies": [],
+          "response_time": 0.0
+        },
+        {
+          "url": "https://juice-shop.herokuapp.com/uploads/",
+          "status_code": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "sensitivity_level": "high",
+          "title": "",
+          "forms_count": 0,
+          "technologies": [],
+          "response_time": 0.0
+        },
+        {
+          "url": "https://juice-shop.herokuapp.com/files/",
+          "status_code": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "sensitivity_level": "high",
+          "title": "",
+          "forms_count": 0,
+          "technologies": [],
+          "response_time": 0.0
+        },
+        {
+          "url": "https://juice-shop.herokuapp.com/downloads/",
+          "status_code": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "sensitivity_level": "high",
+          "title": "",
+          "forms_count": 0,
+          "technologies": [],
+          "response_time": 0.0
+        },
+        {
+          "url": "https://juice-shop.herokuapp.com/media/",
+          "status_code": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "sensitivity_level": "medium",
+          "title": "",
+          "forms_count": 0,
+          "technologies": [],
+          "response_time": 0.0
+        },
+        {
+          "url": "https://juice-shop.herokuapp.com/db/",
+          "status_code": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "sensitivity_level": "critical",
+          "title": "",
+          "forms_count": 0,
+          "technologies": [],
+          "response_time": 0.0
+        },
+        {
+          "url": "https://juice-shop.herokuapp.com/database/",
+          "status_code": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "sensitivity_level": "critical",
+          "title": "",
+          "forms_count": 0,
+          "technologies": [],
+          "response_time": 0.0
+        }
+      ]
+    }
+  }
+}

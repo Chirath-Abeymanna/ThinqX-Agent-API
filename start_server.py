@@ -6,6 +6,7 @@ import sys
 import os
 import subprocess
 import uvicorn
+import traceback
 
 # Add the app directory to Python path
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), 'app'))
@@ -33,6 +34,7 @@ def main():
         print("\n🛑 Server stopped by user")
     except Exception as e:
         print(f"❌ Error starting server: {e}")
+        traceback.print_exc()
         sys.exit(1)
 
 if __name__ == "__main__":

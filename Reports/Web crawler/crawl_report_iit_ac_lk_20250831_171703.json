@@ -1,0 +1,96 @@
+{
+  "crawl_summary": {
+    "target_domain": "https://iit.ac.lk",
+    "crawl_duration": 18.186243,
+    "urls_discovered": 0,
+    "urls_successfully_crawled": 1,
+    "errors_encountered": 0,
+    "start_time": "2025-08-31T17:16:45.729974",
+    "end_time": "2025-08-31T17:17:03.916217"
+  },
+  "discovery_statistics": {
+    "total_files_found": 5,
+    "total_forms_found": 3,
+    "sensitive_files_found": 4,
+    "hidden_files_discovered": 4
+  },
+  "categorized_findings": {
+    "Other": {
+      "count": 1,
+      "sensitivity_breakdown": {
+        "low": 1,
+        "medium": 0,
+        "high": 0,
+        "critical": 0
+      },
+      "urls": [
+        {
+          "url": "https://iit.ac.lk/dev/",
+          "status_code": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "sensitivity_level": "low",
+          "title": "",
+          "forms_count": 0,
+          "technologies": [],
+          "response_time": 0.0
+        }
+      ]
+    },
+    "Sensitive Content": {
+      "count": 4,
+      "sensitivity_breakdown": {
+        "low": 0,
+        "medium": 0,
+        "high": 1,
+        "critical": 3
+      },
+      "urls": [
+        {
+          "url": "https://iit.ac.lk",
+          "status_code": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "sensitivity_level": "high",
+          "title": "Informatics Institute of Technology | IIT Campus",
+          "forms_count": 3,
+          "technologies": [
+            "Nginx",
+            "WordPress",
+            "jQuery",
+            "Bootstrap"
+          ],
+          "response_time": 1.967865228652954
+        },
+        {
+          "url": "https://iit.ac.lk/robots.txt",
+          "status_code": 200,
+          "content_type": "text/plain",
+          "sensitivity_level": "critical",
+          "title": "",
+          "forms_count": 0,
+          "technologies": [],
+          "response_time": 0.0
+        },
+        {
+          "url": "https://iit.ac.lk/sitemap.xml",
+          "status_code": 200,
+          "content_type": "text/xml",
+          "sensitivity_level": "critical",
+          "title": "",
+          "forms_count": 0,
+          "technologies": [],
+          "response_time": 0.0
+        },
+        {
+          "url": "https://iit.ac.lk/api/",
+          "status_code": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "sensitivity_level": "critical",
+          "title": "",
+          "forms_count": 0,
+          "technologies": [],
+          "response_time": 0.0
+        }
+      ]
+    }
+  }
+}

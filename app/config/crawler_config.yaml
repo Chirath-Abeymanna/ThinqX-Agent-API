@@ -1,0 +1,218 @@
+# Web Crawling Agent Configuration
+# Comprehensive web crawling agent using LangChain
+
+# Crawling Settings
+crawling:
+  max_depth: 3                    # Maximum crawl depth
+  max_urls: 100                   # Maximum URLs to crawl
+  timeout: 30                     # Request timeout in seconds
+  follow_redirects: true          # Follow HTTP redirects
+  verify_ssl: false               # Allow self-signed certificates
+  
+# HTTP Client Settings
+http_client:
+  user_agent: "Mozilla/5.0 (compatible; WebCrawlerAgent/1.0"
+  max_retries: 3                  # Maximum retry attempts
+  retry_delay: 1                  # Delay between retries in seconds
+  
+# Hidden File Discovery
+hidden_file_discovery:
+  enabled: true                   # Enable hidden file discovery
+  concurrent_requests: 10         # Number of concurrent requests
+  timeout: 10                     # Timeout for hidden file checks
+  
+# Common Paths for Discovery
+common_paths:
+  hidden_files:
+    - ".htaccess"
+    - ".htpasswd"
+    - ".env"
+    - ".git/config"
+    - ".gitignore"
+    - "robots.txt"
+    - "sitemap.xml"
+    - "crossdomain.xml"
+    - "clientaccesspolicy.xml"
+    - "security.txt"
+    - ".well-known/security.txt"
+  
+  backup_files:
+    - "backup/"
+    - "backups/"
+    - "bak/"
+    - "old/"
+    - "archive/"
+    - "backup.zip"
+    - "backup.tar.gz"
+    - "backup.sql"
+  
+  config_files:
+    - "config.php"
+    - "config.js"
+    - "config.json"
+    - "config.xml"
+    - "wp-config.php"
+    - "configuration.php"
+  
+  admin_panels:
+    - "admin/"
+    - "administrator/"
+    - "admin.php"
+    - "admin.html"
+    - "login/"
+    - "login.php"
+    - "login.html"
+    - "wp-admin/"
+    - "wp-login.php"
+  
+  api_endpoints:
+    - "api/"
+    - "api/v1/"
+    - "api/v2/"
+    - "rest/"
+    - "graphql"
+  
+  development_files:
+    - "test/"
+    - "dev/"
+    - "development/"
+    - "staging/"
+    - "phpinfo.php"
+    - "info.php"
+    - "test.php"
+  
+  common_directories:
+    - "images/"
+    - "img/"
+    - "css/"
+    - "js/"
+    - "assets/"
+    - "uploads/"
+    - "files/"
+    - "downloads/"
+    - "media/"
+  
+  cms_specific:
+    - "wp-content/"
+    - "wp-includes/"
+    - "wp-json/"
+    - "joomla/"
+    - "drupal/"
+    - "magento/"
+  
+  server_files:
+    - "server-status"
+    - "server-info"
+    - "status"
+  
+  log_files:
+    - "logs/"
+    - "log/"
+    - "error.log"
+    - "access.log"
+  
+  database_files:
+    - "db/"
+    - "database/"
+    - "sql/"
+    - "mysql/"
+  
+  cache_temp:
+    - "cache/"
+    - "temp/"
+    - "tmp/"
+    - "sessions/"
+
+# Technology Detection
+technology_detection:
+  enabled: true                   # Enable technology fingerprinting
+  detect_servers: true            # Detect web servers
+  detect_frameworks: true         # Detect frameworks
+  detect_cms: true                # Detect content management systems
+  detect_libraries: true          # Detect JavaScript libraries
+
+# Security Analysis
+security_analysis:
+  enabled: true                   # Enable security analysis
+  check_security_headers: true    # Check for security headers
+  detect_vulnerabilities: true    # Detect common vulnerabilities
+  analyze_forms: true             # Analyze form security
+  
+# Security Headers to Check
+security_headers:
+  - "x-frame-options"
+  - "x-content-type-options"
+  - "x-xss-protection"
+  - "strict-transport-security"
+  - "content-security-policy"
+  - "referrer-policy"
+  - "permissions-policy"
+
+# Sensitive File Patterns
+sensitive_patterns:
+  - "\.env"
+  - "\.htpasswd"
+  - "config\."
+  - "\.git"
+  - "backup"
+  - "\.sql"
+  - "\.log"
+  - "admin"
+  - "login"
+  - "password"
+  - "secret"
+  - "private"
+  - "key"
+  - "credential"
+
+# File Extensions to Skip
+skip_extensions:
+  - ".pdf"
+  - ".jpg"
+  - ".jpeg"
+  - ".png"
+  - ".gif"
+  - ".css"
+  - ".js"
+  - ".ico"
+  - ".svg"
+  - ".woff"
+  - ".woff2"
+  - ".ttf"
+  - ".eot"
+
+# Paths to Skip
+skip_paths:
+  - "/mailto:"
+  - "/tel:"
+  - "/javascript:"
+  - "/#"
+  - "mailto:"
+  - "tel:"
+  - "javascript:"
+
+# LangChain Settings
+langchain:
+  enabled: true                   # Enable LangChain integration
+  model: "gpt-3.5-turbo"          # OpenAI model to use
+  temperature: 0                  # Model temperature
+  max_tokens: 1000                # Maximum tokens for responses
+  
+# Output Settings
+output:
+  save_reports: true              # Save crawl reports
+  report_format: "json"           # Report format (json, xml, csv)
+  include_detailed_results: true  # Include detailed crawl results
+  include_errors: true            # Include error information
+  
+# Logging
+logging:
+  level: "INFO"                   # Logging level (DEBUG, INFO, WARNING, ERROR)
+  save_logs: true                 # Save logs to file
+  log_file: "crawl_agent.log"     # Log file name
+  
+# Rate Limiting
+rate_limiting:
+  enabled: true                   # Enable rate limiting
+  requests_per_second: 5          # Requests per second
+  delay_between_requests: 0.2     # Delay between requests in seconds 

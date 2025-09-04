@@ -1,0 +1,685 @@
+{
+  "crawl_summary": {
+    "target_domain": "https://boc.lk",
+    "crawl_duration": 42.07465,
+    "urls_discovered": 48,
+    "urls_successfully_crawled": 49,
+    "errors_encountered": 0,
+    "start_time": "2025-09-01T09:18:47.715811",
+    "end_time": "2025-09-01T09:19:29.790461"
+  },
+  "discovery_statistics": {
+    "total_files_found": 51,
+    "total_forms_found": 14,
+    "sensitive_files_found": 51,
+    "hidden_files_discovered": 2
+  },
+  "categorized_findings": {
+    "Other": {
+      "count": 0,
+      "sensitivity_breakdown": {
+        "low": 0,
+        "medium": 0,
+        "high": 0,
+        "critical": 0
+      },
+      "urls": []
+    },
+    "Sensitive Content": {
+      "count": 51,
+      "sensitivity_breakdown": {
+        "low": 0,
+        "medium": 0,
+        "high": 13,
+        "critical": 38
+      },
+      "urls": [
+        {
+          "url": "https://boc.lk",
+          "status_code": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "sensitivity_level": "critical",
+          "title": "Bank of Ceylon - Bankers to the Nation | The No. 1 Bank in Sri Lanka | Bank of Ceylon",
+          "forms_count": 5,
+          "technologies": [
+            "Nginx",
+            "jQuery"
+          ],
+          "response_time": 2.390326738357544
+        },
+        {
+          "url": "https://boc.lk/",
+          "status_code": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "sensitivity_level": "critical",
+          "title": "Bank of Ceylon - Bankers to the Nation | The No. 1 Bank in Sri Lanka | Bank of Ceylon",
+          "forms_count": 5,
+          "technologies": [
+            "Nginx",
+            "jQuery"
+          ],
+          "response_time": 1.0172512531280518
+        },
+        {
+          "url": "https://boc.lk/download-forms/en/online-banking-corporate-user-application/get",
+          "status_code": 200,
+          "content_type": "application/",
+          "sensitivity_level": "critical",
+          "title": "",
+          "forms_count": 0,
+          "technologies": [
+            "Nginx"
+          ],
+          "response_time": 0.5796825885772705
+        },
+        {
+          "url": "https://boc.lk/download-forms/en/e-pay-application/get",
+          "status_code": 200,
+          "content_type": "application/",
+          "sensitivity_level": "high",
+          "title": "",
+          "forms_count": 0,
+          "technologies": [
+            "Nginx"
+          ],
+          "response_time": 0.6304609775543213
+        },
+        {
+          "url": "https://boc.lk/download-forms/en/boc-i-net-application/get",
+          "status_code": 200,
+          "content_type": "application/",
+          "sensitivity_level": "high",
+          "title": "",
+          "forms_count": 0,
+          "technologies": [
+            "Nginx"
+          ],
+          "response_time": 0.2983388900756836
+        },
+        {
+          "url": "https://boc.lk/download-forms/en/BOC-Ordinance/get",
+          "status_code": 200,
+          "content_type": "application/",
+          "sensitivity_level": "high",
+          "title": "",
+          "forms_count": 0,
+          "technologies": [
+            "Nginx"
+          ],
+          "response_time": 0.5538296699523926
+        },
+        {
+          "url": "https://boc.lk/boc-cbsl-customer-charter",
+          "status_code": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "sensitivity_level": "critical",
+          "title": "BOC Customer Charter | Bank of Ceylon | Bank of Ceylon",
+          "forms_count": 0,
+          "technologies": [
+            "Nginx",
+            "jQuery"
+          ],
+          "response_time": 0.7924950122833252
+        },
+        {
+          "url": "https://boc.lk/boc-fatca",
+          "status_code": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "sensitivity_level": "critical",
+          "title": "Bank of Ceylon - BOC FATCA | Bank of Ceylon",
+          "forms_count": 0,
+          "technologies": [
+            "Nginx",
+            "jQuery"
+          ],
+          "response_time": 0.695915937423706
+        },
+        {
+          "url": "https://boc.lk/boc-right-to-information-act",
+          "status_code": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "sensitivity_level": "critical",
+          "title": "Bank of Ceylon - Right To Information | Bank of Ceylon",
+          "forms_count": 0,
+          "technologies": [
+            "Nginx",
+            "jQuery"
+          ],
+          "response_time": 0.7878084182739258
+        },
+        {
+          "url": "https://boc.lk/international-banking/correspondent-relationships/",
+          "status_code": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "sensitivity_level": "critical",
+          "title": "Correspondent Relationships | BOC | Bank of Ceylon",
+          "forms_count": 0,
+          "technologies": [
+            "Nginx",
+            "jQuery"
+          ],
+          "response_time": 0.5390241146087646
+        },
+        {
+          "url": "https://boc.lk/news/articles",
+          "status_code": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "sensitivity_level": "critical",
+          "title": "BOC Newsroom | BOC Media Centre | Latest News & Updates | Bank of Ceylon",
+          "forms_count": 0,
+          "technologies": [
+            "Nginx",
+            "jQuery"
+          ],
+          "response_time": 0.8137636184692383
+        },
+        {
+          "url": "https://boc.lk/careers",
+          "status_code": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "sensitivity_level": "critical",
+          "title": "Vacancies at BOC | Bank of Ceylon | Bank of Ceylon",
+          "forms_count": 0,
+          "technologies": [
+            "Nginx",
+            "jQuery"
+          ],
+          "response_time": 1.0693459510803223
+        },
+        {
+          "url": "https://boc.lk/rates-tariff",
+          "status_code": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "sensitivity_level": "critical",
+          "title": "Rates & Tariffs | USD to LKR Rates & Tariffs - BOC | Bank of Ceylon",
+          "forms_count": 0,
+          "technologies": [
+            "Nginx",
+            "jQuery",
+            "React"
+          ],
+          "response_time": 0.62984299659729
+        },
+        {
+          "url": "https://boc.lk/special-notice/tender-notice",
+          "status_code": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "sensitivity_level": "critical",
+          "title": "About Us - Bank of Ceylon | Bankers to the Nation | Bank of Ceylon",
+          "forms_count": 0,
+          "technologies": [
+            "Nginx",
+            "jQuery"
+          ],
+          "response_time": 0.5762732028961182
+        },
+        {
+          "url": "https://boc.lk/boc-properties-for-sale",
+          "status_code": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "sensitivity_level": "critical",
+          "title": "Prime Properties for Sale | Bank of Ceylon",
+          "forms_count": 0,
+          "technologies": [
+            "Nginx",
+            "jQuery"
+          ],
+          "response_time": 0.5405547618865967
+        },
+        {
+          "url": "https://boc.lk/boc-vehicles-for-sale",
+          "status_code": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "sensitivity_level": "critical",
+          "title": "BOC Vehicles & Machinery for Sale \u2013 Bid No. 01/2025 | Bank of Ceylon | Bank of Ceylon",
+          "forms_count": 0,
+          "technologies": [
+            "Nginx",
+            "jQuery"
+          ],
+          "response_time": 0.5046381950378418
+        },
+        {
+          "url": "https://boc.lk/download-forms",
+          "status_code": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "sensitivity_level": "critical",
+          "title": "Download Forms | Bank of Ceylon",
+          "forms_count": 0,
+          "technologies": [
+            "Nginx",
+            "jQuery"
+          ],
+          "response_time": 1.3193771839141846
+        },
+        {
+          "url": "https://boc.lk/contact",
+          "status_code": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "sensitivity_level": "critical",
+          "title": "Bank of Ceylon - Contact us | Bank of Ceylon",
+          "forms_count": 0,
+          "technologies": [
+            "Nginx",
+            "jQuery"
+          ],
+          "response_time": 0.628943681716919
+        },
+        {
+          "url": "https://boc.lk/branches",
+          "status_code": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "sensitivity_level": "critical",
+          "title": "BOC Branch Network - Bank of Ceylon | Bank of Ceylon",
+          "forms_count": 3,
+          "technologies": [
+            "Nginx",
+            "jQuery"
+          ],
+          "response_time": 0.6558916568756104
+        },
+        {
+          "url": "https://boc.lk/boc-weekend-banking",
+          "status_code": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "sensitivity_level": "critical",
+          "title": "Weekend Banking | Bank of Ceylon",
+          "forms_count": 0,
+          "technologies": [
+            "Nginx",
+            "jQuery"
+          ],
+          "response_time": 0.5547616481781006
+        },
+        {
+          "url": "https://boc.lk/boc-protecting-yourself-from-fraud",
+          "status_code": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "sensitivity_level": "critical",
+          "title": "Protecting Yourself from Fraud | Bank of Ceylon",
+          "forms_count": 0,
+          "technologies": [
+            "Nginx",
+            "jQuery"
+          ],
+          "response_time": 0.8791773319244385
+        },
+        {
+          "url": "https://boc.lk/about",
+          "status_code": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "sensitivity_level": "critical",
+          "title": "About Us - Bank of Ceylon | Bankers to the Nation | Bank of Ceylon",
+          "forms_count": 0,
+          "technologies": [
+            "Nginx",
+            "jQuery"
+          ],
+          "response_time": 0.47722935676574707
+        },
+        {
+          "url": "https://boc.lk/value-statement",
+          "status_code": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "sensitivity_level": "critical",
+          "title": "Value Statement | Bank of Ceylon",
+          "forms_count": 0,
+          "technologies": [
+            "Nginx",
+            "jQuery",
+            "React"
+          ],
+          "response_time": 0.7454781532287598
+        },
+        {
+          "url": "https://boc.lk/financial/highlights",
+          "status_code": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "sensitivity_level": "critical",
+          "title": "Bank of Ceylon - Financial Highlights | Bank of Ceylon",
+          "forms_count": 0,
+          "technologies": [
+            "Nginx",
+            "jQuery"
+          ],
+          "response_time": 0.580211877822876
+        },
+        {
+          "url": "https://boc.lk/sustainability-framework",
+          "status_code": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "sensitivity_level": "critical",
+          "title": "Sustainability Framework of BOC | Bank of Ceylon | Bank of Ceylon",
+          "forms_count": 0,
+          "technologies": [
+            "Nginx",
+            "jQuery"
+          ],
+          "response_time": 0.4902985095977783
+        },
+        {
+          "url": "https://boc.lk/awards",
+          "status_code": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "sensitivity_level": "critical",
+          "title": "Awards | Bank of Ceylon",
+          "forms_count": 0,
+          "technologies": [
+            "Nginx",
+            "jQuery"
+          ],
+          "response_time": 0.5100429058074951
+        },
+        {
+          "url": "https://boc.lk/museum",
+          "status_code": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "sensitivity_level": "critical",
+          "title": "Money and Banking Museum | Bank of Ceylon | Bank of Ceylon",
+          "forms_count": 1,
+          "technologies": [
+            "Nginx",
+            "jQuery"
+          ],
+          "response_time": 0.6202998161315918
+        },
+        {
+          "url": "https://boc.lk/boc-terms-of-use",
+          "status_code": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "sensitivity_level": "critical",
+          "title": "Terms Of Use | Bank of Ceylon",
+          "forms_count": 0,
+          "technologies": [
+            "Nginx",
+            "jQuery"
+          ],
+          "response_time": 0.8455684185028076
+        },
+        {
+          "url": "https://boc.lk/boc-privacy-statement",
+          "status_code": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "sensitivity_level": "critical",
+          "title": "Privacy Statement | Bank of Ceylon | Bank of Ceylon",
+          "forms_count": 0,
+          "technologies": [
+            "Nginx",
+            "jQuery"
+          ],
+          "response_time": 0.6320662498474121
+        },
+        {
+          "url": "https://boc.lk/download-forms/si/customer-charter-en/get",
+          "status_code": 200,
+          "content_type": "application/",
+          "sensitivity_level": "high",
+          "title": "",
+          "forms_count": 0,
+          "technologies": [
+            "Nginx"
+          ],
+          "response_time": 0.43570923805236816
+        },
+        {
+          "url": "https://boc.lk/download-forms/ta/customer-charter-en/get",
+          "status_code": 200,
+          "content_type": "application/",
+          "sensitivity_level": "high",
+          "title": "",
+          "forms_count": 0,
+          "technologies": [
+            "Nginx"
+          ],
+          "response_time": 0.5368449687957764
+        },
+        {
+          "url": "https://boc.lk/download-forms/en/customer-charter-en/get",
+          "status_code": 200,
+          "content_type": "application/",
+          "sensitivity_level": "high",
+          "title": "",
+          "forms_count": 0,
+          "technologies": [
+            "Nginx"
+          ],
+          "response_time": 0.3565962314605713
+        },
+        {
+          "url": "https://boc.lk/download-forms/en/usa-patriot-act-certification/get",
+          "status_code": 200,
+          "content_type": "application/",
+          "sensitivity_level": "high",
+          "title": "",
+          "forms_count": 0,
+          "technologies": [
+            "Nginx"
+          ],
+          "response_time": 1.6425273418426514
+        },
+        {
+          "url": "https://boc.lk/download-forms/en/fw8ben-2021/get",
+          "status_code": 200,
+          "content_type": "application/",
+          "sensitivity_level": "high",
+          "title": "",
+          "forms_count": 0,
+          "technologies": [
+            "Nginx"
+          ],
+          "response_time": 0.5516953468322754
+        },
+        {
+          "url": "https://boc.lk/download-forms/en/fw8bene-2021/get",
+          "status_code": 200,
+          "content_type": "application/",
+          "sensitivity_level": "high",
+          "title": "",
+          "forms_count": 0,
+          "technologies": [
+            "Nginx"
+          ],
+          "response_time": 0.42376089096069336
+        },
+        {
+          "url": "https://boc.lk/download-forms/en/fw9-ver2018/get",
+          "status_code": 200,
+          "content_type": "application/",
+          "sensitivity_level": "high",
+          "title": "",
+          "forms_count": 0,
+          "technologies": [
+            "Nginx"
+          ],
+          "response_time": 0.42180490493774414
+        },
+        {
+          "url": "https://boc.lk/download-forms/en/right-to-information-act-fee-structure-notice/get",
+          "status_code": 200,
+          "content_type": "application/",
+          "sensitivity_level": "high",
+          "title": "",
+          "forms_count": 0,
+          "technologies": [
+            "Nginx"
+          ],
+          "response_time": 0.32435178756713867
+        },
+        {
+          "url": "https://boc.lk/boc-sri-lanka-deposit-insurance-scheme",
+          "status_code": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "sensitivity_level": "critical",
+          "title": "Sri Lanka Deposit Insurance Scheme | Bank of Ceylon | Bank of Ceylon",
+          "forms_count": 0,
+          "technologies": [
+            "Nginx",
+            "jQuery"
+          ],
+          "response_time": 0.5462338924407959
+        },
+        {
+          "url": "https://boc.lk/download-forms/en/complaint-handling-procedure/get",
+          "status_code": 200,
+          "content_type": "application/",
+          "sensitivity_level": "high",
+          "title": "",
+          "forms_count": 0,
+          "technologies": [
+            "Nginx"
+          ],
+          "response_time": 0.2920999526977539
+        },
+        {
+          "url": "https://boc.lk/our-history",
+          "status_code": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "sensitivity_level": "critical",
+          "title": "History of Bank of Ceylon | the No. 1 Bank in Sri Lanka. | Bank of Ceylon",
+          "forms_count": 0,
+          "technologies": [
+            "Nginx",
+            "jQuery"
+          ],
+          "response_time": 0.47814297676086426
+        },
+        {
+          "url": "https://boc.lk/corporate-profile#chairman",
+          "status_code": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "sensitivity_level": "critical",
+          "title": "Corporate Profile - Bank of Ceylon | No.1 Bank of Sri Lanka | Bank of Ceylon",
+          "forms_count": 0,
+          "technologies": [
+            "Nginx",
+            "jQuery"
+          ],
+          "response_time": 0.5467586517333984
+        },
+        {
+          "url": "https://boc.lk/corporate-profile#board-of-directors",
+          "status_code": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "sensitivity_level": "critical",
+          "title": "Corporate Profile - Bank of Ceylon | No.1 Bank of Sri Lanka | Bank of Ceylon",
+          "forms_count": 0,
+          "technologies": [
+            "Nginx",
+            "jQuery"
+          ],
+          "response_time": 0.6196813583374023
+        },
+        {
+          "url": "https://boc.lk/corporate-profile#corporate-management",
+          "status_code": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "sensitivity_level": "critical",
+          "title": "Corporate Profile - Bank of Ceylon | No.1 Bank of Sri Lanka | Bank of Ceylon",
+          "forms_count": 0,
+          "technologies": [
+            "Nginx",
+            "jQuery"
+          ],
+          "response_time": 0.5236542224884033
+        },
+        {
+          "url": "https://boc.lk/corporate-profile#executive-management",
+          "status_code": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "sensitivity_level": "critical",
+          "title": "Corporate Profile - Bank of Ceylon | No.1 Bank of Sri Lanka | Bank of Ceylon",
+          "forms_count": 0,
+          "technologies": [
+            "Nginx",
+            "jQuery"
+          ],
+          "response_time": 0.5839335918426514
+        },
+        {
+          "url": "https://boc.lk/financial/annual-reports",
+          "status_code": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "sensitivity_level": "critical",
+          "title": "Bank of Ceylon - Annual Report | Bank of Ceylon",
+          "forms_count": 0,
+          "technologies": [
+            "Nginx",
+            "jQuery"
+          ],
+          "response_time": 0.6136531829833984
+        },
+        {
+          "url": "https://boc.lk/financial/interim-financial-statements",
+          "status_code": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "sensitivity_level": "critical",
+          "title": "Interim Financial Reports | Bank of Ceylon",
+          "forms_count": 0,
+          "technologies": [
+            "Nginx",
+            "jQuery"
+          ],
+          "response_time": 0.5576698780059814
+        },
+        {
+          "url": "https://boc.lk/financial/basel-iii-disclosure",
+          "status_code": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "sensitivity_level": "critical",
+          "title": "Bank of Ceylon - Basel III Disclosure | Bank of Ceylon",
+          "forms_count": 0,
+          "technologies": [
+            "Nginx",
+            "jQuery"
+          ],
+          "response_time": 0.5876212120056152
+        },
+        {
+          "url": "https://boc.lk/download-forms/en/boc-ordinance/get",
+          "status_code": 200,
+          "content_type": "application/",
+          "sensitivity_level": "high",
+          "title": "",
+          "forms_count": 0,
+          "technologies": [
+            "Nginx"
+          ],
+          "response_time": 0.26996541023254395
+        },
+        {
+          "url": "https://boc.lk/boc-subsidiaries",
+          "status_code": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "sensitivity_level": "critical",
+          "title": "Bank of Ceylon - Subsidiaries | Bank of Ceylon",
+          "forms_count": 0,
+          "technologies": [
+            "Nginx",
+            "jQuery"
+          ],
+          "response_time": 0.5796191692352295
+        },
+        {
+          "url": "https://boc.lk/robots.txt",
+          "status_code": 200,
+          "content_type": "text/plain",
+          "sensitivity_level": "critical",
+          "title": "",
+          "forms_count": 0,
+          "technologies": [],
+          "response_time": 0.0
+        },
+        {
+          "url": "https://boc.lk/sitemap.xml",
+          "status_code": 200,
+          "content_type": "text/xml",
+          "sensitivity_level": "critical",
+          "title": "",
+          "forms_count": 0,
+          "technologies": [],
+          "response_time": 0.0
+        }
+      ]
+    }
+  }
+}

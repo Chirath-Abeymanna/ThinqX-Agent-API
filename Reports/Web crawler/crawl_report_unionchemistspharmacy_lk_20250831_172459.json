@@ -1,0 +1,1553 @@
+{
+  "crawl_summary": {
+    "target_domain": "https://unionchemistspharmacy.lk",
+    "crawl_duration": 71.990726,
+    "urls_discovered": 575,
+    "urls_successfully_crawled": 100,
+    "errors_encountered": 0,
+    "start_time": "2025-08-31T17:23:47.893611",
+    "end_time": "2025-08-31T17:24:59.884337"
+  },
+  "discovery_statistics": {
+    "total_files_found": 111,
+    "total_forms_found": 605,
+    "sensitive_files_found": 99,
+    "hidden_files_discovered": 11
+  },
+  "categorized_findings": {
+    "Other": {
+      "count": 12,
+      "sensitivity_breakdown": {
+        "low": 12,
+        "medium": 0,
+        "high": 0,
+        "critical": 0
+      },
+      "urls": [
+        {
+          "url": "https://unionchemistspharmacy.lk",
+          "status_code": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "sensitivity_level": "low",
+          "title": "Union Chemists: Sri Lanka's Online Pharmacy for Total Healthcare",
+          "forms_count": 3,
+          "technologies": [
+            "Nginx",
+            "WordPress",
+            "jQuery"
+          ],
+          "response_time": 2.0864548683166504
+        },
+        {
+          "url": "https://unionchemistspharmacy.lk/order-your-prescription/",
+          "status_code": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "sensitivity_level": "low",
+          "title": "Easy Order Prescriptions Online | Union Chemists Pharmacy",
+          "forms_count": 4,
+          "technologies": [
+            "Nginx",
+            "WordPress",
+            "jQuery"
+          ],
+          "response_time": 1.6337902545928955
+        },
+        {
+          "url": "https://unionchemistspharmacy.lk/",
+          "status_code": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "sensitivity_level": "low",
+          "title": "Union Chemists: Sri Lanka's Online Pharmacy for Total Healthcare",
+          "forms_count": 3,
+          "technologies": [
+            "Nginx",
+            "WordPress",
+            "jQuery"
+          ],
+          "response_time": 0.402130126953125
+        },
+        {
+          "url": "https://unionchemistspharmacy.lk/cart/",
+          "status_code": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "sensitivity_level": "low",
+          "title": "Shopping cart - Union Chemists Pharmacy",
+          "forms_count": 3,
+          "technologies": [
+            "Nginx",
+            "WordPress",
+            "jQuery"
+          ],
+          "response_time": 0.9292910099029541
+        },
+        {
+          "url": "https://unionchemistspharmacy.lk/shop/",
+          "status_code": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "sensitivity_level": "low",
+          "title": "Shop - Union Chemists Pharmacy",
+          "forms_count": 8,
+          "technologies": [
+            "Nginx",
+            "WordPress",
+            "jQuery"
+          ],
+          "response_time": 0.543748140335083
+        },
+        {
+          "url": "https://unionchemistspharmacy.lk/privacy-policy",
+          "status_code": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "sensitivity_level": "low",
+          "title": "Privacy Policy - Union Chemists Pharmacy",
+          "forms_count": 3,
+          "technologies": [
+            "Nginx",
+            "WordPress",
+            "jQuery"
+          ],
+          "response_time": 2.3525643348693848
+        },
+        {
+          "url": "https://unionchemistspharmacy.lk/shop",
+          "status_code": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "sensitivity_level": "low",
+          "title": "Shop - Union Chemists Pharmacy",
+          "forms_count": 8,
+          "technologies": [
+            "Nginx",
+            "WordPress",
+            "jQuery"
+          ],
+          "response_time": 1.1980152130126953
+        },
+        {
+          "url": "https://unionchemistspharmacy.lk/terms-and-conditions",
+          "status_code": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "sensitivity_level": "low",
+          "title": "Terms and Conditions - Union Chemists Pharmacy",
+          "forms_count": 3,
+          "technologies": [
+            "Nginx",
+            "WordPress",
+            "jQuery"
+          ],
+          "response_time": 1.3865439891815186
+        },
+        {
+          "url": "https://unionchemistspharmacy.lk/test/",
+          "status_code": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "sensitivity_level": "low",
+          "title": "",
+          "forms_count": 0,
+          "technologies": [],
+          "response_time": 0.0
+        },
+        {
+          "url": "https://unionchemistspharmacy.lk/wp-content/",
+          "status_code": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "sensitivity_level": "low",
+          "title": "",
+          "forms_count": 0,
+          "technologies": [],
+          "response_time": 0.0
+        },
+        {
+          "url": "https://unionchemistspharmacy.lk/wp-json/",
+          "status_code": 200,
+          "content_type": "application/json; charset=UTF-8",
+          "sensitivity_level": "low",
+          "title": "",
+          "forms_count": 0,
+          "technologies": [],
+          "response_time": 0.0
+        },
+        {
+          "url": "https://unionchemistspharmacy.lk/log/",
+          "status_code": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "sensitivity_level": "low",
+          "title": "",
+          "forms_count": 0,
+          "technologies": [],
+          "response_time": 0.0
+        }
+      ]
+    },
+    "Sensitive Content": {
+      "count": 99,
+      "sensitivity_breakdown": {
+        "low": 0,
+        "medium": 76,
+        "high": 1,
+        "critical": 22
+      },
+      "urls": [
+        {
+          "url": "https://unionchemistspharmacy.lk/product-brand/rossmax/",
+          "status_code": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "sensitivity_level": "medium",
+          "title": "Quality Rossmax Healthcare Products | Union Chemists Pharmacy",
+          "forms_count": 7,
+          "technologies": [
+            "Nginx",
+            "WordPress",
+            "jQuery"
+          ],
+          "response_time": 0.31607842445373535
+        },
+        {
+          "url": "https://unionchemistspharmacy.lk/product-brand/natures-way/",
+          "status_code": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "sensitivity_level": "medium",
+          "title": "Nature's Way Archives - Union Chemists Pharmacy",
+          "forms_count": 7,
+          "technologies": [
+            "Nginx",
+            "WordPress",
+            "jQuery"
+          ],
+          "response_time": 0.32033252716064453
+        },
+        {
+          "url": "https://unionchemistspharmacy.lk/product-brand/mesoestetic/",
+          "status_code": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "sensitivity_level": "medium",
+          "title": "Mesoestetic Archives - Union Chemists Pharmacy",
+          "forms_count": 7,
+          "technologies": [
+            "Nginx",
+            "WordPress",
+            "jQuery"
+          ],
+          "response_time": 0.5009603500366211
+        },
+        {
+          "url": "https://unionchemistspharmacy.lk/product-brand/littmann/",
+          "status_code": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "sensitivity_level": "medium",
+          "title": "Littmann Archives - Union Chemists Pharmacy",
+          "forms_count": 7,
+          "technologies": [
+            "Nginx",
+            "WordPress",
+            "jQuery"
+          ],
+          "response_time": 0.4069640636444092
+        },
+        {
+          "url": "https://unionchemistspharmacy.lk/product-brand/genove/",
+          "status_code": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "sensitivity_level": "medium",
+          "title": "Genove Archives - Union Chemists Pharmacy",
+          "forms_count": 7,
+          "technologies": [
+            "Nginx",
+            "WordPress",
+            "jQuery"
+          ],
+          "response_time": 0.30608320236206055
+        },
+        {
+          "url": "https://unionchemistspharmacy.lk/product-brand/neostrata/",
+          "status_code": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "sensitivity_level": "medium",
+          "title": "Neostrata Archives - Union Chemists Pharmacy",
+          "forms_count": 7,
+          "technologies": [
+            "Nginx",
+            "WordPress",
+            "jQuery",
+            "React"
+          ],
+          "response_time": 0.49865078926086426
+        },
+        {
+          "url": "https://unionchemistspharmacy.lk/product-brand/isis-pharma/",
+          "status_code": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "sensitivity_level": "medium",
+          "title": "Reliable ISIS Pharma Products | Union Chemists Pharmacy",
+          "forms_count": 7,
+          "technologies": [
+            "Nginx",
+            "WordPress",
+            "jQuery"
+          ],
+          "response_time": 0.43375468254089355
+        },
+        {
+          "url": "https://unionchemistspharmacy.lk/product-brand/capiderma/",
+          "status_code": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "sensitivity_level": "critical",
+          "title": "Capiderma Archives - Union Chemists Pharmacy",
+          "forms_count": 7,
+          "technologies": [
+            "Nginx",
+            "WordPress",
+            "jQuery"
+          ],
+          "response_time": 1.3491826057434082
+        },
+        {
+          "url": "https://unionchemistspharmacy.lk/about-us/",
+          "status_code": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "sensitivity_level": "medium",
+          "title": "About Us - Union Chemists Pharmacy",
+          "forms_count": 3,
+          "technologies": [
+            "Nginx",
+            "WordPress",
+            "jQuery"
+          ],
+          "response_time": 0.29794907569885254
+        },
+        {
+          "url": "https://unionchemistspharmacy.lk/contact/",
+          "status_code": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "sensitivity_level": "medium",
+          "title": "Contact Us - Union Chemists Pharmacy",
+          "forms_count": 4,
+          "technologies": [
+            "Nginx",
+            "WordPress",
+            "jQuery"
+          ],
+          "response_time": 0.41713452339172363
+        },
+        {
+          "url": "https://unionchemistspharmacy.lk/my-account/",
+          "status_code": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "sensitivity_level": "critical",
+          "title": "My Account - Union Chemists Pharmacy",
+          "forms_count": 5,
+          "technologies": [
+            "Nginx",
+            "WordPress",
+            "jQuery"
+          ],
+          "response_time": 0.8571791648864746
+        },
+        {
+          "url": "https://unionchemistspharmacy.lk/product-category/collaborated-brands/flaem/",
+          "status_code": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "sensitivity_level": "medium",
+          "title": "Flaem Archives - Union Chemists Pharmacy",
+          "forms_count": 4,
+          "technologies": [
+            "Nginx",
+            "WordPress",
+            "jQuery"
+          ],
+          "response_time": 0.2851581573486328
+        },
+        {
+          "url": "https://unionchemistspharmacy.lk/product-category/collaborated-brands/rossmax/",
+          "status_code": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "sensitivity_level": "medium",
+          "title": "Rossmax Archives - Union Chemists Pharmacy",
+          "forms_count": 8,
+          "technologies": [
+            "Nginx",
+            "WordPress",
+            "jQuery"
+          ],
+          "response_time": 0.31923937797546387
+        },
+        {
+          "url": "https://unionchemistspharmacy.lk/product-category/collaborated-brands/beurer/",
+          "status_code": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "sensitivity_level": "medium",
+          "title": "Beurer Archives - Union Chemists Pharmacy",
+          "forms_count": 8,
+          "technologies": [
+            "Nginx",
+            "WordPress",
+            "jQuery"
+          ],
+          "response_time": 0.4128081798553467
+        },
+        {
+          "url": "https://unionchemistspharmacy.lk/product-category/collaborated-brands/spirit/",
+          "status_code": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "sensitivity_level": "medium",
+          "title": "Spirit Archives - Union Chemists Pharmacy",
+          "forms_count": 8,
+          "technologies": [
+            "Nginx",
+            "WordPress",
+            "jQuery"
+          ],
+          "response_time": 0.363344669342041
+        },
+        {
+          "url": "https://unionchemistspharmacy.lk/product-category/collaborated-brands/comfort/",
+          "status_code": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "sensitivity_level": "medium",
+          "title": "Comfort Archives - Union Chemists Pharmacy",
+          "forms_count": 7,
+          "technologies": [
+            "Nginx",
+            "WordPress",
+            "jQuery"
+          ],
+          "response_time": 0.33121585845947266
+        },
+        {
+          "url": "https://unionchemistspharmacy.lk/product-category/collaborated-brands/acare/",
+          "status_code": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "sensitivity_level": "medium",
+          "title": "Acare Archives - Union Chemists Pharmacy",
+          "forms_count": 4,
+          "technologies": [
+            "Nginx",
+            "WordPress",
+            "jQuery"
+          ],
+          "response_time": 0.3288900852203369
+        },
+        {
+          "url": "https://unionchemistspharmacy.lk/product-category/collaborated-brands/kawe/",
+          "status_code": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "sensitivity_level": "medium",
+          "title": "KaWe Archives - Union Chemists Pharmacy",
+          "forms_count": 8,
+          "technologies": [
+            "Nginx",
+            "WordPress",
+            "jQuery"
+          ],
+          "response_time": 0.31020641326904297
+        },
+        {
+          "url": "https://unionchemistspharmacy.lk/product/mesoestetic-tricology-caps-60-capsules/",
+          "status_code": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "sensitivity_level": "medium",
+          "title": "MESOESTETIC\u00ae TRICOLOGY CAPS-60 Capsules - Union Chemists Pharmacy",
+          "forms_count": 4,
+          "technologies": [
+            "Nginx",
+            "WordPress",
+            "jQuery"
+          ],
+          "response_time": 0.3106851577758789
+        },
+        {
+          "url": "https://unionchemistspharmacy.lk/product/mesoestetic-age-element-firming-elixir/",
+          "status_code": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "sensitivity_level": "medium",
+          "title": "MESOESTETIC\u00ae AGE ELEMENT FIRMING ELIXIR - Union Chemists Pharmacy",
+          "forms_count": 4,
+          "technologies": [
+            "Nginx",
+            "WordPress",
+            "jQuery"
+          ],
+          "response_time": 0.3300180435180664
+        },
+        {
+          "url": "https://unionchemistspharmacy.lk/product/lifederma-retin-glow-1-serum-30ml/",
+          "status_code": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "sensitivity_level": "medium",
+          "title": "LIFEDERMA RETIN GLOW 1% SERUM 30ml - Union Chemists Pharmacy",
+          "forms_count": 4,
+          "technologies": [
+            "Nginx",
+            "WordPress",
+            "jQuery"
+          ],
+          "response_time": 0.29972362518310547
+        },
+        {
+          "url": "https://unionchemistspharmacy.lk/product/freshup-breath-freshener-spray-30ml/",
+          "status_code": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "sensitivity_level": "medium",
+          "title": "FRESHUP BREATH FRESHENER SPRAY 30ml - Union Chemists Pharmacy",
+          "forms_count": 4,
+          "technologies": [
+            "Nginx",
+            "WordPress",
+            "jQuery"
+          ],
+          "response_time": 0.4391963481903076
+        },
+        {
+          "url": "https://unionchemistspharmacy.lk/product/eastatiq-retinage-30g/",
+          "status_code": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "sensitivity_level": "medium",
+          "title": "EASTATIQ RETINAGE 30g - Union Chemists Pharmacy",
+          "forms_count": 3,
+          "technologies": [
+            "Nginx",
+            "WordPress",
+            "jQuery"
+          ],
+          "response_time": 0.31047654151916504
+        },
+        {
+          "url": "https://unionchemistspharmacy.lk/product/principle-perfect-you-60-tablets/",
+          "status_code": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "sensitivity_level": "medium",
+          "title": "PRINCIPLE PERFECT YOU - 60 Tablets - Union Chemists Pharmacy",
+          "forms_count": 4,
+          "technologies": [
+            "Nginx",
+            "WordPress",
+            "jQuery"
+          ],
+          "response_time": 0.5065155029296875
+        },
+        {
+          "url": "https://unionchemistspharmacy.lk/product/principle-calcio-tablets-90-tablets/",
+          "status_code": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "sensitivity_level": "medium",
+          "title": "PRINCIPLE CALCIO TABLETS-90 Tablets - Union Chemists Pharmacy",
+          "forms_count": 4,
+          "technologies": [
+            "Nginx",
+            "WordPress",
+            "jQuery"
+          ],
+          "response_time": 0.3637807369232178
+        },
+        {
+          "url": "https://unionchemistspharmacy.lk/product/ez-ky-pleasure-warming-gel-35g/",
+          "status_code": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "sensitivity_level": "medium",
+          "title": "EZ KY PLEASURE & WARMING GEL 35g - Union Chemists Pharmacy",
+          "forms_count": 4,
+          "technologies": [
+            "Nginx",
+            "WordPress",
+            "jQuery"
+          ],
+          "response_time": 0.35291552543640137
+        },
+        {
+          "url": "https://unionchemistspharmacy.lk/product/vitaceuticals-wellskin-30-tablets/",
+          "status_code": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "sensitivity_level": "medium",
+          "title": "VITACEUTICALS WELLSKIN - 30 Tablets - Union Chemists Pharmacy",
+          "forms_count": 4,
+          "technologies": [
+            "Nginx",
+            "WordPress",
+            "jQuery"
+          ],
+          "response_time": 1.1098825931549072
+        },
+        {
+          "url": "https://unionchemistspharmacy.lk/product/finodil-intensive-hair-growth-serum-50ml/",
+          "status_code": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "sensitivity_level": "medium",
+          "title": "FINODIL INTENSIVE HAIR GROWTH SERUM 50ml - Union Chemists Pharmacy",
+          "forms_count": 4,
+          "technologies": [
+            "Nginx",
+            "WordPress",
+            "jQuery"
+          ],
+          "response_time": 0.28960490226745605
+        },
+        {
+          "url": "https://unionchemistspharmacy.lk/product/glutanex-tablets/",
+          "status_code": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "sensitivity_level": "medium",
+          "title": "GLUTANEX GLUTATHION TABLETS 100mg - Union Chemists Pharmacy",
+          "forms_count": 4,
+          "technologies": [
+            "Nginx",
+            "WordPress",
+            "jQuery"
+          ],
+          "response_time": 0.36023521423339844
+        },
+        {
+          "url": "https://unionchemistspharmacy.lk/product/eventone-c-cream-30g/",
+          "status_code": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "sensitivity_level": "medium",
+          "title": "EVENTONE-C CREAM 30g - Union Chemists Pharmacy",
+          "forms_count": 4,
+          "technologies": [
+            "Nginx",
+            "WordPress",
+            "jQuery"
+          ],
+          "response_time": 0.4119865894317627
+        },
+        {
+          "url": "https://unionchemistspharmacy.lk/product/glutalyif-750mg-60-capsules-bottle/",
+          "status_code": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "sensitivity_level": "medium",
+          "title": "GLUTALYIF 750MG-60 CAPSULES BOTTLE - Union Chemists Pharmacy",
+          "forms_count": 4,
+          "technologies": [
+            "Nginx",
+            "WordPress",
+            "jQuery"
+          ],
+          "response_time": 0.6479315757751465
+        },
+        {
+          "url": "https://unionchemistspharmacy.lk/product/perfectil-platinum/",
+          "status_code": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "sensitivity_level": "medium",
+          "title": "PERFECTIL PLATINUM-15 TAB PER CARD - Union Chemists Pharmacy",
+          "forms_count": 4,
+          "technologies": [
+            "Nginx",
+            "WordPress",
+            "jQuery"
+          ],
+          "response_time": 0.3030374050140381
+        },
+        {
+          "url": "https://unionchemistspharmacy.lk/product/heliocare-360-gel-oil-free-spf-50/",
+          "status_code": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "sensitivity_level": "medium",
+          "title": "HELIOCARE 360\u00ba GEL OIL-FREE SPF 50 50ml - Union Chemists Pharmacy",
+          "forms_count": 4,
+          "technologies": [
+            "Nginx",
+            "WordPress",
+            "jQuery"
+          ],
+          "response_time": 0.542952299118042
+        },
+        {
+          "url": "https://unionchemistspharmacy.lk/product/isispharma-teen-derm-gel-150ml/",
+          "status_code": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "sensitivity_level": "medium",
+          "title": "ISISPHARMA TEEN DERM GEL 150ml - Union Chemists Pharmacy",
+          "forms_count": 4,
+          "technologies": [
+            "Nginx",
+            "WordPress",
+            "jQuery"
+          ],
+          "response_time": 0.3464984893798828
+        },
+        {
+          "url": "https://unionchemistspharmacy.lk/product/perfectil-original/",
+          "status_code": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "sensitivity_level": "medium",
+          "title": "PERFECTIL ORIGINAL-30 TAB PER PACK - Union Chemists Pharmacy",
+          "forms_count": 4,
+          "technologies": [
+            "Nginx",
+            "WordPress",
+            "jQuery"
+          ],
+          "response_time": 0.31231021881103516
+        },
+        {
+          "url": "https://unionchemistspharmacy.lk/product/sustagen-nutritional-supplement-400g-vanilla/",
+          "status_code": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "sensitivity_level": "medium",
+          "title": "SUSTAGEN NUTRITIONAL SUPPLEMENT 400g - VANILLA - Union Chemists Pharmacy",
+          "forms_count": 4,
+          "technologies": [
+            "Nginx",
+            "WordPress",
+            "jQuery"
+          ],
+          "response_time": 0.3272557258605957
+        },
+        {
+          "url": "https://unionchemistspharmacy.lk/product/sustagen-nutritional-supplement-400g-chocolate/",
+          "status_code": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "sensitivity_level": "medium",
+          "title": "SUSTAGEN NUTRITIONAL SUPPLEMENT 400g - CHOCOLATE - Union Chemists Pharmacy",
+          "forms_count": 4,
+          "technologies": [
+            "Nginx",
+            "WordPress",
+            "jQuery"
+          ],
+          "response_time": 0.31444787979125977
+        },
+        {
+          "url": "https://unionchemistspharmacy.lk/product/isocal-powder-425g/",
+          "status_code": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "sensitivity_level": "medium",
+          "title": "ISOCAL POWDER 425g - Union Chemists Pharmacy",
+          "forms_count": 3,
+          "technologies": [
+            "Nginx",
+            "WordPress",
+            "jQuery"
+          ],
+          "response_time": 0.34090709686279297
+        },
+        {
+          "url": "https://unionchemistspharmacy.lk/product/sustacal-nutritional-formula-powder-400g/",
+          "status_code": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "sensitivity_level": "high",
+          "title": "SUSTACAL NUTRITIONAL FORMULA POWDER 400g - Union Chemists Pharmacy",
+          "forms_count": 4,
+          "technologies": [
+            "Nginx",
+            "WordPress",
+            "jQuery"
+          ],
+          "response_time": 0.6899454593658447
+        },
+        {
+          "url": "https://unionchemistspharmacy.lk/about-us",
+          "status_code": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "sensitivity_level": "medium",
+          "title": "About Us - Union Chemists Pharmacy",
+          "forms_count": 3,
+          "technologies": [
+            "Nginx",
+            "WordPress",
+            "jQuery"
+          ],
+          "response_time": 1.9137239456176758
+        },
+        {
+          "url": "https://unionchemistspharmacy.lk/contact",
+          "status_code": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "sensitivity_level": "medium",
+          "title": "Contact Us - Union Chemists Pharmacy",
+          "forms_count": 4,
+          "technologies": [
+            "Nginx",
+            "WordPress",
+            "jQuery"
+          ],
+          "response_time": 1.0311620235443115
+        },
+        {
+          "url": "https://unionchemistspharmacy.lk/product-category/ayurvedic-care/",
+          "status_code": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "sensitivity_level": "medium",
+          "title": "Traditional Ayurvedic Care Products | Union Chemists Pharmacy",
+          "forms_count": 8,
+          "technologies": [
+            "Nginx",
+            "WordPress",
+            "jQuery"
+          ],
+          "response_time": 0.3151102066040039
+        },
+        {
+          "url": "https://unionchemistspharmacy.lk/product-category/baby-care/",
+          "status_code": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "sensitivity_level": "medium",
+          "title": "Affordable Baby Care Products | Union Chemists Pharmacy",
+          "forms_count": 8,
+          "technologies": [
+            "Nginx",
+            "WordPress",
+            "jQuery"
+          ],
+          "response_time": 0.31721043586730957
+        },
+        {
+          "url": "https://unionchemistspharmacy.lk/product-category/blood-pressure-monitor/",
+          "status_code": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "sensitivity_level": "medium",
+          "title": "Durable Blood Pressure Monitors | Union Chemists Pharmacy",
+          "forms_count": 8,
+          "technologies": [
+            "Nginx",
+            "WordPress",
+            "jQuery"
+          ],
+          "response_time": 0.33791613578796387
+        },
+        {
+          "url": "https://unionchemistspharmacy.lk/product-category/ceylon-copper/",
+          "status_code": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "sensitivity_level": "medium",
+          "title": "Ceylon Copper Archives - Union Chemists Pharmacy",
+          "forms_count": 7,
+          "technologies": [
+            "Nginx",
+            "WordPress",
+            "jQuery"
+          ],
+          "response_time": 0.3267650604248047
+        },
+        {
+          "url": "https://unionchemistspharmacy.lk/product-category/dental-care/",
+          "status_code": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "sensitivity_level": "medium",
+          "title": "Premium Dental Care Products | Union Chemists Pharmacy",
+          "forms_count": 8,
+          "technologies": [
+            "Nginx",
+            "WordPress",
+            "jQuery"
+          ],
+          "response_time": 0.3573150634765625
+        },
+        {
+          "url": "https://unionchemistspharmacy.lk/product-category/diabetes-care/",
+          "status_code": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "sensitivity_level": "medium",
+          "title": "Quality Diabetes Care Products | Union Chemists Pharmacy",
+          "forms_count": 8,
+          "technologies": [
+            "Nginx",
+            "WordPress",
+            "jQuery"
+          ],
+          "response_time": 0.6235349178314209
+        },
+        {
+          "url": "https://unionchemistspharmacy.lk/product-category/diabetes-care/foot-care/",
+          "status_code": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "sensitivity_level": "medium",
+          "title": "Foot Care Archives - Union Chemists Pharmacy",
+          "forms_count": 8,
+          "technologies": [
+            "Nginx",
+            "WordPress",
+            "jQuery"
+          ],
+          "response_time": 0.6142168045043945
+        },
+        {
+          "url": "https://unionchemistspharmacy.lk/product-category/diabetes-care/glucose-meters/",
+          "status_code": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "sensitivity_level": "medium",
+          "title": "Glucose Meters Archives - Union Chemists Pharmacy",
+          "forms_count": 8,
+          "technologies": [
+            "Nginx",
+            "WordPress",
+            "jQuery"
+          ],
+          "response_time": 0.817253589630127
+        },
+        {
+          "url": "https://unionchemistspharmacy.lk/product-category/diabetes-care/strip-accessories/",
+          "status_code": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "sensitivity_level": "medium",
+          "title": "Strip & Accessories Archives - Union Chemists Pharmacy",
+          "forms_count": 8,
+          "technologies": [
+            "Nginx",
+            "WordPress",
+            "jQuery"
+          ],
+          "response_time": 0.2953603267669678
+        },
+        {
+          "url": "https://unionchemistspharmacy.lk/product-category/doctors-equipment/",
+          "status_code": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "sensitivity_level": "medium",
+          "title": "Doctors Equipment Archives - Union Chemists Pharmacy",
+          "forms_count": 8,
+          "technologies": [
+            "Nginx",
+            "WordPress",
+            "jQuery"
+          ],
+          "response_time": 0.3642578125
+        },
+        {
+          "url": "https://unionchemistspharmacy.lk/product-category/dressings/",
+          "status_code": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "sensitivity_level": "medium",
+          "title": "Dressings Archives - Union Chemists Pharmacy",
+          "forms_count": 8,
+          "technologies": [
+            "Nginx",
+            "WordPress",
+            "jQuery"
+          ],
+          "response_time": 0.6690974235534668
+        },
+        {
+          "url": "https://unionchemistspharmacy.lk/product-category/first-aid-items/",
+          "status_code": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "sensitivity_level": "medium",
+          "title": "First Aid Items Archives - Union Chemists Pharmacy",
+          "forms_count": 8,
+          "technologies": [
+            "Nginx",
+            "WordPress",
+            "jQuery"
+          ],
+          "response_time": 0.3133542537689209
+        },
+        {
+          "url": "https://unionchemistspharmacy.lk/product-category/house-hold-remedies/",
+          "status_code": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "sensitivity_level": "medium",
+          "title": "House-hold Remedies Archives - Union Chemists Pharmacy",
+          "forms_count": 8,
+          "technologies": [
+            "Nginx",
+            "WordPress",
+            "jQuery"
+          ],
+          "response_time": 0.3157379627227783
+        },
+        {
+          "url": "https://unionchemistspharmacy.lk/product-category/medical-mobility-equipment-adult-care/",
+          "status_code": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "sensitivity_level": "medium",
+          "title": "Mobility Aids and Adult Care Products | Union Chemists Pharmacy",
+          "forms_count": 8,
+          "technologies": [
+            "Nginx",
+            "WordPress",
+            "jQuery"
+          ],
+          "response_time": 0.3151736259460449
+        },
+        {
+          "url": "https://unionchemistspharmacy.lk/product-category/medical-mobility-equipment-adult-care/adult-pampers/",
+          "status_code": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "sensitivity_level": "medium",
+          "title": "Adult Pampers Archives - Union Chemists Pharmacy",
+          "forms_count": 4,
+          "technologies": [
+            "Nginx",
+            "WordPress",
+            "jQuery"
+          ],
+          "response_time": 0.31334733963012695
+        },
+        {
+          "url": "https://unionchemistspharmacy.lk/product-category/medical-mobility-equipment-adult-care/home-care-beds/",
+          "status_code": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "sensitivity_level": "medium",
+          "title": "Home Care Beds Archives - Union Chemists Pharmacy",
+          "forms_count": 8,
+          "technologies": [
+            "Nginx",
+            "WordPress",
+            "jQuery"
+          ],
+          "response_time": 0.30915021896362305
+        },
+        {
+          "url": "https://unionchemistspharmacy.lk/product-category/medical-mobility-equipment-adult-care/mobility-aid/",
+          "status_code": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "sensitivity_level": "medium",
+          "title": "Mobility Aid Archives - Union Chemists Pharmacy",
+          "forms_count": 8,
+          "technologies": [
+            "Nginx",
+            "WordPress",
+            "jQuery"
+          ],
+          "response_time": 0.31482648849487305
+        },
+        {
+          "url": "https://unionchemistspharmacy.lk/product-category/medical-mobility-equipment-adult-care/patient-lifts/",
+          "status_code": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "sensitivity_level": "medium",
+          "title": "Patient Lifts Archives - Union Chemists Pharmacy",
+          "forms_count": 8,
+          "technologies": [
+            "Nginx",
+            "WordPress",
+            "jQuery"
+          ],
+          "response_time": 0.30509257316589355
+        },
+        {
+          "url": "https://unionchemistspharmacy.lk/product-category/medical-mobility-equipment-adult-care/wheelchairs/",
+          "status_code": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "sensitivity_level": "medium",
+          "title": "Wheelchairs Archives - Union Chemists Pharmacy",
+          "forms_count": 8,
+          "technologies": [
+            "Nginx",
+            "WordPress",
+            "jQuery"
+          ],
+          "response_time": 0.3598959445953369
+        },
+        {
+          "url": "https://unionchemistspharmacy.lk/product-category/medical-support/",
+          "status_code": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "sensitivity_level": "medium",
+          "title": "Online Medical Support Products | Union Chemists Pharmacy",
+          "forms_count": 8,
+          "technologies": [
+            "Nginx",
+            "WordPress",
+            "jQuery"
+          ],
+          "response_time": 0.3504161834716797
+        },
+        {
+          "url": "https://unionchemistspharmacy.lk/product-category/miscellaneous/",
+          "status_code": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "sensitivity_level": "medium",
+          "title": "Miscellaneous Archives - Union Chemists Pharmacy",
+          "forms_count": 8,
+          "technologies": [
+            "Nginx",
+            "WordPress",
+            "jQuery"
+          ],
+          "response_time": 0.563884973526001
+        },
+        {
+          "url": "https://unionchemistspharmacy.lk/product-category/nebulizer/",
+          "status_code": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "sensitivity_level": "medium",
+          "title": "Nebulizer Archives - Union Chemists Pharmacy",
+          "forms_count": 8,
+          "technologies": [
+            "Nginx",
+            "WordPress",
+            "jQuery"
+          ],
+          "response_time": 0.31601452827453613
+        },
+        {
+          "url": "https://unionchemistspharmacy.lk/product-category/orthopedic-aid/",
+          "status_code": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "sensitivity_level": "medium",
+          "title": "Orthopedic Aid Archives - Union Chemists Pharmacy",
+          "forms_count": 8,
+          "technologies": [
+            "Nginx",
+            "WordPress",
+            "jQuery"
+          ],
+          "response_time": 0.7934205532073975
+        },
+        {
+          "url": "https://unionchemistspharmacy.lk/product-category/orthopedic-aid/orthopedic-aid-orthopedic-aid/",
+          "status_code": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "sensitivity_level": "medium",
+          "title": "Orthopedic Aid Archives - Union Chemists Pharmacy",
+          "forms_count": 4,
+          "technologies": [
+            "Nginx",
+            "WordPress",
+            "jQuery"
+          ],
+          "response_time": 0.30704569816589355
+        },
+        {
+          "url": "https://unionchemistspharmacy.lk/product-category/our-brands/",
+          "status_code": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "sensitivity_level": "medium",
+          "title": "Our Brands Archives - Union Chemists Pharmacy",
+          "forms_count": 8,
+          "technologies": [
+            "Nginx",
+            "WordPress",
+            "jQuery"
+          ],
+          "response_time": 0.331770658493042
+        },
+        {
+          "url": "https://unionchemistspharmacy.lk/product-category/our-brands/acare/",
+          "status_code": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "sensitivity_level": "medium",
+          "title": "Acare Archives - Union Chemists Pharmacy",
+          "forms_count": 4,
+          "technologies": [
+            "Nginx",
+            "WordPress",
+            "jQuery"
+          ],
+          "response_time": 0.34882569313049316
+        },
+        {
+          "url": "https://unionchemistspharmacy.lk/product-category/our-brands/beurer/",
+          "status_code": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "sensitivity_level": "medium",
+          "title": "Beurer Archives - Union Chemists Pharmacy",
+          "forms_count": 8,
+          "technologies": [
+            "Nginx",
+            "WordPress",
+            "jQuery"
+          ],
+          "response_time": 0.3184702396392822
+        },
+        {
+          "url": "https://unionchemistspharmacy.lk/product-category/our-brands/comfort/",
+          "status_code": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "sensitivity_level": "medium",
+          "title": "Comfort Archives - Union Chemists Pharmacy",
+          "forms_count": 7,
+          "technologies": [
+            "Nginx",
+            "WordPress",
+            "jQuery"
+          ],
+          "response_time": 0.29235315322875977
+        },
+        {
+          "url": "https://unionchemistspharmacy.lk/product-category/our-brands/flaem/",
+          "status_code": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "sensitivity_level": "medium",
+          "title": "Flaem Archives - Union Chemists Pharmacy",
+          "forms_count": 4,
+          "technologies": [
+            "Nginx",
+            "WordPress",
+            "jQuery"
+          ],
+          "response_time": 0.3200089931488037
+        },
+        {
+          "url": "https://unionchemistspharmacy.lk/product-category/our-brands/kawe/",
+          "status_code": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "sensitivity_level": "medium",
+          "title": "KaWe Archives - Union Chemists Pharmacy",
+          "forms_count": 8,
+          "technologies": [
+            "Nginx",
+            "WordPress",
+            "jQuery"
+          ],
+          "response_time": 0.3429431915283203
+        },
+        {
+          "url": "https://unionchemistspharmacy.lk/product-category/our-brands/rossmax/",
+          "status_code": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "sensitivity_level": "medium",
+          "title": "Rossmax Archives - Union Chemists Pharmacy",
+          "forms_count": 8,
+          "technologies": [
+            "Nginx",
+            "WordPress",
+            "jQuery"
+          ],
+          "response_time": 0.5197262763977051
+        },
+        {
+          "url": "https://unionchemistspharmacy.lk/product-category/our-brands/spirit/",
+          "status_code": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "sensitivity_level": "medium",
+          "title": "Spirit Archives - Union Chemists Pharmacy",
+          "forms_count": 8,
+          "technologies": [
+            "Nginx",
+            "WordPress",
+            "jQuery"
+          ],
+          "response_time": 0.9756639003753662
+        },
+        {
+          "url": "https://unionchemistspharmacy.lk/product-category/personal-care/",
+          "status_code": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "sensitivity_level": "critical",
+          "title": "Premium Personal Care Solutions | Union Chemists",
+          "forms_count": 8,
+          "technologies": [
+            "Nginx",
+            "WordPress",
+            "jQuery"
+          ],
+          "response_time": 0.6064741611480713
+        },
+        {
+          "url": "https://unionchemistspharmacy.lk/product-category/personal-care/hair-care/",
+          "status_code": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "sensitivity_level": "critical",
+          "title": "Hair Care Archives - Union Chemists Pharmacy",
+          "forms_count": 8,
+          "technologies": [
+            "Nginx",
+            "WordPress",
+            "jQuery",
+            "React"
+          ],
+          "response_time": 0.3078274726867676
+        },
+        {
+          "url": "https://unionchemistspharmacy.lk/product-category/personal-care/hand-foot-care/",
+          "status_code": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "sensitivity_level": "critical",
+          "title": "Hand & Foot Care Archives - Union Chemists Pharmacy",
+          "forms_count": 7,
+          "technologies": [
+            "Nginx",
+            "WordPress",
+            "jQuery"
+          ],
+          "response_time": 0.33175182342529297
+        },
+        {
+          "url": "https://unionchemistspharmacy.lk/product-category/personal-care/intimate/",
+          "status_code": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "sensitivity_level": "critical",
+          "title": "Intimate Archives - Union Chemists Pharmacy",
+          "forms_count": 7,
+          "technologies": [
+            "Nginx",
+            "WordPress",
+            "jQuery"
+          ],
+          "response_time": 0.2939417362213135
+        },
+        {
+          "url": "https://unionchemistspharmacy.lk/product-category/personal-care/mens-personal-care/",
+          "status_code": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "sensitivity_level": "critical",
+          "title": "Men's Personal Care Archives - Union Chemists Pharmacy",
+          "forms_count": 8,
+          "technologies": [
+            "Nginx",
+            "WordPress",
+            "jQuery"
+          ],
+          "response_time": 0.31042003631591797
+        },
+        {
+          "url": "https://unionchemistspharmacy.lk/product-category/personal-care/nail-care/",
+          "status_code": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "sensitivity_level": "critical",
+          "title": "Nail Care Archives - Union Chemists Pharmacy",
+          "forms_count": 7,
+          "technologies": [
+            "Nginx",
+            "WordPress",
+            "jQuery"
+          ],
+          "response_time": 0.30286240577697754
+        },
+        {
+          "url": "https://unionchemistspharmacy.lk/product-category/personal-care/oral-care/",
+          "status_code": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "sensitivity_level": "critical",
+          "title": "Oral Care Archives - Union Chemists Pharmacy",
+          "forms_count": 8,
+          "technologies": [
+            "Nginx",
+            "WordPress",
+            "jQuery"
+          ],
+          "response_time": 0.3065369129180908
+        },
+        {
+          "url": "https://unionchemistspharmacy.lk/product-category/personal-care/sanitary/",
+          "status_code": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "sensitivity_level": "critical",
+          "title": "Sanitary Archives - Union Chemists Pharmacy",
+          "forms_count": 7,
+          "technologies": [
+            "Nginx",
+            "WordPress",
+            "jQuery"
+          ],
+          "response_time": 0.32619237899780273
+        },
+        {
+          "url": "https://unionchemistspharmacy.lk/product-category/personal-care/sexual-wellness/",
+          "status_code": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "sensitivity_level": "critical",
+          "title": "Sexual Wellness Archives - Union Chemists Pharmacy",
+          "forms_count": 8,
+          "technologies": [
+            "Nginx",
+            "WordPress",
+            "jQuery"
+          ],
+          "response_time": 0.3256232738494873
+        },
+        {
+          "url": "https://unionchemistspharmacy.lk/product-category/personal-care/skin-care/",
+          "status_code": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "sensitivity_level": "critical",
+          "title": "Skin Care Archives - Union Chemists Pharmacy",
+          "forms_count": 8,
+          "technologies": [
+            "Nginx",
+            "WordPress",
+            "jQuery"
+          ],
+          "response_time": 0.33485960960388184
+        },
+        {
+          "url": "https://unionchemistspharmacy.lk/product-category/personal-care/skin-hair-nails/",
+          "status_code": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "sensitivity_level": "critical",
+          "title": "Skin, Hair & Nails Archives - Union Chemists Pharmacy",
+          "forms_count": 8,
+          "technologies": [
+            "Nginx",
+            "WordPress",
+            "jQuery"
+          ],
+          "response_time": 0.6859462261199951
+        },
+        {
+          "url": "https://unionchemistspharmacy.lk/product-category/personal-care/sun-protection/",
+          "status_code": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "sensitivity_level": "critical",
+          "title": "Sun Protection Archives - Union Chemists Pharmacy",
+          "forms_count": 8,
+          "technologies": [
+            "Nginx",
+            "WordPress",
+            "jQuery"
+          ],
+          "response_time": 0.3324742317199707
+        },
+        {
+          "url": "https://unionchemistspharmacy.lk/product-category/personal-care/womens-personal-care/",
+          "status_code": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "sensitivity_level": "critical",
+          "title": "Women's Personal Care Archives - Union Chemists Pharmacy",
+          "forms_count": 8,
+          "technologies": [
+            "Nginx",
+            "WordPress",
+            "jQuery"
+          ],
+          "response_time": 0.3194849491119385
+        },
+        {
+          "url": "https://unionchemistspharmacy.lk/product-category/promotions/",
+          "status_code": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "sensitivity_level": "medium",
+          "title": "Promotions Archives - Union Chemists Pharmacy",
+          "forms_count": 4,
+          "technologies": [
+            "Nginx",
+            "WordPress",
+            "jQuery"
+          ],
+          "response_time": 0.30928659439086914
+        },
+        {
+          "url": "https://unionchemistspharmacy.lk/product-category/rehabilitation-aid-orthopedic-aid/",
+          "status_code": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "sensitivity_level": "medium",
+          "title": "Rehabilitation Aid & Orthopedic Aid Archives - Union Chemists Pharmacy",
+          "forms_count": 8,
+          "technologies": [
+            "Nginx",
+            "WordPress",
+            "jQuery"
+          ],
+          "response_time": 0.30459094047546387
+        },
+        {
+          "url": "https://unionchemistspharmacy.lk/product-category/rehabilitation-aid-orthopedic-aid/dyna/",
+          "status_code": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "sensitivity_level": "medium",
+          "title": "Dyna Archives - Union Chemists Pharmacy",
+          "forms_count": 4,
+          "technologies": [
+            "Nginx",
+            "WordPress",
+            "jQuery"
+          ],
+          "response_time": 1.4347589015960693
+        },
+        {
+          "url": "https://unionchemistspharmacy.lk/product-category/rehabilitation-aid-orthopedic-aid/elife/",
+          "status_code": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "sensitivity_level": "medium",
+          "title": "Elife Archives - Union Chemists Pharmacy",
+          "forms_count": 4,
+          "technologies": [
+            "Nginx",
+            "WordPress",
+            "jQuery"
+          ],
+          "response_time": 0.3076307773590088
+        },
+        {
+          "url": "https://unionchemistspharmacy.lk/product-category/rehabilitation-aid-orthopedic-aid/flamingo/",
+          "status_code": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "sensitivity_level": "medium",
+          "title": "Flamingo Archives - Union Chemists Pharmacy",
+          "forms_count": 4,
+          "technologies": [
+            "Nginx",
+            "WordPress",
+            "jQuery"
+          ],
+          "response_time": 0.31549906730651855
+        },
+        {
+          "url": "https://unionchemistspharmacy.lk/product-category/rehabilitation-aid-orthopedic-aid/neolife/",
+          "status_code": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "sensitivity_level": "medium",
+          "title": "Neolife Archives - Union Chemists Pharmacy",
+          "forms_count": 4,
+          "technologies": [
+            "Nginx",
+            "WordPress",
+            "jQuery"
+          ],
+          "response_time": 0.3295753002166748
+        },
+        {
+          "url": "https://unionchemistspharmacy.lk/robots.txt",
+          "status_code": 200,
+          "content_type": "text/plain",
+          "sensitivity_level": "critical",
+          "title": "",
+          "forms_count": 0,
+          "technologies": [],
+          "response_time": 0.0
+        },
+        {
+          "url": "https://unionchemistspharmacy.lk/sitemap.xml",
+          "status_code": 200,
+          "content_type": "text/xml; charset=UTF-8",
+          "sensitivity_level": "critical",
+          "title": "",
+          "forms_count": 0,
+          "technologies": [],
+          "response_time": 0.0
+        },
+        {
+          "url": "https://unionchemistspharmacy.lk/admin/",
+          "status_code": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "sensitivity_level": "critical",
+          "title": "",
+          "forms_count": 0,
+          "technologies": [],
+          "response_time": 0.0
+        },
+        {
+          "url": "https://unionchemistspharmacy.lk/login/",
+          "status_code": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "sensitivity_level": "critical",
+          "title": "",
+          "forms_count": 0,
+          "technologies": [],
+          "response_time": 0.0
+        },
+        {
+          "url": "https://unionchemistspharmacy.lk/login.php",
+          "status_code": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "sensitivity_level": "critical",
+          "title": "",
+          "forms_count": 0,
+          "technologies": [],
+          "response_time": 0.0
+        },
+        {
+          "url": "https://unionchemistspharmacy.lk/wp-admin/",
+          "status_code": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "sensitivity_level": "critical",
+          "title": "",
+          "forms_count": 0,
+          "technologies": [],
+          "response_time": 0.0
+        },
+        {
+          "url": "https://unionchemistspharmacy.lk/wp-login.php",
+          "status_code": 200,
+          "content_type": "text/html; charset=UTF-8",
+          "sensitivity_level": "critical",
+          "title": "",
+          "forms_count": 0,
+          "technologies": [],
+          "response_time": 0.0
+        }
+      ]
+    }
+  }
+}
