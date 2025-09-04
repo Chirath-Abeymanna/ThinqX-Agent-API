@@ -1,0 +1,112 @@
+{
+  "target": "https://tonal.com",
+  "start_time": "2025-09-03T11:26:42.330429",
+  "findings": {
+    "cms_detection": {
+      "url": "https://tonal.com",
+      "cms": "Shopify",
+      "version": null,
+      "confidence": 90,
+      "working_url": "https://tonal.com",
+      "saas_details": {
+        "platform": "Shopify",
+        "confidence": 90,
+        "indicators_found": 80,
+        "theme": "[BLUESHOON] Release 1.5.1"
+      },
+      "security_analysis": {
+        "url": "https://tonal.com",
+        "platform": "Shopify",
+        "security_headers": {
+          "X-Frame-Options": "DENY",
+          "Content-Security-Policy": "block-all-mixed-content; frame-ancestors 'none'; upgrade-insecure-requests;",
+          "X-XSS-Protection": "1; mode=block",
+          "Strict-Transport-Security": "max-age=7889238",
+          "X-Content-Type-Options": "nosniff"
+        },
+        "vulnerabilities": []
+      }
+    },
+    "plugins_themes": {
+      "url": "https://tonal.com",
+      "plugins": [],
+      "themes": [],
+      "vulnerabilities": []
+    },
+    "user_enumeration": {
+      "url": "https://tonal.com",
+      "users": [],
+      "vulnerable": false
+    },
+    "malware_scan": {
+      "url": "https://tonal.com",
+      "malware": [],
+      "suspicious_scripts": [],
+      "defaced": false
+    },
+    "owasp_vulnerabilities": {
+      "url": "https://tonal.com",
+      "vulnerabilities": [
+        {
+          "type": "XSS",
+          "severity": "MEDIUM",
+          "evidence": "Pattern matched in content: <script\\b[^<]*(?:(?!<\\/script>)<[^<]*)*<\\/script>...",
+          "matches_count": 48
+        }
+      ]
+    },
+    "config_weaknesses": {
+      "url": "https://tonal.com",
+      "weaknesses": [],
+      "admin_exposed": false
+    },
+    "brute_force": {
+      "url": "https://tonal.com",
+      "vulnerable": false,
+      "details": []
+    },
+    "content_monitoring": {
+      "url": "https://tonal.com",
+      "changes": [],
+      "baseline_hash": "e5002e47b66943b2e84d218f9419f4b80a6a999f08bba5f3206718a2686dd147",
+      "current_hash": "e5002e47b66943b2e84d218f9419f4b80a6a999f08bba5f3206718a2686dd147",
+      "working_url": "https://tonal.com",
+      "baseline_path": "results/tonal.com/baseline.txt"
+    },
+    "domain_reputation": {
+      "domain": "tonal.com",
+      "reputation": {
+        "malicious": 0,
+        "suspicious": 0,
+        "clean": 43,
+        "total_scans": 43
+      },
+      "blacklisted": false,
+      "error": null,
+      "working_url": "https://tonal.com"
+    }
+  },
+  "vulnerabilities": [
+    {
+      "type": "XSS",
+      "severity": "MEDIUM",
+      "description": "Pattern matched in content: <script\\b[^<]*(?:(?!<\\/script>)<[^<]*)*<\\/script>...",
+      "evidence": "Pattern matched in content: <script\\b[^<]*(?:(?!<\\/script>)<[^<]*)*<\\/script>...",
+      "recommendation": "Mitigate XSS vulnerability"
+    }
+  ],
+  "recommendations": [
+    "Keep CMS core, plugins, and themes updated to latest secure versions",
+    "Implement strong access controls for admin panels",
+    "Regularly backup CMS data and configurations",
+    "Enable logging and monitoring for security events",
+    "Mitigate XSS vulnerability",
+    "Regularly check Shopify security advisories",
+    "Review Shopify security settings in admin panel",
+    "Enable two-factor authentication for Shopify account",
+    "Regularly review Shopify app permissions and integrations"
+  ],
+  "status": "COMPLETED",
+  "end_time": "2025-09-03T11:26:50.207385",
+  "duration": "0:00:07.876956"
+}
