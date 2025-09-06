@@ -4,7 +4,7 @@ Pydantic models for web crawler API requests and responses
 from pydantic import BaseModel, validator, Field
 from typing import Dict, List, Any, Optional
 from datetime import datetime
-import re
+
 
 
 class CrawlRequest(BaseModel):
