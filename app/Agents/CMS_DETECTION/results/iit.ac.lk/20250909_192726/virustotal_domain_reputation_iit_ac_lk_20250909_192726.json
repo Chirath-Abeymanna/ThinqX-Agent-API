@@ -1,0 +1,593 @@
+{
+  "timestamp": "20250909_192726",
+  "scan_type": "domain_reputation",
+  "identifier": "iit.ac.lk",
+  "virustotal_data": {
+    "Webutation domain info": {
+      "Adult content": "no",
+      "Safety score": 100,
+      "Verdict": "safe"
+    },
+    "detected_communicating_samples": [],
+    "detected_downloaded_samples": [],
+    "detected_referrer_samples": [
+      {
+        "date": "2025-05-29 17:18:27",
+        "positives": 18,
+        "sha256": "5754cd835a67f5982ebb5b76a9014bf7948a7b56dbfb1d22aad03781848e0fb7",
+        "total": 76
+      },
+      {
+        "date": "2024-02-18 20:22:31",
+        "positives": 2,
+        "sha256": "8cfd642d7ae235f34eaa45b3c8027915331a212b3a13d9cb170ac706b9ba6841",
+        "total": 76
+      },
+      {
+        "date": "2023-09-01 15:33:54",
+        "positives": 19,
+        "sha256": "fc0d5bddffca7070c02e383fea76b05452655cf89e092f234d0218eb4cd48962",
+        "total": 75
+      },
+      {
+        "date": "2023-06-13 21:25:24",
+        "positives": 7,
+        "sha256": "0a12d8aaca8a9fc43a2766ef7b1d642dc44595999e2cf02e03b89a31b6ed0520",
+        "total": 70
+      },
+      {
+        "date": "2023-05-28 15:22:08",
+        "positives": 1,
+        "sha256": "70800d5ae3feb1040dc80e0b2b7fa5ac7f482d1a811a9b17e3a1a81dbe4edde0",
+        "total": 76
+      },
+      {
+        "date": "2022-01-31 05:01:30",
+        "positives": 1,
+        "sha256": "bede2d72bcd476272f00eb1515eb36e4e9c6f412a4531ad0151223f26071e4f3",
+        "total": 73
+      }
+    ],
+    "detected_urls": [
+      {
+        "positives": 1,
+        "scan_date": "2025-04-26 09:48:12",
+        "total": 97,
+        "url": "https://iit.ac.lk/"
+      }
+    ],
+    "domain_siblings": [],
+    "resolutions": [
+      {
+        "ip_address": "192.124.249.69",
+        "last_resolved": "2019-10-04 14:02:52"
+      },
+      {
+        "ip_address": "222.165.146.130",
+        "last_resolved": "2020-03-19 05:23:16"
+      },
+      {
+        "ip_address": "3.0.164.249",
+        "last_resolved": "2020-07-22 23:27:48"
+      },
+      {
+        "ip_address": "54.171.156.224",
+        "last_resolved": "2015-02-11 00:00:00"
+      }
+    ],
+    "response_code": 1,
+    "subdomains": [
+      "www.iit.ac.lk",
+      "education.iit.ac.lk",
+      "lms.iit.ac.lk",
+      "ieee.iit.ac.lk",
+      "pdu.iit.ac.lk",
+      "ilearn.iit.ac.lk",
+      "learning.iit.ac.lk",
+      "meetsru.iit.ac.lk",
+      "dlib.iit.ac.lk",
+      "cuttingedge.iit.ac.lk",
+      "srutest.iit.ac.lk",
+      "embs.iit.ac.lk",
+      "alumni.iit.ac.lk",
+      "in.iit.ac.lk",
+      "iciit.iit.ac.lk",
+      "ras.iit.ac.lk",
+      "soc.iit.ac.lk",
+      "sportsforhumanity.iit.ac.lk",
+      "helplink.iit.ac.lk",
+      "webcat.iit.ac.lk",
+      "ifm.iit.ac.lk",
+      "gdc.iit.ac.lk",
+      "tracking.iit.ac.lk",
+      "lmsiit.iit.ac.lk",
+      "autodiscover.iit.ac.lk",
+      "gateway.iit.ac.lk",
+      "meeting.iit.ac.lk",
+      "bbb.iit.ac.lk",
+      "clc.iit.ac.lk"
+    ],
+    "undetected_communicating_samples": [
+      {
+        "date": "2023-11-06 02:54:30",
+        "positives": 0,
+        "sha256": "7160f7453b18989cf4b46d0509a4681e8942037b6ace779417466359a5d26aec",
+        "total": 76
+      }
+    ],
+    "undetected_downloaded_samples": [],
+    "undetected_referrer_samples": [
+      {
+        "date": "2025-08-30 06:26:37",
+        "positives": 0,
+        "sha256": "20ec569ef5da5f5468b2667d5e1c80349aadaca0de01006df9aff612df4bdd71",
+        "total": 77
+      },
+      {
+        "date": "2025-08-10 08:45:21",
+        "positives": 0,
+        "sha256": "6e7647139c4d9320675abbae4eee81d5b83d467e0979b2f33660d16d6279fe82",
+        "total": 77
+      },
+      {
+        "date": "2025-08-05 16:43:05",
+        "positives": 0,
+        "sha256": "6685280da18ded618035a224b5e00d457b99395725c44ccd195e2f8ce292cd6c",
+        "total": 77
+      },
+      {
+        "date": "2025-07-13 14:40:11",
+        "positives": 0,
+        "sha256": "3b08cd773e8d22e6e15d2013985a9c1d2b67bfcffec6699fa9845582d1a9aea8",
+        "total": 77
+      },
+      {
+        "date": "2025-06-27 01:01:36",
+        "positives": 0,
+        "sha256": "52a7809feb966cf81a8dbeba98c26263199b5f65cf0b6634500f88b05651e869",
+        "total": 77
+      },
+      {
+        "date": "2025-05-13 15:08:50",
+        "positives": 0,
+        "sha256": "66b80a55b60d7c1ae3b4055e7d394db5bec0b11ae7e3e985501d64a86f97c027",
+        "total": 77
+      },
+      {
+        "date": "2025-03-14 21:27:57",
+        "positives": 0,
+        "sha256": "7bd02c1d8229100a9412699eca2a28f5ee0b10cf38aee40f72e316743e1c801c",
+        "total": 77
+      },
+      {
+        "date": "2025-03-13 01:05:10",
+        "positives": 0,
+        "sha256": "bcbade542c365094af7c7104b670b534c27be9b3321536fce0a3180c890defa7",
+        "total": 78
+      },
+      {
+        "date": "2025-02-26 11:40:41",
+        "positives": 0,
+        "sha256": "aecf805a17723c510506a3ed347de73e376974c0a66e131cc1bc291e9fe23685",
+        "total": 77
+      },
+      {
+        "date": "2025-02-23 21:31:45",
+        "positives": 0,
+        "sha256": "7dbc3f1f28cc304823e1e02a33bb73998ba63581aa6916706d0766d56057ef20",
+        "total": 82
+      },
+      {
+        "date": "2025-02-23 21:02:18",
+        "positives": 0,
+        "sha256": "3846a66295e85dcf78778d8cd8363abcc501e5b7618d0947ec503be323722b3c",
+        "total": 82
+      },
+      {
+        "date": "2025-02-23 10:04:02",
+        "positives": 0,
+        "sha256": "1afe70ef3d7fb0531c59d2da5c48cbf42ae6430f73c3b68de45e6f46a4c8da23",
+        "total": 82
+      },
+      {
+        "date": "2025-02-23 08:42:37",
+        "positives": 0,
+        "sha256": "230d53e30badf3c414cc91a66e1ce98bbdd77638253edcbcd445470a5ca74b6e",
+        "total": 82
+      },
+      {
+        "date": "2025-02-22 22:47:57",
+        "positives": 0,
+        "sha256": "c955fe8b34b276aeb89e997a1293e19ea8bc491fe0dbdb9c4b200f7c5f56bda0",
+        "total": 82
+      },
+      {
+        "date": "2025-02-11 20:04:48",
+        "positives": 0,
+        "sha256": "5120cb7ef58114dd8902418b2c73b91cb6aa72f9d2852fe9792ed73c67665042",
+        "total": 76
+      },
+      {
+        "date": "2025-01-09 19:40:41",
+        "positives": 0,
+        "sha256": "b3c4e4eb4d6ae796e0da2d37eb54b168951cfdd0108f50617161459561bc6ec2",
+        "total": 76
+      },
+      {
+        "date": "2024-12-03 17:35:35",
+        "positives": 0,
+        "sha256": "cfe3338d9601f1675699bc2d5ce06ed7ecb30b1cdebd67fb2998c6eee90fddf1",
+        "total": 76
+      },
+      {
+        "date": "2024-11-05 04:48:36",
+        "positives": 0,
+        "sha256": "250bd1170d1efcc72b26c0ebf83b08f938e9da6c28864428490ad1a293bb8ccd",
+        "total": 76
+      },
+      {
+        "date": "2024-10-22 15:06:06",
+        "positives": 0,
+        "sha256": "66868a73d219f2ec4a97bfda1b7402e3995a6999b9d2a8851e7c79e8d07183f7",
+        "total": 77
+      },
+      {
+        "date": "2024-08-21 18:21:04",
+        "positives": 0,
+        "sha256": "e65a11c47c0878c88071919905f32a3bb4c420ae2096cd5e97eeec8a05f328c6",
+        "total": 0
+      },
+      {
+        "date": "2024-08-21 13:42:14",
+        "positives": 0,
+        "sha256": "df3b27496c2a6069fe2c272608c243220778bba83d87114332e2238cc7edfb93",
+        "total": 79
+      },
+      {
+        "date": "2024-08-20 07:10:02",
+        "positives": 0,
+        "sha256": "2ceaf46b970798551b87cf69d3313be7808d9cead6953a404c354acd315ec79a",
+        "total": 0
+      },
+      {
+        "date": "2024-08-20 07:04:26",
+        "positives": 0,
+        "sha256": "3dd6adf746b141b69ae590555041bd86cc4ef7500f7186ba3b9a79feb0a866f7",
+        "total": 0
+      },
+      {
+        "date": "2024-08-20 05:21:14",
+        "positives": 0,
+        "sha256": "3ad7452ba733f7983fbe027e08cbaf83e798802700b0f54570d83ca5296f2e51",
+        "total": 79
+      },
+      {
+        "date": "2024-08-05 16:59:41",
+        "positives": 0,
+        "sha256": "7d7e0e4a458437a94522a313979663c5cec21e3e25e45e6f7118b957f016106b",
+        "total": 0
+      },
+      {
+        "date": "2024-08-05 16:56:25",
+        "positives": 0,
+        "sha256": "86fbda8bb081015438e95b0d1189fce0995ec1e5001526d2f212230f197250a9",
+        "total": 0
+      },
+      {
+        "date": "2024-08-05 16:52:51",
+        "positives": 0,
+        "sha256": "0e2cbe5227a33072a919341f3f4422456db595c175acc340403472c3048348f0",
+        "total": 0
+      },
+      {
+        "date": "2024-07-09 04:29:05",
+        "positives": 0,
+        "sha256": "bb8a543233185a56cac182931484f07dd082124c596d8a00761b0c5efbb7e8cb",
+        "total": 77
+      },
+      {
+        "date": "2024-05-25 16:11:39",
+        "positives": 0,
+        "sha256": "d51f7e08e038f852c4448c90788b683691404622894e908d0a2fec659ec7e48e",
+        "total": 78
+      },
+      {
+        "date": "2024-04-29 03:03:01",
+        "positives": 0,
+        "sha256": "ee03b63ace2eafd7d5382f896d126959d3f24d97d6b042eabcd030173acc8873",
+        "total": 0
+      },
+      {
+        "date": "2024-04-08 19:24:52",
+        "positives": 0,
+        "sha256": "3d3ae0871f28bd58f7bd1fc0ce0f7e6046c15e2480ecb7e119d9b87590b5e274",
+        "total": 75
+      },
+      {
+        "date": "2023-12-23 04:23:00",
+        "positives": 0,
+        "sha256": "ce566b6d6c89345be5cffc4af47db346e8bdc43ee047d44f8e343cde8a645d2e",
+        "total": 76
+      },
+      {
+        "date": "2023-12-23 03:28:33",
+        "positives": 0,
+        "sha256": "18a1626db21645328676ef8f4c4227b8b5c4236fc20cc806075c6995044fbc03",
+        "total": 76
+      },
+      {
+        "date": "2023-12-23 02:38:05",
+        "positives": 0,
+        "sha256": "2027d9d43790271fc0f17d466680ed0f692cf05f3225391034034ef71f4390be",
+        "total": 76
+      },
+      {
+        "date": "2023-11-06 02:54:30",
+        "positives": 0,
+        "sha256": "7160f7453b18989cf4b46d0509a4681e8942037b6ace779417466359a5d26aec",
+        "total": 0
+      },
+      {
+        "date": "2023-10-05 07:40:20",
+        "positives": 0,
+        "sha256": "c1e181fd957d228f2c940ec3e28e675c1370d0203058dea68569b51f22c06384",
+        "total": 76
+      },
+      {
+        "date": "2023-10-02 20:01:52",
+        "positives": 0,
+        "sha256": "84e04113bd190d9570c4a4e32d5eca4390bd4f5b3548a989bf1cd177f216cef9",
+        "total": 76
+      },
+      {
+        "date": "2023-09-05 15:53:02",
+        "positives": 0,
+        "sha256": "ab9f3a39c25d9fcb6dfeb048ccb972dbb56ffaff4c7c1ca44079ed9fd97895bb",
+        "total": 75
+      },
+      {
+        "date": "2023-07-26 03:43:12",
+        "positives": 0,
+        "sha256": "62784ed67f28e5cbfeec542a64cfcbe8654aa940050f1f9888f9e7ec5150b6ec",
+        "total": 75
+      },
+      {
+        "date": "2023-07-21 10:50:55",
+        "positives": 0,
+        "sha256": "d4dafa8b64d03884e56d0afbe7af81863200f1c341f2550a446d09ba0684ceb2",
+        "total": 75
+      },
+      {
+        "date": "2023-06-14 18:05:27",
+        "positives": 0,
+        "sha256": "411abe478569473e8838e0e561aa461814abd64cae9ddac982cf6e75cef1b3a2",
+        "total": 75
+      },
+      {
+        "date": "2023-06-06 22:28:16",
+        "positives": 0,
+        "sha256": "8d10b526c464967508d09ee42aac7a4abdd8e89d681ae46f0582a559e4b7127d",
+        "total": 75
+      },
+      {
+        "date": "2023-03-28 12:21:02",
+        "positives": 0,
+        "sha256": "7a0b60dd807b1c7d25e4bbe846a458b2aabc1b9586ebdbc70f65e13d93ee74ef",
+        "total": 73
+      },
+      {
+        "date": "2023-03-18 16:42:23",
+        "positives": 0,
+        "sha256": "7f98942718631c4a71d09c9799a8eb9eb3e65a362d1b7c606a173c32d347ef32",
+        "total": 73
+      },
+      {
+        "date": "2023-03-04 00:51:12",
+        "positives": 0,
+        "sha256": "4337d6d9638f15123153be0099bf2520eb0b76ef4f83b757768ba83646535195",
+        "total": 74
+      },
+      {
+        "date": "2023-03-01 02:48:57",
+        "positives": 0,
+        "sha256": "e14b28dd2d7272a47398b0698509b3921c55cf859679c50fd6f6e358432adcab",
+        "total": 73
+      },
+      {
+        "date": "2023-02-16 12:41:21",
+        "positives": 0,
+        "sha256": "512567c1f5603dfaa3af085b5f6d7db7c4a47e5599830fd4a705ea5d6b4137d7",
+        "total": 75
+      },
+      {
+        "date": "2023-02-14 15:05:50",
+        "positives": 0,
+        "sha256": "092518a763b38a9825076adb4c91e73f33a81bdc8097ae59bfbce8a0a43c98e1",
+        "total": 75
+      },
+      {
+        "date": "2023-01-15 14:17:04",
+        "positives": 0,
+        "sha256": "ee38cae308eb979fe7ae1ae2fef76d29c360370652e92d58d716fbfa55602328",
+        "total": 75
+      },
+      {
+        "date": "2022-10-29 12:48:13",
+        "positives": 0,
+        "sha256": "af19d89cdf31ead6c10ccdb75e5e052fe8aba1ca9808a6c66c4122ff6c617656",
+        "total": 76
+      },
+      {
+        "date": "2022-10-25 17:51:14",
+        "positives": 0,
+        "sha256": "94e001212953cda2d3481cc01b0f421a376344b35679509497b9beced76091a2",
+        "total": 76
+      },
+      {
+        "date": "2022-10-02 00:39:33",
+        "positives": 0,
+        "sha256": "644b46519e3d170a33ee4eabb6c86c100cd4abe34b63e93a3e0492cc6b5d6693",
+        "total": 74
+      },
+      {
+        "date": "2022-09-17 15:20:46",
+        "positives": 0,
+        "sha256": "904631b03cf98ea476e546cac79ac8bcad6725df2642c97c7f5d330762cee038",
+        "total": 74
+      },
+      {
+        "date": "2022-09-08 07:28:04",
+        "positives": 0,
+        "sha256": "d3dfd21b563c9783d5aab01193fd690a18f030c50012676464557df0fb2daa4c",
+        "total": 74
+      },
+      {
+        "date": "2022-09-05 14:54:35",
+        "positives": 0,
+        "sha256": "4cd6aa997d4fc06f7b477756d6e48be301244312a7977a27dad08b063f6970c5",
+        "total": 74
+      },
+      {
+        "date": "2022-07-13 14:42:20",
+        "positives": 0,
+        "sha256": "5d2c80eb85d112df4123639e1a4271d94aacf4fd735a74840d24a67fb3c67017",
+        "total": 73
+      },
+      {
+        "date": "2022-04-30 07:08:40",
+        "positives": 0,
+        "sha256": "41152525aeac3d349f60b85b357f14e2cda49a0599903304704dc38917a7f300",
+        "total": 73
+      },
+      {
+        "date": "2022-04-30 02:51:14",
+        "positives": 0,
+        "sha256": "1d3bfe1c9ab18edd9bc17bab4c846b990fd629b96f0b3b557b4169ddb78c7b92",
+        "total": 0
+      },
+      {
+        "date": "2022-04-11 14:30:36",
+        "positives": 0,
+        "sha256": "50b072ff142b54ebb6c33c1d9467c8038909c5f85d657d6155d80dc29883321f",
+        "total": 73
+      },
+      {
+        "date": "2022-03-20 21:50:22",
+        "positives": 0,
+        "sha256": "67427cec2577a0540abcf6c224b4cabd626b8c76c589f8ec687900691b616c7b",
+        "total": 72
+      },
+      {
+        "date": "2022-02-18 15:31:54",
+        "positives": 0,
+        "sha256": "29930e213a0b59bcb26b0e62045f2d15ba9e210ec309b80031a651d2d847577a",
+        "total": 72
+      },
+      {
+        "date": "2022-01-06 18:42:35",
+        "positives": 0,
+        "sha256": "983a5712bdc48d70b58bb8196f4dee3583b011198955f00b6e9dcdebce9e0872",
+        "total": 72
+      },
+      {
+        "date": "2021-12-23 02:18:09",
+        "positives": 0,
+        "sha256": "1a421b37cd31a783828062bae285edf348af6d59797e2367716e221511da8f61",
+        "total": 72
+      },
+      {
+        "date": "2021-09-14 12:39:48",
+        "positives": 0,
+        "sha256": "a811bad8a64102ecc60fd1eeedef2e4f7c4359fce541428856ee4a94efe89d33",
+        "total": 72
+      },
+      {
+        "date": "2019-03-21 07:15:36",
+        "positives": 0,
+        "sha256": "943f5c7859a72f57d153ec0bee6af7fcedaa47916433c00f786a6e5b9bf98f52",
+        "total": 65
+      },
+      {
+        "date": "2018-05-14 19:11:19",
+        "positives": 0,
+        "sha256": "594506df9427269df0c14fcc335b61bdadcf87def2124889a19c9fc8543db44d",
+        "total": 69
+      }
+    ],
+    "undetected_urls": [
+      [
+        "https://www.iit.ac.lk/",
+        "29f15df14585c8358389a207fdc35068f7642b1eaff94c3aaedecaae4e96522b",
+        0,
+        97,
+        "2025-08-30 02:53:37"
+      ],
+      [
+        "http://iit.ac.lk/",
+        "cf556a26ec30585f2b6fe3f49970446d0d4e629a123b4982660960ad14161528",
+        0,
+        97,
+        "2025-07-14 07:17:29"
+      ],
+      [
+        "https://www.toastmasters.iit.ac.lk/",
+        "49a8c5eaef46b41e1181099b9759968a7061300efce9910d7d01b2fe5a1f6073",
+        0,
+        97,
+        "2025-07-06 00:51:31"
+      ],
+      [
+        "https://pdu.iit.ac.lk/",
+        "cccdeeb0430224a55e30dcde1a9f612a9bc5b48b23ce3952e03931a47d52d208",
+        0,
+        97,
+        "2025-06-14 07:29:55"
+      ],
+      [
+        "https://in.iit.ac.lk/",
+        "9bdacdfb39da382b5078e955eb5949a15c581b1cc4f88ae9b50c542998134ae8",
+        0,
+        97,
+        "2025-04-23 01:38:40"
+      ],
+      [
+        "http://education.iit.ac.lk/",
+        "3dbcaecc3898f9618f1bc99d43a45ed543c76d2bd7377e74de29189a55807621",
+        0,
+        97,
+        "2025-03-26 01:52:00"
+      ],
+      [
+        "https://ieee.iit.ac.lk/",
+        "c9dbdf9bc253966aaa522244617468998c2c68d4f5f364a415d66faa2a4072e9",
+        0,
+        96,
+        "2025-02-25 03:07:37"
+      ],
+      [
+        "https://lms.iit.ac.lk/",
+        "917860218cb811b605f5ff3d0e07ba4e292e3806dc3931d2205db75d8224d383",
+        0,
+        96,
+        "2025-02-25 01:13:17"
+      ],
+      [
+        "http://www.kumal.20210578@iit.ac.lk/",
+        "2bd489ce5ed324b021bf5e9c5ccfeafa25e9277822aad0c7045de8884b0a5812",
+        0,
+        96,
+        "2025-01-07 10:36:29"
+      ],
+      [
+        "http://liyana.20232974@iit.ac.lk/",
+        "4b4d55d92a7703ae87db81da90d61cf776b382c97af8f4b4b5cf7be49c5dccd0",
+        0,
+        96,
+        "2024-11-27 11:05:56"
+      ]
+    ],
+    "verbose_msg": "Domain found in dataset",
+    "whois": "changed: 2017-05-22\ncreated: 1990-06-15\ndomain: LK\nds-rdata: 181 5 1 A1907F85D49081239389C216912B8937D0ECEB3D\nds-rdata: 181 5 2 87516D56B697CB3F7A7C3EB594EE0E16AE509D16A503089F4FBD4F347B336F93\ne-mail: 5d2a5bebec442388s@cse.mrt.ac.lk\ne-mail: d52ad5e18ac11e26s@nic.lk\nnserver: C.NIC.LK 203.143.29.3 2405:5400:3:1:203:143:29:3\nnserver: D.NIC.LK 123.231.6.18\nnserver: L.NIC.LK 192.248.8.17\nnserver: M.NIC.LK 202.129.235.229\nnserver: NS1.AC.LK 192.248.1.162 2401:dd00:1:0:0:0:0:162\nnserver: P.NIC.LK 2001:500:14:6027:ad:0:0:1 204.61.216.27\nnserver: PENDRAGON.CS.PURDUE.EDU 128.10.2.5\nnserver: T.NIC.LK 203.94.66.129 2402:d000:100c:0:0:0:0:129\norganisation: Council for Information Technology\norganisation: LK Domain Registrar\norganisation: LK Domain Registry\nsource: IANA\nstatus: ACTIVE",
+    "whois_timestamp": 1611120299
+  }
+}

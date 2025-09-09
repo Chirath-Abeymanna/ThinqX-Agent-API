@@ -1,0 +1,1743 @@
+{
+  "timestamp": "20250909_121354",
+  "scan_type": "domain_reputation",
+  "identifier": "westminster.ac.uk",
+  "virustotal_data": {
+    "Webutation domain info": {
+      "Adult content": "no",
+      "Safety score": 100,
+      "Verdict": "safe"
+    },
+    "detected_communicating_samples": [
+      {
+        "date": "2023-11-29 18:23:07",
+        "positives": 56,
+        "sha256": "ea969e0692d14357f6d62bfacaddf697b055691168a7330fb0912a06bc09ff84",
+        "total": 76
+      }
+    ],
+    "detected_downloaded_samples": [],
+    "detected_referrer_samples": [
+      {
+        "date": "2025-09-04 20:13:29",
+        "positives": 1,
+        "sha256": "9f903946e5fe9befa8b91ff96c51518117ca0850b788dee0713b8661d4c500b3",
+        "total": 76
+      },
+      {
+        "date": "2025-09-01 06:02:46",
+        "positives": 1,
+        "sha256": "aae5727dbb77a63613fbdd976f13d5e26f70dfed39e39112f3b3693e8de6efd8",
+        "total": 77
+      },
+      {
+        "date": "2025-08-31 22:22:33",
+        "positives": 1,
+        "sha256": "2f987b9c120bec37d4841c374127e51ba4307a415dbed9e2aa39b4aee346b0b0",
+        "total": 77
+      },
+      {
+        "date": "2025-07-29 20:57:10",
+        "positives": 8,
+        "sha256": "6041c4a8d9df50723db281a71ddd465b3c93ba35c7913dd63ca7e8328c452d81",
+        "total": 77
+      },
+      {
+        "date": "2025-07-03 03:10:50",
+        "positives": 1,
+        "sha256": "cf2ee70a2edf13ff7c75e5066902e91f51fcf516e5611a9f7fa74fa981f13ecb",
+        "total": 77
+      },
+      {
+        "date": "2025-06-16 10:51:52",
+        "positives": 3,
+        "sha256": "b71e123fdb861be9b8ff1f6d515f7c95b74ac5e7a797d8322a44b9f32507ae35",
+        "total": 77
+      },
+      {
+        "date": "2025-05-26 10:28:32",
+        "positives": 1,
+        "sha256": "96e6c742d8ce171f4c258c1e85ec0426f46861e1452e4bba1cdf4a07cc905292",
+        "total": 77
+      },
+      {
+        "date": "2025-05-14 01:55:29",
+        "positives": 3,
+        "sha256": "258b0a7958597e9f7f05a708dbeac1b3123112bba91aa600d0ab37d12348b0ce",
+        "total": 77
+      },
+      {
+        "date": "2025-04-26 04:16:10",
+        "positives": 6,
+        "sha256": "2f8098e565e489f77bcff851da622885202d5d7c88dc4a3f13e0adcded78c2ac",
+        "total": 77
+      },
+      {
+        "date": "2025-03-31 19:14:05",
+        "positives": 10,
+        "sha256": "ec748c437e4e2282806a161f46bf74eb7fd1ec0bfdd2034534b47bea38d9bd60",
+        "total": 78
+      },
+      {
+        "date": "2025-03-14 12:05:36",
+        "positives": 10,
+        "sha256": "8a92086eec1f141b72a760a6757b56fd2c16c6445bd834b503174ce5da5a623d",
+        "total": 78
+      },
+      {
+        "date": "2025-01-11 13:31:54",
+        "positives": 10,
+        "sha256": "035f1c43901afc2ddacbc1df5e780945dcae4490af3d71694a1c3ba969de7a49",
+        "total": 75
+      },
+      {
+        "date": "2024-10-20 19:04:00",
+        "positives": 23,
+        "sha256": "0677581fa96d366886ce7e2796376e3a631b27071295aed5fbc18bc5ac47228a",
+        "total": 77
+      },
+      {
+        "date": "2024-10-06 12:45:28",
+        "positives": 1,
+        "sha256": "d18462a0ad17b4f9e3424d2ffa380c6ebbbff8ddd723ce089ef4a9be2e43ae12",
+        "total": 76
+      },
+      {
+        "date": "2024-09-30 14:58:16",
+        "positives": 1,
+        "sha256": "c24eb104dff0a597075aefb641a5fb3729d13061a01336935d1aea50e39cae20",
+        "total": 76
+      },
+      {
+        "date": "2024-09-12 14:21:07",
+        "positives": 1,
+        "sha256": "0b208cec11757242361a5e505e6a8b8bbcca3b1ee1d8212f3d54f939c743e33c",
+        "total": 78
+      },
+      {
+        "date": "2024-09-06 23:22:27",
+        "positives": 1,
+        "sha256": "85f4dee2c9adcebbabd57626bac64fbbd8799586c12fd5cbb4fc60c0bff7d0b9",
+        "total": 78
+      },
+      {
+        "date": "2024-09-02 10:04:24",
+        "positives": 1,
+        "sha256": "50ba806d4f5cdd87b1296f1d33b125aec500bad7453a89323768576985ee90e0",
+        "total": 78
+      },
+      {
+        "date": "2024-07-31 23:25:31",
+        "positives": 1,
+        "sha256": "00a6a010f81c352e14173358b7e0a9573e6b97b91a1c0aee490c05903b0270be",
+        "total": 79
+      },
+      {
+        "date": "2024-07-13 23:26:21",
+        "positives": 1,
+        "sha256": "e5cc5daf8cda683047e258ee3e82a0bb95b652116c0f9d34bf64349851612c63",
+        "total": 78
+      },
+      {
+        "date": "2024-07-10 05:58:47",
+        "positives": 2,
+        "sha256": "5a8edd4103150a2198d7a7acd0a0844ace4af74da04ababac3b03b2b1bff7cb6",
+        "total": 78
+      },
+      {
+        "date": "2024-07-07 05:05:32",
+        "positives": 1,
+        "sha256": "a67a282e25b313cb8cd38cad12b8e1be9418cc7f944cb1500bccf858df7d0a6d",
+        "total": 78
+      },
+      {
+        "date": "2024-07-06 23:25:15",
+        "positives": 1,
+        "sha256": "9ad1695eec9f7effdb9e0615a191c14bb16338ca17333176f02b98954588f52b",
+        "total": 78
+      },
+      {
+        "date": "2024-07-03 03:39:58",
+        "positives": 5,
+        "sha256": "6466a6482688414fabb3ec7367a14603835655c7f2cf316d4f017dab4c3aa7bf",
+        "total": 78
+      },
+      {
+        "date": "2024-07-02 03:35:39",
+        "positives": 9,
+        "sha256": "3c71fa1bc8aba25135178030d553dbf595b62a55fa4160c6fb212cfab6d75cdf",
+        "total": 78
+      },
+      {
+        "date": "2024-07-02 03:39:42",
+        "positives": 7,
+        "sha256": "4c19a57941e683516d9898419629e392c150ec35e3941da9523be70286aaa605",
+        "total": 78
+      },
+      {
+        "date": "2024-06-07 05:01:15",
+        "positives": 1,
+        "sha256": "1487c9c3eeb1aa96fdad83e04288262df359b06179e3569a67253b1710f1a533",
+        "total": 77
+      },
+      {
+        "date": "2024-05-31 23:26:10",
+        "positives": 2,
+        "sha256": "acd42f39209b794b43ea2773b7b566b23272e2cd8291431092c4d4e76edb6319",
+        "total": 78
+      },
+      {
+        "date": "2024-05-11 10:03:07",
+        "positives": 1,
+        "sha256": "f7262ffa5f7d253eac3052c8cbe8e32cf28f7b273cb9a50d99704028eb4ceb1e",
+        "total": 74
+      },
+      {
+        "date": "2024-05-08 23:33:22",
+        "positives": 1,
+        "sha256": "f689901811d43e0aa500c6004f5e20fafd7c9e49655502e268e28b3331fdab76",
+        "total": 77
+      },
+      {
+        "date": "2024-05-07 13:23:42",
+        "positives": 2,
+        "sha256": "60e8f5b6b28e02390eaaa1898c02e9c7cb9590420cef1a53284763dabd570b56",
+        "total": 76
+      },
+      {
+        "date": "2024-04-16 14:00:53",
+        "positives": 1,
+        "sha256": "538b1efb52e2edd5bcb3b6c0f715e458ac4aff679cfde60edbe746053b5b4e30",
+        "total": 75
+      },
+      {
+        "date": "2024-03-14 02:57:56",
+        "positives": 2,
+        "sha256": "97a7348f5e2129b30e78fecd9157b5b5c939d5498b5975a5635aaaffa3a428f0",
+        "total": 77
+      },
+      {
+        "date": "2024-02-28 06:38:10",
+        "positives": 2,
+        "sha256": "f829324a3fa6ce91ae37f84cd73de4730ee4f209b8d0704c68e4c6283a282b34",
+        "total": 74
+      },
+      {
+        "date": "2024-02-17 00:54:51",
+        "positives": 34,
+        "sha256": "d8d044b3bf7a205f7e04b36c0d1702fd45bf286cda3a3cad5ffc8b12306c0fa8",
+        "total": 76
+      },
+      {
+        "date": "2024-01-30 21:53:42",
+        "positives": 2,
+        "sha256": "57a5b0d3e42695eaeca962364cde3f257227e967436821b81c19434bf4e1042c",
+        "total": 75
+      },
+      {
+        "date": "2024-01-29 19:58:23",
+        "positives": 1,
+        "sha256": "eadafaadea1fc471e14bec682e574017ce5cd8a8382f0d1918cc22b2dd1c681a",
+        "total": 75
+      },
+      {
+        "date": "2024-01-29 19:37:56",
+        "positives": 1,
+        "sha256": "a391ed6b156372a917c348f03c62dbcfe9d00a33c801944cbc6573363e7fed0a",
+        "total": 75
+      },
+      {
+        "date": "2023-12-30 23:37:54",
+        "positives": 1,
+        "sha256": "6ff7f28a2957131df3ee667505666394f19f566940f48557f993f91fdf24db43",
+        "total": 76
+      },
+      {
+        "date": "2024-01-21 01:30:46",
+        "positives": 1,
+        "sha256": "457bd7af76abe8c688ccc102e00ec51b2211b6d6c1733f8d6c122d940f2d98e2",
+        "total": 73
+      },
+      {
+        "date": "2024-01-11 05:01:58",
+        "positives": 3,
+        "sha256": "3d27329dceed7249c1e1ea4cd6bc790a0ae4bd51e5bad3fa3ed6637e1b53ca93",
+        "total": 73
+      },
+      {
+        "date": "2024-01-24 11:27:26",
+        "positives": 2,
+        "sha256": "ec7be7ccf37f08825345820c16eb1163efcaf6ce2b968c939275d7aef8a9829f",
+        "total": 74
+      },
+      {
+        "date": "2024-01-23 23:26:25",
+        "positives": 2,
+        "sha256": "d3f49efa721d469b2245ca73c69f63857b4400d22669c29d2913a5d01464364d",
+        "total": 74
+      },
+      {
+        "date": "2024-01-21 05:01:22",
+        "positives": 1,
+        "sha256": "befe20b74a02306f07822fdf6daa688f829d27b0780ddbc2a8aaf9d8df4e0707",
+        "total": 73
+      },
+      {
+        "date": "2024-01-23 23:29:41",
+        "positives": 2,
+        "sha256": "21f5dc94691a2d211e5431a93be777ec6b7300f9f3fb7295b6b7808ea8bf0d19",
+        "total": 74
+      },
+      {
+        "date": "2024-01-22 01:48:09",
+        "positives": 1,
+        "sha256": "856e7e389e32b1166d1b935f07f3c60efbaa585c2effe0079adc37e765311258",
+        "total": 73
+      },
+      {
+        "date": "2024-01-20 01:51:47",
+        "positives": 2,
+        "sha256": "3194fd0f4871cfea00fcb098e421e11a7b9856b453202e3a849952369ffa8942",
+        "total": 73
+      },
+      {
+        "date": "2023-12-24 10:34:37",
+        "positives": 1,
+        "sha256": "54c82602c1637b0623eee2b9e611e0a778dcaf754405a3450b64019fffa7de94",
+        "total": 78
+      },
+      {
+        "date": "2024-01-17 23:29:38",
+        "positives": 2,
+        "sha256": "8fcbb42aef04c6f2b2b0b7355695a5931432debe03deae0541b5a94b43ecfcaa",
+        "total": 72
+      },
+      {
+        "date": "2023-12-23 09:22:24",
+        "positives": 3,
+        "sha256": "9ae5f3057db006af37786fd7fae860c20ea50c6e888da3cc07e53a47472b0656",
+        "total": 76
+      },
+      {
+        "date": "2023-12-23 09:55:12",
+        "positives": 3,
+        "sha256": "6e1dd3ba70faaead899dc60c3d6497d6c48f576c67c1123019e9bbc01e8e60ba",
+        "total": 78
+      },
+      {
+        "date": "2024-01-01 00:06:56",
+        "positives": 1,
+        "sha256": "60dbc92d9e4cd953d23cc3768e5fe55a06aca17c13e3b8b167cf4b6c24760f8e",
+        "total": 76
+      },
+      {
+        "date": "2024-01-11 21:48:52",
+        "positives": 1,
+        "sha256": "0f613497e909f7140061a0afa309b5e11a9ff9036b1deb01ce708987fdb708b9",
+        "total": 73
+      },
+      {
+        "date": "2023-12-24 10:39:16",
+        "positives": 1,
+        "sha256": "9f4014e4641708f68429d196b0025c4be68c663de4092f6a1a8e6ff033b23cd6",
+        "total": 78
+      },
+      {
+        "date": "2024-01-10 10:21:27",
+        "positives": 3,
+        "sha256": "373ef8b95f2733bcf5fdacfd36fd405faf8c55a4c0a3aa5014774d173baf3f76",
+        "total": 72
+      },
+      {
+        "date": "2023-12-23 09:45:14",
+        "positives": 1,
+        "sha256": "7b2e1c74c77d99f729dcdb1de4592a8e4468d153c50e977eb8429e6be491ac9d",
+        "total": 76
+      },
+      {
+        "date": "2023-07-26 09:36:58",
+        "positives": 1,
+        "sha256": "34cdd2c133258f5baf45b258ede18c19fd12c075d66c334f3bec9dd37d71eb58",
+        "total": 74
+      },
+      {
+        "date": "2024-01-09 00:02:51",
+        "positives": 1,
+        "sha256": "cb96fe5aaae9a6da91126812655accb7235a9281d569b9d2b10df027b8d9afdc",
+        "total": 73
+      },
+      {
+        "date": "2024-01-08 05:33:15",
+        "positives": 8,
+        "sha256": "b21109c54dcd19bc22f8d2e0f63187a23fb031cc62a466baf2682e3060dcb2a1",
+        "total": 73
+      },
+      {
+        "date": "2023-12-23 10:52:46",
+        "positives": 6,
+        "sha256": "5045e472849f09dea2b1db476cc03ac7c5466dceac5105fdb39bf3d2c9b6d281",
+        "total": 76
+      },
+      {
+        "date": "2024-01-07 21:13:50",
+        "positives": 2,
+        "sha256": "11c3d4516ea616e68560e6b4db716138a78fe612406d4342d3ac6b42b7e26318",
+        "total": 73
+      },
+      {
+        "date": "2023-12-18 01:57:19",
+        "positives": 4,
+        "sha256": "9ddc5e649cb49e0d9beba6f8106c8fcec969a47324fed688978df37cba438240",
+        "total": 76
+      },
+      {
+        "date": "2023-12-22 20:50:21",
+        "positives": 4,
+        "sha256": "2da2df194e41ffb9d97b6cb3c84d3135844ed89ecb2e643151ad81f470a317b8",
+        "total": 78
+      },
+      {
+        "date": "2023-12-13 05:09:04",
+        "positives": 4,
+        "sha256": "1976343e34c8a5a29b199e1d226910030ac5ef7b01ee8b2689f641b59ba2ac8e",
+        "total": 76
+      },
+      {
+        "date": "2023-12-18 02:15:23",
+        "positives": 4,
+        "sha256": "4bbe51c35b9b81b88eac219f9102a7a2d4da2fdad5ae1818a79bbcd6c2789b9a",
+        "total": 75
+      },
+      {
+        "date": "2024-01-05 01:42:16",
+        "positives": 2,
+        "sha256": "a42c8a0351cd0bc91a420dee4d735c1ff96b88b97c929829a89f155bec184f8a",
+        "total": 72
+      },
+      {
+        "date": "2023-12-18 02:03:37",
+        "positives": 1,
+        "sha256": "cc0df5ac45b884a0172f10008a902537c5a6269300269e221adae4c0848af343",
+        "total": 78
+      },
+      {
+        "date": "2024-01-05 05:03:12",
+        "positives": 1,
+        "sha256": "0f5af35f12cbcc085fa564f00969df2e87dc44c7aa3b287ce52a65c36c2ba6e8",
+        "total": 72
+      },
+      {
+        "date": "2023-12-26 13:43:22",
+        "positives": 3,
+        "sha256": "7ec9f234195d886a85e1b64f117f2d410dbf2de9ed76fd57da28037ac0fe9d5e",
+        "total": 77
+      },
+      {
+        "date": "2023-12-23 10:35:08",
+        "positives": 1,
+        "sha256": "afabffdfcb261eb9a62a4c1455ac3dd3b71317aa8bc4258d8f2da27fa05da74f",
+        "total": 76
+      },
+      {
+        "date": "2023-12-23 09:54:07",
+        "positives": 1,
+        "sha256": "cd036755312ce446530a2798b37b27824f84bbde4d55880c496825f1cb3a6a87",
+        "total": 78
+      },
+      {
+        "date": "2023-12-24 10:34:45",
+        "positives": 4,
+        "sha256": "befc0b8b8e37184c0ac86f417079746bfded515acab9a35d551d2996307db2c4",
+        "total": 77
+      },
+      {
+        "date": "2019-09-13 15:35:31",
+        "positives": 1,
+        "sha256": "843689440d022426a0979a497e2e68c7bcf958e8172c48556497971cf2f3060b",
+        "total": 72
+      },
+      {
+        "date": "2023-12-31 23:46:43",
+        "positives": 7,
+        "sha256": "a156ab004eb8c5a40da1bbc9c10ad8b37bacf285ee9d58cd2beeb03c553ff001",
+        "total": 76
+      },
+      {
+        "date": "2023-12-15 05:10:28",
+        "positives": 4,
+        "sha256": "11c4a81b97a2dc1ee60a108e7bb3356d88fd92b39289ee0bc91bf9120f07fa69",
+        "total": 76
+      },
+      {
+        "date": "2023-11-30 23:59:22",
+        "positives": 2,
+        "sha256": "5cdd3342e0ba3600b97b221bfbcb1c5a4c3aa673ac08cb79ce3b83a2fa2ff374",
+        "total": 76
+      },
+      {
+        "date": "2023-12-18 02:10:28",
+        "positives": 2,
+        "sha256": "1d4af689db21fbcb0f590599f8bbc90cf3def789a1d9c5d2b77c8500e042cc8d",
+        "total": 78
+      },
+      {
+        "date": "2023-12-18 02:06:48",
+        "positives": 5,
+        "sha256": "3511fceec13f89b3ccd1c54562ae01c121238a2545a29a8d795a4686f5ab86e4",
+        "total": 76
+      },
+      {
+        "date": "2023-12-12 23:38:43",
+        "positives": 1,
+        "sha256": "45ba2d240641879f7a088b4109051d684d2561308377f824fa830e3ed803d982",
+        "total": 76
+      },
+      {
+        "date": "2023-12-07 05:10:50",
+        "positives": 1,
+        "sha256": "22f79beb7f71d68d2cf01514d7a0e0527101a98394faf6f67211e96fc725a73b",
+        "total": 77
+      },
+      {
+        "date": "2023-12-17 14:40:04",
+        "positives": 3,
+        "sha256": "431a5612b1dc53c577d7bedb42df8c5890f41f206458fe867d3e9117f920d3f4",
+        "total": 76
+      },
+      {
+        "date": "2023-12-17 14:05:26",
+        "positives": 1,
+        "sha256": "13b4284f1ef4d4458fee51b3d117126d38989a128c6919a311fa8b81e9e7bdea",
+        "total": 76
+      },
+      {
+        "date": "2023-12-17 13:55:02",
+        "positives": 4,
+        "sha256": "db5479e0bbab06e1d7d59f72065662a51244a459ce71b0b9879b700e6b5ea714",
+        "total": 76
+      },
+      {
+        "date": "2023-12-17 14:47:41",
+        "positives": 2,
+        "sha256": "e7db9a0ee93bf423afa4b31958e5876810fad3ba44ce1135a94e5c5b7f86af44",
+        "total": 76
+      },
+      {
+        "date": "2023-12-17 13:44:19",
+        "positives": 6,
+        "sha256": "26cbd606b5969d26ea0a8d9f0f5a89263a63d3a76804d2ed616758aa1fcd3dbe",
+        "total": 76
+      },
+      {
+        "date": "2023-12-17 12:11:03",
+        "positives": 4,
+        "sha256": "edf118b2a656302373d7ca057d893d90a7b0d7efc801212480bd657380b73ccb",
+        "total": 76
+      },
+      {
+        "date": "2023-12-17 11:11:42",
+        "positives": 1,
+        "sha256": "ec24bea78cd1f0bb2557a814ea39ff2276e87e05c843b8742757fb5f10b644ed",
+        "total": 76
+      },
+      {
+        "date": "2023-12-01 23:29:18",
+        "positives": 1,
+        "sha256": "63a48ea4c5a9977dbbc3e70d8e1f04c29063d19ff480409298768f025195c442",
+        "total": 76
+      },
+      {
+        "date": "2023-12-24 12:52:04",
+        "positives": 6,
+        "sha256": "1c436668fe9b05c6befd69daa378a908f712b991194b99e60b8014b3bc7aea37",
+        "total": 78
+      },
+      {
+        "date": "2023-12-17 09:48:09",
+        "positives": 1,
+        "sha256": "9f1810005fcb6f1549ccf035f3e04b42f5b0d80046d9e70a70ae99b9fa6dbcdc",
+        "total": 76
+      },
+      {
+        "date": "2023-12-24 10:41:12",
+        "positives": 4,
+        "sha256": "7c51f2d658efb0f2dfab4b53ab73c9ac5d31d94e3d8e6902de5652c72702a562",
+        "total": 76
+      },
+      {
+        "date": "2023-12-24 10:42:26",
+        "positives": 1,
+        "sha256": "ad085270b43bd45eb76fb9119708474c0d2b2da21882d6945d8a891b6642d25d",
+        "total": 78
+      },
+      {
+        "date": "2023-12-24 10:39:34",
+        "positives": 1,
+        "sha256": "7204be2ccf9e749b6bc5286489351bce791c39119d1ef70ad6731f2d89398977",
+        "total": 78
+      },
+      {
+        "date": "2023-12-24 10:36:58",
+        "positives": 2,
+        "sha256": "33aae0b6cd82a0a3e040536558c070e14def6318a115296d1534cae28ca35639",
+        "total": 78
+      },
+      {
+        "date": "2023-12-24 10:40:08",
+        "positives": 1,
+        "sha256": "94c6a7f8116926276f85244cc4c585adb726ff674a2f9d343f91fe96bdc194c4",
+        "total": 78
+      },
+      {
+        "date": "2023-12-24 10:38:15",
+        "positives": 1,
+        "sha256": "f2e19fd6cd4e28d8e79ded289ec80170b47828b0a015f4d562ff0e239d02e0ca",
+        "total": 76
+      },
+      {
+        "date": "2023-12-24 10:35:29",
+        "positives": 4,
+        "sha256": "cde2d4dd47fba40c0671302db9b963cff8ee0147ff583818d1d28e2fe6c52dac",
+        "total": 75
+      },
+      {
+        "date": "2023-12-24 10:33:16",
+        "positives": 1,
+        "sha256": "584044e8edba3732674b0e883baa215cf8b9cc44ce98637738b6308b5e4a0f6c",
+        "total": 76
+      },
+      {
+        "date": "2023-12-24 10:28:56",
+        "positives": 4,
+        "sha256": "b38989f068fc826bad472024425ab588df15c94fba4dffdab7c8374ec1c7e2f4",
+        "total": 78
+      },
+      {
+        "date": "2023-12-17 08:41:40",
+        "positives": 1,
+        "sha256": "f38d0ba8b77618dfba191a0eb845e37b77ef4e103866845587a6120a553f0c39",
+        "total": 76
+      }
+    ],
+    "detected_urls": [],
+    "domain_siblings": [],
+    "resolutions": [
+      {
+        "ip_address": "109.73.119.105",
+        "last_resolved": "2013-06-04 00:00:00"
+      },
+      {
+        "ip_address": "176.65.66.66",
+        "last_resolved": "2014-06-13 00:00:00"
+      },
+      {
+        "ip_address": "185.64.253.1",
+        "last_resolved": "2015-11-19 00:00:00"
+      },
+      {
+        "ip_address": "54.217.246.39",
+        "last_resolved": "2019-12-10 16:23:21"
+      }
+    ],
+    "response_code": 1,
+    "subdomains": [
+      "westminsterresearch.westminster.ac.uk",
+      "www.westminster.ac.uk",
+      "edit.westminster.ac.uk",
+      "edit-stg.westminster.ac.uk",
+      "edit-dev.westminster.ac.uk",
+      "learning.westminster.ac.uk",
+      "your.westminster.ac.uk",
+      "ceti.westminster.ac.uk",
+      "vle.westminster.ac.uk",
+      "tdm.westminster.ac.uk",
+      "learning2.westminster.ac.uk",
+      "authn.westminster.ac.uk",
+      "careerzone.westminster.ac.uk",
+      "libguides.westminster.ac.uk",
+      "vacancies.westminster.ac.uk",
+      "veri.westminster.ac.uk",
+      "icgl13.westminster.ac.uk",
+      "remote2.westminster.ac.uk",
+      "remote.westminster.ac.uk",
+      "engage-employability.westminster.ac.uk",
+      "auth.westminster.ac.uk",
+      "store.westminster.ac.uk",
+      "recordsandarchives.westminster.ac.uk",
+      "blog.westminster.ac.uk",
+      "appsanywhere.westminster.ac.uk",
+      "certificate.westminster.ac.uk",
+      "arts.westminster.ac.uk",
+      "cti.westminster.ac.uk",
+      "engage.westminster.ac.uk",
+      "bomgar.westminster.ac.uk",
+      "support.westminster.ac.uk",
+      "library-collections-search.westminster.ac.uk",
+      "autodiscover.westminster.ac.uk",
+      "talent.westminster.ac.uk",
+      "servicedesk.westminster.ac.uk",
+      "blogstage.westminster.ac.uk",
+      "events.westminster.ac.uk",
+      "reportandsupport.westminster.ac.uk",
+      "student.westminster.ac.uk",
+      "appsanywhere-admin.westminster.ac.uk",
+      "printportal.westminster.ac.uk",
+      "research.westminster.ac.uk",
+      "remote-236-103.westminster.ac.uk",
+      "imagelibrary.westminster.ac.uk",
+      "verify.westminster.ac.uk",
+      "dcwadmin.westminster.ac.uk",
+      "compass.westminster.ac.uk",
+      "webprint.westminster.ac.uk",
+      "readinglists.westminster.ac.uk",
+      "readinglist.westminster.ac.uk",
+      "ext-220-151.westminster.ac.uk",
+      "archigram.westminster.ac.uk",
+      "degree-shows.westminster.ac.uk",
+      "edit-dev-d8.westminster.ac.uk",
+      "password.westminster.ac.uk",
+      "site.westminster.ac.uk",
+      "nexttimetabling.westminster.ac.uk",
+      "timetabling.westminster.ac.uk",
+      "stutalk.westminster.ac.uk",
+      "pcd.westminster.ac.uk",
+      "compass-uat.westminster.ac.uk",
+      "counselling.westminster.ac.uk",
+      "netscaler-casper.westminster.ac.uk",
+      "blog-lb-vip.westminster.ac.uk",
+      "netscaler-webapps.westminster.ac.uk",
+      "netscaler-vapps.westminster.ac.uk",
+      "cpc.westminster.ac.uk",
+      "citrixdirector.westminster.ac.uk",
+      "home.westminster.ac.uk",
+      "dolphin.westminster.ac.uk",
+      "mydrive.westminster.ac.uk",
+      "external-230-89.westminster.ac.uk",
+      "external-230-1.westminster.ac.uk",
+      "external-222-39.westminster.ac.uk",
+      "ext-220-202.westminster.ac.uk",
+      "studentblogstage.westminster.ac.uk",
+      "remote-238-244.westminster.ac.uk",
+      "external-226-126.westminster.ac.uk",
+      "external-223-178.westminster.ac.uk",
+      "remote-239-56.westminster.ac.uk",
+      "external-230-16.westminster.ac.uk",
+      "bi.westminster.ac.uk",
+      "payonline.westminster.ac.uk",
+      "netscaler-webapps-nogcm.westminster.ac.uk",
+      "workmodeller.westminster.ac.uk",
+      "uowjss.westminster.ac.uk",
+      "guest-temp.westminster.ac.uk",
+      "degree-show.westminster.ac.uk",
+      "dcwgateway.westminster.ac.uk",
+      "mystaffselfservice.westminster.ac.uk",
+      "folio.westminster.ac.uk",
+      "myintranet.westminster.ac.uk",
+      "mailinglist.westminster.ac.uk",
+      "bbgrouptransfer.westminster.ac.uk",
+      "remote-238-106.westminster.ac.uk",
+      "remote-237-147.westminster.ac.uk",
+      "agressotest.westminster.ac.uk",
+      "guest.westminster.ac.uk",
+      "planning-model.westminster.ac.uk",
+      "is-lbl1.westminster.ac.uk"
+    ],
+    "undetected_communicating_samples": [
+      {
+        "date": "2024-11-27 09:05:51",
+        "positives": 0,
+        "sha256": "2f041cec884866f8dfaadb27e51b08a85ec36fccbd3c8fa2ba9b79234432c951",
+        "total": 76
+      }
+    ],
+    "undetected_downloaded_samples": [
+      {
+        "date": "2025-08-29 15:31:59",
+        "positives": 0,
+        "sha256": "839488ebc08446a096a893996ed23eac321ac166724cd8c5d9092057834d2d79",
+        "total": 77
+      },
+      {
+        "date": "2025-01-17 13:51:49",
+        "positives": 0,
+        "sha256": "2db29eb3932b8de1930d74cccdb03fbb2e580e55a26f7454ecaa8e647d43089e",
+        "total": 76
+      },
+      {
+        "date": "2025-06-03 11:55:29",
+        "positives": 0,
+        "sha256": "32f2fa940d4b4fe19aca1e53a24e5aac29c57b7c5ee78588325b87f1b649c864",
+        "total": 77
+      },
+      {
+        "date": "2024-02-01 05:06:14",
+        "positives": 0,
+        "sha256": "67b1f8f2587b729c48be90416a74c0663781fb89ac9fde474bf8e9ce4e43aa7d",
+        "total": 76
+      },
+      {
+        "date": "2025-03-14 16:09:59",
+        "positives": 0,
+        "sha256": "25fb23868ebf48348f9e438e00cb9b9d9b3a054f32482a781c762cc4f9cc6393",
+        "total": 78
+      }
+    ],
+    "undetected_referrer_samples": [
+      {
+        "date": "2025-09-09 02:35:23",
+        "positives": 0,
+        "sha256": "01732bd16a7fa625e7597d16260142fd25728ef3b183fd76b98324c30bc426df",
+        "total": 77
+      },
+      {
+        "date": "2025-09-08 19:46:12",
+        "positives": 0,
+        "sha256": "98e914819065d22dd7ed090ab2f2e7ebb9e3e9e790cb3662a0befdff937e66ab",
+        "total": 76
+      },
+      {
+        "date": "2025-09-07 16:34:09",
+        "positives": 0,
+        "sha256": "ebbbde89c0762e11ac0c7e8fc02704e62a8686cc922dff9befdd8b9e0db4c59e",
+        "total": 77
+      },
+      {
+        "date": "2025-09-07 07:38:56",
+        "positives": 0,
+        "sha256": "4cdc4d45c795c3895762d7d4079a71ca1f84df877e8f52d927724077bb060f5f",
+        "total": 77
+      },
+      {
+        "date": "2025-09-05 20:59:41",
+        "positives": 0,
+        "sha256": "3fed00ea770550e0214a57ed3e51bdb7674c50463e9b28d18c30dd0ee15f1694",
+        "total": 77
+      },
+      {
+        "date": "2025-09-05 12:29:06",
+        "positives": 0,
+        "sha256": "2bce1ffb497b09f61458286ef96870c118d1087b049c772f93b47c749d5b61eb",
+        "total": 77
+      },
+      {
+        "date": "2025-09-05 11:51:07",
+        "positives": 0,
+        "sha256": "feac3cd5cc7e8209af6e2e67a402e9d2c7ef07cccbc07b1d4ec663c1ba6ee15f",
+        "total": 77
+      },
+      {
+        "date": "2025-09-05 11:50:12",
+        "positives": 0,
+        "sha256": "e8409c31db492ba07dc0f5fab5338f089856e67015e0ba267b12fe3ff12999a7",
+        "total": 77
+      },
+      {
+        "date": "2025-09-05 11:45:58",
+        "positives": 0,
+        "sha256": "b2c00a0177a3bc24d2b17b84328caaf59f1ca19775417b563e0eadab05efd3c4",
+        "total": 77
+      },
+      {
+        "date": "2025-09-05 08:39:44",
+        "positives": 0,
+        "sha256": "ff77c7d96de0931770da85221c7d17e8e49cc88d7675676b4e736f231ca34294",
+        "total": 77
+      },
+      {
+        "date": "2025-09-05 06:18:06",
+        "positives": 0,
+        "sha256": "9c48f1a97c659a3d155472849fd10438c9ecc05edb1792f67aa785c05023335f",
+        "total": 76
+      },
+      {
+        "date": "2025-09-05 05:01:49",
+        "positives": 0,
+        "sha256": "59539ee162c2210d77cb2cc7502f11c653874c3cce878b35c75db99a95df8a59",
+        "total": 76
+      },
+      {
+        "date": "2025-09-05 02:39:29",
+        "positives": 0,
+        "sha256": "74fa09a2b209e9b87c1535ed2262fa653551fa2e901fa27f27a0e888761358a9",
+        "total": 76
+      },
+      {
+        "date": "2025-09-05 00:41:26",
+        "positives": 0,
+        "sha256": "2de6d2953500e6a89c41bb82bab6d76c71b6ed43ca57d4270a206f97dce912bf",
+        "total": 75
+      },
+      {
+        "date": "2025-09-05 00:41:29",
+        "positives": 0,
+        "sha256": "5c7bc87ebcfb1ac23021750645dad7aa742cb567cc7fa9eff1315283a5ae0e47",
+        "total": 76
+      },
+      {
+        "date": "2025-09-04 23:58:59",
+        "positives": 0,
+        "sha256": "470c8e829cd077ead2718f3247ceaa954140fdf31d489ceabb13e386d0217a1c",
+        "total": 76
+      },
+      {
+        "date": "2025-09-04 23:58:05",
+        "positives": 0,
+        "sha256": "31719e5978ffb6e7668585853b6f50cde60a81c8afe6ab518832212f30025a13",
+        "total": 75
+      },
+      {
+        "date": "2025-09-04 23:41:34",
+        "positives": 0,
+        "sha256": "17941a3a541aca2b59cb557e3e585893fed036b0413e0a463d9c08b3352ad023",
+        "total": 76
+      },
+      {
+        "date": "2025-09-04 20:25:31",
+        "positives": 0,
+        "sha256": "d4182fe41c4757ba9bbe36d41a75c8b6b5e84fd94f8d6b4dbc5e2e8a3065450d",
+        "total": 76
+      },
+      {
+        "date": "2025-09-04 17:17:14",
+        "positives": 0,
+        "sha256": "ca15ab07fc9c636d8676d06daf23cf52cad0a5984bd7e7a664f5b88479af0252",
+        "total": 75
+      },
+      {
+        "date": "2025-09-04 17:16:27",
+        "positives": 0,
+        "sha256": "d50ef6d60ce8eea0bea48a8a1e753fbdd51e3801e1ef87befb2771d63048be87",
+        "total": 76
+      },
+      {
+        "date": "2025-09-04 16:24:49",
+        "positives": 0,
+        "sha256": "1b958ae05238e3290107e5c27a7cc89fd03d4f6a19bd25543612af25d188789a",
+        "total": 76
+      },
+      {
+        "date": "2025-09-04 16:06:42",
+        "positives": 0,
+        "sha256": "bf5318b6a9d2e131e7e200b70eb254654ef9a11258e342ece6d037a4258904c0",
+        "total": 76
+      },
+      {
+        "date": "2025-09-04 15:59:33",
+        "positives": 0,
+        "sha256": "86fdeb3446b649e0ca518dc39472c9a353423310d2bb1a6c94841ec956315218",
+        "total": 76
+      },
+      {
+        "date": "2025-09-04 15:31:10",
+        "positives": 0,
+        "sha256": "5a74aa8d1f62899bae0787d3b648e921f1a799b662b59d4034e86ac8713eae54",
+        "total": 76
+      },
+      {
+        "date": "2025-09-04 12:13:57",
+        "positives": 0,
+        "sha256": "0d3805b7c149959d1dcf39899517f95f84b783dd24008303c8d63d6fdcc3901e",
+        "total": 75
+      },
+      {
+        "date": "2025-09-04 12:09:41",
+        "positives": 0,
+        "sha256": "42dbeb5be3aefef7d7968854c3ae2549489daa838efb82f7cb3bb4ed26cb89e6",
+        "total": 76
+      },
+      {
+        "date": "2025-09-04 10:26:16",
+        "positives": 0,
+        "sha256": "d4707f6f5167da7472342c958bdc3b65d74976d7f1b2e046edce854eeb71375d",
+        "total": 76
+      },
+      {
+        "date": "2025-09-04 09:02:56",
+        "positives": 0,
+        "sha256": "4ec3138c6a4fa3af5929969fcf46ef8a0b2580d97c0fa2989b903e1471afbf76",
+        "total": 77
+      },
+      {
+        "date": "2025-09-04 08:20:09",
+        "positives": 0,
+        "sha256": "a2ddcb0ab558c7fbfdac31c6d9e745e058d986c2e0dbbcce145ae36ed67a07fb",
+        "total": 77
+      },
+      {
+        "date": "2025-09-04 04:08:45",
+        "positives": 0,
+        "sha256": "dd1c8c4447458ac5e0e5aed46d2688100f212dffbb8b82fd37953768150040c4",
+        "total": 77
+      },
+      {
+        "date": "2025-09-04 04:07:48",
+        "positives": 0,
+        "sha256": "0fa4fa56958d92ef25a75a83921daf876afb46ac42b6990c5cb8ec6b292d91c0",
+        "total": 77
+      },
+      {
+        "date": "2025-09-04 03:53:06",
+        "positives": 0,
+        "sha256": "03d517c4b3cd29efc59369da8638018ca71e04ff0d1bf2f3f502d1c2b13c40f2",
+        "total": 77
+      },
+      {
+        "date": "2025-09-04 03:35:17",
+        "positives": 0,
+        "sha256": "2ec82b4cc42a00450436e07336498eddb774faf2a91137f877e3821a5fd0f4c8",
+        "total": 77
+      },
+      {
+        "date": "2025-09-03 23:26:46",
+        "positives": 0,
+        "sha256": "d2be6461e17534a3293f8580dce5f380030eefd0cf5bbd731622c95cb0149412",
+        "total": 77
+      },
+      {
+        "date": "2025-09-03 19:43:03",
+        "positives": 0,
+        "sha256": "862446b6d81872195729e57ccd24cb55562f3a496fe6ffad1a01462ad3d6b522",
+        "total": 77
+      },
+      {
+        "date": "2025-09-03 16:00:19",
+        "positives": 0,
+        "sha256": "3d165f21a95c9c8418182a624726fe452062a946b45bd270a488bef80dfebd64",
+        "total": 77
+      },
+      {
+        "date": "2025-09-03 15:59:56",
+        "positives": 0,
+        "sha256": "5e8b32c94feca4451c44b363c5999524f8a24682fb3dfc73c95822fbb9faac5e",
+        "total": 77
+      },
+      {
+        "date": "2025-09-03 15:33:45",
+        "positives": 0,
+        "sha256": "6a4a96d1aad9a5cef82de69b18ac2d03d7b14ee880a65d2bc5f538c784f8f5c2",
+        "total": 77
+      },
+      {
+        "date": "2025-09-03 15:28:39",
+        "positives": 0,
+        "sha256": "414c19e5ace095fe72cd9f9b272988c2b4dc1a69645214a7599f0b5f20515bf4",
+        "total": 77
+      },
+      {
+        "date": "2025-09-03 15:21:21",
+        "positives": 0,
+        "sha256": "823169130ce93b07acc003d4e79465d22d6797d4519236a865e7c9b8728fc76a",
+        "total": 77
+      },
+      {
+        "date": "2025-09-03 05:44:45",
+        "positives": 0,
+        "sha256": "1c06ddf074d5f974935fd725ca35be3d05ac67fd31a3cefdec324d2632773328",
+        "total": 77
+      },
+      {
+        "date": "2025-09-03 05:41:09",
+        "positives": 0,
+        "sha256": "c789144633c60d4eca7f8adad0506b490b7cccc3666d3aa51895aeb17917c0ca",
+        "total": 77
+      },
+      {
+        "date": "2025-09-02 20:44:41",
+        "positives": 0,
+        "sha256": "91f3b803c02c7d52570698f1ec818cd1c841582ecd053f28c1f70ef43bc7a19a",
+        "total": 77
+      },
+      {
+        "date": "2025-09-02 20:42:32",
+        "positives": 0,
+        "sha256": "8cae9bd8e0de33792c131da1a83c651ca7b0557c1eda4a3e47c10c72c121579a",
+        "total": 77
+      },
+      {
+        "date": "2025-09-02 18:13:55",
+        "positives": 0,
+        "sha256": "e698e2fb7d32716949c700d7c4392a2f67aad09fb4a7f6bb1134ea9a708de41d",
+        "total": 77
+      },
+      {
+        "date": "2025-09-02 11:46:22",
+        "positives": 0,
+        "sha256": "dfd803181c6e6c2cf1892807adcf1d2f6a6c9b82df9b2bb5230339e5156215fa",
+        "total": 77
+      },
+      {
+        "date": "2025-09-02 11:43:20",
+        "positives": 0,
+        "sha256": "b074d1ed4d30fae3779a2c7948076deb3bf2090ec87fd594333b405cd46602b5",
+        "total": 77
+      },
+      {
+        "date": "2025-09-01 23:17:12",
+        "positives": 0,
+        "sha256": "f3ec901280e6870eca87309cfceb55983e1adb84beb44fae88b503f0589b45d0",
+        "total": 77
+      },
+      {
+        "date": "2025-09-01 22:59:40",
+        "positives": 0,
+        "sha256": "c242b9d2e566ca0530d515b2f4e574f7f224ea2ca0a546fe374203a3d8c41348",
+        "total": 77
+      },
+      {
+        "date": "2025-09-01 22:59:33",
+        "positives": 0,
+        "sha256": "3a31cd75db5e43a768c1400bb12b5454ba750116dc10ccc95b2275d4c63d9a47",
+        "total": 77
+      },
+      {
+        "date": "2025-09-01 22:15:45",
+        "positives": 0,
+        "sha256": "a86eb5999df231c2040f025d8394dc9d7bfe4edd91ce95c9cbb7f7b76d59ad21",
+        "total": 77
+      },
+      {
+        "date": "2025-08-31 22:16:28",
+        "positives": 0,
+        "sha256": "92933116091c77072cd169a38ce9536cdd72b5f6b5dd3108fad73f347791c60c",
+        "total": 77
+      },
+      {
+        "date": "2025-08-31 20:53:20",
+        "positives": 0,
+        "sha256": "d7983578bc6a9e1d5fd5d752b23558191fb534db331756f035a2f9095fe0f88f",
+        "total": 77
+      },
+      {
+        "date": "2025-08-30 03:10:34",
+        "positives": 0,
+        "sha256": "ad5e4368cc98e7cf92bcf913f86f58e0100c9f374749626bbfe382b0dd7b9a49",
+        "total": 77
+      },
+      {
+        "date": "2025-08-30 02:39:57",
+        "positives": 0,
+        "sha256": "0b96350adb3fa734b017cb3aaea481015418eb45b945e7ee5c5561a117cae391",
+        "total": 77
+      },
+      {
+        "date": "2025-08-30 00:39:55",
+        "positives": 0,
+        "sha256": "bd099f70ed7ffc1f57f3ac8f5069d9f0f666f9616a1f96d9837211e20783e1b7",
+        "total": 77
+      },
+      {
+        "date": "2025-08-29 20:45:49",
+        "positives": 0,
+        "sha256": "29c871d0775654b45296534035244e50338efb6ebd6d0de624b3d73c77b0a18c",
+        "total": 77
+      },
+      {
+        "date": "2025-08-29 19:49:37",
+        "positives": 0,
+        "sha256": "a6c524f9a24be90ff0e0a51e055c261aa6c7a130054d25b06cd7c930ab9903f4",
+        "total": 77
+      },
+      {
+        "date": "2025-08-29 19:49:42",
+        "positives": 0,
+        "sha256": "5f7e5c641b06f9dfc795d8873344e8b90e000d5195c5ed83aa369d2f73172f04",
+        "total": 77
+      },
+      {
+        "date": "2025-08-27 23:15:57",
+        "positives": 0,
+        "sha256": "7795c424d6f16dce640da49ca4245a2ffe9a5eb5dbf6185d60781adc0497ea4c",
+        "total": 77
+      },
+      {
+        "date": "2025-08-27 23:14:07",
+        "positives": 0,
+        "sha256": "bc1bf6f99f787600936b443cb2375fba7cf97601a2475747177d2a810611fcd2",
+        "total": 76
+      },
+      {
+        "date": "2025-08-27 04:58:03",
+        "positives": 0,
+        "sha256": "647331ea837370587119434dd53858eeb35eb8d29b36bc933b259274bfcce26f",
+        "total": 77
+      },
+      {
+        "date": "2025-08-26 21:57:24",
+        "positives": 0,
+        "sha256": "3f0a6bd51b8b02c0a234cbcedd1153afeff01f7f5af8268bfa16982fde749545",
+        "total": 77
+      },
+      {
+        "date": "2025-08-26 06:38:27",
+        "positives": 0,
+        "sha256": "65175ad675ba85ee24b663d83ee9b8d6c4ba554b8cf0724d058ebb490f9d5573",
+        "total": 77
+      },
+      {
+        "date": "2025-08-25 22:51:28",
+        "positives": 0,
+        "sha256": "3a0c5cf556057256e15a95259a82f6fc04759e3a4a22b5de321c2741e9b4b8da",
+        "total": 76
+      },
+      {
+        "date": "2025-08-24 14:46:46",
+        "positives": 0,
+        "sha256": "4fe4cb284007e26255267338dde1ceac6f8326f78123ae8c96a36ee15a1ea7ba",
+        "total": 77
+      },
+      {
+        "date": "2025-08-22 20:32:34",
+        "positives": 0,
+        "sha256": "0c5b314d69ee885f238b41ed931a044e424fdd7594156ae170c8af45089dd136",
+        "total": 77
+      },
+      {
+        "date": "2025-08-22 20:34:00",
+        "positives": 0,
+        "sha256": "e2d355ea7f0fdf930af6905141d7c7d6e0c1cf0bdb77348d3f20f953317638b2",
+        "total": 77
+      },
+      {
+        "date": "2025-08-20 22:05:00",
+        "positives": 0,
+        "sha256": "ad9c65b4020b6f9a7640b9df1a86945884ded148e0e5454803b2211512078ed7",
+        "total": 77
+      },
+      {
+        "date": "2025-08-20 12:36:42",
+        "positives": 0,
+        "sha256": "409585520eff649884ff49f0b9dd4b457ae11f38b5a40f3cb39e51a743ff9748",
+        "total": 77
+      },
+      {
+        "date": "2025-08-20 12:35:33",
+        "positives": 0,
+        "sha256": "a072c2c2979f419a687b7f4faf9f6af1328309e01c46adfa959baf18bb106107",
+        "total": 77
+      },
+      {
+        "date": "2025-08-20 07:53:49",
+        "positives": 0,
+        "sha256": "4efd1b057715e077ef4822fd228db4b724ee360286f3ebc4fea4f8a8cec589ad",
+        "total": 77
+      },
+      {
+        "date": "2025-08-17 21:25:33",
+        "positives": 0,
+        "sha256": "434417227ce659ee7ce50871f1cdbb8688b51b0e13f8ac83be0008c350fb91ce",
+        "total": 77
+      },
+      {
+        "date": "2025-08-17 20:22:53",
+        "positives": 0,
+        "sha256": "84766e80cb3cc87cf2bfdf7db19cf96dfdebce0f2268d90be62af5bbcf6390c2",
+        "total": 77
+      },
+      {
+        "date": "2025-08-17 13:34:09",
+        "positives": 0,
+        "sha256": "6180d77c54d67a9148e9bee4f2aa9c4dae8302f88df98703cca6501ba0b473b2",
+        "total": 77
+      },
+      {
+        "date": "2025-08-16 20:43:57",
+        "positives": 0,
+        "sha256": "15b27f0c9807118d5cdca8816fb1eeda2f94fe679bca4cb6d75a9dca4e24af46",
+        "total": 77
+      },
+      {
+        "date": "2025-08-16 14:52:46",
+        "positives": 0,
+        "sha256": "714d05b94966849fb0fe189ba87fad116e797ec0dc84f0e96cc0b84ca1c5dc99",
+        "total": 77
+      },
+      {
+        "date": "2025-08-16 05:30:34",
+        "positives": 0,
+        "sha256": "8554f9b72a6e60f682095818ca6ee2908b6ffdddd9eba0695b5522fef85deecb",
+        "total": 77
+      },
+      {
+        "date": "2025-08-14 22:33:19",
+        "positives": 0,
+        "sha256": "aacfad2bf719fe0f77b7135042b4833e8bb33ef03e73602712888db593b54049",
+        "total": 77
+      },
+      {
+        "date": "2025-08-14 16:08:07",
+        "positives": 0,
+        "sha256": "040d72a67e825fb7b478b9824b6908c37cd724f9fb18ff4fd955527fe5f9ea23",
+        "total": 77
+      },
+      {
+        "date": "2025-08-13 21:32:46",
+        "positives": 0,
+        "sha256": "dc8bb0a55abb90b8f23666a2f23c1c18f9fb4c00fc832b712c904f2072f3710b",
+        "total": 77
+      },
+      {
+        "date": "2025-08-13 11:56:38",
+        "positives": 0,
+        "sha256": "e05cf2b0ff96946f435726c637ec97d70397fa67e6c59711cd76c9a10ac3bf88",
+        "total": 77
+      },
+      {
+        "date": "2025-08-11 18:05:36",
+        "positives": 0,
+        "sha256": "734ed3703efc25a940e48f8db1a7bfb5edf44b7cf67d634f2a4540580ec38940",
+        "total": 77
+      },
+      {
+        "date": "2025-08-10 09:04:19",
+        "positives": 0,
+        "sha256": "1f65e94f5ebe8619b15ae5bd9bd3ca3925c836e997c0799bc94dfd10a7f7d725",
+        "total": 77
+      },
+      {
+        "date": "2025-08-10 09:01:37",
+        "positives": 0,
+        "sha256": "315721807e467726cf1d6848f09c9b37216d33b7b37ec2b70b8a00fa080948be",
+        "total": 77
+      },
+      {
+        "date": "2025-08-10 02:40:03",
+        "positives": 0,
+        "sha256": "08e28bd7775dda8cf52a6abc2d3e5401f48b0c5e83498fa723a89e4846c7793d",
+        "total": 77
+      },
+      {
+        "date": "2025-08-09 22:11:29",
+        "positives": 0,
+        "sha256": "b8678e0f30c72fc887b7bd85f515047370689febb4934e95d2c9140e3874a04c",
+        "total": 77
+      },
+      {
+        "date": "2025-08-08 15:21:42",
+        "positives": 0,
+        "sha256": "b5d7c39d2c772f9b685f6b337bb6b55f1166a31c0cd0b9d0e4f8d9742a12221a",
+        "total": 77
+      },
+      {
+        "date": "2025-08-07 20:06:24",
+        "positives": 0,
+        "sha256": "ae2ade52a1e33f63f1e1e66cc8a0ca15a4e7ae42eb289eedf7fff446dadc5de6",
+        "total": 77
+      },
+      {
+        "date": "2025-08-07 19:23:07",
+        "positives": 0,
+        "sha256": "3e608d7463820d0cef2d4a37f656125d906b7b3936397ab48049fa6a1eb2fee1",
+        "total": 77
+      },
+      {
+        "date": "2025-08-07 11:48:35",
+        "positives": 0,
+        "sha256": "a8ceecfb38a5f73e02ddaae05c30d654089df0bab4431e716f222f68c14b10e6",
+        "total": 77
+      },
+      {
+        "date": "2025-08-06 12:25:53",
+        "positives": 0,
+        "sha256": "6f8c0f8618646f6b6d0c2d4ccf8b2430de6b1dc67edec19bb6b88594f4de7129",
+        "total": 77
+      },
+      {
+        "date": "2025-08-06 11:06:07",
+        "positives": 0,
+        "sha256": "c1405071127b59dbdefc31d9c52e9a5c36db67dcef6dcf83e898aada1f3f778e",
+        "total": 77
+      },
+      {
+        "date": "2025-08-05 20:45:57",
+        "positives": 0,
+        "sha256": "1aa603d43af59ac8367a34b516b320b0bc4aac2427d395b475a4a8f8954b6257",
+        "total": 77
+      },
+      {
+        "date": "2025-08-04 18:31:17",
+        "positives": 0,
+        "sha256": "5ca849e853476b0d4adf7db7aef97f9d726cee013a030a0fb328241afc02d6b8",
+        "total": 77
+      },
+      {
+        "date": "2025-08-04 03:30:23",
+        "positives": 0,
+        "sha256": "c3d91a78325dd2b7d3a32768164e6c01bd55c1129096b0338ed217b20a7e6ed0",
+        "total": 77
+      },
+      {
+        "date": "2025-08-02 17:56:50",
+        "positives": 0,
+        "sha256": "044b0f6cc02e45354790b542d174bc496654bf7da583e7418e8d4f58d61faf27",
+        "total": 77
+      },
+      {
+        "date": "2025-08-01 20:36:03",
+        "positives": 0,
+        "sha256": "dd665969b45bb6064e8fc80e01cdb27ef89cb04dbbd69b56f83d1c79e037a85c",
+        "total": 77
+      },
+      {
+        "date": "2025-08-01 12:43:29",
+        "positives": 0,
+        "sha256": "e2e4573e7334f928ea0a1862199bc51e78d71a9a9e99ddba3167a8e97a5a0844",
+        "total": 77
+      }
+    ],
+    "undetected_urls": [
+      [
+        "http://your.westminster.ac.uk/",
+        "b4aa750c22ef8fe664356e3ef54144e464e532a17f13c011404dd9bc0d3f83f4",
+        0,
+        98,
+        "2025-09-09 00:53:58"
+      ],
+      [
+        "http://westminsterresearch.westminster.ac.uk/",
+        "4dc4da1e345593349361d7ac8b4a19f3facdc414f5c77c61e91c40e2eed0b040",
+        0,
+        98,
+        "2025-09-06 21:54:21"
+      ],
+      [
+        "https://learning.westminster.ac.uk/",
+        "2b184ab070d068fdd36071334cfff462465cc3441e05508909f131b77260fa71",
+        0,
+        98,
+        "2025-09-04 08:23:14"
+      ],
+      [
+        "http://readinglists.westminster.ac.uk/",
+        "06686ec1abdf067c2069e6d45e6564f9da50f9b87300ec85ac90ad1d09b9025f",
+        0,
+        97,
+        "2025-08-30 01:17:21"
+      ],
+      [
+        "https://vacancies.westminster.ac.uk/",
+        "7d15ded193fe3e04aee85059e3facb406b6974020a152c977dc0de4eeafb04d2",
+        0,
+        97,
+        "2025-08-30 01:05:10"
+      ],
+      [
+        "https://recordsandarchives.westminster.ac.uk/",
+        "a26613f54118cd3ebe51d775f1df5be5733601ed331b5e74d7b45a5f2b651fdb",
+        0,
+        97,
+        "2025-08-30 00:58:56"
+      ],
+      [
+        "https://readinglists.westminster.ac.uk/",
+        "2b6698ef5789cd2d481e2c065d93a3b1e53f91d53c7f94ef1758232befc07125",
+        0,
+        97,
+        "2025-08-30 01:17:21"
+      ],
+      [
+        "http://vacancies.westminster.ac.uk/",
+        "a9092bcc8781b9bde2b7b0a47a730dd20125cb11cec2253f5a73c5eebef68749",
+        0,
+        97,
+        "2025-08-29 23:06:16"
+      ],
+      [
+        "http://recordsandarchives.westminster.ac.uk/",
+        "e8ae76542dab1e3f8977aa0992417974b4526bd87e1f8de77d54756d505074dc",
+        0,
+        97,
+        "2025-08-29 22:59:39"
+      ],
+      [
+        "https://archigram.westminster.ac.uk/",
+        "33bd14f7a2ab841e04531f83f1495877ce477eb504e3f59302f18cd6f29eab01",
+        0,
+        97,
+        "2025-08-26 00:56:24"
+      ],
+      [
+        "https://authn.westminster.ac.uk/",
+        "5f8372cdf920353e63107da959f4b6a56d1d0b76ad73df43129e3ae7e45230bb",
+        0,
+        97,
+        "2025-08-24 15:58:15"
+      ],
+      [
+        "https://blog.westminster.ac.uk/",
+        "c4c4583ff4c59d09c44eff6d01b5961e2d34522fcbd3eb068d3212bf24c29cc1",
+        0,
+        97,
+        "2025-08-21 09:56:14"
+      ],
+      [
+        "https://www.westminster.ac.uk/",
+        "29366585a94975873a4d4dd52aa50a3057f8e8e8e6325e185db89c4b88bbdfd1",
+        0,
+        97,
+        "2025-08-13 13:46:48"
+      ],
+      [
+        "https://veri.westminster.ac.uk/",
+        "933e5fd4176e6608a700b682c588cecdde51f1d4ab4e5d2f23dbd7539a637e3f",
+        0,
+        97,
+        "2025-08-07 10:54:40"
+      ],
+      [
+        "https://westminsterresearch.westminster.ac.uk/",
+        "737da78c29fe4b64ece0fd6ec0216a86b99ebe2d2f020660a0cc990fb499b146",
+        0,
+        97,
+        "2025-08-01 08:20:53"
+      ],
+      [
+        "https://engage-employability.westminster.ac.uk/",
+        "5aa475594a7bbd51321e8900caa388a761c130f5e409aa61f4054df5da06d3b8",
+        0,
+        97,
+        "2025-07-28 22:16:37"
+      ],
+      [
+        "http://blog.westminster.ac.uk/",
+        "9117012f872263e6ab06acced6d4ba8ccc290eaf96c6153164364b2786fc5fa5",
+        0,
+        97,
+        "2025-07-21 15:05:35"
+      ],
+      [
+        "http://www.westminster.ac.uk/",
+        "1943317062447a1b72eb7d219a896f7aaa634f64758edb1713a88b50b80d9e9f",
+        0,
+        97,
+        "2025-07-01 14:13:24"
+      ],
+      [
+        "http://westminster.ac.uk/",
+        "914db31fac1bcb40851065f4a90ab6bd03e747d27e0f617514a70d26b58f49e5",
+        0,
+        97,
+        "2025-06-28 15:04:37"
+      ],
+      [
+        "https://westminster.ac.uk/",
+        "15c396bce42e64a8a649ea9bff4b8f4b030df17e6851adc86e304423bbb39ee1",
+        0,
+        97,
+        "2025-06-19 04:25:44"
+      ],
+      [
+        "https://your.westminster.ac.uk/",
+        "4769619a4d6a93c76fc894df5c75fe4c6acac3b0334e4dd235306b99d03f416f",
+        0,
+        97,
+        "2025-06-11 01:28:15"
+      ],
+      [
+        "https://library-collections-search.westminster.ac.uk/",
+        "d45d6807573b60d2323853311c4abd5b20ed1195b33578156a6b0481c7b69486",
+        0,
+        97,
+        "2025-06-12 15:54:34"
+      ],
+      [
+        "http://w1807950@westminster.ac.uk/",
+        "b83975f5a54063bb7a5dd79eaac2e7e649979736ad7dc90fee93288987586bb0",
+        0,
+        97,
+        "2025-06-06 11:29:12"
+      ],
+      [
+        "http://mailto:w1807950@westminster.ac.uk/",
+        "f9889333b91507f932b1f6b09dfdd1ff126820d9f99f4b8e6cac319c3c393f4c",
+        0,
+        97,
+        "2025-06-05 19:54:50"
+      ],
+      [
+        "http://archigram.westminster.ac.uk/",
+        "8772766ee04249a3cbd9f2199a4e8ca702e2ddbdec91f659b4bbba6bc31f5475",
+        0,
+        97,
+        "2025-05-28 01:27:28"
+      ],
+      [
+        "https://support.westminster.ac.uk/",
+        "5f294dfaeb765d178a260a2502f0c39b1d0bf6616bc132ec5c146606f43a1092",
+        0,
+        97,
+        "2025-05-30 20:42:46"
+      ],
+      [
+        "http://authn.westminster.ac.uk/",
+        "3c668097d594b536c57dc7b92a429b9c33f6d09015741c9b7346604124a7f8e8",
+        0,
+        97,
+        "2025-05-26 16:35:17"
+      ],
+      [
+        "https://w1407007.users.ecs.westminster.ac.uk/",
+        "2e803eca461aad43786c1875bea524570ca131dd7440237b00fcb90cb6ffdf58",
+        0,
+        97,
+        "2025-05-01 21:29:03"
+      ],
+      [
+        "https://engage.westminster.ac.uk/",
+        "848d2cae1d903e7db866610414ee335d57773e8a5403ecf215ae38a7017b571c",
+        0,
+        97,
+        "2025-04-20 10:33:40"
+      ],
+      [
+        "https://webprint.westminster.ac.uk/",
+        "2d0bee8612f18859bd02c2bcef6dd2d24b6804d5c1c397f401bbf4df30ee56f3",
+        0,
+        97,
+        "2025-04-19 05:15:33"
+      ],
+      [
+        "http://servicedesk.westminster.ac.uk/",
+        "0db8276e62631ce7a2df3b2b34aea47a287ef1b411af3b6c789c8b2f50f0535d",
+        0,
+        97,
+        "2025-04-16 08:30:35"
+      ],
+      [
+        "https://w1313903.users.ecs.westminster.ac.uk/",
+        "f3ec24e4d65cf6dfb76057d6c512e696f2a4643bf22aac05f7b01b8aac57f978",
+        0,
+        96,
+        "2025-02-28 04:11:44"
+      ],
+      [
+        "https://w1838207.users.ecs.westminster.ac.uk/",
+        "e8cf2190a56ccc0b449395f2a6588d9e34e104cd60fcbb1e01a4d816fceb6063",
+        0,
+        96,
+        "2025-02-27 03:08:58"
+      ],
+      [
+        "https://reportandsupport.westminster.ac.uk/",
+        "b0ad8cb06b35cf72c571d9066215aa93074a062b5bc2d25e707731d27e2dcf26",
+        0,
+        96,
+        "2025-02-17 00:11:47"
+      ],
+      [
+        "https://password.westminster.ac.uk/",
+        "9c06ce3e2d62e85e8936946ef5fc1c4308dad25724d01ed885e86bb93eb2fd73",
+        0,
+        96,
+        "2025-02-14 00:54:19"
+      ],
+      [
+        "https://dcwadmin.westminster.ac.uk/",
+        "531f39464f7b5f9c91601c92d0be07e5fc101037c10f54dcc6d48f09fc2107ea",
+        0,
+        96,
+        "2025-02-03 08:26:50"
+      ],
+      [
+        "https://verify.westminster.ac.uk/",
+        "9b151b9bf893d2d2a78f046d18908deda10061b218e666f4622cfc55a6388589",
+        0,
+        96,
+        "2025-02-03 08:26:50"
+      ],
+      [
+        "http://westminster.ac.uk/about-us/our-university/corporate-information/governance-and-structure/cour",
+        "e3469858705d2675006d3d88e0ee87d592a091b4ff61c9bc27fac2efc76370f8",
+        0,
+        95,
+        "2024-08-01 11:44:42"
+      ],
+      [
+        "https://westminster.ac.uk/course-search?f[0]=course_start_date:6941",
+        "2fd57de1b7b0e8383af4d5540695e57878f37f397b92c7bc2c7fbd8c98bd04a7",
+        0,
+        93,
+        "2024-03-18 23:19:27"
+      ],
+      [
+        "http://uow-fees@westminster.ac.uk/",
+        "3b747024323de0b8d302f8484f45cef7d06bd7ffc46568ae5f416ee0ebd7a411",
+        0,
+        93,
+        "2024-03-18 11:43:11"
+      ],
+      [
+        "http://noreply-payonline@westminster.ac.uk/",
+        "ff42f7b388cfe38083f465a32c33645f0abf90440510181dbd8df3ab4a8ea638",
+        0,
+        93,
+        "2024-03-16 04:46:52"
+      ],
+      [
+        "http://www.archive@westminster.ac.uk/",
+        "857f2636edac9385fd6d884f26c9961d62282972deee311706de1ec1932a6ace",
+        0,
+        90,
+        "2023-02-28 07:21:38"
+      ],
+      [
+        "http://www.maxlockcentre.@westminster.ac.uk/",
+        "10e76a98c4971d064455b1f84320f181ff2268095e1b0275c1f6c2c0e8a07344",
+        0,
+        90,
+        "2022-11-16 10:07:49"
+      ],
+      [
+        "http://careers@westminster.ac.uk/?utm_source=Westminster+Recruiter+Engagement+Newletter&utm_campaign=3794a5ae32-&utm_medium=email&utm_term=0_294b5d0cdf-3794a5ae32-368280517",
+        "8904acaa95bc921e8c001c25bae7726761d09e4d6e4a79398723650bdaf39705",
+        0,
+        88,
+        "2022-08-04 16:48:07"
+      ],
+      [
+        "http://westminster.ac.uk/funding",
+        "78e87ac9939f4ca20b9020e39ed02d894b5c0a5d13e14b1213769ee5c1021350",
+        0,
+        87,
+        "2022-07-10 21:30:30"
+      ],
+      [
+        "http://westminster.ac.uk/property-and-construction-courses/2019-20/september/full-time/real-estate-development-msc",
+        "24c48b019e9dfbe571e4420175c164e921a14f3c810f6da7652d06350e8b62fc",
+        0,
+        95,
+        "2022-06-14 05:46:27"
+      ],
+      [
+        "http://westminster.ac.uk/business-and-management-courses/2022-23/september/full-time/master-of-business-administration-mba",
+        "e1b61fef0bc40fa4678a803f0eab16fbcfbe9f25df067b0ad70372c13ff8bdcf",
+        0,
+        92,
+        "2022-05-03 11:13:49"
+      ],
+      [
+        "http://westminster.ac.uk/architecture-interiors-and-urban-design",
+        "1528c525db14268edce2ad51444b614294ea7e6aacbe01719d7797ca24059def",
+        0,
+        92,
+        "2022-05-03 11:11:18"
+      ],
+      [
+        "http://westminster.ac.uk/ict-aup-doc",
+        "c989f860ea819e152de1d9f48affd7c60a11d2535e4c94552e20a951a07f9e7e",
+        0,
+        92,
+        "2022-04-27 18:05:40"
+      ],
+      [
+        "http://mailto:r.aldred@westminster.ac.uk/",
+        "b5af7e64c12bdccb3b3dc90a639c215f9d8e8c6682c35d3786cfa09cfeefc85c",
+        0,
+        89,
+        "2021-08-12 23:48:52"
+      ]
+    ],
+    "verbose_msg": "Domain found in dataset",
+    "whois": "Registered on: before Aug-1996\nRegistrant type: 3432650ec337c945\nRegistrant's address: 3432650ec337c945\nRegistrant: 3432650ec337c945\nns0.ja.net.\nns1.surfnet.nl.\nns2.ja.net.\nns3.ja.net.\nns4.ja.net.",
+    "whois_timestamp": 1754935916
+  }
+}

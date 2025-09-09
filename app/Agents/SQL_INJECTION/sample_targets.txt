@@ -1,0 +1,13 @@
+# Sample targets file for SQL Injection Assessment Agent
+# Add your target URLs here (one per line)
+# Lines starting with # are comments and will be ignored
+
+# Example vulnerable targets (replace with your actual targets)
+https://httpbin.org/get?param=test
+https://httpbin.org/get?user=admin&search=test
+https://httpbin.org/get?id=1&page=1
+
+# Add more targets as needed:
+# https://your-target.com/vulnerable.php?id=1
+# https://your-target.com/search.php?q=test
+# https://your-target.com/login.php?username=admin&password=test 

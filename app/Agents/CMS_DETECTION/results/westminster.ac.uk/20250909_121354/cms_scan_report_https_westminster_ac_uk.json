@@ -1,0 +1,151 @@
+{
+  "target": "https://westminster.ac.uk",
+  "start_time": "2025-09-09T12:13:54.503897",
+  "findings": {
+    "cms_detection": {
+      "url": "https://westminster.ac.uk",
+      "cms": "Drupal",
+      "version": null,
+      "confidence": 90,
+      "working_url": "https://westminster.ac.uk",
+      "social_media": {
+        "facebook": [
+          "https://www.facebook.com/uniofwestminster/"
+        ],
+        "instagram": [
+          "https://www.instagram.com/uniwestminster/"
+        ],
+        "linkedin": [
+          "https://www.linkedin.com/edu/university-of-westminster-12733"
+        ],
+        "youtube": [
+          "https://www.youtube.com/user/uniofwestminster"
+        ],
+        "tiktok": [
+          "https://www.tiktok.com/@uniwestminster"
+        ]
+      }
+    },
+    "plugins_themes": {
+      "url": "https://westminster.ac.uk",
+      "plugins": [],
+      "themes": [],
+      "vulnerabilities": []
+    },
+    "user_enumeration": {
+      "url": "https://westminster.ac.uk",
+      "error": "Could not establish connection"
+    },
+    "malware_scan": {
+      "url": "https://westminster.ac.uk",
+      "malware": [
+        {
+          "pattern": "<\\w+\\s+on\\w+\\s*=",
+          "evidence": "Found 1 matches in page content",
+          "matches": [
+            "<form onsubmit="
+          ]
+        }
+      ],
+      "suspicious_scripts": [],
+      "defaced": false
+    },
+    "owasp_vulnerabilities": {
+      "url": "https://westminster.ac.uk",
+      "vulnerabilities": [
+        {
+          "type": "XSS",
+          "severity": "MEDIUM",
+          "evidence": "Pattern matched in content: <script\\b[^<]*(?:(?!<\\/script>)<[^<]*)*<\\/script>...",
+          "matches_count": 4
+        }
+      ]
+    },
+    "config_weaknesses": {
+      "url": "https://westminster.ac.uk",
+      "weaknesses": [],
+      "admin_exposed": false
+    },
+    "brute_force": {
+      "url": "https://westminster.ac.uk",
+      "vulnerable": true,
+      "details": [
+        {
+          "type": "Missing CAPTCHA",
+          "severity": "MEDIUM",
+          "evidence": "No CAPTCHA found on login page: https://westminster.ac.uk/user/login"
+        }
+      ]
+    },
+    "content_monitoring": {
+      "url": "https://westminster.ac.uk",
+      "changes": [],
+      "baseline_hash": "4b7d82030a6be1e40d9b8a4db12e9e82f707270f99f6d2648fd3345195ae9e31",
+      "current_hash": "4b7d82030a6be1e40d9b8a4db12e9e82f707270f99f6d2648fd3345195ae9e31",
+      "working_url": "https://westminster.ac.uk",
+      "baseline_path": "results\\westminster.ac.uk\\baseline.txt"
+    },
+    "domain_reputation": {
+      "domain": "westminster.ac.uk",
+      "reputation": {
+        "malicious": 0,
+        "suspicious": 0,
+        "clean": 50,
+        "total_scans": 50
+      },
+      "blacklisted": false,
+      "error": null,
+      "working_url": "https://westminster.ac.uk"
+    }
+  },
+  "vulnerabilities": [
+    {
+      "type": "Malware Detected",
+      "severity": "HIGH",
+      "description": "Potential malware or defacement detected",
+      "evidence": {
+        "malware": [
+          {
+            "pattern": "<\\w+\\s+on\\w+\\s*=",
+            "evidence": "Found 1 matches in page content",
+            "matches": [
+              "<form onsubmit="
+            ]
+          }
+        ],
+        "suspicious_scripts": [],
+        "defaced": false
+      },
+      "recommendation": "Remove malicious code and investigate compromise"
+    },
+    {
+      "type": "XSS",
+      "severity": "MEDIUM",
+      "description": "Pattern matched in content: <script\\b[^<]*(?:(?!<\\/script>)<[^<]*)*<\\/script>...",
+      "evidence": "Pattern matched in content: <script\\b[^<]*(?:(?!<\\/script>)<[^<]*)*<\\/script>...",
+      "recommendation": "Mitigate XSS vulnerability"
+    },
+    {
+      "type": "Missing CAPTCHA",
+      "severity": "MEDIUM",
+      "description": "No CAPTCHA found on login page: https://westminster.ac.uk/user/login",
+      "evidence": {
+        "url": "https://westminster.ac.uk"
+      },
+      "recommendation": "Implement CAPTCHA or rate limiting on login endpoints"
+    }
+  ],
+  "recommendations": [
+    "Keep CMS core, plugins, and themes updated to latest secure versions",
+    "Implement strong access controls for admin panels",
+    "Regularly backup CMS data and configurations",
+    "Enable logging and monitoring for security events",
+    "Remove malicious code and investigate compromise",
+    "Mitigate XSS vulnerability",
+    "Implement CAPTCHA or rate limiting on login endpoints",
+    "Regularly check Drupal security advisories"
+  ],
+  "status": "COMPLETED",
+  "end_time": "2025-09-09T12:14:18.100494",
+  "duration": "0:00:23.596597"
+}
