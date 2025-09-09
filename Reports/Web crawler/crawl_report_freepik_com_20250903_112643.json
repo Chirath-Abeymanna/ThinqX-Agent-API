@@ -1,0 +1,39 @@
+{
+  "crawl_summary": {
+    "target_domain": "https://freepik.com",
+    "crawl_duration": 5.174897,
+    "urls_discovered": 0,
+    "urls_successfully_crawled": 0,
+    "errors_encountered": 0,
+    "start_time": "2025-09-03T11:26:38.370268",
+    "end_time": "2025-09-03T11:26:43.545165"
+  },
+  "discovery_statistics": {
+    "total_files_found": 0,
+    "total_forms_found": 0,
+    "sensitive_files_found": 0,
+    "hidden_files_discovered": 0
+  },
+  "categorized_findings": {
+    "Other": {
+      "count": 0,
+      "sensitivity_breakdown": {
+        "low": 0,
+        "medium": 0,
+        "high": 0,
+        "critical": 0
+      },
+      "urls": []
+    },
+    "Sensitive Content": {
+      "count": 0,
+      "sensitivity_breakdown": {
+        "low": 0,
+        "medium": 0,
+        "high": 0,
+        "critical": 0
+      },
+      "urls": []
+    }
+  }
+}

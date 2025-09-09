@@ -1,0 +1,17 @@
+{
+  "target": "https://adobe.com",
+  "start_time": "2025-09-03T11:00:57.066390",
+  "findings": {
+    "cms_detection": {
+      "url": "https://adobe.com",
+      "error": "Could not establish connection to any URL variant",
+      "working_url": null
+    }
+  },
+  "vulnerabilities": [],
+  "recommendations": [],
+  "status": "FAILED",
+  "error": "Could not establish connection to any URL variant",
+  "end_time": "2025-09-03T11:01:40.462936",
+  "duration": "0:00:43.396546"
+}
