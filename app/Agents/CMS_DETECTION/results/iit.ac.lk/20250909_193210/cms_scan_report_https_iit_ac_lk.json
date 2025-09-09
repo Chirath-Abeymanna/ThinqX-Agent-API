@@ -1,0 +1,189 @@
+{
+  "target": "https://iit.ac.lk",
+  "start_time": "2025-09-09T19:32:10.016190",
+  "findings": {
+    "cms_detection": {
+      "url": "https://iit.ac.lk",
+      "cms": "WordPress",
+      "version": "6.8.2",
+      "confidence": 110,
+      "working_url": "https://iit.ac.lk",
+      "server": "Nginx",
+      "social_media": {
+        "facebook": [
+          "https://www.facebook.com/iitsl"
+        ],
+        "twitter": [
+          "https://twitter.com/iitsrilanka"
+        ],
+        "instagram": [
+          "https://www.instagram.com/iitlife/"
+        ],
+        "linkedin": [
+          "https://www.linkedin.com/company/informatics-institute-of-technology/"
+        ],
+        "youtube": [
+          "https://www.youtube.com/channel/uc02dmfclk9vaedoiksianka"
+        ],
+        "tiktok": [
+          "https://www.tiktok.com/@iitlife"
+        ],
+        "other": [
+          "https://www.iit.ac.lk/social/"
+        ]
+      }
+    },
+    "plugins_themes": {
+      "url": "https://iit.ac.lk",
+      "plugins": [],
+      "themes": [],
+      "vulnerabilities": []
+    },
+    "user_enumeration": {
+      "url": "https://iit.ac.lk",
+      "users": [],
+      "vulnerable": false
+    },
+    "malware_scan": {
+      "url": "https://iit.ac.lk",
+      "malware": [],
+      "suspicious_scripts": [],
+      "defaced": false
+    },
+    "owasp_vulnerabilities": {
+      "url": "https://iit.ac.lk",
+      "vulnerabilities": [
+        {
+          "type": "XSS",
+          "severity": "MEDIUM",
+          "evidence": "Pattern matched in content: <script\\b[^<]*(?:(?!<\\/script>)<[^<]*)*<\\/script>...",
+          "matches_count": 25
+        },
+        {
+          "type": "Insecure Direct Object References",
+          "severity": "MEDIUM",
+          "evidence": "Pattern matched in content: \\bid=\\d+\\b|\\bfile=[\\w-]+\\b...",
+          "matches_count": 1
+        }
+      ]
+    },
+    "config_weaknesses": {
+      "url": "https://iit.ac.lk",
+      "weaknesses": [
+        {
+          "type": "Exposed Config File",
+          "severity": "CRITICAL",
+          "evidence": "Config file accessible at https://iit.ac.lk/wp-config.php"
+        }
+      ],
+      "admin_exposed": false
+    },
+    "brute_force": {
+      "url": "https://iit.ac.lk",
+      "vulnerable": false,
+      "details": []
+    },
+    "content_monitoring": {
+      "url": "https://iit.ac.lk",
+      "changes": [
+        {
+          "type": "Content Change",
+          "severity": "MEDIUM",
+          "evidence": "Content hash mismatch detected"
+        }
+      ],
+      "baseline_hash": "6861cf3f7d40d88eebf9fdc68b2e049ecde657cd8a36d8a61208612ffb3fd639",
+      "current_hash": "5c89a30e6586b24d8fbaee8eaf3150fd577ebe7095c17b18446c1dcedc5c6b0a",
+      "working_url": "https://iit.ac.lk",
+      "baseline_path": "results\\iit.ac.lk\\baseline.txt"
+    },
+    "domain_reputation": {
+      "domain": "iit.ac.lk",
+      "reputation": {
+        "malicious": 1,
+        "suspicious": 0,
+        "clean": 10,
+        "total_scans": 11
+      },
+      "blacklisted": true,
+      "error": null,
+      "working_url": "https://iit.ac.lk"
+    }
+  },
+  "vulnerabilities": [
+    {
+      "type": "CMS Version Exposed",
+      "severity": "MEDIUM",
+      "description": "WordPress version 6.8.2 detected",
+      "evidence": {
+        "cms": "WordPress",
+        "version": "6.8.2"
+      },
+      "recommendation": "Hide CMS version information and keep updated"
+    },
+    {
+      "type": "XSS",
+      "severity": "MEDIUM",
+      "description": "Pattern matched in content: <script\\b[^<]*(?:(?!<\\/script>)<[^<]*)*<\\/script>...",
+      "evidence": "Pattern matched in content: <script\\b[^<]*(?:(?!<\\/script>)<[^<]*)*<\\/script>...",
+      "recommendation": "Mitigate XSS vulnerability"
+    },
+    {
+      "type": "Insecure Direct Object References",
+      "severity": "MEDIUM",
+      "description": "Pattern matched in content: \\bid=\\d+\\b|\\bfile=[\\w-]+\\b...",
+      "evidence": "Pattern matched in content: \\bid=\\d+\\b|\\bfile=[\\w-]+\\b...",
+      "recommendation": "Mitigate Insecure Direct Object References vulnerability"
+    },
+    {
+      "type": "Exposed Config File",
+      "severity": "CRITICAL",
+      "description": "Config file accessible at https://iit.ac.lk/wp-config.php",
+      "evidence": {
+        "path": null
+      },
+      "recommendation": "Secure exposed config file"
+    },
+    {
+      "type": "Unexpected Content Change",
+      "severity": "MEDIUM",
+      "description": "Content changes detected since last scan",
+      "evidence": [
+        {
+          "type": "Content Change",
+          "severity": "MEDIUM",
+          "evidence": "Content hash mismatch detected"
+        }
+      ],
+      "recommendation": "Investigate content changes for potential compromise"
+    },
+    {
+      "type": "Poor Domain Reputation",
+      "severity": "HIGH",
+      "description": "Domain flagged as malicious by 1 scanners",
+      "evidence": {
+        "malicious": 1,
+        "suspicious": 0,
+        "clean": 10,
+        "total_scans": 11
+      },
+      "recommendation": "Investigate and remediate domain reputation issues"
+    }
+  ],
+  "recommendations": [
+    "Keep CMS core, plugins, and themes updated to latest secure versions",
+    "Implement strong access controls for admin panels",
+    "Regularly backup CMS data and configurations",
+    "Enable logging and monitoring for security events",
+    "Hide CMS version information and keep updated",
+    "Mitigate XSS vulnerability",
+    "Mitigate Insecure Direct Object References vulnerability",
+    "Secure exposed config file",
+    "Investigate content changes for potential compromise",
+    "Investigate and remediate domain reputation issues",
+    "Regularly check WordPress security advisories"
+  ],
+  "status": "COMPLETED",
+  "end_time": "2025-09-09T19:32:37.456989",
+  "duration": "0:00:27.440799"
+}

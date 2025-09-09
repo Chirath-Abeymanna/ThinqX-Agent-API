@@ -1,43 +1,3 @@
-
-# Core utilities
-rich
-requests
-python-whois
-aiohttp
-shodan
-beautifulsoup4
-dnspython
-
-# For advanced web crawling and output formatting
-langchain
-langchain_openai
-langchain-core
-
-# FastAPI core
-fastapi
-pydantic
-uvicorn[standard]
-starlette
-typing-extensions
-
-# For ML models 
-httpx[http2]
-colorama
-aiofiles
-lxml
-beautifulsoup4
-
-# Additional dependencies for web crawler
-python-multipart
-
-# FastAPI additional dependencies
-email-validator==2.1.0
-pydantic-settings==2.1.0
-
-# Optional: 
-# scikit-learn
-# tensorflow
-# torch
 # =============================
 # Core Framework
 # =============================
@@ -109,4 +69,3 @@ joblib>=1.2.0
 # Optional: Security / Recon
 # =============================
 shodan>=1.30.0
-

