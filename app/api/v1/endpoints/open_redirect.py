@@ -23,7 +23,7 @@ async def scan_domain(request: OpenRedirectRequest):
     """
     Run open_redirect-agent for the given domain and return the JSON result.
     """
-    print(f"Received scan request for target: {request.target}")
+    print(f"Meka thamai ena domain eka: {request.target}")
     try:
         # Validate input
         if not request.target.startswith(('http://', 'https://')):
