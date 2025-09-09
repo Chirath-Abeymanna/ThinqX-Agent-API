@@ -32,8 +32,8 @@ async def scan_domain(request: OpenRedirectRequest):
         print(f"Normalized target URL: {request.target}")
         
         result = await run_openredirect_agent_service(request.target, request.mission_type)
-        print(f"Service returned result type: {type(result)}")
-        print(f"Service returned result content: {result}")
+        # print(f"Service returned result type: {type(result)}")
+        # print(f"Service returned result content: {result}")
         
         if not result:
             raise HTTPException(status_code=500, detail="Scan completed but no results were returned")

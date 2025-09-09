@@ -34,10 +34,10 @@ async def run_openredirect_agent_service(target: str, mission_type: str = "compr
                 }
             }
 
-        # Handle non-dict results gracefully
+        # Handle non-dict results 
         if not isinstance(result, dict):
             print(f"Warning: Unexpected result type: {type(result)}")
-            # Try to convert to dict if possible
+            
             try:
                 result = dict(result)
             except:
