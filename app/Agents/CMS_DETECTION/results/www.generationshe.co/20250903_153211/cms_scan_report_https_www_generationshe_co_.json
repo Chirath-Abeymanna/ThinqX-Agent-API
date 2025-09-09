@@ -1,0 +1,171 @@
+{
+  "target": "https://www.generationshe.co/",
+  "start_time": "2025-09-03T15:32:11.788242",
+  "findings": {
+    "cms_detection": {
+      "url": "https://www.generationshe.co/",
+      "cms": "Wix",
+      "version": null,
+      "confidence": 90,
+      "working_url": "https://www.generationshe.co/",
+      "saas_details": {
+        "platform": "Wix",
+        "confidence": 90,
+        "indicators_found": 70
+      },
+      "security_analysis": {
+        "url": "https://www.generationshe.co/",
+        "platform": "Wix",
+        "security_headers": {
+          "Strict-Transport-Security": "max-age=86400",
+          "X-Content-Type-Options": "nosniff"
+        },
+        "vulnerabilities": [
+          {
+            "type": "Missing Security Header",
+            "severity": "MEDIUM",
+            "evidence": "Missing X-Frame-Options header (clickjacking risk)"
+          },
+          {
+            "type": "Missing Security Header",
+            "severity": "MEDIUM",
+            "evidence": "Missing CSP header"
+          },
+          {
+            "type": "Missing Security Header",
+            "severity": "MEDIUM",
+            "evidence": "Missing XSS protection header"
+          }
+        ]
+      }
+    },
+    "plugins_themes": {
+      "url": "https://www.generationshe.co/",
+      "plugins": [],
+      "themes": [],
+      "vulnerabilities": []
+    },
+    "user_enumeration": {
+      "url": "https://www.generationshe.co/",
+      "users": [],
+      "vulnerable": false
+    },
+    "malware_scan": {
+      "url": "https://www.generationshe.co/",
+      "malware": [
+        {
+          "pattern": "http[s]?://[^\\s]*?\\.(ru|cn|xyz|top)",
+          "evidence": "Found 4 matches in page content",
+          "matches": [
+            "ru",
+            "ru",
+            "ru",
+            "ru"
+          ]
+        }
+      ],
+      "suspicious_scripts": [],
+      "defaced": false
+    },
+    "owasp_vulnerabilities": {
+      "url": "https://www.generationshe.co/",
+      "vulnerabilities": [
+        {
+          "type": "XSS",
+          "severity": "MEDIUM",
+          "evidence": "Pattern matched in content: <script\\b[^<]*(?:(?!<\\/script>)<[^<]*)*<\\/script>...",
+          "matches_count": 59
+        }
+      ]
+    },
+    "config_weaknesses": {
+      "url": "https://www.generationshe.co/",
+      "weaknesses": [],
+      "admin_exposed": false
+    },
+    "brute_force": {
+      "url": "https://www.generationshe.co/",
+      "vulnerable": false,
+      "details": []
+    },
+    "content_monitoring": {
+      "url": "https://www.generationshe.co/",
+      "changes": [],
+      "baseline_hash": "53574865d6677f9d61e9843ee03c95ad701189afffa4009fabcb1ef1dfee0e28",
+      "current_hash": "53574865d6677f9d61e9843ee03c95ad701189afffa4009fabcb1ef1dfee0e28",
+      "working_url": "https://www.generationshe.co/",
+      "baseline_path": "results/www.generationshe.co/baseline.txt"
+    },
+    "domain_reputation": {
+      "domain": "www.generationshe.co",
+      "reputation": {
+        "malicious": 1,
+        "suspicious": 0,
+        "clean": 6,
+        "total_scans": 7
+      },
+      "blacklisted": true,
+      "error": null,
+      "working_url": "https://www.generationshe.co/"
+    }
+  },
+  "vulnerabilities": [
+    {
+      "type": "Malware Detected",
+      "severity": "HIGH",
+      "description": "Potential malware or defacement detected",
+      "evidence": {
+        "malware": [
+          {
+            "pattern": "http[s]?://[^\\s]*?\\.(ru|cn|xyz|top)",
+            "evidence": "Found 4 matches in page content",
+            "matches": [
+              "ru",
+              "ru",
+              "ru",
+              "ru"
+            ]
+          }
+        ],
+        "suspicious_scripts": [],
+        "defaced": false
+      },
+      "recommendation": "Remove malicious code and investigate compromise"
+    },
+    {
+      "type": "XSS",
+      "severity": "MEDIUM",
+      "description": "Pattern matched in content: <script\\b[^<]*(?:(?!<\\/script>)<[^<]*)*<\\/script>...",
+      "evidence": "Pattern matched in content: <script\\b[^<]*(?:(?!<\\/script>)<[^<]*)*<\\/script>...",
+      "recommendation": "Mitigate XSS vulnerability"
+    },
+    {
+      "type": "Poor Domain Reputation",
+      "severity": "HIGH",
+      "description": "Domain flagged as malicious by 1 scanners",
+      "evidence": {
+        "malicious": 1,
+        "suspicious": 0,
+        "clean": 6,
+        "total_scans": 7
+      },
+      "recommendation": "Investigate and remediate domain reputation issues"
+    }
+  ],
+  "recommendations": [
+    "Keep CMS core, plugins, and themes updated to latest secure versions",
+    "Implement strong access controls for admin panels",
+    "Regularly backup CMS data and configurations",
+    "Enable logging and monitoring for security events",
+    "Remove malicious code and investigate compromise",
+    "Mitigate XSS vulnerability",
+    "Investigate and remediate domain reputation issues",
+    "Regularly check Wix security advisories",
+    "Review Wix security settings in admin panel",
+    "Enable two-factor authentication for Wix account",
+    "Regularly review Wix app permissions and integrations"
+  ],
+  "status": "COMPLETED",
+  "end_time": "2025-09-03T15:32:20.501123",
+  "duration": "0:00:08.712881"
+}

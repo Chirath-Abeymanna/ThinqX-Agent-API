@@ -1,0 +1,123 @@
+{
+  "timestamp": "20250903_153211",
+  "scan_type": "domain_reputation",
+  "identifier": "www.generationshe.co",
+  "virustotal_data": {
+    "detected_downloaded_samples": [],
+    "detected_urls": [
+      {
+        "positives": 1,
+        "scan_date": "2023-09-14 09:29:33",
+        "total": 90,
+        "url": "https://www.generationshe.co/resources"
+      }
+    ],
+    "domain_siblings": [
+      "jobs.generationshe.co",
+      "newsletter.generationshe.co",
+      "app.generationshe.co"
+    ],
+    "resolutions": [
+      {
+        "ip_address": "151.101.1.84",
+        "last_resolved": "2021-06-25 12:54:17"
+      },
+      {
+        "ip_address": "151.101.129.84",
+        "last_resolved": "2021-06-25 12:54:21"
+      },
+      {
+        "ip_address": "151.101.193.84",
+        "last_resolved": "2021-06-25 12:54:21"
+      },
+      {
+        "ip_address": "151.101.65.84",
+        "last_resolved": "2021-06-25 12:54:21"
+      },
+      {
+        "ip_address": "185.230.60.102",
+        "last_resolved": "2020-11-19 10:09:19"
+      },
+      {
+        "ip_address": "185.230.60.161",
+        "last_resolved": "2021-03-19 08:43:22"
+      },
+      {
+        "ip_address": "185.230.60.177",
+        "last_resolved": "2020-09-20 12:42:26"
+      },
+      {
+        "ip_address": "185.230.60.195",
+        "last_resolved": "2020-03-24 02:10:33"
+      },
+      {
+        "ip_address": "185.230.60.211",
+        "last_resolved": "2019-11-20 04:11:12"
+      },
+      {
+        "ip_address": "185.230.60.96",
+        "last_resolved": "2020-08-05 08:31:45"
+      },
+      {
+        "ip_address": "185.230.61.195",
+        "last_resolved": "2021-02-11 12:39:49"
+      },
+      {
+        "ip_address": "185.230.61.211",
+        "last_resolved": "2020-01-20 12:28:12"
+      },
+      {
+        "ip_address": "34.149.87.45",
+        "last_resolved": "2024-05-25 15:05:10"
+      }
+    ],
+    "response_code": 1,
+    "undetected_downloaded_samples": [],
+    "undetected_urls": [
+      [
+        "https://www.generationshe.co/",
+        "c8b70d8b0dbf11d6724700c383d639b7f4d1b544116e97920dfff8bafc5f7e1f",
+        0,
+        97,
+        "2025-08-19 22:26:21"
+      ],
+      [
+        "https://www.generationshe.co/work",
+        "4167506be9dab72f1d8481a71d2b8fea54c2b1007fac8c0b5c47aeb0625c1feb",
+        0,
+        96,
+        "2024-11-15 09:33:27"
+      ],
+      [
+        "http://www.generationshe.co/",
+        "85fe6eeb47b0f471dc82b7de7d360582d09db4e5b477b66eb1816e8070a6ceff",
+        0,
+        95,
+        "2024-05-25 15:04:57"
+      ],
+      [
+        "https://www.generationshe.co/product-page/all-white-dad-hat",
+        "f2fdc0388a184e8106ce601fca9a50f54486aaa731989ec664f5743a38809f0f",
+        0,
+        95,
+        "2022-06-07 11:01:59"
+      ],
+      [
+        "https://www.generationshe.co/about",
+        "24f509568b33f255ff0a81e9fe68c0851bb3ed143e98fe356138d0f065807d18",
+        0,
+        89,
+        "2021-09-10 15:01:04"
+      ],
+      [
+        "https://www.generationshe.co/makeathon",
+        "e8199eae660c51014b04bdbb23e90d6e5146bb90bf6a642ad14c9c723dd7cb65",
+        0,
+        79,
+        "2020-08-05 08:30:21"
+      ]
+    ],
+    "verbose_msg": "Domain found in dataset",
+    "whois": "Admin City: REDACTED FOR PRIVACY\nAdmin Country: REDACTED FOR PRIVACY\nAdmin Organization: REDACTED FOR PRIVACY\nAdmin Postal Code: REDACTED FOR PRIVACY\nAdmin State/Province: REDACTED FOR PRIVACY\nCreation Date: 2019-05-03T05:27:19Z\nDNSSEC: unsigned\nDomain Name: generationshe.co\nDomain Status: ok https://icann.org/epp#ok\nName Server: ns2.wixdns.net\nName Server: ns3.wixdns.net\nRegistrant City: 1f8f4166599d23ee\nRegistrant Country: US\nRegistrant Email: f651612a2f356ad3s@\nRegistrant Fax Ext: 1f8f4166599d23ee\nRegistrant Fax: 1f8f4166599d23ee\nRegistrant Name: 1f8f4166599d23ee\nRegistrant Organization: 3432650ec337c945\nRegistrant Phone Ext: 1f8f4166599d23ee\nRegistrant Phone: 1f8f4166599d23ee\nRegistrant Postal Code: 1f8f4166599d23ee\nRegistrant State/Province: 6eb233f5a5adbed8\nRegistrant Street: 1f8f4166599d23ee\nRegistrar Abuse Contact Email: abuse@web.com\nRegistrar Abuse Contact Phone: +1.8003337680\nRegistrar IANA ID: 2\nRegistrar URL: whois.biz\nRegistrar: Network Solutions, LLC\nRegistry Admin ID: REDACTED FOR PRIVACY\nRegistry Domain ID: REDACTED FOR PRIVACY\nRegistry Expiry Date: 2025-05-03T05:27:19Z\nRegistry Registrant ID: REDACTED FOR PRIVACY\nRegistry Tech ID: REDACTED FOR PRIVACY\nTech City: REDACTED FOR PRIVACY\nTech Country: REDACTED FOR PRIVACY\nTech Organization: REDACTED FOR PRIVACY\nTech Postal Code: REDACTED FOR PRIVACY\nTech State/Province: REDACTED FOR PRIVACY\nUpdated Date: 2024-06-03T02:12:08Z"
+  }
+}
