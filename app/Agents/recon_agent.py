@@ -30,11 +30,12 @@ from datetime import datetime
 from typing import Dict, List, Any, Optional
 from concurrent.futures import ThreadPoolExecutor
 from urllib.parse import urljoin, urlparse
+from requests.adapters import HTTPAdapter
+from urllib3.util.retry import Retry
 from bs4 import BeautifulSoup
 import random
 import re
 import base64
-from app.models.recon_models import ReconReport
 
 # Removed LangChain imports - standalone reconnaissance tool
 
@@ -65,6 +66,7 @@ DNS_SERVERS = ["8.8.8.8", "1.1.1.1", "9.9.9.9", "149.112.112.112"]
 
 # Offensive Wordlists
 SUBDOMAIN_WORDLIST = [
+    # Common subdomains
     "www", "mail", "remote", "blog", "webmail", "server", "ns1", "ns2", "smtp", "secure", "vpn", "m", "shop", "ftp",
     "mail2", "test", "portal", "ns", "ww1", "host", "support", "dev", "web", "bbs", "ww42", "squirrelmail", "src",
     "ssl", "web2", "ns3", "img", "pop", "mysql", "beta", "ntp", "staging", "admin", "demo", "api", "app", "git",
@@ -74,7 +76,114 @@ SUBDOMAIN_WORDLIST = [
     "training", "prod", "production", "uat", "qa", "staging2", "dev2", "test2", "sandbox", "lab", "research",
     "edge", "firewall", "gateway", "proxy", "load-balancer", "lb", "cluster", "node1", "node2", "worker",
     "kubernetes", "docker", "container", "microservice", "service", "internal", "private", "public", "external",
-    "dmz", "lan", "wan", "vpn2", "ssl-vpn", "citrix", "terminal", "rds", "rdp", "ssh", "sftp", "ftps"
+    "dmz", "lan", "wan", "vpn2", "ssl-vpn", "citrix", "terminal", "rds", "rdp", "ssh", "sftp", "ftps",
+    
+    # Additional common subdomains
+    "account", "accounts", "ad", "ads", "analytics", "api-docs", "auth", "authentication", "billing", "cache",
+    "calendar", "chat", "client", "clients", "cloud", "console", "contact", "dashboard", "db", "database",
+    "delivery", "design", "developer", "developers", "download", "downloads", "email", "files", "game", "games",
+    "gateway", "graphql", "health", "helpdesk", "home", "hosting", "image", "images", "imap", "jenkins", "jobs",
+    "login", "logs", "manage", "management", "media", "member", "members", "mobile-api", "monitor", "monitoring",
+    "my", "net", "network", "news", "office", "online", "panel", "partner", "partners", "pay", "payment",
+    "payments", "photo", "photos", "pop3", "portal", "preview", "private", "profile", "profiles", "public",
+    "register", "registration", "remote", "report", "reports", "reseller", "root", "router", "rss", "s",
+    "sales", "search", "secure", "security", "send", "server", "service", "services", "shop", "shopping",
+    "site", "sites", "smtp", "social", "software", "staff", "stage", "staging", "static", "stats", "status",
+    "store", "stream", "streaming", "support", "survey", "surveys", "system", "tech", "test", "testing",
+    "tools", "track", "tracking", "upload", "uploads", "user", "users", "video", "videos", "vpn", "web",
+    "webmail", "webmaster", "webservice", "webservices", "website", "websites", "wiki", "wordpress", "work",
+    "www1", "www2", "www3", "www4", "www5", "www6", "www7", "www8", "www9", "www10",
+    
+    # Cloud and infrastructure
+    "aws", "azure", "gcp", "cloudfront", "s3", "ec2", "lambda", "api-gateway", "alb", "elb", "rds", "elasticache",
+    "cloudflare", "fastly", "akamai", "heroku", "netlify", "vercel", "firebase", "appspot", "herokuapp",
+    
+    # Development and staging
+    "dev-api", "staging-api", "prod-api", "test-api", "dev-web", "staging-web", "prod-web", "test-web",
+    "dev-admin", "staging-admin", "prod-admin", "test-admin", "dev-dashboard", "staging-dashboard",
+    "prod-dashboard", "test-dashboard", "dev-portal", "staging-portal", "prod-portal", "test-portal",
+    
+    # Regional and language specific
+    "us", "uk", "eu", "asia", "au", "ca", "de", "fr", "jp", "cn", "in", "br", "mx", "es", "it", "nl", "se",
+    "en", "de", "fr", "es", "it", "pt", "ru", "zh", "ja", "ko", "ar", "hi", "th", "vi",
+    
+    # Business and enterprise
+    "corp", "corporate", "enterprise", "business", "commercial", "customer", "customers", "client-portal",
+    "partner-portal", "vendor", "vendors", "supplier", "suppliers", "distributor", "distributors",
+    "reseller", "resellers", "affiliate", "affiliates", "dealer", "dealers", "agent", "agents",
+    
+    # Application specific
+    "wordpress", "wp", "drupal", "joomla", "magento", "shopify", "woocommerce", "prestashop", "opencart",
+    "laravel", "django", "rails", "spring", "node", "react", "angular", "vue", "ember", "backbone",
+    "phpmyadmin", "adminer", "webmin", "plesk", "cpanel", "whm", "directadmin", "vestacp",
+    
+    # Monitoring and analytics
+    "grafana", "kibana", "prometheus", "zabbix", "nagios", "icinga", "munin", "cacti", "observium",
+    "newrelic", "datadog", "splunk", "elasticsearch", "logstash", "kafka", "redis", "memcached",
+    
+    # Communication and collaboration
+    "slack", "teams", "zoom", "webex", "gotomeeting", "skype", "hangouts", "meet", "chat", "messaging",
+    "email", "mail", "calendar", "contacts", "drive", "docs", "sheets", "slides", "forms", "sites",
+    
+    # Security and access
+    "sso", "ldap", "ad", "radius", "oauth", "saml", "openid", "cas", "kerberos", "pam", "tacacs",
+    "firewall", "ids", "ips", "waf", "ddos", "vpn", "proxy", "gateway", "bastion", "jump",
+    
+    # Database and storage
+    "mysql", "postgresql", "mongodb", "redis", "elasticsearch", "cassandra", "couchdb", "neo4j",
+    "oracle", "sqlserver", "db2", "sybase", "informix", "teradata", "snowflake", "bigquery",
+    
+    # API and services
+    "api-v1", "api-v2", "api-v3", "rest", "graphql", "soap", "grpc", "webhook", "callback", "oauth",
+    "auth", "authentication", "authorization", "token", "jwt", "session", "cookie", "csrf",
+    
+    # Mobile and apps
+    "mobile", "app", "apps", "ios", "android", "mobile-api", "app-api", "push", "notification",
+    "fcm", "apns", "gcm", "firebase", "onesignal", "urbanairship", "mixpanel", "amplitude",
+    
+    # E-commerce and payments
+    "shop", "store", "cart", "checkout", "payment", "pay", "billing", "invoice", "order", "orders",
+    "product", "products", "catalog", "inventory", "warehouse", "shipping", "delivery", "tracking",
+    
+    # Content and media
+    "cdn", "static", "assets", "images", "img", "video", "videos", "audio", "media", "content",
+    "upload", "uploads", "download", "downloads", "file", "files", "document", "documents",
+    
+    # Social and community
+    "social", "community", "forum", "forums", "blog", "blogs", "news", "press", "media", "events",
+    "webinar", "conference", "meetup", "group", "groups", "team", "teams", "project", "projects",
+    
+    # Support and help
+    "support", "help", "faq", "docs", "documentation", "guide", "tutorial", "knowledge", "kb",
+    "ticket", "tickets", "case", "cases", "issue", "issues", "bug", "bugs", "feature", "features",
+    
+    # Development and testing
+    "dev", "development", "test", "testing", "staging", "qa", "uat", "preview", "demo", "sandbox",
+    "lab", "labs", "research", "experiment", "experiments", "prototype", "prototypes", "beta",
+    
+    # Infrastructure and operations
+    "ops", "operations", "deploy", "deployment", "ci", "cd", "jenkins", "gitlab", "github", "bitbucket",
+    "docker", "kubernetes", "helm", "terraform", "ansible", "chef", "puppet", "salt", "vagrant",
+    
+    # Monitoring and logging
+    "monitor", "monitoring", "alert", "alerts", "log", "logs", "logging", "metrics", "analytics",
+    "dashboard", "dashboards", "report", "reports", "status", "health", "ping", "uptime", "performance",
+    
+    # Security and compliance
+    "security", "compliance", "audit", "audits", "scan", "scans", "vulnerability", "vulnerabilities",
+    "penetration", "pentest", "assessment", "assessments", "certification", "certifications",
+    
+    # Business and management
+    "admin", "administrator", "manage", "management", "control", "controls", "panel", "dashboard",
+    "console", "portal", "cms", "crm", "erp", "hr", "finance", "accounting", "sales", "marketing",
+    
+    # Communication and messaging
+    "mail", "email", "smtp", "pop3", "imap", "exchange", "outlook", "gmail", "yahoo", "hotmail",
+    "chat", "messaging", "sms", "mms", "voice", "call", "calls", "phone", "telephone", "fax",
+    
+    # Storage and backup
+    "backup", "backups", "storage", "file", "files", "document", "documents", "archive", "archives",
+    "repository", "repositories", "git", "svn", "hg", "cvs", "version", "versions", "release", "releases"
 ]
 
 DIRECTORY_WORDLIST = [
@@ -133,6 +242,12 @@ class Logger:
 
 logger = Logger()
 
+def enlarge_session_pool(session, pool_connections=100, pool_maxsize=100):
+    adapter = HTTPAdapter(pool_connections=pool_connections, pool_maxsize=pool_maxsize, max_retries=Retry(total=3))
+    session.mount('http://', adapter)
+    session.mount('https://', adapter)
+    return session
+
 # ============================================================================
 # CORE RECONNAISSANCE MODULES
 # ============================================================================
@@ -143,6 +258,7 @@ class DomainRecon:
     def __init__(self):
         self.session = requests.Session()
         self.session.headers.update({'User-Agent': random.choice(USER_AGENTS)})
+        enlarge_session_pool(self.session, pool_connections=100, pool_maxsize=100)
     
     def whois_lookup(self, domain: str) -> Dict[str, Any]:
         """Enhanced WHOIS lookup with additional intelligence"""
@@ -182,24 +298,7 @@ class DomainRecon:
             
         except Exception as e:
             logger.error(f"WHOIS lookup failed: {str(e)}")
-            return {
-                    'domain': domain,
-                    'registrar': None,
-                    'creation_date': None,
-                    'expiration_date': None,
-                    'updated_date': None,
-                    'name_servers': None,
-                    'status': None,
-                    'emails': None,
-                    'registrant_country': None,
-                    'registrant_org': None,
-                    'admin_email': None,
-                    'tech_email': None,
-                    'dnssec': None,
-                    'domain_age_days': None,
-                    'domain_age_years': None,
-                    'error': str(e)
-                }
+            return {'domain': domain, 'error': str(e)}
     
     def dns_enumeration(self, domain: str) -> Dict[str, Any]:
         """Comprehensive DNS enumeration"""
@@ -253,47 +352,276 @@ class DomainRecon:
         logger.success(f"DNS enumeration completed for {domain}")
         return dns_records
     
-    def subdomain_discovery(self, domain: str, wordlist: Optional[List[str]] = None) -> List[str]:
-        """Aggressive subdomain discovery"""
-        logger.info(f"🔍 Subdomain discovery for {domain}")
+    def subdomain_discovery(self, domain: str, wordlist: Optional[List[str]] = None) -> Dict[str, Any]:
+        """Comprehensive subdomain discovery using multiple techniques"""
+        logger.info(f"🔍 Comprehensive subdomain discovery for {domain}")
         
         if not wordlist:
             wordlist = SUBDOMAIN_WORDLIST
         
+        discovery_results = {
+            'domain': domain,
+            'total_subdomains': 0,
+            'subdomains': [],
+            'discovery_methods': {},
+            'wildcard_detected': False,
+            'subdomain_takeover_candidates': [],
+            'timestamp': datetime.now().isoformat()
+        }
+        
+        # Method 1: DNS Bruteforce
+        logger.info(f"🔍 Method 1: DNS Bruteforce for {domain}")
+        dns_subdomains = self._dns_bruteforce(domain, wordlist)
+        discovery_results['discovery_methods']['dns_bruteforce'] = {
+            'count': len(dns_subdomains),
+            'subdomains': dns_subdomains
+        }
+        
+        # Method 2: Certificate Transparency Search
+        logger.info(f"🔍 Method 2: Certificate Transparency Search for {domain}")
+        ct_subdomains = self.certificate_transparency_search(domain)
+        discovery_results['discovery_methods']['certificate_transparency'] = {
+            'count': len(ct_subdomains),
+            'subdomains': ct_subdomains
+        }
+        
+        # Method 3: Search Engine Discovery
+        logger.info(f"🔍 Method 3: Search Engine Discovery for {domain}")
+        search_subdomains = self._search_engine_discovery(domain)
+        discovery_results['discovery_methods']['search_engines'] = {
+            'count': len(search_subdomains),
+            'subdomains': search_subdomains
+        }
+        
+        # Method 4: Archive.org Discovery
+        logger.info(f"🔍 Method 4: Archive.org Discovery for {domain}")
+        archive_subdomains = self._archive_discovery(domain)
+        discovery_results['discovery_methods']['archive_org'] = {
+            'count': len(archive_subdomains),
+            'subdomains': archive_subdomains
+        }
+        
+        # Method 5: DNS Zone Transfer (if vulnerable)
+        logger.info(f"🔍 Method 5: DNS Zone Transfer Test for {domain}")
+        zone_transfer_data = self.zone_transfer_test(domain)
+        if zone_transfer_data.get('vulnerable'):
+            zone_subdomains = [record['name'] for record in zone_transfer_data.get('records', []) 
+                              if domain in record['name']]
+            discovery_results['discovery_methods']['zone_transfer'] = {
+                'count': len(zone_subdomains),
+                'subdomains': zone_subdomains,
+                'vulnerable': True
+            }
+        else:
+            discovery_results['discovery_methods']['zone_transfer'] = {
+                'count': 0,
+                'subdomains': [],
+                'vulnerable': False
+            }
+        
+        # Method 6: DNS Wildcard Detection
+        logger.info(f"🔍 Method 6: DNS Wildcard Detection for {domain}")
+        wildcard_info = self._detect_dns_wildcard(domain)
+        discovery_results['wildcard_detected'] = wildcard_info['wildcard_detected']
+        discovery_results['wildcard_info'] = wildcard_info
+        
+        # Method 7: Subdomain Takeover Detection
+        logger.info(f"🔍 Method 7: Subdomain Takeover Detection for {domain}")
+        # Collect all discovered subdomains for takeover detection
+        all_discovered_subdomains = []
+        for method, data in discovery_results['discovery_methods'].items():
+            if 'subdomains' in data:
+                all_discovered_subdomains.extend(data['subdomains'])
+        
+        takeover_candidates = self._detect_subdomain_takeover(domain, all_discovered_subdomains)
+        discovery_results['subdomain_takeover_candidates'] = takeover_candidates
+        
+        # Combine all discovered subdomains
+        all_subdomains = set()
+        for method, data in discovery_results['discovery_methods'].items():
+            if 'subdomains' in data:
+                all_subdomains.update(data['subdomains'])
+        
+        # Remove duplicates and sort
+        discovery_results['subdomains'] = sorted(list(all_subdomains))
+        discovery_results['total_subdomains'] = len(discovery_results['subdomains'])
+        
+        # Calculate discovery statistics
+        discovery_results['statistics'] = {
+            'methods_used': len(discovery_results['discovery_methods']),
+            'most_effective_method': max(discovery_results['discovery_methods'].items(), 
+                                       key=lambda x: x[1].get('count', 0))[0] if discovery_results['discovery_methods'] else None,
+            'unique_subdomains': discovery_results['total_subdomains']
+        }
+        
+        logger.success(f"Found {discovery_results['total_subdomains']} unique subdomains for {domain}")
+        return discovery_results
+    
+    def _dns_bruteforce(self, domain: str, wordlist: List[str]) -> List[str]:
+        """Enhanced DNS bruteforce with multiple record types"""
         found_subdomains = []
         
         def check_subdomain(subdomain_name: str) -> Optional[str]:
             full_domain = f"{subdomain_name}.{domain}"
             try:
+                # Try A record first
                 dns.resolver.resolve(full_domain, 'A')
                 return full_domain
             except:
-                return None
+                try:
+                    # Try CNAME record
+                    dns.resolver.resolve(full_domain, 'CNAME')
+                    return full_domain
+                except:
+                    try:
+                        # Try AAAA record
+                        dns.resolver.resolve(full_domain, 'AAAA')
+                        return full_domain
+                    except:
+                        return None
         
-        with ThreadPoolExecutor(max_workers=20) as executor:
+        with ThreadPoolExecutor(max_workers=50) as executor:
             results = list(executor.map(check_subdomain, wordlist))
         
         found_subdomains = [sub for sub in results if sub is not None]
+        return found_subdomains
+    
+    def _search_engine_discovery(self, domain: str) -> List[str]:
+        """Discover subdomains using search engines"""
+        subdomains = set()
         
-        # Certificate transparency search
+        search_queries = [
+            f'site:*.{domain}',
+            f'domain:{domain}',
+            f'hostname:*.{domain}'
+        ]
+        
         try:
-            ct_subdomains = self.certificate_transparency_search(domain)
-            found_subdomains.extend(ct_subdomains)
-            found_subdomains = list(set(found_subdomains))  # Remove duplicates
+            # Google search (simulated - in real implementation you'd use Google API)
+            for query in search_queries:
+                # This is a placeholder - in production you'd implement actual search engine queries
+                # For now, we'll skip this method to avoid rate limiting issues
+                pass
         except:
             pass
         
-        logger.success(f"Found {len(found_subdomains)} subdomains for {domain}")
-        return found_subdomains
+        return list(subdomains)
     
-    def certificate_transparency_search(self, domain: str) -> List[str]:
-        """Search certificate transparency logs"""
-        logger.info(f"🔍 Certificate transparency search for {domain}")
-        
+    def _archive_discovery(self, domain: str) -> List[str]:
+        """Discover subdomains using Archive.org"""
         subdomains = set()
         
         try:
-            # Search crt.sh
+            # Archive.org API
+            url = f"https://web.archive.org/cdx/search/cdx?url=*.{domain}&output=json&fl=original&collapse=urlkey"
+            response = requests.get(url, timeout=30)
+            
+            if response.status_code == 200:
+                data = response.json()
+                if len(data) > 1:  # Skip header row
+                    for row in data[1:]:  # Skip header
+                        if row:
+                            url = row[0]
+                            parsed = urlparse(url)
+                            if parsed.netloc and domain in parsed.netloc:
+                                subdomain = parsed.netloc.split('.')[0]
+                                if subdomain != '*':
+                                    subdomains.add(f"{subdomain}.{domain}")
+        except:
+            pass
+        
+        return list(subdomains)
+    
+    def _detect_dns_wildcard(self, domain: str) -> Dict[str, Any]:
+        """Detect DNS wildcard configuration"""
+        wildcard_info = {
+            'wildcard_detected': False,
+            'wildcard_ip': None,
+            'random_subdomain': None,
+            'test_results': []
+        }
+        
+        # Generate random subdomain
+        import random
+        import string
+        random_subdomain = ''.join(random.choices(string.ascii_lowercase, k=10))
+        test_domain = f"{random_subdomain}.{domain}"
+        
+        try:
+            # Test if random subdomain resolves
+            answers = dns.resolver.resolve(test_domain, 'A')
+            if answers:
+                wildcard_info['wildcard_detected'] = True
+                wildcard_info['wildcard_ip'] = str(answers[0])
+                wildcard_info['random_subdomain'] = test_domain
+                wildcard_info['test_results'].append({
+                    'subdomain': test_domain,
+                    'resolved': True,
+                    'ip': str(answers[0])
+                })
+        except:
+            wildcard_info['test_results'].append({
+                'subdomain': test_domain,
+                'resolved': False,
+                'ip': None
+            })
+        
+        return wildcard_info
+    
+    def _detect_subdomain_takeover(self, domain: str, discovered_subdomains: List[str] = None) -> List[Dict[str, Any]]:
+        """Detect potential subdomain takeover vulnerabilities"""
+        takeover_candidates = []
+        
+        # Common takeover scenarios
+        takeover_scenarios = {
+            'github': ['github.io', 'github.com'],
+            'heroku': ['herokuapp.com'],
+            'netlify': ['netlify.app'],
+            'vercel': ['vercel.app'],
+            'firebase': ['firebaseapp.com'],
+            'aws': ['s3.amazonaws.com', 'cloudfront.net'],
+            'azure': ['azurewebsites.net'],
+            'gcp': ['appspot.com']
+        }
+        
+        # Use provided subdomains or do a quick DNS check
+        if discovered_subdomains is None:
+            # Quick DNS bruteforce for takeover detection
+            quick_wordlist = ["www", "mail", "remote", "blog", "webmail", "server", "ns1", "ns2", "smtp", "secure", 
+                            "vpn", "m", "shop", "ftp", "test", "portal", "admin", "api", "app", "dev", "staging"]
+            discovered_subdomains = self._dns_bruteforce(domain, quick_wordlist)
+        
+        for subdomain in discovered_subdomains:
+            try:
+                # Check CNAME records
+                cname_answers = dns.resolver.resolve(subdomain, 'CNAME')
+                for cname in cname_answers:
+                    cname_target = str(cname.target).rstrip('.')
+                    
+                    # Check if CNAME points to a service that could be taken over
+                    for service, domains in takeover_scenarios.items():
+                        for takeover_domain in domains:
+                            if takeover_domain in cname_target:
+                                takeover_candidates.append({
+                                    'subdomain': subdomain,
+                                    'cname_target': cname_target,
+                                    'service': service,
+                                    'risk_level': 'HIGH',
+                                    'description': f'Potential {service} subdomain takeover'
+                                })
+            except:
+                pass
+        
+        return takeover_candidates
+    
+    def certificate_transparency_search(self, domain: str) -> List[str]:
+        """Enhanced certificate transparency search using multiple sources"""
+        logger.info(f"🔍 Enhanced certificate transparency search for {domain}")
+        
+        subdomains = set()
+        
+        # Source 1: crt.sh
+        try:
             url = f"https://crt.sh/?q=%.{domain}&output=json"
             response = requests.get(url, timeout=30)
             
@@ -306,6 +634,38 @@ class DomainRecon:
                         name = name.strip()
                         if name and domain in name and not name.startswith('*'):
                             subdomains.add(name)
+        except:
+            pass
+        
+        # Source 2: Censys (if API key available)
+        try:
+            # This would require Censys API integration
+            # For now, we'll skip this to avoid API dependencies
+            pass
+        except:
+            pass
+        
+        # Source 3: Facebook CT (if available)
+        try:
+            # Facebook's CT logs
+            url = f"https://developers.facebook.com/tools/ct/search?q=*.{domain}"
+            # This is a placeholder - actual implementation would require proper API access
+        except:
+            pass
+        
+        # Source 4: Google CT logs
+        try:
+            # Google's CT logs
+            url = f"https://transparencyreport.google.com/https/certificates?domain={domain}"
+            # This is a placeholder - actual implementation would require proper API access
+        except:
+            pass
+        
+        # Source 5: Entrust CT logs
+        try:
+            # Entrust CT logs
+            url = f"https://ct.entrust.net/api/v1/certificates?domain={domain}"
+            # This is a placeholder - actual implementation would require proper API access
         except:
             pass
         
@@ -461,6 +821,7 @@ class WebRecon:
     def __init__(self):
         self.session = requests.Session()
         self.session.headers.update({'User-Agent': random.choice(USER_AGENTS)})
+        enlarge_session_pool(self.session, pool_connections=100, pool_maxsize=100)
     
     def web_crawl(self, url: str, max_pages: int = 50) -> Dict[str, Any]:
         """Aggressive web crawling"""
@@ -732,6 +1093,7 @@ class OSINTRecon:
     def __init__(self):
         self.session = requests.Session()
         self.session.headers.update({'User-Agent': random.choice(USER_AGENTS)})
+        enlarge_session_pool(self.session, pool_connections=100, pool_maxsize=100)
     
     def shodan_lookup(self, query: str, query_type: str = 'host') -> Dict[str, Any]:
         """Enhanced Shodan lookup"""
@@ -807,16 +1169,15 @@ class OSINTRecon:
                             'ip': result.get('ip_str'),
                             'port': result.get('port'),
                             'service': result.get('_shodan', {}).get('module'),
-                            'product': result.get('product', None),
+                            'product': result.get('product'),
                             'location': f"{result.get('city', '')}, {result.get('country_name', '')}"
                         }
                         all_services.append(service_info)
                     
                     shodan_results['vulnerabilities'] = list(all_vulns)
                     shodan_results['exposed_services'] = all_services
+                    
                 except shodan.APIError as e:
-                    shodan_results['error'] = str(e)
-                except Exception as e:
                     shodan_results['error'] = str(e)
             
             if shodan_results['vulnerabilities']:
@@ -1354,6 +1715,95 @@ class UltimateReconAgent:
                     'impact': 'Reduced protection against email-based attacks'
                 })
         
+        # Enhanced subdomain security analysis
+        if 'subdomains' in findings:
+            subdomain_data = findings['subdomains']
+            
+            # Handle both old format (list) and new format (dict)
+            if isinstance(subdomain_data, dict):
+                total_subdomains = subdomain_data.get('total_subdomains', 0)
+                wildcard_detected = subdomain_data.get('wildcard_detected', False)
+                takeover_candidates = subdomain_data.get('subdomain_takeover_candidates', [])
+                discovery_methods = subdomain_data.get('discovery_methods', {})
+                
+                # DNS Wildcard vulnerability
+                if wildcard_detected:
+                    vulnerabilities.append({
+                        'type': 'DNS Wildcard Configuration',
+                        'severity': 'MEDIUM',
+                        'description': 'DNS wildcard detected - any subdomain will resolve',
+                        'evidence': {
+                            'wildcard_detected': True,
+                            'wildcard_info': subdomain_data.get('wildcard_info', {})
+                        },
+                        'recommendation': 'Review DNS wildcard configuration and implement proper subdomain management',
+                        'cve': 'CWE-200',
+                        'impact': 'Potential for unauthorized subdomain creation and information disclosure'
+                    })
+                
+                # Subdomain takeover vulnerabilities
+                if takeover_candidates:
+                    for candidate in takeover_candidates:
+                        vulnerabilities.append({
+                            'type': f'Subdomain Takeover - {candidate["service"].title()}',
+                            'severity': 'HIGH',
+                            'description': f'Potential subdomain takeover: {candidate["subdomain"]} -> {candidate["cname_target"]}',
+                            'evidence': {
+                                'subdomain': candidate['subdomain'],
+                                'cname_target': candidate['cname_target'],
+                                'service': candidate['service'],
+                                'risk_level': candidate['risk_level']
+                            },
+                            'recommendation': f'Immediately secure {candidate["subdomain"]} or remove CNAME record',
+                            'cve': 'CWE-200',
+                            'impact': f'Potential complete control over {candidate["subdomain"]} subdomain'
+                        })
+                
+                # Excessive subdomain exposure
+                if total_subdomains > 100:
+                    vulnerabilities.append({
+                        'type': 'Excessive Subdomain Exposure',
+                        'severity': 'MEDIUM',
+                        'description': f'Large number of subdomains ({total_subdomains}) discovered',
+                        'evidence': {
+                            'total_subdomains': total_subdomains,
+                            'discovery_methods': list(discovery_methods.keys())
+                        },
+                        'recommendation': 'Conduct comprehensive subdomain audit and implement monitoring',
+                        'cve': 'CWE-200',
+                        'impact': 'Increased attack surface and potential for overlooked subdomains'
+                    })
+                
+                # Zone transfer vulnerability (if found through subdomain discovery)
+                zone_transfer_method = discovery_methods.get('zone_transfer', {})
+                if zone_transfer_method.get('vulnerable'):
+                    vulnerabilities.append({
+                        'type': 'DNS Zone Transfer Vulnerability',
+                        'severity': 'HIGH',
+                        'description': 'DNS zone transfer is possible, exposing all DNS records',
+                        'evidence': {
+                            'zone_transfer_vulnerable': True,
+                            'subdomains_exposed': zone_transfer_method.get('count', 0)
+                        },
+                        'recommendation': 'Immediately restrict zone transfers to authorized name servers only',
+                        'cve': 'CWE-200',
+                        'impact': 'Complete DNS zone information disclosure'
+                    })
+            else:
+                # Handle old format (list)
+                subdomains_list = subdomain_data if isinstance(subdomain_data, list) else []
+                
+                if len(subdomains_list) > 100:
+                    vulnerabilities.append({
+                        'type': 'Excessive Subdomain Exposure',
+                        'severity': 'MEDIUM',
+                        'description': f'Large number of subdomains ({len(subdomains_list)}) discovered',
+                        'evidence': {'total_subdomains': len(subdomains_list)},
+                        'recommendation': 'Conduct comprehensive subdomain audit and implement monitoring',
+                        'cve': 'CWE-200',
+                        'impact': 'Increased attack surface and potential for overlooked subdomains'
+                })
+        
         # Web application specific vulnerabilities
         if 'web_crawl' in findings:
             web_crawl = findings['web_crawl']
@@ -1514,14 +1964,44 @@ class UltimateReconAgent:
         
         # Subdomain recommendations
         if 'subdomains' in findings:
-            subdomains = findings['subdomains']
+            subdomain_data = findings['subdomains']
             
-            if len(subdomains) > 20:
-                medium_priority.append("Implement subdomain monitoring to detect unauthorized subdomains")
-                medium_priority.append("Consider implementing wildcard SSL certificates for better subdomain management")
+            # Handle both old format (list) and new format (dict)
+            if isinstance(subdomain_data, dict):
+                total_subdomains = subdomain_data.get('total_subdomains', 0)
+                subdomains_list = subdomain_data.get('subdomains', [])
+                wildcard_detected = subdomain_data.get('wildcard_detected', False)
+                takeover_candidates = subdomain_data.get('subdomain_takeover_candidates', [])
+                
+                if total_subdomains > 20:
+                    medium_priority.append("Implement subdomain monitoring to detect unauthorized subdomains")
+                    medium_priority.append("Consider implementing wildcard SSL certificates for better subdomain management")
             
-            if len(subdomains) > 50:
-                high_priority.append("Conduct comprehensive subdomain audit and remove unused subdomains")
+                if total_subdomains > 50:
+                    high_priority.append("Conduct comprehensive subdomain audit and remove unused subdomains")
+                
+                if wildcard_detected:
+                    medium_priority.append("DNS wildcard detected - implement proper subdomain management to prevent unauthorized subdomains")
+                
+                if takeover_candidates:
+                    high_priority.append(f"Found {len(takeover_candidates)} potential subdomain takeover candidates - investigate and secure immediately")
+                
+                # Check discovery methods effectiveness
+                discovery_methods = subdomain_data.get('discovery_methods', {})
+                if discovery_methods:
+                    most_effective = subdomain_data.get('statistics', {}).get('most_effective_method')
+                    if most_effective:
+                        medium_priority.append(f"Most effective subdomain discovery method: {most_effective} - consider focusing on this technique")
+            else:
+                # Handle old format (list)
+                subdomains_list = subdomain_data if isinstance(subdomain_data, list) else []
+                
+                if len(subdomains_list) > 20:
+                    medium_priority.append("Implement subdomain monitoring to detect unauthorized subdomains")
+                    medium_priority.append("Consider implementing wildcard SSL certificates for better subdomain management")
+                
+                if len(subdomains_list) > 50:
+                    high_priority.append("Conduct comprehensive subdomain audit and remove unused subdomains")
         
         # Admin panel recommendations
         if 'directory_bruteforce' in findings:
@@ -1649,11 +2129,54 @@ class UltimateReconAgent:
         
         # Subdomain Information
         if 'subdomains' in findings:
-            subdomains = findings['subdomains']
+            subdomain_data = findings['subdomains']
             console.print(f"\n[bold blue]🔗 Subdomains:[/bold blue]")
-            console.print(f"  Total Found: {len(subdomains)}")
-            if subdomains:
-                console.print(f"  Sample: {', '.join(subdomains[:5])}{'...' if len(subdomains) > 5 else ''}")
+            
+            # Handle both old format (list) and new format (dict)
+            if isinstance(subdomain_data, dict):
+                total_subdomains = subdomain_data.get('total_subdomains', 0)
+                subdomains_list = subdomain_data.get('subdomains', [])
+                wildcard_detected = subdomain_data.get('wildcard_detected', False)
+                takeover_candidates = subdomain_data.get('subdomain_takeover_candidates', [])
+                discovery_methods = subdomain_data.get('discovery_methods', {})
+                
+                console.print(f"  Total Found: {total_subdomains}")
+                if subdomains_list:
+                    console.print(f"  Sample: {', '.join(subdomains_list[:5])}{'...' if len(subdomains_list) > 5 else ''}")
+                
+                # Display discovery methods
+                if discovery_methods:
+                    console.print(f"  Discovery Methods Used: {len(discovery_methods)}")
+                    for method, data in discovery_methods.items():
+                        count = data.get('count', 0)
+                        if count > 0:
+                            console.print(f"    {method}: {count} subdomains")
+                
+                # Display wildcard information
+                if wildcard_detected:
+                    console.print(f"  DNS Wildcard: [bold red]DETECTED[/bold red]")
+                    wildcard_info = subdomain_data.get('wildcard_info', {})
+                    if wildcard_info.get('wildcard_ip'):
+                        console.print(f"    Wildcard IP: {wildcard_info['wildcard_ip']}")
+                
+                # Display takeover candidates
+                if takeover_candidates:
+                    console.print(f"  Takeover Candidates: [bold red]{len(takeover_candidates)}[/bold red]")
+                    for candidate in takeover_candidates[:3]:
+                        console.print(f"    {candidate['subdomain']} -> {candidate['cname_target']} ({candidate['service']})")
+                    if len(takeover_candidates) > 3:
+                        console.print(f"    ... and {len(takeover_candidates) - 3} more")
+                
+                # Display statistics
+                statistics = subdomain_data.get('statistics', {})
+                if statistics.get('most_effective_method'):
+                    console.print(f"  Most Effective Method: {statistics['most_effective_method']}")
+            else:
+                # Handle old format (list)
+                subdomains_list = subdomain_data if isinstance(subdomain_data, list) else []
+                console.print(f"  Total Found: {len(subdomains_list)}")
+                if subdomains_list:
+                    console.print(f"  Sample: {', '.join(subdomains_list[:5])}{'...' if len(subdomains_list) > 5 else ''}")
         
         # Port Scan Results
         if 'port_scan' in findings:
@@ -1770,26 +2293,40 @@ class UltimateReconAgent:
 def run_recon_agent(target: str, mission_type: str = "comprehensive") -> dict:
     """
     Runs the UltimateReconAgent and returns the result as a dict compatible with ReconReport for REST API usage.
-    Converts all set() objects in the result to lists for JSON serialization.
-    Ensures all dict keys are strings.
+    Fills missing fields with safe defaults for API compatibility.
     """
     agent = UltimateReconAgent()
-    result = agent.run_reconnaissance(target, mission_type)
+    now = datetime.now().isoformat()
+    error = None
+    try:
+        result = agent.run_reconnaissance(target, mission_type)
+    except Exception as e:
+        error = str(e)
+        result = {}
 
-    def convert_sets_and_keys(obj):
-        if isinstance(obj, dict):
-            return {str(k): convert_sets_and_keys(v) for k, v in obj.items()}
-        elif isinstance(obj, set):
-            return list(obj)
-        elif isinstance(obj, list):
-            return [convert_sets_and_keys(v) for v in obj]
-        else:
-            return obj
+    # Fill in all required ReconReport fields with defaults if missing
+    def get_or_default(d, key, default):
+        return d[key] if key in d and d[key] is not None else default
 
-    result = convert_sets_and_keys(result)
+    findings = get_or_default(result, 'findings', {})
+    findings_defaults = {
+        "whois": None,
+        "dns": None,
+        "virustotal": None,
+        "shodan": None,
+        "passive_dns": None,
+        "subdomains": [],
+        "zone_transfer": None,
+        "port_scan": None,
+        "web_crawl": None,
+        "directory_bruteforce": None,
+        "security_headers": None
+    }
+    for key, default in findings_defaults.items():
+        if key not in findings or findings[key] is None:
+            findings[key] = default if default is not None else ""
+    result['findings'] = findings
 
-    # --- Ensure required nested keys for Pydantic compatibility ---
-    findings = result.get('findings', {})
     # Ensure virustotal.whois_info.registrar exists
     vt = findings.get('virustotal')
     if vt is not None:
@@ -1797,9 +2334,55 @@ def run_recon_agent(target: str, mission_type: str = "comprehensive") -> dict:
             vt['whois_info'] = {'registrar': None}
         elif isinstance(vt['whois_info'], dict) and 'registrar' not in vt['whois_info']:
             vt['whois_info']['registrar'] = None
-    result['findings'] = findings
+
+    # Fill other top-level fields
+    result['target'] = get_or_default(result, 'target', target)
+    result['target_classification'] = get_or_default(result, 'target_classification', {"type": "", "classification": ""})
+    # Ensure both fields are strings, not None
+    if result['target_classification'].get('type') is None:
+        result['target_classification']['type'] = ""
+    if result['target_classification'].get('classification') is None:
+        result['target_classification']['classification'] = ""
+    result['mission_type'] = get_or_default(result, 'mission_type', mission_type)
+    result['start_time'] = get_or_default(result, 'start_time', now)
+    result['vulnerabilities'] = get_or_default(result, 'vulnerabilities', [])
+    result['recommendations'] = get_or_default(result, 'recommendations', [])
+    result['classification'] = get_or_default(result, 'classification', "")
+    result['end_time'] = get_or_default(result, 'end_time', now)
+    result['mission_duration'] = get_or_default(result, 'mission_duration', "0:00:00")
+    result['mission_status'] = get_or_default(result, 'mission_status', "FAILED" if error else "COMPLETED")
+    if error:
+        result['error'] = error
+
+    # Ensure findings['whois']['status'] is always a list
+    whois = findings.get("whois")
+    if whois is not None:
+        status = whois.get("status")
+        if isinstance(status, str):
+            whois["status"] = [status]
+        elif status is None:
+            whois["status"] = []
+
+        # Ensure domain_age_days and domain_age_years are present
+        if "domain_age_days" not in whois or whois["domain_age_days"] is None:
+            whois["domain_age_days"] = 0
+        if "domain_age_years" not in whois or whois["domain_age_years"] is None:
+            whois["domain_age_years"] = 0
+    else:
+        findings["whois"] = {"domain_age_days": 0, "domain_age_years": 0, "status": []}
+
+    # Ensure findings['subdomains'] is always a list (not a dict)
+    subdomains = findings.get("subdomains")
+    # If subdomains is a dict with a 'subdomains' key, extract that list
+    if isinstance(subdomains, dict) and "subdomains" in subdomains:
+        findings["subdomains"] = subdomains["subdomains"]
+    elif isinstance(subdomains, dict):
+        findings["subdomains"] = []
+    elif not isinstance(subdomains, list):
+        findings["subdomains"] = []
 
     return result
+
 
 # ============================================================================
 # MAIN EXECUTION
@@ -1810,22 +2393,52 @@ def main():
     
     if len(sys.argv) < 2:
         logger.banner()
-        console.print("[bold red]Usage: ./ultimate_recon_agent.py <target> [mission_type][/bold red]")
-        console.print("[bold yellow]Example: ./ultimate_recon_agent.py example.com comprehensive[/bold yellow]")
+        console.print("""
+[bold cyan]USAGE:[/bold cyan]
+  python ultimate_recon_agent.py <target> [mission_type]
+
+[bold cyan]EXAMPLES:[/bold cyan]
+  python ultimate_recon_agent.py example.com
+  python ultimate_recon_agent.py 192.168.1.1 comprehensive
+  python ultimate_recon_agent.py https://example.com web_focused
+
+[bold cyan]MISSION TYPES:[/bold cyan]
+  - comprehensive (default): Full spectrum reconnaissance
+  - domain_focused: Domain and DNS analysis
+  - network_focused: Network and port scanning
+  - web_focused: Web application analysis
+  - osint_focused: OSINT and passive gathering
+
+[bold red]⚠️  WARNING: FOR AUTHORIZED PENETRATION TESTING ONLY ⚠️[/bold red]
+""")
         sys.exit(1)
     
     target = sys.argv[1]
     mission_type = sys.argv[2] if len(sys.argv) > 2 else "comprehensive"
     
-    # Run reconnaissance
-    result = run_recon_agent(target, mission_type)
-    
-    # Output result as JSON
-    try:
-        print(json.dumps(result, indent=4))
-    except Exception as e:
-        logger.error(f"Failed to serialize result to JSON: {str(e)}")
+    # Validate inputs
+    if not target:
+        logger.error("Target cannot be empty!")
         sys.exit(1)
+    
+    # Initialize and run agent
+    try:
+        agent = UltimateReconAgent()
+        report = agent.run_reconnaissance(target, mission_type)
+        
+        # Save report
+        timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+        report_file = f"recon_report_{target.replace('.', '_')}_{timestamp}.json"
+        
+        with open(report_file, 'w') as f:
+            json.dump(report, f, indent=2, default=str)
+        
+        logger.success(f"📄 Intelligence report saved: {report_file}")
+        
+    except KeyboardInterrupt:
+        logger.warning("Mission aborted by operator")
+    except Exception as e:
+        logger.error(f"Mission failed: {str(e)}")
 
 if __name__ == "__main__":
-    main()
+    main() 
