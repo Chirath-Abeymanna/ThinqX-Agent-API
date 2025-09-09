@@ -1,0 +1,2846 @@
+{
+  "crawl_summary": {
+    "target_domain": "fastapi.tiangolo.com",
+    "crawl_duration": 25.597896,
+    "urls_discovered": 47,
+    "urls_successfully_crawled": 47,
+    "errors_encountered": 0,
+    "start_time": "2025-08-18T22:41:34.515574",
+    "end_time": "2025-08-18T22:42:00.113470"
+  },
+  "discovery_statistics": {
+    "total_files_found": 47,
+    "total_forms_found": 82,
+    "sensitive_files_found": 41,
+    "hidden_files_discovered": 47
+  },
+  "categorized_findings": {
+    "Sensitive Content": {
+      "count": 40,
+      "sensitivity_breakdown": {
+        "critical": 40
+      },
+      "urls": [
+        {
+          "url": "https://fastapi.tiangolo.com/sitemap.xml",
+          "status_code": 200,
+          "content_type": "application/xml",
+          "sensitivity_level": "critical",
+          "title": "",
+          "forms_count": 0,
+          "technologies": [
+            "Cloudflare"
+          ],
+          "response_time": 0.5112645626068115
+        },
+        {
+          "url": "https://fastapi.tiangolo.com/404",
+          "status_code": 200,
+          "content_type": "text/html; charset=utf-8",
+          "sensitivity_level": "critical",
+          "title": "FastAPI",
+          "forms_count": 2,
+          "technologies": [
+            "Cloudflare",
+            "Python"
+          ],
+          "response_time": 0.5528762340545654
+        },
+        {
+          "url": "https://fastapi.tiangolo.com/tutorial",
+          "status_code": 200,
+          "content_type": "text/html; charset=utf-8",
+          "sensitivity_level": "critical",
+          "title": "Tutorial - User Guide - FastAPI",
+          "forms_count": 2,
+          "technologies": [
+            "Cloudflare",
+            "Python"
+          ],
+          "response_time": 0.731921911239624
+        },
+        {
+          "url": "https://fastapi.tiangolo.com/404.html",
+          "status_code": 200,
+          "content_type": "text/html; charset=utf-8",
+          "sensitivity_level": "critical",
+          "title": "FastAPI",
+          "forms_count": 2,
+          "technologies": [
+            "Cloudflare",
+            "Python"
+          ],
+          "response_time": 0.8511979579925537
+        },
+        {
+          "url": "https://fastapi.tiangolo.com/index.html",
+          "status_code": 200,
+          "content_type": "text/html; charset=utf-8",
+          "sensitivity_level": "critical",
+          "title": "FastAPI",
+          "forms_count": 2,
+          "technologies": [
+            "Cloudflare",
+            "Python"
+          ],
+          "response_time": 0.9646387100219727
+        },
+        {
+          "url": "https://fastapi.tiangolo.com",
+          "status_code": 200,
+          "content_type": "text/html; charset=utf-8",
+          "sensitivity_level": "critical",
+          "title": "FastAPI",
+          "forms_count": 2,
+          "technologies": [
+            "Cloudflare",
+            "Python"
+          ],
+          "response_time": 0.6238646507263184
+        },
+        {
+          "url": "https://fastapi.tiangolo.com/resources",
+          "status_code": 200,
+          "content_type": "text/html; charset=utf-8",
+          "sensitivity_level": "critical",
+          "title": "Resources - FastAPI",
+          "forms_count": 2,
+          "technologies": [
+            "Cloudflare",
+            "Python"
+          ],
+          "response_time": 0.881990909576416
+        },
+        {
+          "url": "https://fastapi.tiangolo.com/advanced/behind-a-proxy/",
+          "status_code": 200,
+          "content_type": "text/html; charset=utf-8",
+          "sensitivity_level": "critical",
+          "title": "Behind a Proxy - FastAPI",
+          "forms_count": 2,
+          "technologies": [
+            "Nginx",
+            "Cloudflare",
+            "Python"
+          ],
+          "response_time": 0.8512804508209229
+        },
+        {
+          "url": "https://fastapi.tiangolo.com/tutorial/body/",
+          "status_code": 200,
+          "content_type": "text/html; charset=utf-8",
+          "sensitivity_level": "critical",
+          "title": "Request Body - FastAPI",
+          "forms_count": 2,
+          "technologies": [
+            "Cloudflare",
+            "Python"
+          ],
+          "response_time": 0.9565341472625732
+        },
+        {
+          "url": "https://fastapi.tiangolo.com/it/",
+          "status_code": 200,
+          "content_type": "text/html; charset=utf-8",
+          "sensitivity_level": "critical",
+          "title": "FastAPI",
+          "forms_count": 2,
+          "technologies": [
+            "Cloudflare",
+            "Python"
+          ],
+          "response_time": 0.9038734436035156
+        },
+        {
+          "url": "https://fastapi.tiangolo.com/assets/javascripts/workers/search.1e90e0fb.min.js",
+          "status_code": 200,
+          "content_type": "application/javascript",
+          "sensitivity_level": "critical",
+          "title": "",
+          "forms_count": 0,
+          "technologies": [
+            "Cloudflare"
+          ],
+          "response_time": 0.6194040775299072
+        },
+        {
+          "url": "https://fastapi.tiangolo.com/features/",
+          "status_code": 200,
+          "content_type": "text/html; charset=utf-8",
+          "sensitivity_level": "critical",
+          "title": "Features - FastAPI",
+          "forms_count": 2,
+          "technologies": [
+            "Cloudflare",
+            "Python"
+          ],
+          "response_time": 0.8616364002227783
+        },
+        {
+          "url": "https://fastapi.tiangolo.com/tutorial/bigger-applications/",
+          "status_code": 200,
+          "content_type": "text/html; charset=utf-8",
+          "sensitivity_level": "critical",
+          "title": "Bigger Applications - Multiple Files - FastAPI",
+          "forms_count": 2,
+          "technologies": [
+            "Cloudflare",
+            "Python"
+          ],
+          "response_time": 0.9673080444335938
+        },
+        {
+          "url": "https://fastapi.tiangolo.com/deployment/docker/",
+          "status_code": 200,
+          "content_type": "text/html; charset=utf-8",
+          "sensitivity_level": "critical",
+          "title": "FastAPI in Containers - Docker - FastAPI",
+          "forms_count": 2,
+          "technologies": [
+            "Nginx",
+            "Cloudflare",
+            "Python"
+          ],
+          "response_time": 0.8523104190826416
+        },
+        {
+          "url": "https://fastapi.tiangolo.com/hu/",
+          "status_code": 200,
+          "content_type": "text/html; charset=utf-8",
+          "sensitivity_level": "critical",
+          "title": "FastAPI",
+          "forms_count": 2,
+          "technologies": [
+            "Cloudflare",
+            "Python"
+          ],
+          "response_time": 0.8579666614532471
+        },
+        {
+          "url": "https://fastapi.tiangolo.com/tutorial/body-multiple-params/",
+          "status_code": 200,
+          "content_type": "text/html; charset=utf-8",
+          "sensitivity_level": "critical",
+          "title": "Body - Multiple Parameters - FastAPI",
+          "forms_count": 2,
+          "technologies": [
+            "Cloudflare",
+            "Python"
+          ],
+          "response_time": 0.7313146591186523
+        },
+        {
+          "url": "https://fastapi.tiangolo.com/assets/javascripts/bundle.d249fdc4.min.js",
+          "status_code": 200,
+          "content_type": "application/javascript",
+          "sensitivity_level": "critical",
+          "title": "",
+          "forms_count": 0,
+          "technologies": [
+            "Cloudflare"
+          ],
+          "response_time": 0.5399169921875
+        },
+        {
+          "url": "https://fastapi.tiangolo.com/id/",
+          "status_code": 200,
+          "content_type": "text/html; charset=utf-8",
+          "sensitivity_level": "critical",
+          "title": "FastAPI",
+          "forms_count": 2,
+          "technologies": [
+            "Cloudflare",
+            "Python"
+          ],
+          "response_time": 0.9817488193511963
+        },
+        {
+          "url": "https://fastapi.tiangolo.com/",
+          "status_code": 200,
+          "content_type": "text/html; charset=utf-8",
+          "sensitivity_level": "critical",
+          "title": "FastAPI",
+          "forms_count": 2,
+          "technologies": [
+            "Cloudflare",
+            "Python"
+          ],
+          "response_time": 0.8148975372314453
+        },
+        {
+          "url": "https://fastapi.tiangolo.com/it/benchmarks/",
+          "status_code": 200,
+          "content_type": "text/html; charset=utf-8",
+          "sensitivity_level": "critical",
+          "title": "Benchmarks - FastAPI",
+          "forms_count": 2,
+          "technologies": [
+            "Cloudflare",
+            "Python"
+          ],
+          "response_time": 0.569481372833252
+        },
+        {
+          "url": "https://fastapi.tiangolo.com/it/deployment/docker/",
+          "status_code": 200,
+          "content_type": "text/html; charset=utf-8",
+          "sensitivity_level": "critical",
+          "title": "FastAPI in Containers - Docker - FastAPI",
+          "forms_count": 2,
+          "technologies": [
+            "Nginx",
+            "Cloudflare",
+            "Python"
+          ],
+          "response_time": 0.6504995822906494
+        },
+        {
+          "url": "https://fastapi.tiangolo.com/it/tutorial/cors/",
+          "status_code": 200,
+          "content_type": "text/html; charset=utf-8",
+          "sensitivity_level": "critical",
+          "title": "CORS (Cross-Origin Resource Sharing) - FastAPI",
+          "forms_count": 2,
+          "technologies": [
+            "Cloudflare",
+            "Python"
+          ],
+          "response_time": 0.7505443096160889
+        },
+        {
+          "url": "https://fastapi.tiangolo.com/it/tutorial/dependencies/dependencies-in-path-operation-decorators/",
+          "status_code": 200,
+          "content_type": "text/html; charset=utf-8",
+          "sensitivity_level": "critical",
+          "title": "Dependencies in path operation decorators - FastAPI",
+          "forms_count": 2,
+          "technologies": [
+            "Cloudflare",
+            "Python"
+          ],
+          "response_time": 1.037672519683838
+        },
+        {
+          "url": "https://fastapi.tiangolo.com/it/tutorial/dependencies/",
+          "status_code": 200,
+          "content_type": "text/html; charset=utf-8",
+          "sensitivity_level": "critical",
+          "title": "Dependencies - FastAPI",
+          "forms_count": 2,
+          "technologies": [
+            "Cloudflare",
+            "Python"
+          ],
+          "response_time": 0.5395870208740234
+        },
+        {
+          "url": "https://fastapi.tiangolo.com/it/tutorial/security/get-current-user/",
+          "status_code": 200,
+          "content_type": "text/html; charset=utf-8",
+          "sensitivity_level": "critical",
+          "title": "Get Current User - FastAPI",
+          "forms_count": 2,
+          "technologies": [
+            "Cloudflare",
+            "Python"
+          ],
+          "response_time": 0.8093607425689697
+        },
+        {
+          "url": "https://fastapi.tiangolo.com/it/tutorial/response-model/",
+          "status_code": 200,
+          "content_type": "text/html; charset=utf-8",
+          "sensitivity_level": "critical",
+          "title": "Response Model - Return Type - FastAPI",
+          "forms_count": 2,
+          "technologies": [
+            "Cloudflare",
+            "Python"
+          ],
+          "response_time": 0.9566712379455566
+        },
+        {
+          "url": "https://fastapi.tiangolo.com/assets/javascripts/bundle.d249fdc4.min.js?(t=e.count,r=t===void 0?1/0:t,o=e.delay):r=e),r<=0?function(){return x}:E(function(n,i){var s=0,a,c=function(){if(a==null||a.unsubscribe(),a=null,o!=null){var l=typeof o==",
+          "status_code": 200,
+          "content_type": "application/javascript",
+          "sensitivity_level": "critical",
+          "title": "",
+          "forms_count": 0,
+          "technologies": [
+            "Cloudflare"
+          ],
+          "response_time": 0.9696426391601562
+        },
+        {
+          "url": "https://fastapi.tiangolo.com/assets/javascripts/bundle.d249fdc4.min.js?/^Arrow/.test(t):!0;case HTMLSelectElement:case HTMLTextAreaElement:return!0;default:return e.isContentEditable}}function Pa(){return O(h(window,",
+          "status_code": 200,
+          "content_type": "application/javascript",
+          "sensitivity_level": "critical",
+          "title": "",
+          "forms_count": 0,
+          "technologies": [
+            "Cloudflare"
+          ],
+          "response_time": 0.9451689720153809
+        },
+        {
+          "url": "https://fastapi.tiangolo.com/it/environment-variables/",
+          "status_code": 200,
+          "content_type": "text/html; charset=utf-8",
+          "sensitivity_level": "critical",
+          "title": "Environment Variables - FastAPI",
+          "forms_count": 2,
+          "technologies": [
+            "Cloudflare",
+            "Python"
+          ],
+          "response_time": 0.5385639667510986
+        },
+        {
+          "url": "https://fastapi.tiangolo.com/it/advanced/events/",
+          "status_code": 200,
+          "content_type": "text/html; charset=utf-8",
+          "sensitivity_level": "critical",
+          "title": "Lifespan Events - FastAPI",
+          "forms_count": 2,
+          "technologies": [
+            "Cloudflare",
+            "Python"
+          ],
+          "response_time": 0.7521336078643799
+        },
+        {
+          "url": "https://fastapi.tiangolo.com/hu/newsletter/",
+          "status_code": 200,
+          "content_type": "text/html; charset=utf-8",
+          "sensitivity_level": "critical",
+          "title": "FastAPI and friends newsletter - FastAPI",
+          "forms_count": 2,
+          "technologies": [
+            "Cloudflare",
+            "Python"
+          ],
+          "response_time": 0.8501665592193604
+        },
+        {
+          "url": "https://fastapi.tiangolo.com/id/history-design-future/",
+          "status_code": 200,
+          "content_type": "text/html; charset=utf-8",
+          "sensitivity_level": "critical",
+          "title": "History, Design and Future - FastAPI",
+          "forms_count": 2,
+          "technologies": [
+            "Cloudflare",
+            "Python"
+          ],
+          "response_time": 0.5945391654968262
+        },
+        {
+          "url": "https://fastapi.tiangolo.com/id/tutorial/dependencies/sub-dependencies/",
+          "status_code": 200,
+          "content_type": "text/html; charset=utf-8",
+          "sensitivity_level": "critical",
+          "title": "Sub-dependencies - FastAPI",
+          "forms_count": 2,
+          "technologies": [
+            "Cloudflare",
+            "Python"
+          ],
+          "response_time": 1.0464837551116943
+        },
+        {
+          "url": "https://fastapi.tiangolo.com/hu/tutorial/cors/",
+          "status_code": 200,
+          "content_type": "text/html; charset=utf-8",
+          "sensitivity_level": "critical",
+          "title": "CORS (Cross-Origin Resource Sharing) - FastAPI",
+          "forms_count": 2,
+          "technologies": [
+            "Cloudflare",
+            "Python"
+          ],
+          "response_time": 0.8820385932922363
+        },
+        {
+          "url": "https://fastapi.tiangolo.com/hu/tutorial/response-status-code/",
+          "status_code": 200,
+          "content_type": "text/html; charset=utf-8",
+          "sensitivity_level": "critical",
+          "title": "Response Status Code - FastAPI",
+          "forms_count": 2,
+          "technologies": [
+            "Cloudflare",
+            "Python"
+          ],
+          "response_time": 1.0196967124938965
+        },
+        {
+          "url": "https://fastapi.tiangolo.com/hu/tutorial/metadata/",
+          "status_code": 200,
+          "content_type": "text/html; charset=utf-8",
+          "sensitivity_level": "critical",
+          "title": "Metadata and Docs URLs - FastAPI",
+          "forms_count": 2,
+          "technologies": [
+            "Cloudflare",
+            "Apache",
+            "Python"
+          ],
+          "response_time": 1.0295894145965576
+        },
+        {
+          "url": "https://fastapi.tiangolo.com/id/tutorial/schema-extra-example/",
+          "status_code": 200,
+          "content_type": "text/html; charset=utf-8",
+          "sensitivity_level": "critical",
+          "title": "Declare Request Example Data - FastAPI",
+          "forms_count": 2,
+          "technologies": [
+            "Cloudflare",
+            "Python"
+          ],
+          "response_time": 0.5678954124450684
+        },
+        {
+          "url": "https://fastapi.tiangolo.com/id/advanced/events/",
+          "status_code": 200,
+          "content_type": "text/html; charset=utf-8",
+          "sensitivity_level": "critical",
+          "title": "Lifespan Events - FastAPI",
+          "forms_count": 2,
+          "technologies": [
+            "Cloudflare",
+            "Python"
+          ],
+          "response_time": 0.7938477993011475
+        },
+        {
+          "url": "https://fastapi.tiangolo.com/id/tutorial/security/get-current-user/",
+          "status_code": 200,
+          "content_type": "text/html; charset=utf-8",
+          "sensitivity_level": "critical",
+          "title": "Get Current User - FastAPI",
+          "forms_count": 2,
+          "technologies": [
+            "Cloudflare",
+            "Python"
+          ],
+          "response_time": 0.9015383720397949
+        },
+        {
+          "url": "https://fastapi.tiangolo.com/id/reference/middleware/",
+          "status_code": 200,
+          "content_type": "text/html; charset=utf-8",
+          "sensitivity_level": "critical",
+          "title": "Middleware - FastAPI",
+          "forms_count": 2,
+          "technologies": [
+            "Cloudflare",
+            "Python"
+          ],
+          "response_time": 1.1446588039398193
+        }
+      ]
+    },
+    "Admin/Management": {
+      "count": 1,
+      "sensitivity_breakdown": {
+        "high": 1
+      },
+      "urls": [
+        {
+          "url": "https://fastapi.tiangolo.com/management",
+          "status_code": 200,
+          "content_type": "text/html; charset=utf-8",
+          "sensitivity_level": "high",
+          "title": "Repository Management - FastAPI",
+          "forms_count": 2,
+          "technologies": [
+            "Cloudflare",
+            "Python"
+          ],
+          "response_time": 0.7886357307434082
+        }
+      ]
+    },
+    "API Endpoint": {
+      "count": 2,
+      "sensitivity_breakdown": {
+        "medium": 2
+      },
+      "urls": [
+        {
+          "url": "https://fastapi.tiangolo.com/fastapi-people/",
+          "status_code": 200,
+          "content_type": "text/html; charset=utf-8",
+          "sensitivity_level": "medium",
+          "title": "FastAPI People - FastAPI",
+          "forms_count": 2,
+          "technologies": [
+            "Cloudflare",
+            "Python"
+          ],
+          "response_time": 1.1288220882415771
+        },
+        {
+          "url": "https://fastapi.tiangolo.com/hu/reference/openapi/",
+          "status_code": 200,
+          "content_type": "text/html; charset=utf-8",
+          "sensitivity_level": "medium",
+          "title": "OpenAPI - FastAPI",
+          "forms_count": 2,
+          "technologies": [
+            "Cloudflare",
+            "Python"
+          ],
+          "response_time": 0.9890720844268799
+        }
+      ]
+    },
+    "Other": {
+      "count": 1,
+      "sensitivity_breakdown": {
+        "low": 1
+      },
+      "urls": [
+        {
+          "url": "https://fastapi.tiangolo.com/hu/css/custom.css",
+          "status_code": 200,
+          "content_type": "text/css; charset=utf-8",
+          "sensitivity_level": "low",
+          "title": "",
+          "forms_count": 0,
+          "technologies": [
+            "Cloudflare"
+          ],
+          "response_time": 0.5594155788421631
+        }
+      ]
+    },
+    "Documentation": {
+      "count": 1,
+      "sensitivity_breakdown": {
+        "low": 1
+      },
+      "urls": [
+        {
+          "url": "https://fastapi.tiangolo.com/it/how-to/custom-docs-ui-assets/",
+          "status_code": 200,
+          "content_type": "text/html; charset=utf-8",
+          "sensitivity_level": "low",
+          "title": "Custom Docs UI Static Assets (Self-Hosting) - FastAPI",
+          "forms_count": 2,
+          "technologies": [
+            "Cloudflare",
+            "Python"
+          ],
+          "response_time": 0.7482035160064697
+        }
+      ]
+    },
+    "Upload Directory": {
+      "count": 1,
+      "sensitivity_breakdown": {
+        "medium": 1
+      },
+      "urls": [
+        {
+          "url": "https://fastapi.tiangolo.com/id/tutorial/request-files/",
+          "status_code": 200,
+          "content_type": "text/html; charset=utf-8",
+          "sensitivity_level": "medium",
+          "title": "Request Files - FastAPI",
+          "forms_count": 2,
+          "technologies": [
+            "Cloudflare",
+            "Python"
+          ],
+          "response_time": 0.6764438152313232
+        }
+      ]
+    },
+    "Development": {
+      "count": 1,
+      "sensitivity_breakdown": {
+        "medium": 1
+      },
+      "urls": [
+        {
+          "url": "https://fastapi.tiangolo.com/id/advanced/testing-dependencies/",
+          "status_code": 200,
+          "content_type": "text/html; charset=utf-8",
+          "sensitivity_level": "medium",
+          "title": "Testing Dependencies with Overrides - FastAPI",
+          "forms_count": 2,
+          "technologies": [
+            "Cloudflare",
+            "Python"
+          ],
+          "response_time": 0.8328499794006348
+        }
+      ]
+    }
+  },
+  "sensitivity_analysis": {
+    "critical": 40,
+    "high": 1,
+    "medium": 4,
+    "low": 2
+  },
+  "technology_fingerprints": {
+    "Cloudflare": 47,
+    "Python": 41,
+    "Nginx": 3,
+    "Apache": 1
+  },
+  "security_analysis": {
+    "security_headers_coverage": {
+      "X-Content-Type-Options": 47,
+      "Referrer-Policy": 47
+    },
+    "forms_discovered": 82,
+    "cookies_found": 0
+  },
+  "detailed_results": [
+    {
+      "url": "https://fastapi.tiangolo.com/sitemap.xml",
+      "category": "Sensitive Content",
+      "sensitivity_level": "critical",
+      "status_code": 200,
+      "content_type": "application/xml",
+      "content_length": 18822,
+      "response_time": 0.5112645626068115,
+      "title": "",
+      "forms": [],
+      "technologies": [
+        "Cloudflare"
+      ],
+      "security_headers": {
+        "X-Content-Type-Options": "nosniff",
+        "Referrer-Policy": "strict-origin-when-cross-origin"
+      },
+      "cookies": [],
+      "comments_count": 0,
+      "scripts_count": 0,
+      "redirect_chain": []
+    },
+    {
+      "url": "https://fastapi.tiangolo.com/404",
+      "category": "Sensitive Content",
+      "sensitivity_level": "critical",
+      "status_code": 200,
+      "content_type": "text/html; charset=utf-8",
+      "content_length": 99466,
+      "response_time": 0.5528762340545654,
+      "title": "FastAPI",
+      "forms": [
+        {
+          "action": "",
+          "method": "GET",
+          "inputs": [
+            {
+              "name": "__palette",
+              "type": "radio",
+              "value": ""
+            },
+            {
+              "name": "__palette",
+              "type": "radio",
+              "value": ""
+            },
+            {
+              "name": "__palette",
+              "type": "radio",
+              "value": ""
+            }
+          ]
+        },
+        {
+          "action": "",
+          "method": "GET",
+          "inputs": [
+            {
+              "name": "query",
+              "type": "text",
+              "value": ""
+            }
+          ]
+        }
+      ],
+      "technologies": [
+        "Cloudflare",
+        "Python"
+      ],
+      "security_headers": {
+        "X-Content-Type-Options": "nosniff",
+        "Referrer-Policy": "strict-origin-when-cross-origin"
+      },
+      "cookies": [],
+      "comments_count": 11,
+      "scripts_count": 9,
+      "redirect_chain": []
+    },
+    {
+      "url": "https://fastapi.tiangolo.com/tutorial",
+      "category": "Sensitive Content",
+      "sensitivity_level": "critical",
+      "status_code": 200,
+      "content_type": "text/html; charset=utf-8",
+      "content_length": 113056,
+      "response_time": 0.731921911239624,
+      "title": "Tutorial - User Guide - FastAPI",
+      "forms": [
+        {
+          "action": "",
+          "method": "GET",
+          "inputs": [
+            {
+              "name": "__palette",
+              "type": "radio",
+              "value": ""
+            },
+            {
+              "name": "__palette",
+              "type": "radio",
+              "value": ""
+            },
+            {
+              "name": "__palette",
+              "type": "radio",
+              "value": ""
+            }
+          ]
+        },
+        {
+          "action": "",
+          "method": "GET",
+          "inputs": [
+            {
+              "name": "query",
+              "type": "text",
+              "value": ""
+            }
+          ]
+        }
+      ],
+      "technologies": [
+        "Cloudflare",
+        "Python"
+      ],
+      "security_headers": {
+        "X-Content-Type-Options": "nosniff",
+        "Referrer-Policy": "strict-origin-when-cross-origin"
+      },
+      "cookies": [],
+      "comments_count": 11,
+      "scripts_count": 9,
+      "redirect_chain": [
+        "https://fastapi.tiangolo.com/tutorial"
+      ]
+    },
+    {
+      "url": "https://fastapi.tiangolo.com/management",
+      "category": "Admin/Management",
+      "sensitivity_level": "high",
+      "status_code": 200,
+      "content_type": "text/html; charset=utf-8",
+      "content_length": 108607,
+      "response_time": 0.7886357307434082,
+      "title": "Repository Management - FastAPI",
+      "forms": [
+        {
+          "action": "",
+          "method": "GET",
+          "inputs": [
+            {
+              "name": "__palette",
+              "type": "radio",
+              "value": ""
+            },
+            {
+              "name": "__palette",
+              "type": "radio",
+              "value": ""
+            },
+            {
+              "name": "__palette",
+              "type": "radio",
+              "value": ""
+            }
+          ]
+        },
+        {
+          "action": "",
+          "method": "GET",
+          "inputs": [
+            {
+              "name": "query",
+              "type": "text",
+              "value": ""
+            }
+          ]
+        }
+      ],
+      "technologies": [
+        "Cloudflare",
+        "Python"
+      ],
+      "security_headers": {
+        "X-Content-Type-Options": "nosniff",
+        "Referrer-Policy": "strict-origin-when-cross-origin"
+      },
+      "cookies": [],
+      "comments_count": 11,
+      "scripts_count": 9,
+      "redirect_chain": [
+        "https://fastapi.tiangolo.com/management"
+      ]
+    },
+    {
+      "url": "https://fastapi.tiangolo.com/404.html",
+      "category": "Sensitive Content",
+      "sensitivity_level": "critical",
+      "status_code": 200,
+      "content_type": "text/html; charset=utf-8",
+      "content_length": 99466,
+      "response_time": 0.8511979579925537,
+      "title": "FastAPI",
+      "forms": [
+        {
+          "action": "",
+          "method": "GET",
+          "inputs": [
+            {
+              "name": "__palette",
+              "type": "radio",
+              "value": ""
+            },
+            {
+              "name": "__palette",
+              "type": "radio",
+              "value": ""
+            },
+            {
+              "name": "__palette",
+              "type": "radio",
+              "value": ""
+            }
+          ]
+        },
+        {
+          "action": "",
+          "method": "GET",
+          "inputs": [
+            {
+              "name": "query",
+              "type": "text",
+              "value": ""
+            }
+          ]
+        }
+      ],
+      "technologies": [
+        "Cloudflare",
+        "Python"
+      ],
+      "security_headers": {
+        "X-Content-Type-Options": "nosniff",
+        "Referrer-Policy": "strict-origin-when-cross-origin"
+      },
+      "cookies": [],
+      "comments_count": 11,
+      "scripts_count": 9,
+      "redirect_chain": [
+        "https://fastapi.tiangolo.com/404.html"
+      ]
+    },
+    {
+      "url": "https://fastapi.tiangolo.com/index.html",
+      "category": "Sensitive Content",
+      "sensitivity_level": "critical",
+      "status_code": 200,
+      "content_type": "text/html; charset=utf-8",
+      "content_length": 156410,
+      "response_time": 0.9646387100219727,
+      "title": "FastAPI",
+      "forms": [
+        {
+          "action": "",
+          "method": "GET",
+          "inputs": [
+            {
+              "name": "__palette",
+              "type": "radio",
+              "value": ""
+            },
+            {
+              "name": "__palette",
+              "type": "radio",
+              "value": ""
+            },
+            {
+              "name": "__palette",
+              "type": "radio",
+              "value": ""
+            }
+          ]
+        },
+        {
+          "action": "",
+          "method": "GET",
+          "inputs": [
+            {
+              "name": "query",
+              "type": "text",
+              "value": ""
+            }
+          ]
+        }
+      ],
+      "technologies": [
+        "Cloudflare",
+        "Python"
+      ],
+      "security_headers": {
+        "X-Content-Type-Options": "nosniff",
+        "Referrer-Policy": "strict-origin-when-cross-origin"
+      },
+      "cookies": [],
+      "comments_count": 13,
+      "scripts_count": 9,
+      "redirect_chain": [
+        "https://fastapi.tiangolo.com/index.html"
+      ]
+    },
+    {
+      "url": "https://fastapi.tiangolo.com",
+      "category": "Sensitive Content",
+      "sensitivity_level": "critical",
+      "status_code": 200,
+      "content_type": "text/html; charset=utf-8",
+      "content_length": 156410,
+      "response_time": 0.6238646507263184,
+      "title": "FastAPI",
+      "forms": [
+        {
+          "action": "",
+          "method": "GET",
+          "inputs": [
+            {
+              "name": "__palette",
+              "type": "radio",
+              "value": ""
+            },
+            {
+              "name": "__palette",
+              "type": "radio",
+              "value": ""
+            },
+            {
+              "name": "__palette",
+              "type": "radio",
+              "value": ""
+            }
+          ]
+        },
+        {
+          "action": "",
+          "method": "GET",
+          "inputs": [
+            {
+              "name": "query",
+              "type": "text",
+              "value": ""
+            }
+          ]
+        }
+      ],
+      "technologies": [
+        "Cloudflare",
+        "Python"
+      ],
+      "security_headers": {
+        "X-Content-Type-Options": "nosniff",
+        "Referrer-Policy": "strict-origin-when-cross-origin"
+      },
+      "cookies": [],
+      "comments_count": 13,
+      "scripts_count": 9,
+      "redirect_chain": []
+    },
+    {
+      "url": "https://fastapi.tiangolo.com/resources",
+      "category": "Sensitive Content",
+      "sensitivity_level": "critical",
+      "status_code": 200,
+      "content_type": "text/html; charset=utf-8",
+      "content_length": 103345,
+      "response_time": 0.881990909576416,
+      "title": "Resources - FastAPI",
+      "forms": [
+        {
+          "action": "",
+          "method": "GET",
+          "inputs": [
+            {
+              "name": "__palette",
+              "type": "radio",
+              "value": ""
+            },
+            {
+              "name": "__palette",
+              "type": "radio",
+              "value": ""
+            },
+            {
+              "name": "__palette",
+              "type": "radio",
+              "value": ""
+            }
+          ]
+        },
+        {
+          "action": "",
+          "method": "GET",
+          "inputs": [
+            {
+              "name": "query",
+              "type": "text",
+              "value": ""
+            }
+          ]
+        }
+      ],
+      "technologies": [
+        "Cloudflare",
+        "Python"
+      ],
+      "security_headers": {
+        "X-Content-Type-Options": "nosniff",
+        "Referrer-Policy": "strict-origin-when-cross-origin"
+      },
+      "cookies": [],
+      "comments_count": 11,
+      "scripts_count": 9,
+      "redirect_chain": [
+        "https://fastapi.tiangolo.com/resources"
+      ]
+    },
+    {
+      "url": "https://fastapi.tiangolo.com/advanced/behind-a-proxy/",
+      "category": "Sensitive Content",
+      "sensitivity_level": "critical",
+      "status_code": 200,
+      "content_type": "text/html; charset=utf-8",
+      "content_length": 148788,
+      "response_time": 0.8512804508209229,
+      "title": "Behind a Proxy - FastAPI",
+      "forms": [
+        {
+          "action": "",
+          "method": "GET",
+          "inputs": [
+            {
+              "name": "__palette",
+              "type": "radio",
+              "value": ""
+            },
+            {
+              "name": "__palette",
+              "type": "radio",
+              "value": ""
+            },
+            {
+              "name": "__palette",
+              "type": "radio",
+              "value": ""
+            }
+          ]
+        },
+        {
+          "action": "",
+          "method": "GET",
+          "inputs": [
+            {
+              "name": "query",
+              "type": "text",
+              "value": ""
+            }
+          ]
+        }
+      ],
+      "technologies": [
+        "Nginx",
+        "Cloudflare",
+        "Python"
+      ],
+      "security_headers": {
+        "X-Content-Type-Options": "nosniff",
+        "Referrer-Policy": "strict-origin-when-cross-origin"
+      },
+      "cookies": [],
+      "comments_count": 11,
+      "scripts_count": 9,
+      "redirect_chain": []
+    },
+    {
+      "url": "https://fastapi.tiangolo.com/tutorial/body/",
+      "category": "Sensitive Content",
+      "sensitivity_level": "critical",
+      "status_code": 200,
+      "content_type": "text/html; charset=utf-8",
+      "content_length": 158228,
+      "response_time": 0.9565341472625732,
+      "title": "Request Body - FastAPI",
+      "forms": [
+        {
+          "action": "",
+          "method": "GET",
+          "inputs": [
+            {
+              "name": "__palette",
+              "type": "radio",
+              "value": ""
+            },
+            {
+              "name": "__palette",
+              "type": "radio",
+              "value": ""
+            },
+            {
+              "name": "__palette",
+              "type": "radio",
+              "value": ""
+            }
+          ]
+        },
+        {
+          "action": "",
+          "method": "GET",
+          "inputs": [
+            {
+              "name": "query",
+              "type": "text",
+              "value": ""
+            }
+          ]
+        }
+      ],
+      "technologies": [
+        "Cloudflare",
+        "Python"
+      ],
+      "security_headers": {
+        "X-Content-Type-Options": "nosniff",
+        "Referrer-Policy": "strict-origin-when-cross-origin"
+      },
+      "cookies": [],
+      "comments_count": 11,
+      "scripts_count": 9,
+      "redirect_chain": []
+    },
+    {
+      "url": "https://fastapi.tiangolo.com/it/",
+      "category": "Sensitive Content",
+      "sensitivity_level": "critical",
+      "status_code": 200,
+      "content_type": "text/html; charset=utf-8",
+      "content_length": 151857,
+      "response_time": 0.9038734436035156,
+      "title": "FastAPI",
+      "forms": [
+        {
+          "action": "",
+          "method": "GET",
+          "inputs": [
+            {
+              "name": "__palette",
+              "type": "radio",
+              "value": ""
+            },
+            {
+              "name": "__palette",
+              "type": "radio",
+              "value": ""
+            },
+            {
+              "name": "__palette",
+              "type": "radio",
+              "value": ""
+            }
+          ]
+        },
+        {
+          "action": "",
+          "method": "GET",
+          "inputs": [
+            {
+              "name": "query",
+              "type": "text",
+              "value": ""
+            }
+          ]
+        }
+      ],
+      "technologies": [
+        "Cloudflare",
+        "Python"
+      ],
+      "security_headers": {
+        "X-Content-Type-Options": "nosniff",
+        "Referrer-Policy": "strict-origin-when-cross-origin"
+      },
+      "cookies": [],
+      "comments_count": 13,
+      "scripts_count": 9,
+      "redirect_chain": []
+    },
+    {
+      "url": "https://fastapi.tiangolo.com/assets/javascripts/workers/search.1e90e0fb.min.js",
+      "category": "Sensitive Content",
+      "sensitivity_level": "critical",
+      "status_code": 200,
+      "content_type": "application/javascript",
+      "content_length": 38478,
+      "response_time": 0.6194040775299072,
+      "title": "",
+      "forms": [],
+      "technologies": [
+        "Cloudflare"
+      ],
+      "security_headers": {
+        "X-Content-Type-Options": "nosniff",
+        "Referrer-Policy": "strict-origin-when-cross-origin"
+      },
+      "cookies": [],
+      "comments_count": 0,
+      "scripts_count": 0,
+      "redirect_chain": []
+    },
+    {
+      "url": "https://fastapi.tiangolo.com/features/",
+      "category": "Sensitive Content",
+      "sensitivity_level": "critical",
+      "status_code": 200,
+      "content_type": "text/html; charset=utf-8",
+      "content_length": 125620,
+      "response_time": 0.8616364002227783,
+      "title": "Features - FastAPI",
+      "forms": [
+        {
+          "action": "",
+          "method": "GET",
+          "inputs": [
+            {
+              "name": "__palette",
+              "type": "radio",
+              "value": ""
+            },
+            {
+              "name": "__palette",
+              "type": "radio",
+              "value": ""
+            },
+            {
+              "name": "__palette",
+              "type": "radio",
+              "value": ""
+            }
+          ]
+        },
+        {
+          "action": "",
+          "method": "GET",
+          "inputs": [
+            {
+              "name": "query",
+              "type": "text",
+              "value": ""
+            }
+          ]
+        }
+      ],
+      "technologies": [
+        "Cloudflare",
+        "Python"
+      ],
+      "security_headers": {
+        "X-Content-Type-Options": "nosniff",
+        "Referrer-Policy": "strict-origin-when-cross-origin"
+      },
+      "cookies": [],
+      "comments_count": 11,
+      "scripts_count": 9,
+      "redirect_chain": []
+    },
+    {
+      "url": "https://fastapi.tiangolo.com/tutorial/bigger-applications/",
+      "category": "Sensitive Content",
+      "sensitivity_level": "critical",
+      "status_code": 200,
+      "content_type": "text/html; charset=utf-8",
+      "content_length": 206646,
+      "response_time": 0.9673080444335938,
+      "title": "Bigger Applications - Multiple Files - FastAPI",
+      "forms": [
+        {
+          "action": "",
+          "method": "GET",
+          "inputs": [
+            {
+              "name": "__palette",
+              "type": "radio",
+              "value": ""
+            },
+            {
+              "name": "__palette",
+              "type": "radio",
+              "value": ""
+            },
+            {
+              "name": "__palette",
+              "type": "radio",
+              "value": ""
+            }
+          ]
+        },
+        {
+          "action": "",
+          "method": "GET",
+          "inputs": [
+            {
+              "name": "query",
+              "type": "text",
+              "value": ""
+            }
+          ]
+        }
+      ],
+      "technologies": [
+        "Cloudflare",
+        "Python"
+      ],
+      "security_headers": {
+        "X-Content-Type-Options": "nosniff",
+        "Referrer-Policy": "strict-origin-when-cross-origin"
+      },
+      "cookies": [],
+      "comments_count": 11,
+      "scripts_count": 9,
+      "redirect_chain": []
+    },
+    {
+      "url": "https://fastapi.tiangolo.com/deployment/docker/",
+      "category": "Sensitive Content",
+      "sensitivity_level": "critical",
+      "status_code": 200,
+      "content_type": "text/html; charset=utf-8",
+      "content_length": 175982,
+      "response_time": 0.8523104190826416,
+      "title": "FastAPI in Containers - Docker - FastAPI",
+      "forms": [
+        {
+          "action": "",
+          "method": "GET",
+          "inputs": [
+            {
+              "name": "__palette",
+              "type": "radio",
+              "value": ""
+            },
+            {
+              "name": "__palette",
+              "type": "radio",
+              "value": ""
+            },
+            {
+              "name": "__palette",
+              "type": "radio",
+              "value": ""
+            }
+          ]
+        },
+        {
+          "action": "",
+          "method": "GET",
+          "inputs": [
+            {
+              "name": "query",
+              "type": "text",
+              "value": ""
+            }
+          ]
+        }
+      ],
+      "technologies": [
+        "Nginx",
+        "Cloudflare",
+        "Python"
+      ],
+      "security_headers": {
+        "X-Content-Type-Options": "nosniff",
+        "Referrer-Policy": "strict-origin-when-cross-origin"
+      },
+      "cookies": [],
+      "comments_count": 11,
+      "scripts_count": 9,
+      "redirect_chain": []
+    },
+    {
+      "url": "https://fastapi.tiangolo.com/hu/",
+      "category": "Sensitive Content",
+      "sensitivity_level": "critical",
+      "status_code": 200,
+      "content_type": "text/html; charset=utf-8",
+      "content_length": 152071,
+      "response_time": 0.8579666614532471,
+      "title": "FastAPI",
+      "forms": [
+        {
+          "action": "",
+          "method": "GET",
+          "inputs": [
+            {
+              "name": "__palette",
+              "type": "radio",
+              "value": ""
+            },
+            {
+              "name": "__palette",
+              "type": "radio",
+              "value": ""
+            },
+            {
+              "name": "__palette",
+              "type": "radio",
+              "value": ""
+            }
+          ]
+        },
+        {
+          "action": "",
+          "method": "GET",
+          "inputs": [
+            {
+              "name": "query",
+              "type": "text",
+              "value": ""
+            }
+          ]
+        }
+      ],
+      "technologies": [
+        "Cloudflare",
+        "Python"
+      ],
+      "security_headers": {
+        "X-Content-Type-Options": "nosniff",
+        "Referrer-Policy": "strict-origin-when-cross-origin"
+      },
+      "cookies": [],
+      "comments_count": 13,
+      "scripts_count": 9,
+      "redirect_chain": []
+    },
+    {
+      "url": "https://fastapi.tiangolo.com/tutorial/body-multiple-params/",
+      "category": "Sensitive Content",
+      "sensitivity_level": "critical",
+      "status_code": 200,
+      "content_type": "text/html; charset=utf-8",
+      "content_length": 223779,
+      "response_time": 0.7313146591186523,
+      "title": "Body - Multiple Parameters - FastAPI",
+      "forms": [
+        {
+          "action": "",
+          "method": "GET",
+          "inputs": [
+            {
+              "name": "__palette",
+              "type": "radio",
+              "value": ""
+            },
+            {
+              "name": "__palette",
+              "type": "radio",
+              "value": ""
+            },
+            {
+              "name": "__palette",
+              "type": "radio",
+              "value": ""
+            }
+          ]
+        },
+        {
+          "action": "",
+          "method": "GET",
+          "inputs": [
+            {
+              "name": "query",
+              "type": "text",
+              "value": ""
+            }
+          ]
+        }
+      ],
+      "technologies": [
+        "Cloudflare",
+        "Python"
+      ],
+      "security_headers": {
+        "X-Content-Type-Options": "nosniff",
+        "Referrer-Policy": "strict-origin-when-cross-origin"
+      },
+      "cookies": [],
+      "comments_count": 11,
+      "scripts_count": 9,
+      "redirect_chain": []
+    },
+    {
+      "url": "https://fastapi.tiangolo.com/assets/javascripts/bundle.d249fdc4.min.js",
+      "category": "Sensitive Content",
+      "sensitivity_level": "critical",
+      "status_code": 200,
+      "content_type": "application/javascript",
+      "content_length": 112981,
+      "response_time": 0.5399169921875,
+      "title": "",
+      "forms": [],
+      "technologies": [
+        "Cloudflare"
+      ],
+      "security_headers": {
+        "X-Content-Type-Options": "nosniff",
+        "Referrer-Policy": "strict-origin-when-cross-origin"
+      },
+      "cookies": [],
+      "comments_count": 0,
+      "scripts_count": 0,
+      "redirect_chain": []
+    },
+    {
+      "url": "https://fastapi.tiangolo.com/id/",
+      "category": "Sensitive Content",
+      "sensitivity_level": "critical",
+      "status_code": 200,
+      "content_type": "text/html; charset=utf-8",
+      "content_length": 155450,
+      "response_time": 0.9817488193511963,
+      "title": "FastAPI",
+      "forms": [
+        {
+          "action": "",
+          "method": "GET",
+          "inputs": [
+            {
+              "name": "__palette",
+              "type": "radio",
+              "value": ""
+            },
+            {
+              "name": "__palette",
+              "type": "radio",
+              "value": ""
+            },
+            {
+              "name": "__palette",
+              "type": "radio",
+              "value": ""
+            }
+          ]
+        },
+        {
+          "action": "",
+          "method": "GET",
+          "inputs": [
+            {
+              "name": "query",
+              "type": "text",
+              "value": ""
+            }
+          ]
+        }
+      ],
+      "technologies": [
+        "Cloudflare",
+        "Python"
+      ],
+      "security_headers": {
+        "X-Content-Type-Options": "nosniff",
+        "Referrer-Policy": "strict-origin-when-cross-origin"
+      },
+      "cookies": [],
+      "comments_count": 13,
+      "scripts_count": 9,
+      "redirect_chain": []
+    },
+    {
+      "url": "https://fastapi.tiangolo.com/",
+      "category": "Sensitive Content",
+      "sensitivity_level": "critical",
+      "status_code": 200,
+      "content_type": "text/html; charset=utf-8",
+      "content_length": 156410,
+      "response_time": 0.8148975372314453,
+      "title": "FastAPI",
+      "forms": [
+        {
+          "action": "",
+          "method": "GET",
+          "inputs": [
+            {
+              "name": "__palette",
+              "type": "radio",
+              "value": ""
+            },
+            {
+              "name": "__palette",
+              "type": "radio",
+              "value": ""
+            },
+            {
+              "name": "__palette",
+              "type": "radio",
+              "value": ""
+            }
+          ]
+        },
+        {
+          "action": "",
+          "method": "GET",
+          "inputs": [
+            {
+              "name": "query",
+              "type": "text",
+              "value": ""
+            }
+          ]
+        }
+      ],
+      "technologies": [
+        "Cloudflare",
+        "Python"
+      ],
+      "security_headers": {
+        "X-Content-Type-Options": "nosniff",
+        "Referrer-Policy": "strict-origin-when-cross-origin"
+      },
+      "cookies": [],
+      "comments_count": 13,
+      "scripts_count": 9,
+      "redirect_chain": []
+    },
+    {
+      "url": "https://fastapi.tiangolo.com/it/benchmarks/",
+      "category": "Sensitive Content",
+      "sensitivity_level": "critical",
+      "status_code": 200,
+      "content_type": "text/html; charset=utf-8",
+      "content_length": 109045,
+      "response_time": 0.569481372833252,
+      "title": "Benchmarks - FastAPI",
+      "forms": [
+        {
+          "action": "",
+          "method": "GET",
+          "inputs": [
+            {
+              "name": "__palette",
+              "type": "radio",
+              "value": ""
+            },
+            {
+              "name": "__palette",
+              "type": "radio",
+              "value": ""
+            },
+            {
+              "name": "__palette",
+              "type": "radio",
+              "value": ""
+            }
+          ]
+        },
+        {
+          "action": "",
+          "method": "GET",
+          "inputs": [
+            {
+              "name": "query",
+              "type": "text",
+              "value": ""
+            }
+          ]
+        }
+      ],
+      "technologies": [
+        "Cloudflare",
+        "Python"
+      ],
+      "security_headers": {
+        "X-Content-Type-Options": "nosniff",
+        "Referrer-Policy": "strict-origin-when-cross-origin"
+      },
+      "cookies": [],
+      "comments_count": 11,
+      "scripts_count": 9,
+      "redirect_chain": []
+    },
+    {
+      "url": "https://fastapi.tiangolo.com/it/deployment/docker/",
+      "category": "Sensitive Content",
+      "sensitivity_level": "critical",
+      "status_code": 200,
+      "content_type": "text/html; charset=utf-8",
+      "content_length": 176298,
+      "response_time": 0.6504995822906494,
+      "title": "FastAPI in Containers - Docker - FastAPI",
+      "forms": [
+        {
+          "action": "",
+          "method": "GET",
+          "inputs": [
+            {
+              "name": "__palette",
+              "type": "radio",
+              "value": ""
+            },
+            {
+              "name": "__palette",
+              "type": "radio",
+              "value": ""
+            },
+            {
+              "name": "__palette",
+              "type": "radio",
+              "value": ""
+            }
+          ]
+        },
+        {
+          "action": "",
+          "method": "GET",
+          "inputs": [
+            {
+              "name": "query",
+              "type": "text",
+              "value": ""
+            }
+          ]
+        }
+      ],
+      "technologies": [
+        "Nginx",
+        "Cloudflare",
+        "Python"
+      ],
+      "security_headers": {
+        "X-Content-Type-Options": "nosniff",
+        "Referrer-Policy": "strict-origin-when-cross-origin"
+      },
+      "cookies": [],
+      "comments_count": 11,
+      "scripts_count": 9,
+      "redirect_chain": []
+    },
+    {
+      "url": "https://fastapi.tiangolo.com/it/tutorial/cors/",
+      "category": "Sensitive Content",
+      "sensitivity_level": "critical",
+      "status_code": 200,
+      "content_type": "text/html; charset=utf-8",
+      "content_length": 119441,
+      "response_time": 0.7505443096160889,
+      "title": "CORS (Cross-Origin Resource Sharing) - FastAPI",
+      "forms": [
+        {
+          "action": "",
+          "method": "GET",
+          "inputs": [
+            {
+              "name": "__palette",
+              "type": "radio",
+              "value": ""
+            },
+            {
+              "name": "__palette",
+              "type": "radio",
+              "value": ""
+            },
+            {
+              "name": "__palette",
+              "type": "radio",
+              "value": ""
+            }
+          ]
+        },
+        {
+          "action": "",
+          "method": "GET",
+          "inputs": [
+            {
+              "name": "query",
+              "type": "text",
+              "value": ""
+            }
+          ]
+        }
+      ],
+      "technologies": [
+        "Cloudflare",
+        "Python"
+      ],
+      "security_headers": {
+        "X-Content-Type-Options": "nosniff",
+        "Referrer-Policy": "strict-origin-when-cross-origin"
+      },
+      "cookies": [],
+      "comments_count": 11,
+      "scripts_count": 9,
+      "redirect_chain": []
+    },
+    {
+      "url": "https://fastapi.tiangolo.com/it/tutorial/dependencies/dependencies-in-path-operation-decorators/",
+      "category": "Sensitive Content",
+      "sensitivity_level": "critical",
+      "status_code": 200,
+      "content_type": "text/html; charset=utf-8",
+      "content_length": 165438,
+      "response_time": 1.037672519683838,
+      "title": "Dependencies in path operation decorators - FastAPI",
+      "forms": [
+        {
+          "action": "",
+          "method": "GET",
+          "inputs": [
+            {
+              "name": "__palette",
+              "type": "radio",
+              "value": ""
+            },
+            {
+              "name": "__palette",
+              "type": "radio",
+              "value": ""
+            },
+            {
+              "name": "__palette",
+              "type": "radio",
+              "value": ""
+            }
+          ]
+        },
+        {
+          "action": "",
+          "method": "GET",
+          "inputs": [
+            {
+              "name": "query",
+              "type": "text",
+              "value": ""
+            }
+          ]
+        }
+      ],
+      "technologies": [
+        "Cloudflare",
+        "Python"
+      ],
+      "security_headers": {
+        "X-Content-Type-Options": "nosniff",
+        "Referrer-Policy": "strict-origin-when-cross-origin"
+      },
+      "cookies": [],
+      "comments_count": 11,
+      "scripts_count": 9,
+      "redirect_chain": []
+    },
+    {
+      "url": "https://fastapi.tiangolo.com/it/tutorial/dependencies/",
+      "category": "Sensitive Content",
+      "sensitivity_level": "critical",
+      "status_code": 200,
+      "content_type": "text/html; charset=utf-8",
+      "content_length": 191319,
+      "response_time": 0.5395870208740234,
+      "title": "Dependencies - FastAPI",
+      "forms": [
+        {
+          "action": "",
+          "method": "GET",
+          "inputs": [
+            {
+              "name": "__palette",
+              "type": "radio",
+              "value": ""
+            },
+            {
+              "name": "__palette",
+              "type": "radio",
+              "value": ""
+            },
+            {
+              "name": "__palette",
+              "type": "radio",
+              "value": ""
+            }
+          ]
+        },
+        {
+          "action": "",
+          "method": "GET",
+          "inputs": [
+            {
+              "name": "query",
+              "type": "text",
+              "value": ""
+            }
+          ]
+        }
+      ],
+      "technologies": [
+        "Cloudflare",
+        "Python"
+      ],
+      "security_headers": {
+        "X-Content-Type-Options": "nosniff",
+        "Referrer-Policy": "strict-origin-when-cross-origin"
+      },
+      "cookies": [],
+      "comments_count": 11,
+      "scripts_count": 9,
+      "redirect_chain": []
+    },
+    {
+      "url": "https://fastapi.tiangolo.com/it/tutorial/security/get-current-user/",
+      "category": "Sensitive Content",
+      "sensitivity_level": "critical",
+      "status_code": 200,
+      "content_type": "text/html; charset=utf-8",
+      "content_length": 256836,
+      "response_time": 0.8093607425689697,
+      "title": "Get Current User - FastAPI",
+      "forms": [
+        {
+          "action": "",
+          "method": "GET",
+          "inputs": [
+            {
+              "name": "__palette",
+              "type": "radio",
+              "value": ""
+            },
+            {
+              "name": "__palette",
+              "type": "radio",
+              "value": ""
+            },
+            {
+              "name": "__palette",
+              "type": "radio",
+              "value": ""
+            }
+          ]
+        },
+        {
+          "action": "",
+          "method": "GET",
+          "inputs": [
+            {
+              "name": "query",
+              "type": "text",
+              "value": ""
+            }
+          ]
+        }
+      ],
+      "technologies": [
+        "Cloudflare",
+        "Python"
+      ],
+      "security_headers": {
+        "X-Content-Type-Options": "nosniff",
+        "Referrer-Policy": "strict-origin-when-cross-origin"
+      },
+      "cookies": [],
+      "comments_count": 11,
+      "scripts_count": 9,
+      "redirect_chain": []
+    },
+    {
+      "url": "https://fastapi.tiangolo.com/it/tutorial/response-model/",
+      "category": "Sensitive Content",
+      "sensitivity_level": "critical",
+      "status_code": 200,
+      "content_type": "text/html; charset=utf-8",
+      "content_length": 281126,
+      "response_time": 0.9566712379455566,
+      "title": "Response Model - Return Type - FastAPI",
+      "forms": [
+        {
+          "action": "",
+          "method": "GET",
+          "inputs": [
+            {
+              "name": "__palette",
+              "type": "radio",
+              "value": ""
+            },
+            {
+              "name": "__palette",
+              "type": "radio",
+              "value": ""
+            },
+            {
+              "name": "__palette",
+              "type": "radio",
+              "value": ""
+            }
+          ]
+        },
+        {
+          "action": "",
+          "method": "GET",
+          "inputs": [
+            {
+              "name": "query",
+              "type": "text",
+              "value": ""
+            }
+          ]
+        }
+      ],
+      "technologies": [
+        "Cloudflare",
+        "Python"
+      ],
+      "security_headers": {
+        "X-Content-Type-Options": "nosniff",
+        "Referrer-Policy": "strict-origin-when-cross-origin"
+      },
+      "cookies": [],
+      "comments_count": 11,
+      "scripts_count": 9,
+      "redirect_chain": []
+    },
+    {
+      "url": "https://fastapi.tiangolo.com/assets/javascripts/bundle.d249fdc4.min.js?(t=e.count,r=t===void 0?1/0:t,o=e.delay):r=e),r<=0?function(){return x}:E(function(n,i){var s=0,a,c=function(){if(a==null||a.unsubscribe(),a=null,o!=null){var l=typeof o==",
+      "category": "Sensitive Content",
+      "sensitivity_level": "critical",
+      "status_code": 200,
+      "content_type": "application/javascript",
+      "content_length": 112981,
+      "response_time": 0.9696426391601562,
+      "title": "",
+      "forms": [],
+      "technologies": [
+        "Cloudflare"
+      ],
+      "security_headers": {
+        "X-Content-Type-Options": "nosniff",
+        "Referrer-Policy": "strict-origin-when-cross-origin"
+      },
+      "cookies": [],
+      "comments_count": 0,
+      "scripts_count": 0,
+      "redirect_chain": []
+    },
+    {
+      "url": "https://fastapi.tiangolo.com/assets/javascripts/bundle.d249fdc4.min.js?/^Arrow/.test(t):!0;case HTMLSelectElement:case HTMLTextAreaElement:return!0;default:return e.isContentEditable}}function Pa(){return O(h(window,",
+      "category": "Sensitive Content",
+      "sensitivity_level": "critical",
+      "status_code": 200,
+      "content_type": "application/javascript",
+      "content_length": 112981,
+      "response_time": 0.9451689720153809,
+      "title": "",
+      "forms": [],
+      "technologies": [
+        "Cloudflare"
+      ],
+      "security_headers": {
+        "X-Content-Type-Options": "nosniff",
+        "Referrer-Policy": "strict-origin-when-cross-origin"
+      },
+      "cookies": [],
+      "comments_count": 0,
+      "scripts_count": 0,
+      "redirect_chain": []
+    },
+    {
+      "url": "https://fastapi.tiangolo.com/it/environment-variables/",
+      "category": "Sensitive Content",
+      "sensitivity_level": "critical",
+      "status_code": 200,
+      "content_type": "text/html; charset=utf-8",
+      "content_length": 125578,
+      "response_time": 0.5385639667510986,
+      "title": "Environment Variables - FastAPI",
+      "forms": [
+        {
+          "action": "",
+          "method": "GET",
+          "inputs": [
+            {
+              "name": "__palette",
+              "type": "radio",
+              "value": ""
+            },
+            {
+              "name": "__palette",
+              "type": "radio",
+              "value": ""
+            },
+            {
+              "name": "__palette",
+              "type": "radio",
+              "value": ""
+            }
+          ]
+        },
+        {
+          "action": "",
+          "method": "GET",
+          "inputs": [
+            {
+              "name": "query",
+              "type": "text",
+              "value": ""
+            }
+          ]
+        }
+      ],
+      "technologies": [
+        "Cloudflare",
+        "Python"
+      ],
+      "security_headers": {
+        "X-Content-Type-Options": "nosniff",
+        "Referrer-Policy": "strict-origin-when-cross-origin"
+      },
+      "cookies": [],
+      "comments_count": 11,
+      "scripts_count": 9,
+      "redirect_chain": []
+    },
+    {
+      "url": "https://fastapi.tiangolo.com/it/advanced/events/",
+      "category": "Sensitive Content",
+      "sensitivity_level": "critical",
+      "status_code": 200,
+      "content_type": "text/html; charset=utf-8",
+      "content_length": 142442,
+      "response_time": 0.7521336078643799,
+      "title": "Lifespan Events - FastAPI",
+      "forms": [
+        {
+          "action": "",
+          "method": "GET",
+          "inputs": [
+            {
+              "name": "__palette",
+              "type": "radio",
+              "value": ""
+            },
+            {
+              "name": "__palette",
+              "type": "radio",
+              "value": ""
+            },
+            {
+              "name": "__palette",
+              "type": "radio",
+              "value": ""
+            }
+          ]
+        },
+        {
+          "action": "",
+          "method": "GET",
+          "inputs": [
+            {
+              "name": "query",
+              "type": "text",
+              "value": ""
+            }
+          ]
+        }
+      ],
+      "technologies": [
+        "Cloudflare",
+        "Python"
+      ],
+      "security_headers": {
+        "X-Content-Type-Options": "nosniff",
+        "Referrer-Policy": "strict-origin-when-cross-origin"
+      },
+      "cookies": [],
+      "comments_count": 11,
+      "scripts_count": 9,
+      "redirect_chain": []
+    },
+    {
+      "url": "https://fastapi.tiangolo.com/hu/newsletter/",
+      "category": "Sensitive Content",
+      "sensitivity_level": "critical",
+      "status_code": 200,
+      "content_type": "text/html; charset=utf-8",
+      "content_length": 104055,
+      "response_time": 0.8501665592193604,
+      "title": "FastAPI and friends newsletter - FastAPI",
+      "forms": [
+        {
+          "action": "",
+          "method": "GET",
+          "inputs": [
+            {
+              "name": "__palette",
+              "type": "radio",
+              "value": ""
+            },
+            {
+              "name": "__palette",
+              "type": "radio",
+              "value": ""
+            },
+            {
+              "name": "__palette",
+              "type": "radio",
+              "value": ""
+            }
+          ]
+        },
+        {
+          "action": "",
+          "method": "GET",
+          "inputs": [
+            {
+              "name": "query",
+              "type": "text",
+              "value": ""
+            }
+          ]
+        }
+      ],
+      "technologies": [
+        "Cloudflare",
+        "Python"
+      ],
+      "security_headers": {
+        "X-Content-Type-Options": "nosniff",
+        "Referrer-Policy": "strict-origin-when-cross-origin"
+      },
+      "cookies": [],
+      "comments_count": 11,
+      "scripts_count": 10,
+      "redirect_chain": []
+    },
+    {
+      "url": "https://fastapi.tiangolo.com/id/history-design-future/",
+      "category": "Sensitive Content",
+      "sensitivity_level": "critical",
+      "status_code": 200,
+      "content_type": "text/html; charset=utf-8",
+      "content_length": 112878,
+      "response_time": 0.5945391654968262,
+      "title": "History, Design and Future - FastAPI",
+      "forms": [
+        {
+          "action": "",
+          "method": "GET",
+          "inputs": [
+            {
+              "name": "__palette",
+              "type": "radio",
+              "value": ""
+            },
+            {
+              "name": "__palette",
+              "type": "radio",
+              "value": ""
+            },
+            {
+              "name": "__palette",
+              "type": "radio",
+              "value": ""
+            }
+          ]
+        },
+        {
+          "action": "",
+          "method": "GET",
+          "inputs": [
+            {
+              "name": "query",
+              "type": "text",
+              "value": ""
+            }
+          ]
+        }
+      ],
+      "technologies": [
+        "Cloudflare",
+        "Python"
+      ],
+      "security_headers": {
+        "X-Content-Type-Options": "nosniff",
+        "Referrer-Policy": "strict-origin-when-cross-origin"
+      },
+      "cookies": [],
+      "comments_count": 11,
+      "scripts_count": 9,
+      "redirect_chain": []
+    },
+    {
+      "url": "https://fastapi.tiangolo.com/id/tutorial/dependencies/sub-dependencies/",
+      "category": "Sensitive Content",
+      "sensitivity_level": "critical",
+      "status_code": 200,
+      "content_type": "text/html; charset=utf-8",
+      "content_length": 173288,
+      "response_time": 1.0464837551116943,
+      "title": "Sub-dependencies - FastAPI",
+      "forms": [
+        {
+          "action": "",
+          "method": "GET",
+          "inputs": [
+            {
+              "name": "__palette",
+              "type": "radio",
+              "value": ""
+            },
+            {
+              "name": "__palette",
+              "type": "radio",
+              "value": ""
+            },
+            {
+              "name": "__palette",
+              "type": "radio",
+              "value": ""
+            }
+          ]
+        },
+        {
+          "action": "",
+          "method": "GET",
+          "inputs": [
+            {
+              "name": "query",
+              "type": "text",
+              "value": ""
+            }
+          ]
+        }
+      ],
+      "technologies": [
+        "Cloudflare",
+        "Python"
+      ],
+      "security_headers": {
+        "X-Content-Type-Options": "nosniff",
+        "Referrer-Policy": "strict-origin-when-cross-origin"
+      },
+      "cookies": [],
+      "comments_count": 11,
+      "scripts_count": 9,
+      "redirect_chain": []
+    },
+    {
+      "url": "https://fastapi.tiangolo.com/hu/tutorial/cors/",
+      "category": "Sensitive Content",
+      "sensitivity_level": "critical",
+      "status_code": 200,
+      "content_type": "text/html; charset=utf-8",
+      "content_length": 119551,
+      "response_time": 0.8820385932922363,
+      "title": "CORS (Cross-Origin Resource Sharing) - FastAPI",
+      "forms": [
+        {
+          "action": "",
+          "method": "GET",
+          "inputs": [
+            {
+              "name": "__palette",
+              "type": "radio",
+              "value": ""
+            },
+            {
+              "name": "__palette",
+              "type": "radio",
+              "value": ""
+            },
+            {
+              "name": "__palette",
+              "type": "radio",
+              "value": ""
+            }
+          ]
+        },
+        {
+          "action": "",
+          "method": "GET",
+          "inputs": [
+            {
+              "name": "query",
+              "type": "text",
+              "value": ""
+            }
+          ]
+        }
+      ],
+      "technologies": [
+        "Cloudflare",
+        "Python"
+      ],
+      "security_headers": {
+        "X-Content-Type-Options": "nosniff",
+        "Referrer-Policy": "strict-origin-when-cross-origin"
+      },
+      "cookies": [],
+      "comments_count": 11,
+      "scripts_count": 9,
+      "redirect_chain": []
+    },
+    {
+      "url": "https://fastapi.tiangolo.com/hu/tutorial/response-status-code/",
+      "category": "Sensitive Content",
+      "sensitivity_level": "critical",
+      "status_code": 200,
+      "content_type": "text/html; charset=utf-8",
+      "content_length": 116697,
+      "response_time": 1.0196967124938965,
+      "title": "Response Status Code - FastAPI",
+      "forms": [
+        {
+          "action": "",
+          "method": "GET",
+          "inputs": [
+            {
+              "name": "__palette",
+              "type": "radio",
+              "value": ""
+            },
+            {
+              "name": "__palette",
+              "type": "radio",
+              "value": ""
+            },
+            {
+              "name": "__palette",
+              "type": "radio",
+              "value": ""
+            }
+          ]
+        },
+        {
+          "action": "",
+          "method": "GET",
+          "inputs": [
+            {
+              "name": "query",
+              "type": "text",
+              "value": ""
+            }
+          ]
+        }
+      ],
+      "technologies": [
+        "Cloudflare",
+        "Python"
+      ],
+      "security_headers": {
+        "X-Content-Type-Options": "nosniff",
+        "Referrer-Policy": "strict-origin-when-cross-origin"
+      },
+      "cookies": [],
+      "comments_count": 11,
+      "scripts_count": 9,
+      "redirect_chain": []
+    },
+    {
+      "url": "https://fastapi.tiangolo.com/hu/tutorial/metadata/",
+      "category": "Sensitive Content",
+      "sensitivity_level": "critical",
+      "status_code": 200,
+      "content_type": "text/html; charset=utf-8",
+      "content_length": 139953,
+      "response_time": 1.0295894145965576,
+      "title": "Metadata and Docs URLs - FastAPI",
+      "forms": [
+        {
+          "action": "",
+          "method": "GET",
+          "inputs": [
+            {
+              "name": "__palette",
+              "type": "radio",
+              "value": ""
+            },
+            {
+              "name": "__palette",
+              "type": "radio",
+              "value": ""
+            },
+            {
+              "name": "__palette",
+              "type": "radio",
+              "value": ""
+            }
+          ]
+        },
+        {
+          "action": "",
+          "method": "GET",
+          "inputs": [
+            {
+              "name": "query",
+              "type": "text",
+              "value": ""
+            }
+          ]
+        }
+      ],
+      "technologies": [
+        "Cloudflare",
+        "Apache",
+        "Python"
+      ],
+      "security_headers": {
+        "X-Content-Type-Options": "nosniff",
+        "Referrer-Policy": "strict-origin-when-cross-origin"
+      },
+      "cookies": [],
+      "comments_count": 11,
+      "scripts_count": 9,
+      "redirect_chain": []
+    },
+    {
+      "url": "https://fastapi.tiangolo.com/id/tutorial/schema-extra-example/",
+      "category": "Sensitive Content",
+      "sensitivity_level": "critical",
+      "status_code": 200,
+      "content_type": "text/html; charset=utf-8",
+      "content_length": 249167,
+      "response_time": 0.5678954124450684,
+      "title": "Declare Request Example Data - FastAPI",
+      "forms": [
+        {
+          "action": "",
+          "method": "GET",
+          "inputs": [
+            {
+              "name": "__palette",
+              "type": "radio",
+              "value": ""
+            },
+            {
+              "name": "__palette",
+              "type": "radio",
+              "value": ""
+            },
+            {
+              "name": "__palette",
+              "type": "radio",
+              "value": ""
+            }
+          ]
+        },
+        {
+          "action": "",
+          "method": "GET",
+          "inputs": [
+            {
+              "name": "query",
+              "type": "text",
+              "value": ""
+            }
+          ]
+        }
+      ],
+      "technologies": [
+        "Cloudflare",
+        "Python"
+      ],
+      "security_headers": {
+        "X-Content-Type-Options": "nosniff",
+        "Referrer-Policy": "strict-origin-when-cross-origin"
+      },
+      "cookies": [],
+      "comments_count": 11,
+      "scripts_count": 9,
+      "redirect_chain": []
+    },
+    {
+      "url": "https://fastapi.tiangolo.com/id/advanced/events/",
+      "category": "Sensitive Content",
+      "sensitivity_level": "critical",
+      "status_code": 200,
+      "content_type": "text/html; charset=utf-8",
+      "content_length": 142490,
+      "response_time": 0.7938477993011475,
+      "title": "Lifespan Events - FastAPI",
+      "forms": [
+        {
+          "action": "",
+          "method": "GET",
+          "inputs": [
+            {
+              "name": "__palette",
+              "type": "radio",
+              "value": ""
+            },
+            {
+              "name": "__palette",
+              "type": "radio",
+              "value": ""
+            },
+            {
+              "name": "__palette",
+              "type": "radio",
+              "value": ""
+            }
+          ]
+        },
+        {
+          "action": "",
+          "method": "GET",
+          "inputs": [
+            {
+              "name": "query",
+              "type": "text",
+              "value": ""
+            }
+          ]
+        }
+      ],
+      "technologies": [
+        "Cloudflare",
+        "Python"
+      ],
+      "security_headers": {
+        "X-Content-Type-Options": "nosniff",
+        "Referrer-Policy": "strict-origin-when-cross-origin"
+      },
+      "cookies": [],
+      "comments_count": 11,
+      "scripts_count": 9,
+      "redirect_chain": []
+    },
+    {
+      "url": "https://fastapi.tiangolo.com/id/tutorial/security/get-current-user/",
+      "category": "Sensitive Content",
+      "sensitivity_level": "critical",
+      "status_code": 200,
+      "content_type": "text/html; charset=utf-8",
+      "content_length": 256903,
+      "response_time": 0.9015383720397949,
+      "title": "Get Current User - FastAPI",
+      "forms": [
+        {
+          "action": "",
+          "method": "GET",
+          "inputs": [
+            {
+              "name": "__palette",
+              "type": "radio",
+              "value": ""
+            },
+            {
+              "name": "__palette",
+              "type": "radio",
+              "value": ""
+            },
+            {
+              "name": "__palette",
+              "type": "radio",
+              "value": ""
+            }
+          ]
+        },
+        {
+          "action": "",
+          "method": "GET",
+          "inputs": [
+            {
+              "name": "query",
+              "type": "text",
+              "value": ""
+            }
+          ]
+        }
+      ],
+      "technologies": [
+        "Cloudflare",
+        "Python"
+      ],
+      "security_headers": {
+        "X-Content-Type-Options": "nosniff",
+        "Referrer-Policy": "strict-origin-when-cross-origin"
+      },
+      "cookies": [],
+      "comments_count": 11,
+      "scripts_count": 9,
+      "redirect_chain": []
+    },
+    {
+      "url": "https://fastapi.tiangolo.com/id/reference/middleware/",
+      "category": "Sensitive Content",
+      "sensitivity_level": "critical",
+      "status_code": 200,
+      "content_type": "text/html; charset=utf-8",
+      "content_length": 193932,
+      "response_time": 1.1446588039398193,
+      "title": "Middleware - FastAPI",
+      "forms": [
+        {
+          "action": "",
+          "method": "GET",
+          "inputs": [
+            {
+              "name": "__palette",
+              "type": "radio",
+              "value": ""
+            },
+            {
+              "name": "__palette",
+              "type": "radio",
+              "value": ""
+            },
+            {
+              "name": "__palette",
+              "type": "radio",
+              "value": ""
+            }
+          ]
+        },
+        {
+          "action": "",
+          "method": "GET",
+          "inputs": [
+            {
+              "name": "query",
+              "type": "text",
+              "value": ""
+            }
+          ]
+        }
+      ],
+      "technologies": [
+        "Cloudflare",
+        "Python"
+      ],
+      "security_headers": {
+        "X-Content-Type-Options": "nosniff",
+        "Referrer-Policy": "strict-origin-when-cross-origin"
+      },
+      "cookies": [],
+      "comments_count": 11,
+      "scripts_count": 9,
+      "redirect_chain": []
+    }
+  ]
+}

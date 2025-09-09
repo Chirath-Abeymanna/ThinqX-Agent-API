@@ -1,3 +1,4 @@
+
 # Core utilities
 rich==13.9.2
 requests==2.32.3
@@ -27,9 +28,16 @@ aiofiles==23.2.1
 lxml==4.9.4
 beautifulsoup4==4.12.3
 
+
 # Additional dependencies for web crawler
-python-multipart==0.0.6
+python-multipart
 
 # FastAPI additional dependencies
 email-validator==2.2.0
 pydantic-settings==2.6.1
+
+# Optional: 
+# scikit-learn
+# tensorflow
+# torch
+
