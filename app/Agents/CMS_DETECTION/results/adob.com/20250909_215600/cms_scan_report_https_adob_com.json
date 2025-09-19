@@ -1,0 +1,265 @@
+{
+  "target": "https://adob.com",
+  "start_time": "2025-09-09T21:56:00.469805",
+  "findings": {
+    "cms_detection": {
+      "url": "https://adob.com",
+      "cms": "Drupal",
+      "version": "1.0",
+      "confidence": 60,
+      "working_url": "https://adob.com",
+      "server": "Nginx"
+    },
+    "plugins_themes": {
+      "url": "https://adob.com",
+      "plugins": [
+        {
+          "type": "plugin",
+          "path": "sites/all/modules/akismet/",
+          "url": "https://adob.com/sites/all/modules/akismet/",
+          "version": "1.0"
+        },
+        {
+          "type": "plugin",
+          "path": "sites/all/modules/jetpack/",
+          "url": "https://adob.com/sites/all/modules/jetpack/",
+          "version": "1.0"
+        },
+        {
+          "type": "plugin",
+          "path": "sites/all/modules/elementor/",
+          "url": "https://adob.com/sites/all/modules/elementor/",
+          "version": "1.5"
+        },
+        {
+          "type": "plugin",
+          "path": "sites/all/themes/akismet/",
+          "url": "https://adob.com/sites/all/themes/akismet/",
+          "version": "1.5"
+        },
+        {
+          "type": "plugin",
+          "path": "sites/all/themes/contact-form-7/",
+          "url": "https://adob.com/sites/all/themes/contact-form-7/",
+          "version": "1.0"
+        },
+        {
+          "type": "plugin",
+          "path": "sites/all/themes/yoast/",
+          "url": "https://adob.com/sites/all/themes/yoast/",
+          "version": "1.0"
+        }
+      ],
+      "themes": [
+        {
+          "type": "theme",
+          "path": "sites/all/themes/twentytwentytwo/",
+          "url": "https://adob.com/sites/all/themes/twentytwentytwo/",
+          "version": "1.5"
+        }
+      ],
+      "vulnerabilities": []
+    },
+    "user_enumeration": {
+      "url": "https://adob.com",
+      "users": [],
+      "vulnerable": false
+    },
+    "malware_scan": {
+      "url": "https://adob.com",
+      "malware": [],
+      "suspicious_scripts": [],
+      "defaced": false
+    },
+    "owasp_vulnerabilities": {
+      "url": "https://adob.com",
+      "vulnerabilities": [
+        {
+          "type": "XSS",
+          "severity": "MEDIUM",
+          "evidence": "Pattern matched in content: <script\\b[^<]*(?:(?!<\\/script>)<[^<]*)*<\\/script>...",
+          "matches_count": 4
+        }
+      ]
+    },
+    "config_weaknesses": {
+      "url": "https://adob.com",
+      "weaknesses": [
+        {
+          "type": "Exposed Admin Panel",
+          "severity": "HIGH",
+          "evidence": "Admin panel accessible at https://adob.com/admin/"
+        },
+        {
+          "type": "Exposed Config File",
+          "severity": "CRITICAL",
+          "evidence": "Config file accessible at https://adob.com/wp-config.php"
+        },
+        {
+          "type": "Exposed Config File",
+          "severity": "CRITICAL",
+          "evidence": "Config file accessible at https://adob.com/configuration.php"
+        },
+        {
+          "type": "Exposed Config File",
+          "severity": "CRITICAL",
+          "evidence": "Config file accessible at https://adob.com/settings.php"
+        },
+        {
+          "type": "Exposed Config File",
+          "severity": "CRITICAL",
+          "evidence": "Config file accessible at https://adob.com/.env"
+        },
+        {
+          "type": "SSL/TLS Check Failed",
+          "severity": "LOW",
+          "evidence": "SSL/TLS check failed: timed out"
+        }
+      ],
+      "admin_exposed": true
+    },
+    "brute_force": {
+      "url": "https://adob.com",
+      "vulnerable": true,
+      "details": [
+        {
+          "type": "Missing CAPTCHA",
+          "severity": "MEDIUM",
+          "evidence": "No CAPTCHA found on login page: https://adob.com/user/login"
+        }
+      ]
+    },
+    "content_monitoring": {
+      "url": "https://adob.com",
+      "changes": [],
+      "baseline_hash": "e63dd116fcaeeff7b900cf03617a7e2b5db26bc91c7df4afab005cbaf4e2aab6",
+      "current_hash": "e63dd116fcaeeff7b900cf03617a7e2b5db26bc91c7df4afab005cbaf4e2aab6",
+      "working_url": "https://adob.com",
+      "baseline_path": "results\\adob.com\\baseline.txt"
+    },
+    "domain_reputation": {
+      "domain": "adob.com",
+      "reputation": {
+        "malicious": 13,
+        "suspicious": 0,
+        "clean": 3,
+        "total_scans": 16
+      },
+      "blacklisted": true,
+      "error": null,
+      "working_url": "https://adob.com"
+    }
+  },
+  "vulnerabilities": [
+    {
+      "type": "CMS Version Exposed",
+      "severity": "MEDIUM",
+      "description": "Drupal version 1.0 detected",
+      "evidence": {
+        "cms": "Drupal",
+        "version": "1.0"
+      },
+      "recommendation": "Hide CMS version information and keep updated"
+    },
+    {
+      "type": "XSS",
+      "severity": "MEDIUM",
+      "description": "Pattern matched in content: <script\\b[^<]*(?:(?!<\\/script>)<[^<]*)*<\\/script>...",
+      "evidence": "Pattern matched in content: <script\\b[^<]*(?:(?!<\\/script>)<[^<]*)*<\\/script>...",
+      "recommendation": "Mitigate XSS vulnerability"
+    },
+    {
+      "type": "Exposed Admin Panel",
+      "severity": "HIGH",
+      "description": "Admin panel accessible at https://adob.com/admin/",
+      "evidence": {
+        "path": null
+      },
+      "recommendation": "Secure exposed admin panel"
+    },
+    {
+      "type": "Exposed Config File",
+      "severity": "CRITICAL",
+      "description": "Config file accessible at https://adob.com/wp-config.php",
+      "evidence": {
+        "path": null
+      },
+      "recommendation": "Secure exposed config file"
+    },
+    {
+      "type": "Exposed Config File",
+      "severity": "CRITICAL",
+      "description": "Config file accessible at https://adob.com/configuration.php",
+      "evidence": {
+        "path": null
+      },
+      "recommendation": "Secure exposed config file"
+    },
+    {
+      "type": "Exposed Config File",
+      "severity": "CRITICAL",
+      "description": "Config file accessible at https://adob.com/settings.php",
+      "evidence": {
+        "path": null
+      },
+      "recommendation": "Secure exposed config file"
+    },
+    {
+      "type": "Exposed Config File",
+      "severity": "CRITICAL",
+      "description": "Config file accessible at https://adob.com/.env",
+      "evidence": {
+        "path": null
+      },
+      "recommendation": "Secure exposed config file"
+    },
+    {
+      "type": "SSL/TLS Check Failed",
+      "severity": "LOW",
+      "description": "SSL/TLS check failed: timed out",
+      "evidence": {
+        "path": null
+      },
+      "recommendation": "Secure ssl/tls check failed"
+    },
+    {
+      "type": "Missing CAPTCHA",
+      "severity": "MEDIUM",
+      "description": "No CAPTCHA found on login page: https://adob.com/user/login",
+      "evidence": {
+        "url": "https://adob.com"
+      },
+      "recommendation": "Implement CAPTCHA or rate limiting on login endpoints"
+    },
+    {
+      "type": "Poor Domain Reputation",
+      "severity": "HIGH",
+      "description": "Domain flagged as malicious by 13 scanners",
+      "evidence": {
+        "malicious": 13,
+        "suspicious": 0,
+        "clean": 3,
+        "total_scans": 16
+      },
+      "recommendation": "Investigate and remediate domain reputation issues"
+    }
+  ],
+  "recommendations": [
+    "Keep CMS core, plugins, and themes updated to latest secure versions",
+    "Implement strong access controls for admin panels",
+    "Regularly backup CMS data and configurations",
+    "Enable logging and monitoring for security events",
+    "Hide CMS version information and keep updated",
+    "Mitigate XSS vulnerability",
+    "Secure exposed admin panel",
+    "Secure exposed config file",
+    "Secure ssl/tls check failed",
+    "Implement CAPTCHA or rate limiting on login endpoints",
+    "Investigate and remediate domain reputation issues",
+    "Regularly check Drupal security advisories",
+    "Implement IP whitelisting for admin access"
+  ],
+  "status": "COMPLETED",
+  "end_time": "2025-09-09T21:57:04.121651",
+  "duration": "0:01:03.651846"
+}

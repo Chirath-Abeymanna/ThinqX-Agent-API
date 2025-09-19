@@ -1,0 +1,542 @@
+{
+  "timestamp": "20250909_215600",
+  "scan_type": "domain_reputation",
+  "identifier": "adob.com",
+  "virustotal_data": {
+    "BitDefender category": "computersandsoftware",
+    "BitDefender domain info": "This URL domain/host was seen to host badware at some point in time",
+    "Sophos category": "phishing and fraud",
+    "Webutation domain info": {
+      "Adult content": "no",
+      "Safety score": 40,
+      "Verdict": "malicious"
+    },
+    "alphaMountain.ai category": "Phishing (alphaMountain.ai)",
+    "detected_communicating_samples": [
+      {
+        "date": "2021-10-04 17:37:28",
+        "positives": 48,
+        "sha256": "a36110ea1ebd2565e67a783620bf3364454dfe496074b7524b0b7e1de37334b6",
+        "total": 74
+      }
+    ],
+    "detected_downloaded_samples": [],
+    "detected_referrer_samples": [
+      {
+        "date": "2022-11-11 06:29:16",
+        "positives": 33,
+        "sha256": "232f09844aa4c3358a930db1c870fb4854472332af654abf3acdb8d2409a262c",
+        "total": 76
+      },
+      {
+        "date": "2022-11-02 05:14:10",
+        "positives": 32,
+        "sha256": "d579f85def2f3c45558481d08375ba46b565a95ba4b2b7c2a8817686dda1e21e",
+        "total": 76
+      },
+      {
+        "date": "2022-10-28 17:52:15",
+        "positives": 26,
+        "sha256": "bf4ea95bb694ef5d227ba04422cdacc3436cafd06bc70ab34b4f1eb51012205e",
+        "total": 76
+      },
+      {
+        "date": "2022-10-27 19:29:27",
+        "positives": 26,
+        "sha256": "b07d2619051308623df5ece01a66d21e9a438a282c105942600ba30304201b7d",
+        "total": 76
+      }
+    ],
+    "detected_urls": [
+      {
+        "positives": 5,
+        "scan_date": "2025-09-01 19:18:07",
+        "total": 97,
+        "url": "http://ns.adob.com/"
+      },
+      {
+        "positives": 1,
+        "scan_date": "2025-08-29 09:54:52",
+        "total": 97,
+        "url": "http://adob.com/"
+      },
+      {
+        "positives": 5,
+        "scan_date": "2025-07-06 08:56:34",
+        "total": 97,
+        "url": "https://ns.adob.com/"
+      },
+      {
+        "positives": 1,
+        "scan_date": "2025-05-31 10:28:06",
+        "total": 97,
+        "url": "https://adob.com/"
+      },
+      {
+        "positives": 1,
+        "scan_date": "2025-04-28 22:11:22",
+        "total": 97,
+        "url": "http://learningmanager.adob.com/"
+      },
+      {
+        "positives": 1,
+        "scan_date": "2025-04-11 10:22:40",
+        "total": 97,
+        "url": "https://adob.com/go/adobecreativecloudapp_tr"
+      },
+      {
+        "positives": 3,
+        "scan_date": "2023-01-07 10:39:17",
+        "total": 90,
+        "url": "http://adob.com/mtm/direct/.eJxdyUEOwjAMRNG7eFmimCUUcRZkgiGRkia4rhSp4u41XSF2f96ssEiCERAckLxmSyvhJwuLjajaRkR61LsPtdgX66y3iQrb-8MUAjc1U-6KUUt21FpOgTTVCftXDv1fS768r0d_dgMOe53gswGz-TBF:1pE6bS:h73VWsPenpKaEF3s4hRuSVvqqoc/2"
+      },
+      {
+        "positives": 2,
+        "scan_date": "2022-11-02 16:11:39",
+        "total": 90,
+        "url": "http://adob.com/mtm/direct/.ejxdikeoaiemre_s5uiosx3jwuzfkiqwykcgeupdrs5n9_57_w0vstadggosx2pojhxnybervdum2hv3dktxh2qxhuuql4uk22otkarual55keyt2vfroqxsvbccp7mbw1vy6xne-6obcprtat5fboqzaw:1optsf:emcwweppkukjqs5rf8vbyidqes0/2"
+      },
+      {
+        "positives": 1,
+        "scan_date": "2021-04-26 20:23:08",
+        "total": 87,
+        "url": "http://adob.com/br/creativecloud"
+      },
+      {
+        "positives": 1,
+        "scan_date": "2021-03-06 00:26:02",
+        "total": 84,
+        "url": "http://adob.com/mtm/async/eyJ1cmkiOiIvIiwiYXJncyI6IiIsInJlZmVyZXIiOiIiLCJob3N0X25hbWUiOiJhZG9iLmNvbSJ9:1lIBBf:sXXTCyckwBPMvpeVT1TOIdp4jEQ/1"
+      },
+      {
+        "positives": 1,
+        "scan_date": "2020-12-23 06:01:03",
+        "total": 83,
+        "url": "http://adob.com/favicon.ico"
+      },
+      {
+        "positives": 1,
+        "scan_date": "2018-09-18 22:19:49",
+        "total": 67,
+        "url": "http://adob.com/flash"
+      },
+      {
+        "positives": 1,
+        "scan_date": "2018-09-03 22:10:19",
+        "total": 67,
+        "url": "http://adob.com/go/learn_adobeid_de"
+      }
+    ],
+    "domain_siblings": [],
+    "resolutions": [
+      {
+        "ip_address": "104.247.82.53",
+        "last_resolved": "2024-01-26 06:58:10"
+      },
+      {
+        "ip_address": "109.201.135.34",
+        "last_resolved": "2017-05-10 00:00:00"
+      },
+      {
+        "ip_address": "141.8.224.169",
+        "last_resolved": "2018-09-09 05:32:57"
+      },
+      {
+        "ip_address": "141.8.225.80",
+        "last_resolved": "2014-10-10 00:00:00"
+      },
+      {
+        "ip_address": "158.69.143.80",
+        "last_resolved": "2017-03-07 00:00:00"
+      },
+      {
+        "ip_address": "158.69.143.81",
+        "last_resolved": "2016-11-28 00:00:00"
+      },
+      {
+        "ip_address": "158.69.143.82",
+        "last_resolved": "2016-05-13 00:00:00"
+      },
+      {
+        "ip_address": "158.69.145.48",
+        "last_resolved": "2017-03-28 00:00:00"
+      },
+      {
+        "ip_address": "173.255.194.134",
+        "last_resolved": "2021-04-26 20:23:38"
+      },
+      {
+        "ip_address": "192.155.108.152",
+        "last_resolved": "2018-03-28 10:29:56"
+      },
+      {
+        "ip_address": "192.155.108.153",
+        "last_resolved": "2018-04-02 17:38:36"
+      },
+      {
+        "ip_address": "192.155.108.158",
+        "last_resolved": "2018-03-28 00:00:00"
+      },
+      {
+        "ip_address": "198.58.118.167",
+        "last_resolved": "2019-12-04 19:47:50"
+      },
+      {
+        "ip_address": "199.115.115.118",
+        "last_resolved": "2017-12-28 00:00:00"
+      },
+      {
+        "ip_address": "199.115.115.119",
+        "last_resolved": "2017-12-20 00:00:00"
+      },
+      {
+        "ip_address": "199.191.50.184",
+        "last_resolved": "2019-03-02 09:05:31"
+      },
+      {
+        "ip_address": "199.59.240.200",
+        "last_resolved": "2022-02-25 17:42:19"
+      },
+      {
+        "ip_address": "199.59.243.200",
+        "last_resolved": "2022-02-11 19:57:37"
+      },
+      {
+        "ip_address": "199.59.243.201",
+        "last_resolved": "2022-05-26 22:38:57"
+      },
+      {
+        "ip_address": "199.59.243.220",
+        "last_resolved": "2022-05-27 11:09:06"
+      },
+      {
+        "ip_address": "199.59.243.221",
+        "last_resolved": "2022-09-09 06:19:40"
+      },
+      {
+        "ip_address": "199.59.243.222",
+        "last_resolved": "2022-09-10 02:18:10"
+      },
+      {
+        "ip_address": "208.73.210.209",
+        "last_resolved": "2013-04-17 00:00:00"
+      },
+      {
+        "ip_address": "208.73.211.152",
+        "last_resolved": "2014-05-22 00:00:00"
+      },
+      {
+        "ip_address": "216.120.146.200",
+        "last_resolved": "2022-06-04 04:02:23"
+      },
+      {
+        "ip_address": "216.120.146.201",
+        "last_resolved": "2022-05-30 00:57:13"
+      },
+      {
+        "ip_address": "37.48.65.136",
+        "last_resolved": "2018-02-14 00:00:00"
+      },
+      {
+        "ip_address": "37.48.65.143",
+        "last_resolved": "2018-03-09 00:00:00"
+      },
+      {
+        "ip_address": "37.48.65.145",
+        "last_resolved": "2018-02-27 03:45:13"
+      },
+      {
+        "ip_address": "45.33.18.44",
+        "last_resolved": "2021-04-26 20:23:38"
+      },
+      {
+        "ip_address": "45.33.2.79",
+        "last_resolved": "2019-12-04 19:47:50"
+      },
+      {
+        "ip_address": "45.33.20.235",
+        "last_resolved": "2021-04-26 20:23:39"
+      },
+      {
+        "ip_address": "45.33.23.183",
+        "last_resolved": "2019-12-04 19:47:50"
+      },
+      {
+        "ip_address": "45.33.30.197",
+        "last_resolved": "2021-04-26 20:23:38"
+      },
+      {
+        "ip_address": "45.56.79.23",
+        "last_resolved": "2019-12-04 19:47:50"
+      },
+      {
+        "ip_address": "45.79.19.196",
+        "last_resolved": "2019-12-04 19:47:50"
+      },
+      {
+        "ip_address": "5.135.193.112",
+        "last_resolved": "2016-10-02 00:00:00"
+      },
+      {
+        "ip_address": "5.135.193.113",
+        "last_resolved": "2016-10-03 00:00:00"
+      },
+      {
+        "ip_address": "5.135.193.114",
+        "last_resolved": "2016-09-07 00:00:00"
+      },
+      {
+        "ip_address": "64.190.63.111",
+        "last_resolved": "2023-03-06 15:23:03"
+      },
+      {
+        "ip_address": "72.14.178.174",
+        "last_resolved": "2021-04-26 20:23:38"
+      },
+      {
+        "ip_address": "72.14.185.43",
+        "last_resolved": "2021-04-26 20:23:38"
+      },
+      {
+        "ip_address": "81.171.22.4",
+        "last_resolved": "2017-11-16 00:00:00"
+      },
+      {
+        "ip_address": "81.171.22.7",
+        "last_resolved": "2018-02-24 12:40:22"
+      },
+      {
+        "ip_address": "95.211.117.206",
+        "last_resolved": "2014-10-28 00:00:00"
+      },
+      {
+        "ip_address": "96.126.123.244",
+        "last_resolved": "2019-12-04 19:47:50"
+      }
+    ],
+    "response_code": 1,
+    "subdomains": [
+      "ns.adob.com",
+      "acrobot.adob.com",
+      "experss.adob.com",
+      "wp.adob.com",
+      "sign.adob.com",
+      "services.adob.com",
+      "pay.adob.com",
+      "ock.adob.com",
+      "vpn2.adob.com",
+      "ww1.adob.com",
+      "trials.adob.com",
+      "adobe-dns-02.adob.com",
+      "stok.adob.com",
+      "adobe-dns-05.adob.com",
+      "to.adob.com",
+      "host.adob.com",
+      "supportdownloads.adob.com",
+      "store.adob.com",
+      "ssl.adob.com",
+      "adobe-dns-04.adob.com",
+      "onlineapps.adob.com",
+      "portal.adob.com",
+      "hlpx.adob.com",
+      "shop.adob.com",
+      "adobe-dns-03.adob.com",
+      "spar.adob.com",
+      "creativecioud.adob.com",
+      "ww.adob.com",
+      "podcast.adob.com",
+      "m.adob.com",
+      "get2.adob.com",
+      "f.adob.com",
+      "firely.adob.com",
+      "rds.adob.com",
+      "remote2.adob.com",
+      "learningmanager.adob.com",
+      "www70.adob.com",
+      "corol.adob.com",
+      "blog.adob.com",
+      "mx.adob.com",
+      "citrixrdweb.adob.com",
+      "asdj.adob.com",
+      "setting.adob.com",
+      "gateway.adob.com",
+      "stock.adob.com",
+      "ww6.adob.com",
+      "www.adob.com",
+      "colour.adob.com",
+      "firefly.adob.com",
+      "hao.adob.com",
+      "account.adob.com",
+      "get.adob.com",
+      "campaign.adob.com",
+      "gwt.adob.com",
+      "spark.adob.com",
+      "ww5.adob.com",
+      "tv.adob.com",
+      "ww8.adob.com",
+      "ww3.adob.com",
+      "indd.adob.com",
+      "vpn.adob.com",
+      "adobe-dns-01.adob.com",
+      "www1.adob.com",
+      "acroipm2.adob.com",
+      "ardownload.adob.com",
+      "ardownload2.adob.com",
+      "airdownload.adob.com",
+      "ftp.adob.com",
+      "www42.adob.com",
+      "express.adob.com",
+      "www6.adob.com",
+      "oac.adob.com",
+      "creativecloud.adob.com",
+      "brand-portal.adob.com",
+      "fsbed.adob.com",
+      "licensing.adob.com",
+      "experes.adob.com",
+      "acrobat.adob.com",
+      "mail.adob.com",
+      "captivateprime.adob.com",
+      "redeen.adob.com",
+      "color.adob.com",
+      "xd.adob.com",
+      "media.adob.com",
+      "console.adob.com",
+      "admineconsole.adob.com",
+      "create.adob.com",
+      "imap.adob.com",
+      "colored.adob.com",
+      "smtp-relay.adob.com",
+      "securesmtp.adob.com",
+      "pop.adob.com",
+      "backend.adob.com",
+      "stop.adob.com",
+      "lab.adob.com",
+      "gat.adob.com",
+      "muse.adob.com",
+      "trials3.adob.com",
+      "qa.adob.com",
+      "inbrowsereditind.adob.com"
+    ],
+    "undetected_communicating_samples": [],
+    "undetected_downloaded_samples": [
+      {
+        "date": "2022-11-05 04:04:05",
+        "positives": 0,
+        "sha256": "ec99cca58b612ce268e6ada818dfcec0acc22dd1bbe372487be9abbdd07ce073",
+        "total": 76
+      },
+      {
+        "date": "2021-06-26 01:57:54",
+        "positives": 0,
+        "sha256": "9f96d68b285d4f7e4a82ef42e626ec4f96a94c9c61a2c7fcb699a762b1abb487",
+        "total": 74
+      },
+      {
+        "date": "2021-04-17 20:27:38",
+        "positives": 0,
+        "sha256": "8dfbf98adfb38f0b612d15b4baccb23de19cf12dee36c9897708d62aaab6d308",
+        "total": 73
+      },
+      {
+        "date": "2021-02-24 22:47:01",
+        "positives": 0,
+        "sha256": "7da15bb6457dbb866a293c12b681441c8a4a02817ac3fccdcb0cd357660cca9b",
+        "total": 75
+      },
+      {
+        "date": "2020-12-08 10:45:55",
+        "positives": 0,
+        "sha256": "cf4724b2f736ed1a0ae6bc28f1ead963d9cd2c1fd87b6ef32e7799fc1c5c8bda",
+        "total": 75
+      },
+      {
+        "date": "2019-10-13 15:10:04",
+        "positives": 0,
+        "sha256": "ab52c536536128a98747fae7f668ce9650944db6dd0ec27e592e8b5a18e91c53",
+        "total": 72
+      },
+      {
+        "date": "2019-09-05 00:53:05",
+        "positives": 0,
+        "sha256": "c4e40ca5644a25562e5f763f7fca8b2018722bc3e76ff340bcf3df8875e6406a",
+        "total": 68
+      },
+      {
+        "date": "2018-09-18 22:19:53",
+        "positives": 0,
+        "sha256": "830ccfda8e14bcfa22868e415da594d4d272ffa9d083792a1a038ea5e9ee8630",
+        "total": 59
+      }
+    ],
+    "undetected_referrer_samples": [
+      {
+        "date": "2023-03-06 15:15:58",
+        "positives": 0,
+        "sha256": "b7d1fcb1a4b6eb1669ca22251da5c64221ee04f30bd1ecf5376bfc864e8aaa91",
+        "total": 74
+      },
+      {
+        "date": "2023-02-22 13:03:32",
+        "positives": 0,
+        "sha256": "ab81952fe927ff7ddfdf5e48b6be9dd7e9c8dff931a58c0fce16a3f64db36a24",
+        "total": 74
+      },
+      {
+        "date": "2022-07-21 17:10:56",
+        "positives": 0,
+        "sha256": "20955935d06302ce536ad930b99f39caf24288674c8589a646a8c3368c07bab0",
+        "total": 0
+      },
+      {
+        "date": "2020-12-26 11:37:55",
+        "positives": 0,
+        "sha256": "08007b9f5d09b59e3f1ed02b58c7060b99bdab00f87cde28b36e2875a3429e2d",
+        "total": 76
+      },
+      {
+        "date": "2020-12-25 05:12:53",
+        "positives": 0,
+        "sha256": "55ee684c637cf70ca338d7e3d375d36acb3695908eec77eff36a49e948d626cf",
+        "total": 76
+      },
+      {
+        "date": "2018-10-17 11:54:58",
+        "positives": 0,
+        "sha256": "acd0fe9d44da0309bdacf86addadc23eb2778f9cd4c9889885f34485eeec1333",
+        "total": 69
+      },
+      {
+        "date": "2018-10-02 11:03:21",
+        "positives": 0,
+        "sha256": "62e51d089d249564ea05fc2a24e78ac306ca05d2a5268739db9d06de26814fd5",
+        "total": 70
+      }
+    ],
+    "undetected_urls": [
+      [
+        "https://blog.adob.com/",
+        "7531bf3b65f9cbab3d18c355b0b933eb00b49b40b79285e9ebaf4363f02aa382",
+        0,
+        97,
+        "2025-06-16 04:18:15"
+      ],
+      [
+        "http://blog.adob.com/",
+        "e71a3a5729777c8bc49468ccbbc067ce9f5c8578c3e0aafe8776926f43b401d1",
+        0,
+        97,
+        "2025-06-16 04:18:15"
+      ],
+      [
+        "http://ww3.adob.com/",
+        "7c5c58f1e2b956729bc8d1ca4b1f0dd2a13c29a8c0d713d6516db1f7649f64f2",
+        0,
+        96,
+        "2025-03-15 15:45:43"
+      ]
+    ],
+    "verbose_msg": "Domain found in dataset",
+    "whois": "Admin City: Burlington\nAdmin Country: US\nAdmin Email: 374754e45373fcd8s@privacyprotect.org\nAdmin Organization: Privacy Protect, LLC (PrivacyProtect.org)\nAdmin Postal Code: 01803\nAdmin State/Province: MA\nCreation Date: 2002-05-24T18:11:26Z\nDNSSEC: Unsigned\nDNSSEC: unsigned\nDomain Name: ADOB.COM\nDomain Status: clientTransferProhibited https://icann.org/epp#clientTransferProhibited\nName Server: NS111484.ZTOMY.COM\nName Server: NS211484.ZTOMY.COM\nName Server: ns111484.ztomy.com\nName Server: ns211484.ztomy.com\nRegistrant City: 7ba6c62985322478\nRegistrant Country: US\nRegistrant Email: 374754e45373fcd8s@privacyprotect.org\nRegistrant Fax Ext: 3432650ec337c945\nRegistrant Fax: 3432650ec337c945\nRegistrant Name: edeae57e15fec50a\nRegistrant Organization: b61af69881455ade\nRegistrant Phone Ext: 3432650ec337c945\nRegistrant Phone: dbbc67aba64dff83\nRegistrant Postal Code: 6a048084caacaa97\nRegistrant State/Province: 36e414cc8874c746\nRegistrant Street: 53b107811872c5e2\nRegistrar Abuse Contact Email: abuse-contact@publicdomainregistry.com\nRegistrar Abuse Contact Phone: +1.2013775952\nRegistrar IANA ID: 303\nRegistrar Registration Expiration Date: 2026-05-24T18:11:26Z\nRegistrar URL: http://www.publicdomainregistry.com\nRegistrar URL: www.publicdomainregistry.com\nRegistrar WHOIS Server: whois.PublicDomainRegistry.com\nRegistrar WHOIS Server: whois.publicdomainregistry.com\nRegistrar: PDR Ltd. d/b/a PublicDomainRegistry.com\nRegistry Admin ID: Not Available From Registry\nRegistry Domain ID: 86921797_DOMAIN_COM-VRSN\nRegistry Expiry Date: 2026-05-24T18:11:26Z\nRegistry Registrant ID: Not Available From Registry\nRegistry Tech ID: Not Available From Registry\nTech City: Burlington\nTech Country: US\nTech Email: 374754e45373fcd8s@privacyprotect.org\nTech Organization: Privacy Protect, LLC (PrivacyProtect.org)\nTech Postal Code: 01803\nTech State/Province: MA\nUpdated Date: 2024-08-30T07:03:50Z\nUpdated Date: 2024-08-30T07:03:51Z",
+    "whois_timestamp": 1756462453
+  }
+}
