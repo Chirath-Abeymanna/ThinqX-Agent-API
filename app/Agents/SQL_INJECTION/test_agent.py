@@ -5,6 +5,7 @@ Demonstrates how to use the agent programmatically
 """
 
 import asyncio
+import pytest
 import json
 from typing import Dict, Any
 import colorama
@@ -22,6 +23,7 @@ except ImportError:
 # Initialize colorama
 colorama.init()
 
+@pytest.mark.asyncio
 async def test_payloads():
     """Test the payloads database"""
     print(f"{Fore.CYAN}[+] Testing Payloads Database{Style.RESET_ALL}")
@@ -40,6 +42,7 @@ async def test_payloads():
     
     print(f"{Fore.GREEN}[+] Payloads test completed{Style.RESET_ALL}\n")
 
+@pytest.mark.asyncio
 async def test_injection_engine():
     """Test the injection engine"""
     print(f"{Fore.CYAN}[+] Testing Injection Engine{Style.RESET_ALL}")
@@ -60,6 +63,7 @@ async def test_injection_engine():
     
     print(f"{Fore.GREEN}[+] Injection engine test completed{Style.RESET_ALL}\n")
 
+@pytest.mark.asyncio
 async def test_agent_workflow():
     """Test the complete agent workflow"""
     print(f"{Fore.CYAN}[+] Testing Agent Workflow{Style.RESET_ALL}")
@@ -94,6 +98,7 @@ async def test_agent_workflow():
     
     print(f"{Fore.GREEN}[+] Agent workflow test completed{Style.RESET_ALL}\n")
 
+@pytest.mark.asyncio
 async def test_parameter_analysis():
     """Test parameter analysis functionality"""
     print(f"{Fore.CYAN}[+] Testing Parameter Analysis{Style.RESET_ALL}")
@@ -119,6 +124,7 @@ async def test_parameter_analysis():
     
     print(f"{Fore.GREEN}[+] Parameter analysis test completed{Style.RESET_ALL}\n")
 
+@pytest.mark.asyncio
 async def demo_comprehensive_assessment():
     """Demonstrate a comprehensive assessment workflow"""
     print(f"{Fore.CYAN}[+] Comprehensive Assessment Demo{Style.RESET_ALL}")

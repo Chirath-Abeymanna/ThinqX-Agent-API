@@ -1,120 +1,119 @@
 name: API Build Error Check
 
 on:
-    push:
-        branches:
-            - '**'
+  push:
+    branches:
+      - "**"
 
 jobs:
-    build:
-        runs-on: ubuntu-latest
+  build:
+    runs-on: ubuntu-latest
 
-        steps:
-            - name: Checkout Code
-              uses: actions/checkout@v4
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
 
-            - name: Set up Python
-              uses: actions/setup-python@v5
-              with:
-                python-version: '3.12'
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
 
-            - name: Install Rust
-              run: |
-                curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh -s -- -y
-                echo "$HOME/.cargo/bin" >> $GITHUB_PATH
-              env:
-                RUSTUP_UPDATE_ROOT: https://static.rust-lang.org/rustup
+      - name: Install Rust
+        run: |
+          curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh -s -- -y
+          echo "$HOME/.cargo/bin" >> $GITHUB_PATH
+        env:
+          RUSTUP_UPDATE_ROOT: https://static.rust-lang.org/rustup
 
-            - name: Cache Rust dependencies
-              uses: actions/cache@v4
-              with:
-                path: |
-                  ~/.cargo/registry
-                  ~/.cargo/git
-                key: ${{ runner.os }}-cargo-${{ hashFiles('**/Cargo.lock') }}
-                restore-keys: |
-                  ${{ runner.os }}-cargo-
+      - name: Cache Rust dependencies
+        uses: actions/cache@v4
+        with:
+          path: |
+            ~/.cargo/registry
+            ~/.cargo/git
+          key: ${{ runner.os }}-cargo-${{ hashFiles('**/Cargo.lock') }}
+          restore-keys: |
+            ${{ runner.os }}-cargo-
 
-            - name: Verify Rust Installation
-              run: |
-                rustc --version
-                cargo --version
+      - name: Verify Rust Installation
+        run: |
+          rustc --version
+          cargo --version
 
-            - name: Cache dependencies
-              uses: actions/cache@v4
-              with:
-                path: ~/.cache/pip
-                key: ${{ runner.os }}-pip-${{ hashFiles('**/requirements.txt') }}
-                restore-keys: |
-                    ${{ runner.os }}-pip-
-                    
-            - name: Install system dependencies
-              run: |
-                sudo apt-get update
-                sudo apt-get install -y libxml2-dev libxslt1-dev
+      - name: Cache dependencies
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/pip
+          key: ${{ runner.os }}-pip-${{ hashFiles('**/requirements.txt') }}
+          restore-keys: |
+            ${{ runner.os }}-pip-
 
-            - name: Install dependencies
-              run: |
-                python -m pip install --upgrade pip
-                pip install black pytest pylint
-                if [ -f requirements.txt ]; then
-                    pip install -r requirements.txt;
-                fi
+      - name: Install system dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y libxml2-dev libxslt1-dev
 
-            - name: Check for dependency conflicts
-              if: success()
-              run: pip check
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install black pytest pylint
+          if [ -f requirements.txt ]; then
+              pip install -r requirements.txt;
+          fi
 
-            # - name: Run black to test formatting
-            #   run: black . --check --diff
-            
-            - name: Run pylint for code analysis
-              run: pylint app/*.py --rcfile=.pylintrc
+      - name: Check for dependency conflicts
+        if: success()
+        run: pip check
 
-            - name: Run pytest
-              run: pytest || [ $? -eq 5 ]
+      # - name: Run black to test formatting
+      #   run: black . --check --diff
 
-            - name: Start Python app in background and check
-              env:
-                pythonLocation: /opt/hostedtoolcache/Python/3.12.11/x64
-                PKG_CONFIG_PATH: /opt/hostedtoolcache/Python/3.12.11/x64/lib/pkgconfig
-                Python_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.11/x64
-                Python2_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.11/x64
-                Python3_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.11/x64
-                LD_LIBRARY_PATH: /opt/hostedtoolcache/Python/3.12.11/x64/lib
-                PYTHONUNBUFFERED: 1
-              run: |
-                python start_server.py > output.log 2>&1 &
-                APP_PID=$!
-                echo "PID=$APP_PID"
-                
-                # Wait up to 30 seconds for the server to start
-                for i in {1..30}; do
-                  if grep -q "Application startup complete" output.log; then
-                    echo "Server started successfully"
-                    kill -SIGTERM $APP_PID
-                    wait $APP_PID 2>/dev/null || true
-                    exit 0
-                  fi
-                  if ! ps -p $APP_PID > /dev/null; then
-                    echo "Server failed to start"
-                    cat output.log
-                    exit 1
-                  fi
-                  sleep 1
-                done
-                
-                echo "Server startup failed"
-                cat output.log
-                kill -SIGTERM $APP_PID
-                wait $APP_PID 2>/dev/null || true
-                exit 1
+      - name: Run pylint for code analysis
+        run: pylint app/*.py --rcfile=.pylintrc
 
-            - name: Notify failed quality check
-              if: failure()
-              uses: jayqi/failed-build-issue-action@v1
-              with:
-                github-token: ${{ secrets.DEVOPS_TOKEN }}
-                title-template: "Python Code Quality Check Failed for branch {{ branch }}"
-                body-template: "The Python code quality check failed on branch {{ branch }}. Please check the workflow logs for details."
-                labels: "build-error"
+      - name: Run pytest
+        run: pytest || [ $? -eq 5 ]
+
+      - name: Start Python app in background and check
+        env:
+          pythonLocation: /opt/hostedtoolcache/Python/3.12.11/x64
+          PKG_CONFIG_PATH: /opt/hostedtoolcache/Python/3.12.11/x64/lib/pkgconfig
+          Python_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.11/x64
+          Python2_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.11/x64
+          Python3_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.11/x64
+          LD_LIBRARY_PATH: /opt/hostedtoolcache/Python/3.12.11/x64/lib
+          PYTHONUNBUFFERED: 1
+        run: |
+          python start_server.py > output.log 2>&1 &
+          APP_PID=$!
+          echo "PID=$APP_PID"
+
+          # Wait up to 30 seconds for the server to start
+          for i in {1..30}; do
+            if grep -q "Application startup complete" output.log; then
+              echo "Server started successfully"
+              kill -SIGTERM $APP_PID
+              wait $APP_PID 2>/dev/null || true
+              exit 0
+            fi
+            if ! ps -p $APP_PID > /dev/null; then
+              echo "Server failed to start"
+              cat output.log
+              exit 1
+            fi
+            sleep 1
+          done
+
+          echo "Server startup failed"
+          cat output.log
+          kill -SIGTERM $APP_PID
+          wait $APP_PID 2>/dev/null || true
+          exit 1
+
+      - name: Notify failed quality check
+        if: failure()
+        uses: jayqi/failed-build-issue-action@v1
+        with:
+          github-token: ${{ secrets.DEVOPS_TOKEN }}
+          title-template: "Python Code Quality Check Failed for branch {{ branch }}"
+          body-template: "The Python code quality check failed on branch {{ branch }}. Please check the workflow logs for details."
