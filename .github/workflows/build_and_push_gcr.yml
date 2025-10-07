@@ -40,7 +40,7 @@ jobs:
         with:
           images: ${{ env.DOCKER_IMAGE_LINUX }}
           tags: |
-            type=raw,value=latest,enable={{is-default-branch}}
+            type=raw,value=latest,enable=${{ github.ref == format('refs/heads/{0}', github.event.repository.default_branch) }}
             type=sha
 
       - name: Build and push Linux image
@@ -81,7 +81,7 @@ jobs:
         with:
           images: ${{ env.DOCKER_IMAGE_WINDOWS }}
           tags: |
-            type=raw,value=latest,enable={{is-default-branch}}
+            type=raw,value=latest,enable=${{ github.ref == format('refs/heads/{0}', github.event.repository.default_branch) }}
             type=sha
 
       - name: Build and push Windows image
