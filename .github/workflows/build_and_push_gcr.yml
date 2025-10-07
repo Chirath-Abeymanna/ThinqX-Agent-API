@@ -82,7 +82,12 @@ jobs:
             type=sha
 
       - name: Build and push Windows image
+        shell: pwsh
         run: |
           docker build -f Dockerfile.windows -t ${{ steps.meta-windows.outputs.tags }} .
           echo ${{ secrets.DEVOPS_TOKEN }} | docker login ghcr.io -u ${{ github.repository_owner }} --password-stdin
-          [[ "${{ github.event_name }}" != "pull_request" ]] && docker push ${{ steps.meta-windows.outputs.tags }} || echo "Skipping push for PR"
+          if ("${{ github.event_name }}" -ne "pull_request") {
+            docker push ${{ steps.meta-windows.outputs.tags }}
+          } else {
+            Write-Host "Skipping push for PR"
+          }
