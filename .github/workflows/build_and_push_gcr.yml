@@ -84,9 +84,10 @@ jobs:
       - name: Build and push Windows image
         shell: pwsh
         run: |
-          $tag = "ghcr.io/${{ toLower(github.repository_owner) }}/python-backend-windows:latest"
+          $owner = "${{ github.repository_owner }}".ToLower()
+          $tag = "ghcr.io/$owner/python-backend-windows:latest"
           docker build -f Dockerfile.windows -t $tag .
-          echo ${{ secrets.DEVOPS_TOKEN }} | docker login ghcr.io -u ${{ toLower(github.repository_owner) }} --password-stdin
+          echo ${{ secrets.DEVOPS_TOKEN }} | docker login ghcr.io -u ${{ github.repository_owner }} --password-stdin
           if ("${{ github.event_name }}" -ne "pull_request") {
             docker push $tag
           } else {
