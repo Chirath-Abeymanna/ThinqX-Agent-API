@@ -40,7 +40,7 @@ jobs:
         with:
           images: ${{ env.DOCKER_IMAGE_LINUX }}
           tags: |
-            type=raw,value=latest,enable=${{ github.ref == format('refs/heads/{0}', github.event.repository.default_branch) }}
+            type=raw,value=latest,enable=${{ github.ref == 'refs/heads/main' }}
             type=sha
 
       - name: Build and push Linux image
@@ -49,7 +49,7 @@ jobs:
           context: .
           file: Dockerfile.linux
           platforms: linux/amd64,linux/arm64
-          push: ${{ github.event_name != 'pull_request' }}
+          push: ${{ github.event_name == 'push' || github.event_name == 'workflow_dispatch' }}
           tags: ${{ steps.meta-linux.outputs.tags }}
           cache-from: type=gha
           cache-to: type=gha,mode=max
@@ -78,16 +78,17 @@ jobs:
         with:
           images: ${{ env.DOCKER_IMAGE_WINDOWS }}
           tags: |
-            type=raw,value=latest,enable=${{ github.ref == format('refs/heads/{0}', github.event.repository.default_branch) }}
+            type=raw,value=latest,enable=${{ github.ref == 'refs/heads/main' }}
             type=sha
 
       - name: Build and push Windows image
         shell: pwsh
         run: |
-          docker build -f Dockerfile.windows -t docker_build:v0 .
+          $tag = "ghcr.io/${{ github.repository_owner }}/python-backend-windows:latest"
+          docker build -f Dockerfile.windows -t $tag .
           echo ${{ secrets.DEVOPS_TOKEN }} | docker login ghcr.io -u ${{ github.repository_owner }} --password-stdin
           if ("${{ github.event_name }}" -ne "pull_request") {
-            docker push docker_build:v0
+            docker push $tag
           } else {
             Write-Host "Skipping push for PR"
           }
