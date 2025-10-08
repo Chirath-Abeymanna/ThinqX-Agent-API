@@ -12,7 +12,7 @@ env:
   DOCKER_IMAGE_WINDOWS: ghcr.io/${{ github.repository_owner }}/python-backend-windows
 
 jobs:
-  build-linux:
+  build:
     runs-on: ubuntu-latest
     permissions:
       contents: read
@@ -54,42 +54,42 @@ jobs:
           cache-from: type=gha
           cache-to: type=gha,mode=max
 
-  build-windows:
-    runs-on: windows-latest
-    permissions:
-      contents: read
-      packages: write
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-        with:
-          lfs: true
+  # build-windows:
+  #   runs-on: windows-latest
+  #   permissions:
+  #     contents: read
+  #     packages: write
+  #   steps:
+  #     - name: Checkout
+  #       uses: actions/checkout@v4
+  #       with:
+  #         lfs: true
 
-      - name: Log in to GHCR
-        uses: docker/login-action@v3
-        with:
-          registry: ghcr.io
-          username: ${{ github.repository_owner }}
-          password: ${{ secrets.DEVOPS_TOKEN }}
+  #     - name: Log in to GHCR
+  #       uses: docker/login-action@v3
+  #       with:
+  #         registry: ghcr.io
+  #         username: ${{ github.repository_owner }}
+  #         password: ${{ secrets.DEVOPS_TOKEN }}
 
-      - name: Generate build tags
-        id: meta-windows
-        uses: docker/metadata-action@v5
-        with:
-          images: ${{ env.DOCKER_IMAGE_WINDOWS }}
-          tags: |
-            type=raw,value=latest,enable=${{ github.ref == 'refs/heads/main' }}
-            type=sha
+  #     - name: Generate build tags
+  #       id: meta-windows
+  #       uses: docker/metadata-action@v5
+  #       with:
+  #         images: ${{ env.DOCKER_IMAGE_WINDOWS }}
+  #         tags: |
+  #           type=raw,value=latest,enable=${{ github.ref == 'refs/heads/main' }}
+  #           type=sha
 
-      - name: Build and push Windows image
-        shell: pwsh
-        run: |
-          $owner = "${{ github.repository_owner }}".ToLower()
-          $tag = "ghcr.io/$owner/python-backend-windows:latest"
-          docker build -f Dockerfile.windows -t $tag .
-          echo ${{ secrets.DEVOPS_TOKEN }} | docker login ghcr.io -u ${{ github.repository_owner }} --password-stdin
-          if ("${{ github.event_name }}" -ne "pull_request") {
-            docker push $tag
+  #     - name: Build and push Windows image
+  #       shell: pwsh
+  #       run: |
+  #         $owner = "${{ github.repository_owner }}".ToLower()
+  #         $tag = "ghcr.io/$owner/python-backend-windows:latest"
+  #         docker build -f Dockerfile.windows -t $tag .
+  #         echo ${{ secrets.DEVOPS_TOKEN }} | docker login ghcr.io -u ${{ github.repository_owner }} --password-stdin
+  #         if ("${{ github.event_name }}" -ne "pull_request") {
+  #           docker push $tag
           } else {
             Write-Host "Skipping push for PR"
           }
