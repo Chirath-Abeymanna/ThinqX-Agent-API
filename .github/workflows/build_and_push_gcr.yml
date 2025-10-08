@@ -90,6 +90,6 @@ jobs:
   #         echo ${{ secrets.DEVOPS_TOKEN }} | docker login ghcr.io -u ${{ github.repository_owner }} --password-stdin
   #         if ("${{ github.event_name }}" -ne "pull_request") {
   #           docker push $tag
-          } else {
-            Write-Host "Skipping push for PR"
-          }
+  #        } else {
+  #          Write-Host "Skipping push for PR"
+  #        }
